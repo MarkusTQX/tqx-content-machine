@@ -1,0 +1,42 @@
+If you trade, you need to hear this.
+Say you want to predict whether your bus is going to be late.
+So every day for the last three years, you stand at the bus stop and you count red cars.
+And you notice something.
+On the days you count more than 15 or more red cars, the bus is late 8 out of 10 times.
+Congrats, you just did a bad test.
+You made a rule.
+15 or more red cars means the bus will be late.
+You checked it against three years of past warnings and it was right 8 out of 10 times.
+Trading works the same way.
+The red cars are your segment, the thing you watch.
+The late bus is the price curve you're betting on.
+In the last three years of counting, that is your data.
+But here's the real question.
+Does the red cars actually make your bus late?
+Of course not.
+More red cars just means more cars on the road, more traffic.
+And traffic is what makes the bus late.
+The red cars just happen to show up at the right time.
+That's called correlation versus causation.
+Two things happening together doesn't mean one causes the other.
+And it's one of the best ways bad tests fails you.
+Now what happens when something changes?
+The city adds a bus only lane.
+Now traffic doesn't slow the bus down anymore.
+So you count 15 red cars, you bet that the bus will be late, but it comes up right on time.
+Your rules just broke.
+Your counting wasn't wrong.
+It's just that your three years of data came from a street that doesn't exist anymore.
+In trading, that's called regime change.
+The secret dependency you're betting on disappears.
+And one more thing.
+Why 15 cars?
+Why not 12?
+Why not 20?
+If you tried every number from 5 to 30 and picked 15 because it got the best score, you didn't find a pattern.
+You found a number that fit what you wanted to hear.
+That's called overfitting.
+So a good bad test doesn't just ask, did it work?
+It asks, why did it work?
+And is it still true today?
+Common Cube, and I'll send you the full breakdown.

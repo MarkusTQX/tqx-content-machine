@@ -1,0 +1,15 @@
+Here's how I make my iPhone footage look like my $5,000 Sony camera.
+This is day 25 of helping you get better at content creation.
+Now let's turn your iPhone into a cinema camera.
+First, download the Blackmagic Camera app.
+Go to Settings and under Color Space, select Apple Log.
+Use these camera settings.
+Set the lens to 24mm.
+The frame rate to 25fps.
+The shutter speed to 1 over 50.
+The ISO to 100.
+Record your footage.
+Import your footage into DaVinci Resolve.
+Apply my Apple Log LUT, which will instantly transform your flat footage into something cinematic.
+And just like that, you've got professional camera quality just from your iPhone.
+If you want my Apple Log LUT, then comment LUT down below and I'll send it to you for free.

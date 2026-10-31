@@ -1,0 +1,112 @@
+---
+name: claims-and-proof
+description: Every number and factual claim TQX has verified, with the exact scope, the source link, the wording we're allowed to use, and the proof to show on screen, plus claims that failed verification and must never be used. Use whenever a TQX script, caption or asset includes a number, study, result or factual claim.
+---
+
+# Claims and proof
+
+Rule: every number in a TQX video is real, sourced, and says exactly what the source measured (who, where, which years). If a claim isn't in this file, look it up from a primary source, add it here with the link, and only then use it.
+
+Never shorten the scope until it becomes false.
+
+**Last checked:** every row was checked in Oct 2026 unless it says otherwise. Recheck yearly series (DALBAR, SEBI, FBI IC3, AGA) before reusing them. When you recheck a row, add "(checked Mon YYYY)" to its source cell. Rows marked *secondary source* should be quoted carefully: round the numbers and say where they came from.
+
+| Bad (overclaims) | Fixed (says what was measured) |
+|---|---|
+| "Less than 1% of day traders make money." | "In one study, fewer than 1 in 100 day traders kept making money after fees." (Taiwan, 1992–2006) |
+| "Every day trader in Brazil lost money." | "Researchers got the data on everyone who started day trading index futures in Brazil between 2013 and 2015." |
+| "Researchers from UCLA and MIT built a trading firm." | "Researchers from UCLA and MIT built a pretend trading firm where every job is done by AI." (It's a research project, not a real fund.) |
+
+## Retail traders
+
+| Claim | Scope and wording | Source |
+|---|---|---|
+| 97% lost money | Brazilians who day traded mini-index futures for 300+ days; 1,551 of the 19,646 who started 2013–2015; only 17 (1.1%) earned more than minimum wage | Chague, De-Losso & Giovannetti: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3423101 |
+| 11.4% vs 17.9% | US households that traded the most earned 11.4% a year vs 17.9% for the market (66,465 households, 1991–96) | Barber & Odean 2000: https://faculty.haas.berkeley.edu/odean/papers%20current%20versions/individual_investor_performance_final.pdf |
+| Men traded 45% more | 35,000+ US households, 1991–97; trading cut men's returns by 2.65 points a year vs 1.72 for women. On $10,000 that's about $265 vs $172 (example arithmetic) | Barber & Odean, QJE 2001: https://ideas.repec.org/a/oup/qjecon/v116y2001i1p261-292..html |
+| Fewer than 1% reliably profit | Taiwanese day traders, 1992–2006, after fees | Barber, Lee, Liu & Odean 2014: https://www.sciencedirect.com/science/article/abs/pii/S1386418113000190 |
+| 16.54% vs 25.02% | 2024: average US equity fund investor vs the S&P 500 (gap 8.48 points). In 2025 the gap narrowed to 0.72 points | DALBAR QAIB 2026: https://www.dalbar.com/press-release/dalbars-2026-qaib-report-shows-narrower-investor-gap-amid-a-complex-and-volatile-market-year/ |
+| 93% lost | 93% of 10M+ individual Indian F&O traders lost money FY22–FY24, over US$20B (₹1.8 lakh crore). FY24: 97% of foreign investors' and 96% of prop traders' F&O profits came from algo trading | SEBI, Sep 2024: https://www.sebi.gov.in/media-and-notifications/press-releases/sep-2024/updated-sebi-study-reveals-93-of-individual-traders-incurred-losses-in-equity-fando-between-fy22-and-fy24-aggregate-losses-exceed-1-8-lakh-crores-over-three-years_86906.html |
+| $350,000 a day | Retail traders lost about $350,000 a day on 0DTE S&P 500 options after daily expiries began (May 2022); over 75% of their S&P 500 option trades are 0DTE; over $90M of $125M+ losses (Feb 2021 – Sep 2023) were transaction costs | Beckmeyer, Branger & Gayda: https://wp.lancs.ac.uk/fofi2024/files/2024/04/FoFI-2024-146-Leander-Gayda.pdf |
+| $2.1B lost on options | US retail options traders, Nov 2019 – Jun 2021, mostly from the cost of trading (about $6.4B gap to mid-price). Use the published JF version, not the old "$5B" | Bryzgalova, Pavlova & Sikorskaya, JF 2023: https://www.sikorskaya.net/files/Bryzgalova_Pavlova_Sikorskaya_2023.pdf |
+| 12.6% spread | Retail favors weekly options with an average quoted bid-ask spread of 12.6% | Same source |
+| About 7 in 10 CFD accounts lose | Brokers' required loss disclosures, average 71%. *Secondary source* (BrokerRank aggregates the disclosures); quote a specific broker's own disclosure when possible. Regulator baseline: EU regulators found 74–89% of retail CFD accounts lost money (ESMA, 2018 data) | https://brokerrank.net/research/retail-loss-rates · ESMA: https://www.esma.europa.eu/node/84933 |
+| Sold winners 1.5x as often | 14.8% vs 9.8%; winners sold beat losers kept by 3.4 percentage points the next year (10,000 US accounts, 1987–93) | Odean 1998: https://faculty.haas.berkeley.edu/odean/papers%20current%20versions/areinvestorsreluctant.pdf |
+| Losses hurt about twice as much | Loss aversion about 2 (meta-analysis of 607 estimates) | Brown et al., JEL 2024: https://www.aeaweb.org/articles?id=10.1257%2Fjel.20221698 |
+| Attention-driven buying | Robinhood users pile into the most-attention stocks, which then underperform | Barber, Huang, Odean & Schwarz, JF 2022: https://onlinelibrary.wiley.com/doi/abs/10.1111/jofi.13183 |
+
+## AI, quants and the pros
+
+| Claim | Scope and wording | Source |
+|---|---|---|
+| 4 of 6 AIs lost | Nof1 Alpha Arena Season 1 (Oct 18 – Nov 3, 2025): six AIs, $10,000 of real money each, trading crypto. Qwen3 Max $12,231, DeepSeek $10,489, Claude Sonnet 4.5 $5,799 (down $4,201), Gemini 2.5 Pro $5,445, Grok $4,208, GPT-5 $4,126. *Secondary source* (Forklog, quoting the nof1 founder); another outlet puts GPT-5 at about $3,733, so the final balances differ by snapshot. Safe wording: "4 of the 6 lost money", with balances rounded | https://forklog.com/en/four-out-of-six-ai-models-suffer-losses-in-trading-tournament/ |
+| AI can trade your account | Robinhood agentic trading beta, May 27 2026: AI assistants such as Claude or ChatGPT connect to a separate account and can buy stocks. US only | https://www.axios.com/2026/05/27/robinhood-ai-trading-credit-card · https://www.bitsminds.com/news/robinhood-agentic-trading-claude-chatgpt-mcp-2026 |
+| 30% of US retail use AI tools | To pick or change investments, up 75% in a year (19% globally), eToro, Oct 2025 | https://www.etoro.com/en-us/news-and-analysis/latest-news/press-release/us-retail-investors-flock-to-ai-tools-with-usage-surging-75-in-one-year/ |
+| 86% of hedge funds | let staff use generative AI (157 managers, late 2023), AIMA 2024 | https://www.aima.org/article/press-release-getting-in-pole-position-how-hedge-funds-are-leveraging-gen-ai-to-get-ahead.html |
+| Medallion 66% a year | Before fees, 1988–2018 (about 39% after fees, per Bradford Cornell) | https://www.institutionalinvestor.com/article/2bswymr8cih3jeaslxc00/portfolio/famed-medallion-fund-stretches-explanation-to-the-limit-professor-claims |
+| "Right 50.75 percent of the time" | Robert Mercer quote; outside investors returned their money from 2003. The book is the only source for the quote, so say "according to the book" | Gregory Zuckerman, *The Man Who Solved the Market* (Portfolio, 2019): https://www.penguinrandomhouse.com/books/557104/the-man-who-solved-the-market-by-gregory-zuckerman/9780593148198 · notes: https://novelinvestor.com/notes/the-man-who-solved-the-market-by-gregory-zuckerman/ |
+| Two Sigma | About 1,700 people, 1,000+ technical staff, 10,000+ data sources, 48,000+ simulations a day (Investment Management page) | https://www.twosigma.com/businesses/investment-management/ |
+| Jane Street $39.6B | Record trading revenue 2025, about 3,500 employees, over $11M per employee | https://www.investing.com/news/economy-news/jane-street-group-posts-record-396-billion-trading-revenue-93CH-4636250 |
+| Citadel under 1% | 69,000 internship applications; under 1% got in; interns earn $120/hour (2023) | https://fortune.com/2023/08/28/citadel-internship/amp |
+| WorldQuant BRAIN IQC 2026 | About 156,000 registered from 167 countries (the same release says 150,600+ as individuals, so say "about 150,000"), $100K prize pool, finals in Singapore Oct 6–7; runs on simulated and historical data | WorldQuant press release via Business Wire, Oct 2026: https://www.01net.it/13-teams-advance-to-global-finals-of-worldquants-2026-international-quant-championship/ |
+| TradingAgents | A pretend AI trading firm by researchers from UCLA and MIT (Xiao, Sun, Luo & Wang); research only; code is free (Apache-2.0) | https://arxiv.org/abs/2412.20138 · https://github.com/TauricResearch/TradingAgents |
+| CFTC on AI bots | Quote: "AI technology can't predict the future or sudden market changes." MTI took $1.7B from 23,000+ people promising 10%+ a month | CFTC advisory, Jan 25 2024: https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/AITradingBots.html |
+| Crypto-scam losses | FBI IC3 2024 annual report | https://www.ic3.gov/AnnualReport/Reports/2024_IC3Report.pdf |
+
+## Backtesting research
+
+| Claim | Scope and wording | Source |
+|---|---|---|
+| Backtests barely predict live results | Across 888 Quantopian algorithms, backtest Sharpe explained under 2.5% of out-of-sample performance (R² < 0.025); more backtesting, bigger gap | Wiecki et al. 2016: https://www.quantopian.com/posts/q-paper-all-that-glitters-is-not-gold-comparing-backtest-and-out-of-sample-performance-on-a-large-cohort-of-trading-algorithms |
+| 45 tries can fake a winner | With 5 years of data, 45 variations can produce a luck-only winner (Sharpe 1 in the backtest, expected 0 live) | Bailey, Borwein, López de Prado & Zhu 2014: https://www.davidhbailey.com/dhbpapers/backtest-pseudo.pdf |
+| Published strategies fade | 97 predictors; returns 26% lower out of sample, 58% lower after publication | McLean & Pontiff, JF 2016: https://rpc.cfainstitute.org/research/cfa-digest/2016/06/does-academic-research-destroy-stock-return-predictability-digest-summary |
+
+## Other sourced numbers used in scripts
+
+| Claim | Source |
+|---|---|
+| Sports betting accounts: 22% of Americans, half of men 18–49 (3,047 US adults, Jan 2025) | Siena Research Institute: https://sri.siena.edu/2025/02/18/22-of-all-americans-half-of-men-18-49-have-active-online-sports-betting-account/ |
+| US commercial gaming revenue 2025 | American Gaming Association: https://www.americangaming.org/commercial-gaming-revenue-hits-78-7-billion-in-2025-driving-record-18-1-billion-in-gaming-taxes-nationwide/ |
+| Sports betting drains household savings | Baker et al.: https://insight.kellogg.northwestern.edu/article/online-sports-betting-is-draining-household-savings · Hollenbeck, Larsen & Proserpio (UCLA): https://anderson-review.ucla.edu/as-states-permitted-online-sports-gambling-citizens-personal-financial-health-suffered |
+| Prediction-market volume doubled May–July 2026 | Pew Research Center, Sep 23 2026: https://www.pewresearch.org/short-reads/2026/09/23/prediction-markets-trading-volume-doubled-between-may-and-july-largely-driven-by-sports/ |
+| Oct 10 crypto crash, about $19B force-closed | CoinGecko citing CoinGlass: https://www.coingecko.com/learn/october-10-crypto-crash-explained |
+
+## Claude connectors (outside tools, from each vendor's own page)
+
+What each outside tool can do in Claude, so scripts say only what's true (first used in J032). Checked Oct 27 2026.
+
+| Claim | Scope and wording | Source |
+|---|---|---|
+| Alpha Vantage connects to Claude | Official MCP server, listed in Claude's Connectors directory (search "Alpha Vantage"), needs an Alpha Vantage API key. Tools include GLOBAL_QUOTE ("Latest price and volume for a ticker"), EARNINGS, EARNINGS_CALENDAR ("upcoming earnings"), NEWS_SENTIMENT. Free key: 25 requests a day. Realtime and 15-minute delayed US data are premium-only, so never say "live" for Alpha Vantage, and don't call it free on camera | https://github.com/alphavantage/alpha_vantage_mcp · https://www.alphavantage.co/support/ (checked Oct 2026) |
+| CoinGecko connects to Claude | Official MCP server; free keyless endpoint `https://mcp.api.coingecko.com/mcp` with shared rate limits, added as a custom connector. "Live and historical prices, market caps, and trading volumes"; "trending coins". The page doesn't say which tools the keyless server has, so check on camera | https://docs.coingecko.com/docs/mcp-server (checked Oct 2026) |
+| Notion connects to Claude and writes pages | Notion MCP: "Read, create, and update Notion content", "Create pages and databases". Names Claude Code as a client | https://developers.notion.com/docs/mcp (checked Oct 2026) |
+| Google Calendar connector is read-only | Anthropic's connector (Customize › Connectors): "Claude reads your calendar only; it can't create or change events or send invitations." Never say Claude adds events through it | https://claude.com/docs/connectors/google/calendar (checked Oct 2026) |
+| Where you add a connector | claude.ai → Customize › Connectors (directory, or "Add custom connector" with a URL) | Same Anthropic page |
+
+## TQX's own backtests (real data, run by us)
+
+| Test | Result | Wording |
+|---|---|---|
+| SPY dip rule: buy at the close of any day down 2%+, sell at +2% or −3% from entry, one position, no fees, Jan 2015 – Dec 2024, $10,000 (split-adjusted Robinhood daily closes) | $14,428 (+$4,428), 62 trades, worst drop −$2,606 (peak $15,919 Apr 25 2022 → $13,313 Sep 6 2024). Holding SPY: $28,634 (+$18,634), price only, no dividends | "It made about $4,400... If I'd just bought the S&P 500 and held it, I'd have made about $18,600." Label: "Backtest, not live results" |
+| 10 biggest US stocks: AAPL, MSFT, NVDA, AMZN, GOOGL, META, TSLA, AVGO, JPM, BRK.B; buy at the close of a day down 3%+, $2,000 each, sell at +3% or −5%, no fees, Jan 2021 – Dec 2025 | $18,147 (+$8,147), 607 trades, worst drop −$3,207 | Say it has some hindsight in it (today's biggest companies). Label: "Backtest, not live results" |
+| SPY overnight vs daytime: $10,000 each, compounded, Jan 2 2015 – Dec 31 2024 (2,516 trading days), Yahoo Finance daily OHLC (split-adjusted, not dividend-adjusted), no fees unless stated. Script: `tools/overnight-test.py` | Overnight (buy at the close, sell at the next open): $19,225 (+92.3%), 2,515 round trips (one buy + one sell each), worst drop −29.4%. Daytime (buy at the open, sell at the close): $14,771 (+47.7%), worst drop −24.6%. Just holding SPY (price only): $28,529 (+185.3%). With an assumed cost of 0.01% on every buy and every sell: overnight $11,625 (+16.3%), daytime $8,930 (−10.7%). The cost is our assumption; at 0.002% per side, overnight still ends at about $17,385 | "Overnight beat daytime. But both lost to just holding, and a tiny trading cost wiped most of it out." Labels: "Backtest, not live results" and "price only, no dividends". The well-known research on this is Lou, Polk & Skouras, "A tug of war: overnight versus intraday expected returns" (Journal of Financial Economics, 2019; link to be added); quote our own numbers, not the paper's. |
+| Micron (MU) overnight vs daytime, all Yahoo Finance daily data Jun 1 1984 – Oct 22 2026 (10,681 days), split-adjusted, not dividend-adjusted, no costs. Script: `tools/micron-overnight.py` | Overnight (buy at the close, sell at the next open): $1 → about $3.1 million (+311 million %). Daytime (buy at the open, sell at the close): $1 → $0.0002 (lost almost everything). Holding: $1 → about $606 | "If you bought Micron every day at the close and sold at the open, you'd be up over 300 million percent. Do the exact opposite and you'd have lost almost everything." Labels: "Backtest, not live results" · "since 1984, no costs". With an assumed 0.01% cost on every buy and every sell, $1 still grows to about $368,000 (+36.8 million %), tested by REDPEN Oct 23. |
+
+## Simulated results
+
+A scripted paper-trading series can be simulated, but it must be realistic, tied to real market moves, internally consistent across episodes, and carry the on-screen badge "Paper trading · simulated results" for the whole video. The Oct 2026 week used: Tesla +$64, Nvidia −$100, Meta +$62, week +$26, biggest drop $70.
+
+## Proof on screen
+
+- Every number gets its source on screen in small text: "Barber & Odean, 2001", "SEBI", "DALBAR".
+- Every backtest: "Backtest, not live results".
+- Every simulated result: "Paper trading · simulated results".
+- Product results (Qube runs, GATC leaderboards): only real screen recordings. If a recording shows a different number from the script, stop and tell Mark. Never change a number to make it match.
+
+## Never use (failed verification)
+
+- "60–75% of volume is algorithmic"
+- "73–81% of crypto users lost money"
+- Lopez-Lira "500% ChatGPT returns"
+- "US retail lost $5B on options" (outdated working-paper figure)
+- Influencer screenshots like "6 bots turned $89 into $68,024" (overclaims; useful only as a scam example)

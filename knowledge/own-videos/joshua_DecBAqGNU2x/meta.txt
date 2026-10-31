@@ -1,0 +1,9 @@
+source: https://www.instagram.com/reel/DecBAqGNU2x/
+duration_s: 90.066667
+uploader: Joshua
+channel: joshua.quant
+upload_date: 20261013
+like_count: 5
+comment_count: 0
+title: Video by joshua.quant
+description: 5 levels to ai trading that you don’t know. #quant #algotrading #claude #jev #aitradingbot

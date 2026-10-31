@@ -1,0 +1,40 @@
+1
+00:00:00,000 --> 00:00:04,760
+ Let's code a trading strategy based on this quantitative trading research paper using Codex.
+
+2
+00:00:04,940 --> 00:00:08,940
+ Usually, turning a research paper into something tradable means hours of reading,
+
+3
+00:00:09,180 --> 00:00:14,600
+ decoding equations, and manually implementing the strategy. Instead, I drop the raw PDF directly
+
+4
+00:00:14,600 --> 00:00:19,720
+ into Codex. I'm asking Codex to act like a quant researcher instead of just summarizing the paper.
+
+5
+00:00:20,200 --> 00:00:24,860
+ Codex actually reads the methodology section, then translates it into implementable code.
+
+6
+00:00:24,860 --> 00:00:29,960
+ Normally, this would mean stitching together signal processing libraries, reinforcement learning
+
+7
+00:00:29,960 --> 00:00:34,640
+ frameworks, and backtesting the code. But Codex built the entire workflow automatically.
+
+8
+00:00:35,000 --> 00:00:40,000
+ Then it ran the backtest, generated the charts, and even flagged weaknesses. Reading quant papers
+
+9
+00:00:40,000 --> 00:00:44,960
+ is extremely useful, but having AI turn them into executable strategies in minutes? That's
+
+10
+00:00:44,960 --> 00:00:45,960
+ where things get interesting.
+

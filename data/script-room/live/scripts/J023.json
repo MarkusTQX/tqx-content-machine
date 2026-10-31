@@ -1,0 +1,434 @@
+{
+  "assets": {
+    "notes": [
+      "**Presenter:** Joshua. One person, one list, in video order.",
+      "**Before recording anything:** the Qube team connects Claude to Qube on Joshua's laptop and gives him a Qube login. Don't show any install commands, API keys, emails, account numbers or file paths.",
+      "**Before A2 (the six agents):** Joshua (or the Qube team) checks that the six agents exist in that Claude session with these jobs: research (news and earnings on the ticker), data (up to five years of price data), strategy (builds it in Qube), backtest (tests it in Qube), risk manager (says no to any trade risking more than 2% of the account, stops trading for the day at the max loss, says no if the backtest doesn't hold up), trader (simulation account only for this video). If any are missing, tell Mark before recording.",
+      "**Recording order for the laptop clips** (one run, they build on each other): A2 → A3 → A4 → A5 → A6 → A8 → A9. All in one Claude session, recording the whole run, then cut into the clips below.",
+      "**The example ticker is NVDA.** It's only an example input, never a call: no \"buy\" anywhere next to it, and \"Example\" under it on screen."
+    ],
+    "open": [
+      {
+        "done": false,
+        "id": "o1",
+        "text": "**\"Simulation account\" vs the badge.** The spoken line says \"simulation account\" (your J022 wording). The `finance-compliance` badge on A9 reads \"Paper trading · simulated results\". Kept as written until you answer P1 in `data/mark-edits/proposals.md`."
+      },
+      {
+        "done": false,
+        "id": "o2",
+        "text": "**The real \"no\" (A8).** Lines 10–12 only work if the risk manager says no and then yes in the run you record. If your run says yes on the first try, we need to decide before the edit."
+      },
+      {
+        "done": false,
+        "id": "o3",
+        "text": "**Example ticker.** NVDA is set as the example input (A2). Say if you'd rather use a different one; it's only typed, never called a buy."
+      },
+      {
+        "done": false,
+        "id": "o4",
+        "text": "**A2 step 4.** The Qube team names the exact command or screen that shows Qube connected in Claude (no keys or file paths in shot). Until then, step 4 can't be filmed."
+      },
+      {
+        "done": false,
+        "id": "o5",
+        "text": "**Strategy sections (A5).** The four on-screen chips (\"WHEN TO BUY\" \"WHEN TO SELL\" \"HOW MUCH\" \"WHEN TO GET OUT\") follow Qube's section names; if Qube shows different names, the chips change to match."
+      }
+    ],
+    "rows": [
+      {
+        "file": "J023_A0_aroll.mp4 · 1080×1920",
+        "how": "1. Phone vertical (9:16), eye level, office lights on, lock focus and exposure. 2. Frame wide (head and chest), and leave the top third of the frame empty above his head (the screens go there). 3. Record the hook twice, clean. 4. Record lines 1–15 in one take, fast, no pauses between lines. 5. Move the phone in close (face fills the frame) and record, three times each: \"Here's how I built it out.\" · \"but a separate risk manager has the power to say no.\" · \"The best part is what happens when the risk manager says no.\" · \"Comment QUBE and I'll send you the link for the free sign-up.\"",
+        "id": "A0",
+        "ready": false,
+        "what": "Joshua talking (A-roll)",
+        "who": "Joshua"
+      },
+      {
+        "file": "J023_A1_chart_1.png … _12.png",
+        "how": "Canva, 1080×360, transparent background. 6 rounded boxes, 3 on top, 3 below, each 300×140, 24px apart. Labels, Inter Bold 34px: top row \"RESEARCH\" \"DATA\" \"STRATEGY\", bottom row \"BACKTEST\" \"TRADER\" \"RISK MANAGER\". Box off: grey #2A2F37, light grey #9AA3AE text. Box on: gold #E8B04B, dark #0B0F14 text. Export 12 PNGs: (1) all 6 boxes grey, no labels; (2) all grey with labels; (3) RESEARCH gold; (4) RESEARCH + DATA gold; (5) + STRATEGY gold; (6) + BACKTEST gold; (7) + TRADER gold; (8) same as (7) plus RISK MANAGER red #EF4444 with white text; (9) same as (8) with a 4px white outline on STRATEGY and BACKTEST; (10) the first five gold, RISK MANAGER green #22C55E with white text; (11) same as (10) with a 4px white outline on TRADER; (12) same as (10), but 1080×640 (boxes scaled up to fill the top third).",
+        "id": "A1",
+        "ready": false,
+        "what": "The org chart",
+        "who": "Editor"
+      },
+      {
+        "file": "J023_A2_claude.mp4 · 1920×1080 · first 15s used",
+        "how": "1. Terminal app, dark theme, font size 22, full screen. 2. Start the screen recording. 3. Type `claude` and press Enter. 4. Hold 3s on the screen that shows Qube is connected. 5. Type exactly, by hand, don't paste: `Run the firm on NVDA.` 6. Press Enter. Keep recording through A3–A9 (one run). 7. Before recording, hide anything with an email, key or file path.",
+        "id": "A2",
+        "ready": false,
+        "what": "Claude with Qube connected, the ticker typed in",
+        "who": "Joshua (setup by the Qube team)"
+      },
+      {
+        "file": "J023_A3_research.mp4 · 1920×1080 · 4s · plus J023_A3_research.png",
+        "how": "1. From the A2 recording: the part where the research agent answers. 2. When it finishes, hold 3s on its full answer (the news and earnings on NVDA). 3. Take one screenshot of it. **CHECK: it must not say \"buy\" or tell anyone what to do with the stock. If it does, send Mark the screenshot; the editor crops to the news and earnings lines only.**",
+        "id": "A3",
+        "ready": false,
+        "what": "Research agent's output",
+        "who": "Joshua"
+      },
+      {
+        "file": "J023_A4_data.mp4 · 1920×1080 · 4s · plus J023_A4_data.png",
+        "how": "1. From the A2 recording: the part where the data agent pulls NVDA's price history. 2. If Qube shows the price chart, record it drawing, then hold 2s. 3. Take one screenshot. **CHECK: the price history must be five years or less (the line says \"up to five years\"). If it's longer, tell Mark before the edit.**",
+        "id": "A4",
+        "ready": false,
+        "what": "Data agent pulling the price data",
+        "who": "Joshua"
+      },
+      {
+        "file": "J023_A5_strategy.mp4 · 1920×1080 · 8s · plus J023_A5_strategy.png",
+        "how": "1. Chrome, full screen, zoom 125%, no tabs or bookmarks showing, logged in to Qube. 2. Open the strategy the strategy agent just built. 3. Start recording. Hold 2s on the whole strategy. 4. Move the cursor over each section in this order, 1s each: when to buy, when to sell, how much, when to get out. 5. Take one screenshot of the full strategy. **CHECK: the strategy must have those four sections. If Qube names them differently, send Mark the screenshot; the chips in the edit use Qube's own section names.**",
+        "id": "A5",
+        "ready": false,
+        "what": "The Qube strategy, section by section",
+        "who": "Joshua"
+      },
+      {
+        "file": "J023_A6_backtest.mp4 · 1920×1080 · up to 30s (sped up in the edit) · plus J023_A6_result.png",
+        "how": "1. On the A5 strategy, record the backtest the backtest agent runs, from the start until the result appears. 2. Scroll the full trade list top to bottom in about 3s. 3. Take one screenshot of the result. **CHECK: no number from this result is spoken or put on screen as a claim. \"Backtest, not live results\" stays on the clip.**",
+        "id": "A6",
+        "ready": false,
+        "what": "The backtest running, every trade",
+        "who": "Joshua"
+      },
+      {
+        "file": "J023_A7_rule_1.png … _3.png",
+        "how": "Canva, 1080×280, dark #0B0F14, 16px rounded corners, red #EF4444 4px border. Inter Bold 40px white (line 2 can wrap to two lines), key word in gold #E8B04B. Export 3 PNGs: (1) \"NO\" in red on line 1, then \"any trade risking more than 2% of the account\" (\"2%\" gold); (2) \"MAX LOSS HIT\" in red on line 1, then \"trading stops for the day\"; (3) \"BACKTEST DOESN'T HOLD UP\" on line 1, then \"NO\" in red. Small grey line bottom-left on all three: \"Risk manager · Joshua's rules\".",
+        "id": "A7",
+        "ready": false,
+        "what": "Risk manager rule cards",
+        "who": "Editor"
+      },
+      {
+        "file": "J023_A8_no_fix_yes.mp4 · 1920×1080 · up to 60s (sped up in the edit) · plus J023_A8_no.png, J023_A8_yes.png",
+        "how": "1. From the run: the part where the risk manager answers. Hold 2s on its \"no\" and the reason it gives. 2. Keep recording while the strategy agent fixes the strategy and the backtest agent tests it again, round after round. 3. Hold 2s on the risk manager's \"yes\". 4. Take one screenshot of the \"no\" and one of the \"yes\". 5. Tell the editor how many rounds it took (the \"ROUND\" counter only goes that high). **CHECK: the risk manager must really say no, then yes, in this run. If it says yes the first time, stop and tell Mark. Lines 10–12 need a real no; never stage one. The 'no' must be the risk manager's backtest reason (the backtest doesn't hold up). If it says no for a different reason, send Mark the screenshot before the edit.**",
+        "id": "A8",
+        "ready": false,
+        "what": "The \"no\", the fix and the retest, then the \"yes\"",
+        "who": "Joshua"
+      },
+      {
+        "file": "J023_A9_simulation.mp4 · 1920×1080 · 4s",
+        "how": "1. In Qube, open the simulation account the trader agent runs the strategy on. 2. Record 4s of the strategy running there. 3. Blur any account number or name. **CHECK: this must be the simulation account, never a live broker account. Nothing goes live for this video.**",
+        "id": "A9",
+        "ready": false,
+        "what": "The strategy on the simulation account",
+        "who": "Joshua"
+      },
+      {
+        "file": "J023_A10_path_1.png … _3.png",
+        "how": "Canva, 1080×640, dark #0B0F14: three boxes left to right joined by arrows, \"BACKTEST\" \"SIMULATION ACCOUNT\" \"LIVE\". Inter Bold 40px white, boxes grey #2A2F37. Export 3 PNGs: (1) \"BACKTEST ✓\" gold, the other two grey; (2) BACKTEST and SIMULATION ACCOUNT gold; (3) same as (2), with a small white lock icon on LIVE (LIVE stays grey).",
+        "id": "A10",
+        "ready": false,
+        "what": "Path graphic",
+        "who": "Editor"
+      },
+      {
+        "file": "J023_A11_startpage.mp4 · 1920×1080 · 5s",
+        "how": "Chrome, full screen, zoom 125%, no tabs or bookmarks showing: open https://www.tqx.ai/igqube2 and scroll slowly down until \"Start free\" and \"Free · no card required\" are both on screen. Hold 2s.",
+        "id": "A11",
+        "ready": false,
+        "what": "Qube start page",
+        "who": "Mark"
+      },
+      {
+        "file": "J023_A12_end.png · 1080×1920",
+        "how": "Full screen 1080×1920, #0B0F14, \"Comment QUBE\" centred, Instrument Serif 88px white, \"QUBE\" in gold #E8B04B. 2s.",
+        "id": "A12",
+        "ready": false,
+        "what": "End screen",
+        "who": "Editor"
+      }
+    ]
+  },
+  "code": "J023",
+  "edit": {
+    "notes": [
+      "**Recreating:** @raycfu · https://www.instagram.com/p/DcuOeJ4vmde/ · copy its rhythm: a UI insert in the top third from about 3s, changing about every 2s; a punch-in between wide and close-up at every new beat (line 2, line 5, line 7's \"but\", line 11's \"The best part\"); one agent per line, each with its own card; the risk manager's red \"NO\" card as the twist; the CTA over a close-up.",
+      "**Layout:** split screen. Insert in the top third (1080×640), Joshua below, filmed wide; punch-ins (110%) and close-ups (130%) come from the same take. Captions 1–3 words at chest height, key words in gold #E8B04B. Our own style (dark #0B0F14 cards, gold), not raycfu's serif titles or his UI cards.",
+      "**The org chart** (A1) is the thread: 6 grey boxes in a row of 3 over a row of 3. On the word each agent is named, A1 (1080×360) shows for 1s, centred in the top third on dark #0B0F14, with that box lighting up. Then cut to that agent's recording, full width in the top third (1080×640, scaled to fit width, centred), with A1 hidden. A1 comes back on the next agent's name. Exception: on lines 8–10, the red A1 (8) sits at the top of the top third, and the rule cards A7 (1)–(3) (1080×280) sit directly under it, filling the rest. Each box turns gold on the word its agent is named, and stays gold. The risk manager box turns red on line 7 and green on line 12's \"yes\".",
+      "**Times** are estimates at 3 words a second (about 70s); Joshua reads about 3.2, so the take runs about 66s. Re-time to the real take."
+    ],
+    "rows": [
+      {
+        "id": "e1",
+        "onscreen": "Title from frame 1: \"I built an entire quant trading firm on Claude\" (\"trading firm\" in gold) · on \"6 agents\": \"6 AGENTS · 1 JOB EACH\"",
+        "sound": "Music in at 0. Wide shot. Punch-in on \"6 agents\"",
+        "spoken": "Hook: \"I built an entire quant trading firm on Claude. 6 agents, each one has a job.\"",
+        "time": "0.0–5.0",
+        "visual": "Frame 1: the org chart (A1 (1)), all 6 boxes grey, empty labels. On \"each one has a job\" the box labels fade in, still grey"
+      },
+      {
+        "id": "e2",
+        "onscreen": "\"NVDA\" pops on \"ticker\", with a small \"Example\" line under it",
+        "sound": "Keyboard clicks under the typing. Whoosh on \"goes to work\"",
+        "spoken": "\"I give Claude one stock ticker, and the entire firm goes to work.\"",
+        "time": "5.0–9.3",
+        "visual": "The ticker typed into Claude (A2), sped up. On \"goes to work\": all 6 grey boxes pulse once (A1 (2))"
+      },
+      {
+        "id": "e3",
+        "onscreen": "On \"Qube\", holds to the end of the line: \"Qube · builds and tests strategies · no code\" (\"no code\" gold). Label top-left on the recording: \"Claude · Codex → Qube\"",
+        "sound": "Hard punch-in to the close-up, back to wide on \"I start\"",
+        "spoken": "\"Here's how I built it out. I start by connecting Qube to Claude.\"",
+        "time": "9.3–13.7",
+        "visual": "Close-up on \"Here's how I built it out\" (no insert, 1.5s). Then Claude in the terminal showing Qube connected (A2, first part)"
+      },
+      {
+        "id": "e4",
+        "onscreen": "\"RESEARCH · news + earnings\"",
+        "sound": "Tick as the box lights",
+        "spoken": "\"The research agent reads the news and earnings on that stock.\"",
+        "time": "13.7–17.3",
+        "visual": "A1 (3): box 1 \"RESEARCH\" turns gold. Then cut to the research agent's output on that stock in Claude (A3), scrolling. Gold highlight on the first headline line"
+      },
+      {
+        "id": "e5",
+        "onscreen": "\"DATA · up to 5 years of prices\" (\"5 years\" gold)",
+        "sound": "Tick. Soft whir under the chart",
+        "spoken": "\"The data agent grabs up to five years of its price data.\"",
+        "time": "17.3–21.3",
+        "visual": "A1 (4): box 2 \"DATA\" gold. Price history for that stock loading (A4), the chart drawing left to right"
+      },
+      {
+        "id": "e6",
+        "onscreen": "\"STRATEGY · built in Qube\". Then 4 chips, one every 0.6s: \"WHEN TO BUY\" \"WHEN TO SELL\" \"HOW MUCH\" \"WHEN TO GET OUT\"",
+        "sound": "Tick, then one pop per chip",
+        "spoken": "\"The strategy agent builds a trading strategy in Qube.\"",
+        "time": "21.3–24.3",
+        "visual": "Punch-in (110%) on \"strategy agent\". A1 (5): box 3 \"STRATEGY\" gold. The Qube strategy (A5), each section highlighted gold in turn, in time with the chips"
+      },
+      {
+        "id": "e7",
+        "onscreen": "\"BACKTEST · every trade\" · label top-left on the clip: \"Backtest, not live results\"",
+        "sound": "Tick. Fast ticking as trades scroll",
+        "spoken": "\"The backtest agent tests it on those prices and shows every trade.\"",
+        "time": "24.3–28.3",
+        "visual": "A1 (6): box 4 \"BACKTEST\" gold. Qube backtest running, then the trade list scrolling fast (A6)"
+      },
+      {
+        "id": "e8",
+        "onscreen": "\"TRADER\" pops on \"trader agent\" · \"RISK MANAGER · can say no\" (red #EF4444) pops on \"say no\"",
+        "sound": "Music drops out on \"but\", back in on \"say no\" with a low hit",
+        "spoken": "\"Then the trader agent is ready to trade it, but a separate risk manager has the power to say no.\"",
+        "time": "28.3–35.0",
+        "visual": "A1 (7): box 5 \"TRADER\" gold. On \"but\": hard cut to a close-up of Joshua (no insert, 1.5s, the biggest change so far). On \"risk manager\": back to split, A1 (8): box 6 \"RISK MANAGER\" turns red"
+      },
+      {
+        "id": "e9",
+        "onscreen": "Rule card 1 (A7 (1)): \"NO · any trade risking more than 2% of the account\" (\"2%\" gold)",
+        "sound": "Stamp sound on \"no\"",
+        "spoken": "\"It says no to any trade risking more than 2% of the account.\"",
+        "time": "35.0–39.3",
+        "visual": "Rule card 1 (A7 (1)) in the top third, the red risk manager box (A1 (8)) above it"
+      },
+      {
+        "id": "e10",
+        "onscreen": "Rule card 2 (A7 (2)): \"MAX LOSS HIT · trading stops for the day\"",
+        "sound": "Stamp sound on \"stops\"",
+        "spoken": "\"The second we hit our max loss, trading stops for the day.\"",
+        "time": "39.3–43.3",
+        "visual": "Rule card 2 (A7 (2)) slides over card 1"
+      },
+      {
+        "id": "e11",
+        "onscreen": "Rule card 3 (A7 (3)): \"BACKTEST DOESN'T HOLD UP · NO\"",
+        "sound": "Stamp sound on \"no\"",
+        "spoken": "\"And if the backtest doesn't hold up, it's a no.\"",
+        "time": "43.3–46.7",
+        "visual": "Rule card 3 (A7 (3)), then the real risk manager \"no\" from Joshua's run in Claude (A8, first part), the \"no\" line highlighted red"
+      },
+      {
+        "id": "e12",
+        "onscreen": "\"THE BEST PART\" (gold)",
+        "sound": "Music dips for the line, rises on \"says no\"",
+        "spoken": "\"The best part is what happens when the risk manager says no.\"",
+        "time": "46.7–50.7",
+        "visual": "Punch-in to a close-up of Joshua, no insert (2s). Then back to split on the A8 \"no\" still"
+      },
+      {
+        "id": "e13",
+        "onscreen": "\"FIX → TEST AGAIN\" with a counter \"ROUND 1 · 2 · 3…\" (only as high as A8 shows) · on \"yes\": \"RISK MANAGER · YES\" (green #22C55E) · label top-left: \"Backtest, not live results\"",
+        "sound": "Counter ticks per round. A bright chime on \"yes\"",
+        "spoken": "\"The strategy agent fixes what's broken, and the backtest agent tests it again, until it's a yes.\"",
+        "time": "50.7–56.3",
+        "visual": "A1 (9): boxes 3 and 4 flash gold in turn. The fix-and-retest rounds in Claude and Qube (A8), sped up. On \"yes\": box 6 turns from red to green (A1 (10)) and the real \"yes\" line from A8 is highlighted green"
+      },
+      {
+        "id": "e14",
+        "onscreen": "Badge top-right while the simulation account is on screen: \"Paper trading · simulated results\" · path (A10): \"BACKTEST ✓ → SIMULATION ACCOUNT → LIVE\" · small second line under the A10 path, pops on \"simulation account\": \"simulation account = no real money\" (Inter Bold 36px, light grey #9AA3AE)",
+        "sound": "Click as each path step lights",
+        "spoken": "\"That's when the trader agent runs it on a simulation account first, then live through a real broker.\"",
+        "time": "56.3–62.3",
+        "visual": "A1 (11): box 5 \"TRADER\" pulses. The strategy running on the Qube simulation account (A9). On \"then live\": the path graphic (A10) with LIVE greyed and a small lock"
+      },
+      {
+        "id": "e15",
+        "onscreen": "\"0 LINES OF CODE\" (\"0\" gold)",
+        "sound": "Rising whoosh. Wide shot",
+        "spoken": "\"I built this whole firm without writing any code. You can too.\"",
+        "time": "62.3–66.3",
+        "visual": "A1 (12): the full org chart, all 6 boxes lit (5 gold, risk manager green), filling the top third"
+      },
+      {
+        "id": "e16",
+        "onscreen": "\"COMMENT 'QUBE'\" (gold), centred · small line under it: \"free sign-up link\"",
+        "sound": "Music out on the end screen",
+        "spoken": "\"Comment QUBE and I'll send you the link for the free sign-up.\"",
+        "time": "66.3–70.3",
+        "visual": "Close-up of Joshua. Top third: the Qube \"Start free\" page scrolling to \"Free · no card required\" (A11). Last 2s: end screen (A12)"
+      }
+    ]
+  },
+  "length": "about 66s at Joshua's pace, fast, no pauses between lines (the original is 40s) · Presenter: Joshua",
+  "original": {
+    "account": "@raycfu",
+    "lines": [
+      {
+        "t": "0:00",
+        "text": "Most people don't realize that someone just built an entire Wall Street trading firm with AI agents."
+      },
+      {
+        "t": "0:02",
+        "text": "You give the system a single stock ticket and the entire AI trading floor goes to work."
+      },
+      {
+        "t": "0:06",
+        "text": "Here's how you build it out."
+      },
+      {
+        "t": "0:06",
+        "text": "Four specialized analyst agents dig into the data, analyze company fundamentals, breaking market news, track social sentiment, and prize action."
+      },
+      {
+        "t": "0:10",
+        "text": "A bull and bear agent debate both sides of the trade against each other in order to challenge the hidden risk."
+      },
+      {
+        "t": "0:17",
+        "text": "Then a trader agent plans the execution, but a separate risk management agent has the power to veto the move before the portfolio management agent signs it off."
+      },
+      {
+        "t": "0:21",
+        "text": "The best part is the system has persistent memory."
+      },
+      {
+        "t": "0:25",
+        "text": "Every trader recommendation gets graded and logged against actual market results so the agents study their own mistakes and improve over time."
+      },
+      {
+        "t": "0:29",
+        "text": "I put together a complete setup guide on how to build this out for yourself with the GitHub repo link."
+      },
+      {
+        "t": "0:32",
+        "text": "If you want it, just like the video and comment firm and I'll send it to you."
+      },
+      {
+        "t": "0:36",
+        "text": "Follow for my ways to make money and run your business with tech and AI."
+      }
+    ],
+    "seconds": 40,
+    "url": "https://www.instagram.com/p/DcuOeJ4vmde/",
+    "words": 192
+  },
+  "originalTitle": "AI agent trading firm",
+  "presenter": "Joshua",
+  "recreating": {
+    "account": "@raycfu",
+    "summary": "@raycfu · \"AI agent trading firm\" · https://www.instagram.com/p/DcuOeJ4vmde/ · 2,346 likes and 3,867 comments on a 268K-follower account",
+    "url": "https://www.instagram.com/p/DcuOeJ4vmde/"
+  },
+  "script": {
+    "hooks": [
+      {
+        "id": "hHook",
+        "label": "Hook",
+        "orig": "I built an entire quant trading firm on Claude. 6 agents, each one has a job.",
+        "text": "I built an entire quant trading firm on Claude. 6 agents, each one has a job."
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "orig": "I give Claude one stock ticker, and the entire firm goes to work.",
+        "text": "I give Claude one stock ticker, and the entire firm goes to work."
+      },
+      {
+        "id": "l2",
+        "orig": "Here's how I built it out. I start by connecting Qube to Claude.",
+        "text": "Here's how I built it out. I start by connecting Qube to Claude."
+      },
+      {
+        "id": "l3",
+        "orig": "The research agent reads the news and earnings on that stock.",
+        "text": "The research agent reads the news and earnings on that stock."
+      },
+      {
+        "id": "l4",
+        "orig": "The data agent grabs up to five years of its price data.",
+        "text": "The data agent grabs up to five years of its price data."
+      },
+      {
+        "id": "l5",
+        "orig": "The strategy agent builds a trading strategy in Qube.",
+        "text": "The strategy agent builds a trading strategy in Qube."
+      },
+      {
+        "id": "l6",
+        "orig": "The backtest agent tests it on those prices and shows every trade.",
+        "text": "The backtest agent tests it on those prices and shows every trade."
+      },
+      {
+        "id": "l7",
+        "orig": "Then the trader agent is ready to trade it, but a separate risk manager has the power to say no.",
+        "text": "Then the trader agent is ready to trade it, but a separate risk manager has the power to say no."
+      },
+      {
+        "id": "l8",
+        "orig": "It says no to any trade risking more than 2% of the account.",
+        "text": "It says no to any trade risking more than 2% of the account."
+      },
+      {
+        "id": "l9",
+        "orig": "The second we hit our max loss, trading stops for the day.",
+        "text": "The second we hit our max loss, trading stops for the day."
+      },
+      {
+        "id": "l10",
+        "orig": "And if the backtest doesn't hold up, it's a no.",
+        "text": "And if the backtest doesn't hold up, it's a no."
+      },
+      {
+        "id": "l11",
+        "orig": "The best part is what happens when the risk manager says no.",
+        "text": "The best part is what happens when the risk manager says no."
+      },
+      {
+        "id": "l12",
+        "orig": "The strategy agent fixes what's broken, and the backtest agent tests it again, until it's a yes.",
+        "text": "The strategy agent fixes what's broken, and the backtest agent tests it again, until it's a yes."
+      },
+      {
+        "id": "l13",
+        "orig": "That's when the trader agent runs it on a simulation account first, then live through a real broker.",
+        "text": "That's when the trader agent runs it on a simulation account first, then live through a real broker."
+      },
+      {
+        "id": "l14",
+        "orig": "I built this whole firm without writing any code. You can too.",
+        "text": "I built this whole firm without writing any code. You can too."
+      },
+      {
+        "id": "l15",
+        "orig": "Comment QUBE and I'll send you the link for the free sign-up.",
+        "text": "Comment QUBE and I'll send you the link for the free sign-up."
+      }
+    ]
+  },
+  "status": "Approved",
+  "title": "I built an entire quant trading firm on Claude. 6 agents, each one has a job.",
+  "updatedAt": 1792938127.7049,
+  "updatedBy": "Producer"
+}

@@ -1,0 +1,24 @@
+---
+name: make-script
+description: Runs the TQX script pipeline end to end - Director writes the brief, Scriptwriter drafts, Script critic reviews, revise until clean (max 3 rounds), Director approves, then hand the script to Mark. Use when Mark says "/make-script", "write a script", "recreate this Reel", or gives a reference Reel link or an idea for a TQX video.
+---
+
+# Make a script
+
+Input from Mark: a reference Reel (link or lesson card) or an idea, and the presenter (Mark or Joshua). Ask for the presenter only if he didn't say.
+
+## Steps
+
+0. **Learn first.** Run `learn-from-edits` so Mark's latest Script Room changes are in fix-log before anyone writes.
+1. **Code and folder.** Mark sets the codes. Use the code he gives; if he doesn't give one, ask (Oct 23: he started the new batch at J020, not after the last written code). Make `videos/<CODE>/`.
+2. **Reference.** If it's a new Reel link: run `tools/study-video.sh <link> knowledge/reference/<id>` and write its lesson card with `video-breakdown` first. If a card already exists in `knowledge/cards/reference/`, use it.
+2b. **Check our past videos (mandatory, before any brief).** Mark, Oct 27, rejecting J032: "We've already done a video about quants never trust their first trading strategy. If you went through our data, you would know that." Check the topic against every past TQX video: `data/video-map.csv` titles, `knowledge/own-videos/*/transcript.txt`, every `videos/<CODE>/` script and brief (and `videos/_archive/`), and `slop`. If the main idea or payoff overlaps, stop and pick a different angle, or flag it to the producer. A new hook or format on the same idea is still a repeat.
+3. **Brief.** Run the `director` agent: "Write the brief for <CODE>, presenter <name>, source <card or idea>." The brief must carry the line "Past videos checked: no overlap (closest: <code, why different>)"; no line, no draft.
+4. **Draft.** Run the `scriptwriter` agent: "Write <CODE> from videos/<CODE>/brief.md." It makes the beat map first (the original's hook word for word; every body line written fresh, following the original's beats: `remix-for-product`, Mark Oct 27), then the three documents: `<CODE>-1-SCRIPT.md` (script only), `<CODE>-2-EDIT.md` (what's on screen when), `<CODE>-3-ASSETS.md` (what to prepare). Every script is 35–60 seconds spoken, aiming for about 40–50 (`script-logic` #10, hard limit, Mark Oct 27); a longer original gets cut to its strongest beats.
+5. **Review loop.** Run the `script-critic` agent on <CODE>. Over 60s (or under 35s, except a short text-only format like J026) is an automatic send-back. If the verdict is "Send back", run the `scriptwriter` with "Revise <CODE> from videos/<CODE>/review.md", then the critic again. Max 3 rounds; after that, hand over with the open flags listed.
+6. **Approval.** Run the `director` agent: "Approve or send back <CODE>." If it sends back, one more scriptwriter → critic round, then hand over.
+7. **Hand over to Mark.** Copy the three documents to `~/Downloads/TQX Scripts/<CODE>/` and send them with SendUserFile in the same message. Reply in a short table: title, presenter, length, the hook, outside gold it aims at, rounds it took, anything only Mark can decide.
+7b. **Put it in the Script Room** (https://claude.ai/artifact/NL5inALCXYhUiwriYGCnYy), Mark's one place to see and edit every script: `python3 tools/scripts-to-json.py <CODE> data/script-room/<CODE>.json`, then `ArtifactData` set `scripts/<CODE>` from that file. Never overwrite a script Mark has edited: read `scripts/<CODE>` and `edits/<CODE>` first; if Mark changed it (`updatedBy: "Mark"`), his version wins, his edits go into `fix-log`, and the agents revise from his version.
+8. **Log.** When Mark corrects anything, add a row to `fix-log` straight away. When he approves, add the video to `slop` and `data/video-map.csv` once it's posted.
+
+Show a live progress window in the Terminal panel while the agents run (each step writes a file into `videos/<CODE>/`, so `tools/cards-progress.sh videos/<CODE> 5 "Script <CODE>"` works: brief, outline, script, review, approval).

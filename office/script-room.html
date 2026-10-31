@@ -1,0 +1,403 @@
+<title>TQX Script Room</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=IBM+Plex+Sans:wght@400;500;600&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+<style>
+/* Layout: a writers' room. Left rail = scripts grouped by presenter (code first); right = the open script with Script / Edit / Assets tabs, every line editable in place. */
+:root{
+  --bg:#EEF1F5; --surface:#FFFFFF; --sunk:#F6F8FB; --fg:#0E1319; --muted:#5D6878; --line:#DAE0E8;
+  --gold:#A6741F; --gold-soft:#F4E7CF; --ok:#1F8A4C; --warn:#B5660B; --bad:#C2362F; --info:#2F5FB3;
+  --display:"Instrument Serif",Georgia,"Times New Roman",serif;
+  --ui:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --script:"Courier Prime","Courier New",Courier,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0B0F14; --surface:#121821; --sunk:#0F141B; --fg:#E9EDF2; --muted:#94A0AF; --line:#243041;
+  --gold:#E8B04B; --gold-soft:#3A2D14; --ok:#3CC27A; --warn:#F0A44B; --bad:#F0716A; --info:#7EA6F2; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0B0F14; --surface:#121821; --sunk:#0F141B; --fg:#E9EDF2; --muted:#94A0AF; --line:#243041;
+  --gold:#E8B04B; --gold-soft:#3A2D14; --ok:#3CC27A; --warn:#F0A44B; --bad:#F0716A; --info:#7EA6F2; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--ui);font-size:15px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:16px}
+.app{display:grid;grid-template-columns:270px minmax(0,1fr);gap:16px;max-width:1500px;margin:0 auto}
+@media(max-width:860px){.app{grid-template-columns:1fr}}
+.rail{display:flex;flex-direction:column;gap:14px;position:sticky;top:calc(16px + env(safe-area-inset-top,0px));align-self:start;max-height:calc(100vh - 32px);overflow:auto}
+@media(max-width:860px){.rail{position:static;max-height:none}}
+.brand{font-family:var(--display);font-size:30px;line-height:1;letter-spacing:.01em}
+.brand small{display:block;font-family:var(--ui);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-top:6px}
+.group h2{margin:0 0 6px;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-weight:600;display:flex;justify-content:space-between}
+.cards{display:flex;flex-direction:column;gap:6px}
+@media(max-width:860px){.cards{flex-direction:row;flex-wrap:wrap}}
+.card{all:unset;cursor:pointer;display:grid;grid-template-columns:auto minmax(0,1fr);gap:2px 10px;padding:10px 12px;border-radius:10px;border:1px solid var(--line);background:var(--surface)}
+.card:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.card[aria-current="true"]{border-color:var(--gold);box-shadow:inset 3px 0 0 var(--gold)}
+.card .code{font-family:var(--display);font-size:24px;line-height:1;grid-row:span 2}
+.card .t{font-size:13px;color:var(--fg);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card .s{font-size:11.5px;color:var(--muted);display:flex;gap:6px;align-items:center}
+.empty-group{font-size:13px;color:var(--muted);border:1px dashed var(--line);border-radius:10px;padding:10px 12px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--muted);flex:none}
+.st-Approved .dot,.dot.Approved{background:var(--ok)} .st-Needs .dot,.dot.Needs{background:var(--bad)} .dot.review{background:var(--warn)} .dot.Filmed,.dot.Posted{background:var(--info)}
+main{min-width:0;display:flex;flex-direction:column;gap:14px}
+.head{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 18px;display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:6px 18px;align-items:start}
+@media(max-width:700px){.head{grid-template-columns:1fr}}
+.bigcode{font-family:var(--display);font-size:64px;line-height:.9}
+.htitle{font-size:18px;font-weight:600;text-wrap:balance;margin:2px 0 6px}
+.meta{font-size:13px;color:var(--muted);display:flex;flex-wrap:wrap;gap:6px 14px}
+.meta a{color:var(--gold);font-weight:600;text-decoration:none}
+.meta a:hover{text-decoration:underline}
+.tools{display:flex;flex-direction:column;gap:8px;align-items:stretch;min-width:180px}
+select,button{font:inherit;font-size:13px;border:1px solid var(--line);background:var(--sunk);color:var(--fg);border-radius:8px;padding:7px 10px}
+button{cursor:pointer}
+button:hover{border-color:var(--gold)}
+button:focus-visible,select:focus-visible{outline:2px solid var(--gold);outline-offset:1px}
+.save{font-size:12px;color:var(--muted);text-align:right;min-height:18px}
+.save.saving{color:var(--warn)} .save.err{color:var(--bad)}
+.tabs{display:flex;gap:4px;border-bottom:1px solid var(--line)}
+.tab{all:unset;cursor:pointer;padding:9px 14px;font-size:14px;font-weight:600;color:var(--muted);border-bottom:2px solid transparent;margin-bottom:-1px}
+.tab[aria-selected="true"]{color:var(--fg);border-bottom-color:var(--gold)}
+.tab:focus-visible{outline:2px solid var(--gold)}
+.tab .n{font-weight:400;font-size:12px;margin-left:6px;color:var(--muted)}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px}
+.sec{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);font-weight:600;margin:0 0 8px}
+.lines{display:flex;flex-direction:column;gap:4px;margin-bottom:22px}
+.ln{display:grid;grid-template-columns:34px minmax(0,1fr) auto;gap:8px;align-items:start;border-radius:8px;padding:4px 6px}
+.ln:hover,.ln:focus-within{background:var(--sunk)}
+.ln .num{font-family:var(--script);font-weight:700;color:var(--muted);padding-top:7px;text-align:right}
+.ln.edited .num{color:var(--gold)}
+.ln.edited{background:var(--gold-soft)}
+.ln.edited textarea{font-weight:700}
+td.cell-edited{background:var(--gold-soft)}
+td.cell-edited textarea{font-weight:600}
+.orig del{color:var(--bad);text-decoration:line-through}
+.savebar{position:fixed;left:0;right:0;bottom:0;z-index:40;display:flex;align-items:center;justify-content:center;gap:18px;flex-wrap:wrap;
+  padding:14px max(16px,env(safe-area-inset-right,0px)) calc(14px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));
+  background:var(--gold);color:#0B0F14;box-shadow:0 -8px 30px rgba(0,0,0,.35);animation:rise .25s ease-out}
+@keyframes rise{from{transform:translateY(100%)}to{transform:none}}
+.sb-text{font-size:16px}
+.sb-btn{font-size:17px;font-weight:700;padding:12px 26px;border-radius:999px;background:#0B0F14;color:#FFE7A8;border:0}
+.sb-btn:hover{background:#000}
+.sb-btn:focus-visible{outline:3px solid #fff;outline-offset:2px}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(24px + env(safe-area-inset-bottom,0px));z-index:41;padding:14px 22px;border-radius:12px;font-size:16px;font-weight:600;box-shadow:0 10px 30px rgba(0,0,0,.35);max-width:calc(100% - 32px)}
+.toast.ok{background:var(--ok);color:#fff}
+.toast.err{background:var(--bad);color:#fff}
+body{padding-bottom:96px}
+.fab{position:fixed;z-index:39;right:calc(20px + env(safe-area-inset-right,0px));top:calc(16px + env(safe-area-inset-top,0px));
+  font-size:18px;font-weight:700;padding:14px 30px;border-radius:999px;border:0;background:var(--gold);color:#0B0F14;box-shadow:0 8px 24px rgba(0,0,0,.35)}
+.fab.has{background:var(--bad);color:#fff;animation:pulse 1.4s ease-in-out infinite}
+@keyframes pulse{50%{box-shadow:0 0 0 8px rgba(239,68,68,.25)}}
+.fab:focus-visible{outline:3px solid var(--fg);outline-offset:2px}
+@media (prefers-reduced-motion:reduce){.fab.has{animation:none}}
+.wc-ok b{color:var(--ok)} .wc-bad{color:var(--bad)} .wc-bad b{color:var(--bad)}
+.savebtn{background:var(--sunk);font-weight:600}
+.savebtn.dirty{background:var(--gold);color:#0B0F14;border-color:var(--gold)}
+.savebtn:disabled{cursor:default;opacity:.75}
+textarea{width:100%;resize:none;overflow:hidden;border:1px solid transparent;border-radius:6px;background:transparent;color:var(--fg);font:inherit;padding:6px 8px;line-height:1.55}
+textarea:hover{border-color:var(--line)} textarea:focus{outline:none;border-color:var(--gold);background:var(--surface)}
+.script textarea{font-family:var(--script);font-size:16.5px}
+.orig{grid-column:2;font-size:12.5px;color:var(--muted);padding:0 8px 4px;font-family:var(--script)}
+.orig b{font-family:var(--ui);font-weight:600;color:var(--gold);font-size:11px;letter-spacing:.06em;text-transform:uppercase;margin-right:6px}
+.rowtools{display:flex;gap:2px;opacity:0;padding-top:4px}
+.ln:hover .rowtools,.ln:focus-within .rowtools,tr:hover .rowtools,tr:focus-within .rowtools{opacity:1}
+.rowtools button{padding:2px 7px;font-size:12px;background:transparent;border-color:transparent;color:var(--muted)}
+.rowtools button:hover{border-color:var(--line);color:var(--fg)}
+.stats{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;color:var(--muted);margin-bottom:14px;font-variant-numeric:tabular-nums}
+.stats b{color:var(--fg)}
+.notes{font-size:13px;color:var(--muted);margin:0 0 14px;display:flex;flex-direction:column;gap:6px}
+.notes textarea{font-size:13px;color:var(--muted)}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:10px}
+table{border-collapse:collapse;width:100%;min-width:900px;font-size:13.5px}
+th{position:sticky;top:0;background:var(--sunk);text-align:left;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600;padding:9px 8px;border-bottom:1px solid var(--line)}
+td{vertical-align:top;border-bottom:1px solid var(--line);padding:2px 2px}
+tr:last-child td{border-bottom:0}
+td textarea{font-size:13.5px;padding:6px}
+td.mono textarea{font-family:var(--script);font-size:14px}
+td.time textarea{font-variant-numeric:tabular-nums;width:86px;color:var(--gold);font-weight:600}
+td.id{font-family:var(--script);font-weight:700;padding:8px;color:var(--gold);white-space:nowrap}
+td.chk{padding:8px;text-align:center}
+tr.edited td:first-child{box-shadow:inset 3px 0 0 var(--gold)}
+.openlist{display:flex;flex-direction:column;gap:4px;margin-top:18px}
+.openlist .ln{grid-template-columns:28px minmax(0,1fr) auto}
+.openlist input{margin-top:10px;accent-color:var(--gold)}
+.blank{padding:40px 20px;text-align:center;color:var(--muted)}
+.blank h3{font-family:var(--display);font-size:30px;color:var(--fg);margin:0 0 6px;font-weight:400}
+.banner{font-size:13px;padding:10px 12px;border-radius:10px;background:var(--gold-soft);color:var(--fg)}
+.legend{font-size:12px;color:var(--muted)}
+.orig-url{font-size:13px;margin:0 0 10px;word-break:break-all}.orig-url a{color:var(--gold,#E8B04B)}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;background:var(--gold);vertical-align:-1px;margin-right:4px}
+.sbs{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.25fr);gap:14px;align-items:start}
+@media(max-width:1000px){.sbs{grid-template-columns:1fr}}
+.orig-col{background:var(--sunk);position:sticky;top:calc(16px + env(safe-area-inset-top,0px));max-height:calc(100vh - 32px);overflow:auto}
+@media(max-width:1000px){.orig-col{position:static;max-height:none}}
+.orig-col .sec a{color:var(--gold);text-decoration:none}
+.olines{list-style:none;margin:10px 0 0;padding:0;display:flex;flex-direction:column;gap:2px}
+.olines li{display:grid;grid-template-columns:44px minmax(0,1fr);gap:8px;padding:7px 6px;border-radius:6px;font-family:var(--script);font-size:15.5px;line-height:1.55}
+.olines li:hover{background:var(--surface)}
+.ot{color:var(--muted);font-size:12.5px;padding-top:2px;font-variant-numeric:tabular-nums}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="app">
+  <aside class="rail" aria-label="Scripts">
+    <div class="brand">Script Room<small>TQX · every script, every line</small></div>
+    <div class="group"><h2><span>Joshua</span><span id="cntJ">0</span></h2><div class="cards" id="listJoshua"></div></div>
+    <div class="group"><h2><span>Mark</span><span id="cntM">0</span></h2><div class="cards" id="listMark"></div></div>
+    <div class="legend"><i></i>Highlighted = you changed it. Under it: what the agents wrote, with the words you cut struck through. Press Save (or ⌘S) to keep your changes.</div>
+  </aside>
+  <main id="main">
+    <div class="panel blank" id="blank"><h3>Loading scripts…</h3><p>Scripts from the agents appear here, grouped under Joshua and Mark. Click a code to open it and edit any line.</p></div>
+  </main>
+</div>
+
+<div class="savebar" id="savebar" hidden>
+  <div class="sb-text"><b id="sbCount">1 change</b> not saved yet<span id="sbWhere"></span></div>
+  <button class="sb-btn" id="sbBtn" type="button">Save &amp; teach the agents</button>
+</div>
+<div class="toast" id="toast" hidden role="status"></div>
+<button class="fab" id="fabSave" type="button" hidden>Save</button>
+<script>
+const STATUSES=["Draft","In review","Needs changes","Approved","Filmed","Posted"];
+const WPS={Joshua:3.2,Mark:3.0};
+let db=null,user=null,uid=null,canWrite=true;
+let scripts={};let current=null;let tab="script";
+let pending={};let saving={};let lastSaved={};
+try{const t=localStorage.getItem("sr.tab");if(t)tab=t;const c=localStorage.getItem("sr.cur");if(c)current=c}catch(e){}
+
+const $=s=>document.querySelector(s);
+const el=(t,a={},...kids)=>{const e=document.createElement(t);for(const[k,v]of Object.entries(a)){if(k==="class")e.className=v;else if(k==="text")e.textContent=v;else if(k.startsWith("on"))e.addEventListener(k.slice(2),v);else if(v!==undefined&&v!==null)e.setAttribute(k,v)}kids.flat().forEach(k=>k!=null&&e.append(k.nodeType?k:document.createTextNode(k)));return e};
+const clone=o=>JSON.parse(JSON.stringify(o));
+const words=s=>(s||"").trim().split(/\s+/).filter(Boolean).length;
+function grow(t){t.style.height="auto";t.style.height=t.scrollHeight+"px"}
+function statusKey(s){return s==="Needs changes"?"Needs":s==="In review"?"review":s}
+
+function renderRail(){
+  const by={Joshua:[],Mark:[]};
+  Object.values(scripts).sort((a,b)=>a.code.localeCompare(b.code)).forEach(s=>(by[s.presenter]||by.Joshua).push(s));
+  for(const p of ["Joshua","Mark"]){
+    const box=$("#list"+p);box.replaceChildren();
+    $(p==="Joshua"?"#cntJ":"#cntM").textContent=by[p].length;
+    if(!by[p].length){box.append(el("div",{class:"empty-group",text:p==="Mark"?"No scripts for Mark yet.":"No scripts yet."}));continue}
+    by[p].forEach(s=>box.append(el("button",{class:"card","aria-current":String(s.code===current),onclick:()=>openScript(s.code)},
+      el("span",{class:"code",text:s.code}),el("span",{class:"t",text:s.title||""}),
+      el("span",{class:"s"},el("span",{class:"dot "+statusKey(s.status)}),s.status||"Draft"))));
+  }
+}
+function openScript(code){current=code;try{localStorage.setItem("sr.cur",code)}catch(e){}renderRail();renderMain()}
+
+function field(value,onChange,opts={}){
+  const t=el("textarea",{rows:"1","aria-label":opts.label||"Edit"});t.value=value||"";
+  if(!canWrite)t.readOnly=true;
+  t.addEventListener("input",()=>{grow(t);onChange(t.value)});
+  t.addEventListener("change",()=>{if(pending[current])setTimeout(()=>{if(document.activeElement?.tagName!=="TEXTAREA")renderMain()},0)});
+  requestAnimationFrame(()=>grow(t));return t;
+}
+
+function renderMain(){
+  const m=$("#main");m.replaceChildren();
+  const s=current&&scripts[current]?pending[current]||scripts[current]:null;
+  if(!s){const first=Object.keys(scripts).sort()[0];if(first&&!current){current=first;return renderMain()}
+    m.append(el("div",{class:"panel blank"},el("h3",{text:Object.keys(scripts).length?"Pick a script":"No scripts yet"}),el("p",{text:Object.keys(scripts).length?"Click a code on the left to open it.":"When the agents finish a script, it lands here under Joshua or Mark."})));return}
+  const rec=s.recreating||{};
+  const head=el("section",{class:"head"},
+    el("div",{class:"bigcode",text:s.code}),
+    el("div",{},
+      el("div",{class:"htitle",text:(s.presenter||"")+" · "+(s.title||"")}),
+      el("div",{class:"meta"},
+        el("span",{},"Recreating ",rec.url?el("a",{href:rec.url,target:"_blank",rel:"noopener",text:(rec.account||"original")+" ↗"}):(rec.account||"—"),s.originalTitle?" · “"+s.originalTitle+"”":""),
+        el("span",{text:s.length||""}))),
+    el("div",{class:"tools"},
+      (()=>{const sel=el("select",{"aria-label":"Status"},...STATUSES.map(o=>el("option",{value:o,text:o})));sel.value=s.status||"Draft";sel.disabled=!canWrite;sel.addEventListener("change",()=>change(c=>{c.status=sel.value},"status","",s.status,sel.value));return sel})(),
+      el("button",{class:"savebtn",id:"saveBtn",onclick:saveAll,disabled:"disabled",text:"Saved"}),
+      el("button",{onclick:copyScript,text:"Copy script for "+(s.presenter||"presenter")}),
+      el("div",{class:"save",id:"save",text:canWrite?"":"Read only"})));
+  m.append(head);
+  if(!db)m.append(el("div",{class:"banner",text:"Editing needs the Claude app. Open this page in Claude to change scripts."}));
+  const counts={script:(s.script?.lines||[]).length,edit:(s.edit?.rows||[]).length,assets:(s.assets?.rows||[]).length};
+  const tabs=el("div",{class:"tabs",role:"tablist"},...[["script","1 · Script"],["edit","2 · For the editor"],["assets","3 · Asset list"]].map(([k,l])=>
+    el("button",{class:"tab",role:"tab","aria-selected":String(tab===k),onclick:()=>{tab=k;try{localStorage.setItem("sr.tab",k)}catch(e){}renderMain()}},l,el("span",{class:"n",text:counts[k]}))));
+  m.append(tabs);
+  m.append(tab==="script"?scriptPanel(s):tab==="edit"?editPanel(s):assetsPanel(s));
+  updateSaveBtn();
+}
+
+function diffSpans(orig,cur){
+  const a=(orig||"").split(/(\s+)/),b=new Set((cur||"").split(/\s+/).map(w=>w.toLowerCase()));
+  return a.map(w=>/^\s+$/.test(w)||!w?w:(b.has(w.toLowerCase())?w:el("del",{text:w})));
+}
+function origNote(cur,orig){return(orig!=null&&cur!==orig)?el("div",{class:"orig"},el("b",{text:"Agents wrote"}),...diffSpans(orig,cur)):null}
+
+function scriptPanel(s){
+  const ours=scriptOurs(s);
+  const og=s.original||{};const ol=og.lines||[];
+  if(!ol.length)return ours;
+  const left=el("section",{class:"panel orig-col",role:"region","aria-label":"Original script"},
+    el("h3",{class:"sec"},"Original · ",og.url?el("a",{href:og.url,target:"_blank",rel:"noopener",text:(og.account||"the Reel")+" ↗"}):(og.account||"")),
+    el("div",{class:"stats"},el("span",{},"Words ",el("b",{text:String(og.words??ol.reduce((n,l)=>n+words(l.text),0))})),og.seconds?el("span",{},"Length ",el("b",{text:og.seconds+"s"})):null),
+    el("p",{class:"legend",text:"Exactly what they said, as transcribed from the Reel. Timestamps are when each line starts."}),
+    el("ol",{class:"olines"},...ol.map(l=>el("li",{},el("span",{class:"ot",text:l.t}),el("span",{class:"otx",text:l.text})))));
+  return el("div",{class:"sbs"},left,ours);
+}
+function scriptOurs(s){
+  const p=el("section",{class:"panel script",role:"tabpanel"});
+  const hooks=s.script?.hooks||[],lines=s.script?.lines||[];
+  const top=hooks[0]?words(hooks[0].text):0,body=lines.reduce((n,l)=>n+words(l.text),0),w=WPS[s.presenter]||3.2;
+  const og=s.original||{};
+  const ogPace=og.words&&og.seconds?og.words/og.seconds:null;
+  const ogUrl=og.url||s.recreating?.url;
+  if(ogUrl)p.append(el("p",{class:"orig-url"},el("b",{text:"Original video: "}),el("a",{href:ogUrl,target:"_blank",rel:"noopener",text:ogUrl})));
+  p.append(el("div",{class:"stats"},el("span",{},"Words ",el("b",{text:String(top+body)})," (hook ",String(top)," + script ",String(body),")"),
+    ogPace?el("span",{},"About ",el("b",{text:Math.round((top+body)/ogPace)+"s"})," at the original's pace (",ogPace.toFixed(1)," words/s) · ",Math.round((top+body)/w)+"s at "+(s.presenter||"our")+"'s usual "+w):el("span",{},"About ",el("b",{text:Math.round((top+body)/w)+"s"})," at ",String(w)," words/s"),
+    og.words?(()=>{const d=(top+body)-og.words,ok=Math.abs(d)<=Math.round(og.words*0.1);
+      return el("span",{class:ok?"wc-ok":"wc-bad"},"Original ",el("b",{text:og.words+" words"}),og.seconds?" · "+og.seconds+"s":""," · ",el("b",{text:(d>=0?"+":"")+d+" words"}),ok?" · in range":" · out of range (keep within ±10%: "+Math.round(og.words*0.9)+"–"+Math.round(og.words*1.1)+")")})():null));
+  p.append(el("h3",{class:"sec",text:hooks.length>1?"Hooks":"Hook · the original's, word for word"}));
+  const hl=el("div",{class:"lines"});
+  hooks.forEach((h,i)=>hl.append(lineRow(h.label,h.text,h.orig,v=>change(c=>{c.script.hooks[i].text=v},"hook",h.label,h.text,v),
+    ()=>change(c=>{c.script.hooks.splice(i,1)},"hook-delete",h.label,h.text,""),
+    ()=>change(c=>{const L=String.fromCharCode(65+c.script.hooks.length);c.script.hooks.splice(i+1,0,{id:"h"+Date.now(),label:L,text:"",orig:null})},"hook-add",h.label,"",""))));
+  p.append(hl);
+  p.append(el("h3",{class:"sec",text:"Script · "+(s.presenter||"")+" reads this"}));
+  const ll=el("div",{class:"lines"});
+  lines.forEach((l,i)=>ll.append(lineRow(String(i+1),l.text,l.orig,v=>change(c=>{c.script.lines[i].text=v},"line",String(i+1),l.text,v),
+    ()=>change(c=>{c.script.lines.splice(i,1)},"line-delete",String(i+1),l.text,""),
+    ()=>change(c=>{c.script.lines.splice(i+1,0,{id:"l"+Date.now(),text:"",orig:null})},"line-add",String(i+1),"",""))));
+  if(!lines.length&&canWrite)ll.append(el("button",{text:"Add the first line",onclick:()=>change(c=>{c.script.lines.push({id:"l"+Date.now(),text:"",orig:null})},"line-add","1","","")}));
+  p.append(ll);return p;
+}
+function lineRow(num,text,orig,onChange,onDel,onAdd){
+  const r=el("div",{class:"ln"+((orig!==undefined&&orig!==null&&text!==orig)||orig===null?" edited":"")},
+    el("div",{class:"num",text:num}),field(text,onChange,{label:"Line "+num}),
+    canWrite?el("div",{class:"rowtools"},el("button",{title:"Add a line below","aria-label":"Add a line below",text:"+",onclick:onAdd}),el("button",{title:"Delete this line","aria-label":"Delete this line",text:"×",onclick:onDel})):el("span"));
+  const o=origNote(text,orig);if(o)r.append(o);return r;
+}
+
+function tablePanel(s,part,cols,rowsKey){
+  const rows=s[part]?.[rowsKey]||[];
+  const wrap=el("div",{class:"tablewrap"});
+  const t=el("table",{},el("thead",{},el("tr",{},...cols.map(c=>el("th",{text:c.label})),el("th",{text:""}))));
+  const tb=el("tbody");
+  rows.forEach((r,i)=>{
+    const tr=el("tr",{class:r._edited?"edited":""});
+    cols.forEach(c=>{
+      if(c.key==="id"){tr.append(el("td",{class:"id",text:r.id}));return}
+      if(c.type==="check"){const cb=el("input",{type:"checkbox","aria-label":"Ready"});cb.checked=!!r[c.key];cb.disabled=!canWrite;cb.addEventListener("change",()=>change(x=>{x[part][rowsKey][i][c.key]=cb.checked},part+"-"+c.key,r.id||String(i+1),String(!cb.checked),String(cb.checked)));tr.append(el("td",{class:"chk"},cb));return}
+      const was=r._orig&&Object.prototype.hasOwnProperty.call(r._orig,c.key)?r._orig[c.key]:undefined;
+      const changed=was!==undefined&&was!==r[c.key];
+      const td=el("td",{class:(c.cls||"")+(changed?" cell-edited":"")},field(r[c.key],v=>change(x=>{const row=x[part][rowsKey][i];row._orig=row._orig||{};if(!(c.key in row._orig))row._orig[c.key]=row[c.key];row[c.key]=v;row._edited=true},part+"-"+c.key,r.id||String(i+1),r[c.key],v),{label:c.label}));
+      if(changed)td.append(el("div",{class:"orig"},el("b",{text:"Agents wrote"}),...diffSpans(was,r[c.key])));
+      tr.append(td);
+    });
+    tr.append(el("td",{},canWrite?el("div",{class:"rowtools"},
+      el("button",{title:"Add a row below","aria-label":"Add a row below",text:"+",onclick:()=>change(x=>{const blank={};cols.forEach(c=>blank[c.key]=c.type==="check"?false:"");blank.id=part==="assets"?"A"+(x[part][rowsKey].length):"e"+Date.now();blank._edited=true;x[part][rowsKey].splice(i+1,0,blank)},part+"-add",r.id||"","","")}),
+      el("button",{title:"Delete this row","aria-label":"Delete this row",text:"×",onclick:()=>change(x=>{x[part][rowsKey].splice(i,1)},part+"-delete",r.id||String(i+1),JSON.stringify(r).slice(0,200),"")})):""));
+    tb.append(tr);
+  });
+  t.append(tb);wrap.append(t);return wrap;
+}
+function notesBlock(s,part){
+  const n=s[part]?.notes||[];if(!n.length)return null;
+  return el("div",{class:"notes"},...n.map((txt,i)=>field(txt.replace(/\*\*/g,""),v=>change(x=>{x[part].notes[i]=v},part+"-note",String(i+1),txt,v),{label:"Note"})));
+}
+function editPanel(s){
+  const p=el("section",{class:"panel",role:"tabpanel"});
+  p.append(el("h3",{class:"sec",text:"For the editor · what's on screen, and when"}));
+  const nb=notesBlock(s,"edit");if(nb)p.append(nb);
+  p.append(tablePanel(s,"edit",[{key:"time",label:"Time",cls:"time"},{key:"spoken",label:"Spoken",cls:"mono"},{key:"onscreen",label:"On-screen text"},{key:"visual",label:"Top third / full screen"},{key:"sound",label:"Movement and sound"}],"rows"));
+  return p;
+}
+function assetsPanel(s){
+  const p=el("section",{class:"panel",role:"tabpanel"});
+  const rows=s.assets?.rows||[];const ready=rows.filter(r=>r.ready).length;
+  p.append(el("div",{class:"stats"},el("span",{},"Ready ",el("b",{text:ready+" of "+rows.length}))));
+  p.append(el("h3",{class:"sec",text:"Asset list · everything to prepare before the edit"}));
+  const nb=notesBlock(s,"assets");if(nb)p.append(nb);
+  p.append(tablePanel(s,"assets",[{key:"ready",label:"Ready",type:"check"},{key:"id",label:"ID"},{key:"what",label:"What it is"},{key:"who",label:"Who"},{key:"how",label:"How (exact steps)"},{key:"file",label:"File · size"}],"rows"));
+  const open=s.assets?.open||[];
+  if(open.length){
+    p.append(el("h3",{class:"sec",style:"margin-top:22px",text:"Still open · Mark decides"}));
+    const ol=el("div",{class:"openlist"});
+    open.forEach((o,i)=>{const cb=el("input",{type:"checkbox","aria-label":"Done"});cb.checked=!!o.done;cb.disabled=!canWrite;cb.addEventListener("change",()=>change(x=>{x.assets.open[i].done=cb.checked},"open-done",o.id,String(!cb.checked),String(cb.checked)));
+      ol.append(el("div",{class:"ln"},cb,field(o.text.replace(/\*\*/g,""),v=>change(x=>{x.assets.open[i].text=v},"open",o.id,o.text,v),{label:"Open item"}),el("span")))});
+    p.append(ol);
+  }
+  return p;
+}
+
+// ---------- saving ----------
+let timers={};let edits={};
+function change(mut,part,ref,before,after){
+  if(!canWrite||!current)return;
+  const code=current;const base=pending[code]||scripts[code];const next=clone(base);mut(next);
+  next.updatedAt=Date.now()/1000;next.updatedBy="Mark";pending[code]=next;
+  (edits[code]=edits[code]||{})[part+":"+ref]={at:Date.now(),part,ref,before:String(before??""),after:String(after??"")};
+  updateSaveBtn();
+  const structural=/add|delete|status|done|ready/.test(part);
+  if(structural){renderRail();renderMain()}
+  else{clearTimeout(timers[code]);timers[code]=setTimeout(()=>{if(document.activeElement?.tagName!=="TEXTAREA"){renderMain()}},1200)}
+}
+function unsavedCount(){return Object.values(edits).reduce((n,e)=>n+Object.keys(e||{}).length,0)}
+function updateSaveBtn(){
+  const n=unsavedCount();
+  const b=$("#saveBtn");
+  if(b){b.disabled=!canWrite;b.textContent=n?("Save ("+n+")"):"Save";b.classList.add("dirty")}
+  const f=$("#fabSave");
+  if(f){f.hidden=!canWrite||!current;f.textContent=n?("Save "+n+" change"+(n===1?"":"s")):"Save";f.classList.toggle("has",!!n)}
+  const bar=$("#savebar");
+  if(bar){bar.hidden=!n||!canWrite;$("#sbCount").textContent=n+" change"+(n===1?"":"s");
+    const codes=Object.keys(edits).filter(c=>Object.keys(edits[c]||{}).length);$("#sbWhere").textContent=codes.length?" in "+codes.join(", "):"";}
+  setSave(n?"saving":"",n?"Not saved yet":"");
+}
+function toast(msg,kind){const t=$("#toast");t.textContent=msg;t.className="toast "+(kind||"");t.hidden=false;clearTimeout(toast._t);toast._t=setTimeout(()=>{t.hidden=true},7000)}
+async function saveAll(){
+  const codes=Object.keys(pending);if(!codes.length){toast("✓ Everything is saved. Change a line, then press Save.","ok");return}
+  const n=unsavedCount();
+  const b=$("#saveBtn");if(b){b.disabled=true;b.textContent="Saving…"}
+  const sb=$("#sbBtn");if(sb){sb.disabled=true;sb.textContent="Saving…"}
+  for(const c of codes)await flush(c);
+  if(sb){sb.disabled=false;sb.textContent="Save & teach the agents"}
+  updateSaveBtn();
+  if(!unsavedCount()){setSave("","Saved");toast("✓ Saved. "+n+" change"+(n===1?"":"s")+" sent to the agents to learn from.","ok")}
+  else toast("Some changes didn't save. Press Save again.","err");
+}
+window.addEventListener("keydown",e=>{if((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==="s"){e.preventDefault();saveAll()}});
+window.addEventListener("beforeunload",e=>{if(unsavedCount()){e.preventDefault();e.returnValue=""}});
+async function flush(code){
+  if(!db||!pending[code])return;
+  if(saving[code]){timers[code]=setTimeout(()=>flush(code),400);return}
+  saving[code]=true;const body=pending[code];const ed=edits[code];
+  try{
+    await db.collection("scripts").doc(code).set(body);
+    if(ed&&Object.keys(ed).length){
+      const ref=db.collection("edits").doc(code);const snap=await ref.get();
+      const log=(snap.exists?(snap.data().log||[]):[]).concat(Object.values(ed)).slice(-400);
+      await ref.set({code,log});
+    }
+    if(pending[code]===body){delete pending[code];edits[code]={}}
+  }catch(e){setSave("err",e&&e.code==="quota_exceeded"?"Storage full: tell Claude":"Couldn't save. Press Save again.");if(e&&e.code==="invalid_argument"){canWrite=false;renderMain()}}
+  finally{saving[code]=false}
+}
+function setSave(cls,txt){const s=$("#save");if(s){s.className="save "+cls;s.textContent=txt}}
+
+function copyScript(){
+  const s=pending[current]||scripts[current];if(!s)return;
+  const txt=["HOOKS",...(s.script.hooks||[]).map(h=>h.label+". "+h.text),"","SCRIPT",...(s.script.lines||[]).map((l,i)=>(i+1)+". "+l.text)].join("\n");
+  const ok=()=>setSave("","Copied");
+  if(navigator.clipboard)navigator.clipboard.writeText(txt).then(ok).catch(()=>setSave("err","Copy blocked here. Select the text instead."));
+}
+
+// ---------- boot ----------
+$("#sbBtn").addEventListener("click",saveAll);
+$("#fabSave").addEventListener("click",saveAll);
+renderRail();renderMain();
+(async()=>{
+  try{db=await window.claude?.use?.("db")}catch(e){db=null}
+  try{user=await window.claude?.use?.("user")}catch(e){user=null}
+  if(user){try{const cw=await user.can("data.write");if(cw===false)canWrite=false}catch(e){}}
+  if(!db){canWrite=false;$("#main").replaceChildren(el("div",{class:"panel blank"},el("h3",{text:"Open this in Claude"}),el("p",{text:"The scripts live in this page's shared store, which only loads inside the Claude app."})));return}
+  db.collection("scripts").onSnapshot(snap=>{
+    const next={};snap.docs.forEach(d=>{next[d.id]=d.data()});
+    scripts=next;
+    const focused=document.activeElement&&document.activeElement.tagName==="TEXTAREA";
+    renderRail();if(!(focused&&pending[current]))renderMain();
+  },err=>{setSave("err","Lost connection to the store. Reload the page.")});
+})();
+</script>

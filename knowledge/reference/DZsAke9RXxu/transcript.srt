@@ -1,0 +1,28 @@
+1
+00:00:00,000 --> 00:00:05,580
+ If you're trying to use AI to trade, don't think of it as building one trading bot.
+
+2
+00:00:06,300 --> 00:00:09,680
+ Think of it as three layers that need to integrate and work together.
+
+3
+00:00:10,200 --> 00:00:13,080
+ Layer 1 is the analysts. It's going to be this repo.
+
+4
+00:00:13,940 --> 00:00:17,420
+ Layer 2 is going to be the agentic framework. That's this repo.
+
+5
+00:00:18,320 --> 00:00:22,120
+ And the third layer is going to be the data layer. And that's this repo.
+
+6
+00:00:22,660 --> 00:00:29,120
+ I would start with these three tools in paper trading, test out a few different strategies, and see how they perform.
+
+7
+00:00:29,640 --> 00:00:34,180
+ comment AI and I'll send you over the repo links plus a setup guide.
+

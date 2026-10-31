@@ -1,0 +1,19 @@
+{
+  "code": "J028",
+  "log": [
+    {
+      "after": "I ranked 6 AI trading chatbots from S to F, so you don't have to.",
+      "at": 1793120318205,
+      "before": "I ranked 6 AI chatbots for trading from S to F, so you don't have to.",
+      "part": "hook",
+      "ref": "Hook"
+    },
+    {
+      "after": "Your job is the thinking of a strategy. The code shouldn't be your biggest obstacle.",
+      "at": 1793120465926,
+      "before": "Your job is the strategy. The code shouldn't be your problem.",
+      "part": "line",
+      "ref": "10"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+source: https://www.instagram.com/reel/Dee4vsiTE_1/
+duration_s: 78.505215
+uploader: Markus.ai.quant
+channel: markus_ai_quant
+upload_date: 20261014
+like_count: 4
+comment_count: 0
+title: Video by markus_ai_quant
+description: Men trade more than woman and it is costing them money! #algotrading #aitrading #quant #trading

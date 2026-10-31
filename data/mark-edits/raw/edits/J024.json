@@ -1,0 +1,26 @@
+{
+  "code": "J024",
+  "log": [
+    {
+      "after": "Researchers at Tsinghua University just built a tool thats changing the way quants trade.",
+      "at": 1792945350285,
+      "before": "My team at TQX built an AI called Qube.",
+      "part": "line",
+      "ref": "1"
+    },
+    {
+      "after": "It allows you to build a trading strategy from natural language, optimise until you are happy with the results, simulate on real markets and go live. All in one eco system",
+      "at": 1792945405179,
+      "before": "And it allows you to build a trading strategy from natural language.",
+      "part": "line",
+      "ref": "2"
+    },
+    {
+      "after": "And getting started? Completely free",
+      "at": 1792945434885,
+      "before": "And getting started? Completely free, no card needed.",
+      "part": "line",
+      "ref": "12"
+    }
+  ]
+}

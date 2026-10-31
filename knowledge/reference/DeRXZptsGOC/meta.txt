@@ -1,0 +1,27 @@
+source: https://www.instagram.com/p/DeRXZptsGOC/
+duration_s: 54.933333
+uploader: Ashton Voss | AI Systems
+channel: ashtonv.ai
+upload_date: 20261009
+like_count: 8715
+comment_count: 20325
+title: Video by ashtonv.ai
+description: Comment "GROK" and I'll send you the full 6-bot trading desk setup.
+
+Grok might have just killed day trading.
+
+People are putting six Grok Bots into one group chat and letting them trade. One guy says he turned $87 into $8,000. Another claims $90 into $14,000.
+
+No single bot does it alone:
+
+The Scout watches the markets for big moves
+The News bot finds out why it's moving
+The Chart bot picks the entry, the exit and the stop
+The Skeptic argues against every single trade and tells the desk to buy, wait or skip
+So no bad idea gets past it before any money moves. And it all runs on its own cloud computer, 24/7.
+
+Comment "GROK" and I'll send it right over.
+
+Results shown are self-reported by the posters, not verified. Not financial advice.
+
+#grok #grokbot #aiagents #aitrading #tradingbot

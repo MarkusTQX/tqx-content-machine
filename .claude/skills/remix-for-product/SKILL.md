@@ -1,0 +1,92 @@
+---
+name: remix-for-product
+description: How to take a hot video Mark found (already broken down into a lesson card) and rebuild it for TQX - keep the original's hook word for word, then follow its structure, beat order, engine and rhythm inside the 35–60s hard limit with every body line written fresh in TQX's voice for Qube (never the original creator's sentences copied or lightly reworded), and end on the standard keyword CTA; never copy footage. Use after video-breakdown, whenever turning a reference or competitor video into a TQX remix brief.
+---
+
+# Remix for product
+
+## The method (Mark, Oct 27): copy the hook, write the body fresh
+
+Mark, Oct 27: "you're not just rewriting the hooks word for word. You have now drifted into copying the entire script word for word. That is not acceptable." This replaces the Oct 23 method ("copy the transcript line by line and slip Qube in").
+
+1. **The hook is the only thing copied.** Use the original's hook word for word (`hook-writing` #7). Swap only what isn't true for us.
+2. **The body follows the original, line for line in shape, not in words.** Keep its structure, its beat order, its engine (Step 1) and its rhythm. Length is 35–60 seconds, aiming for about 40–50, a hard limit (`script-logic` #10, Mark Oct 27): if the original runs longer, cut it to its strongest beats; never match a longer original's length. Each of our lines does the same job as the original's line at that point: the same setup, the same re-hook, the same reveal, at the same time.
+3. **Every body line is written fresh**, in TQX's voice (`tqx-voice`, `spoken-sentence-rules`), about Qube or the trading problem it solves (`product-truth-qube`, `claims-and-proof`). Never the original creator's sentence, copied or lightly reworded (a word or two swapped, the same frame with our noun in it). If you can lay our line over theirs and read the same sentence, write it again.
+4. **Qube goes where the original shows its tool or makes its claim.** Don't tack product facts onto a line that doesn't need them (Mark, J024 line 12: "And getting started? Completely free").
+5. **End on the standard CTA** (`cta-and-offer`: "Comment QUBE and I'll send you the link for the free sign-up."), not the original's.
+6. **Beat map:** `Time | Original beat (what it does) | Our line (fresh)`. Describe what the original's line does, not its words. The hook is the only row that quotes the original.
+
+| Original (body line) | Bad: copied / lightly reworded | Fixed: same job, fresh line |
+|---|---|---|
+| "click on their profile, you can see their win rate and how profitable they are" (J033, @copyandrea) | "Click on backtest, you can see every trade and how profitable it would've been." (her frame, our nouns) | Same beat (step 2 of 3: open it, see the proof), written new for Joshua: "Hit backtest, and it shows you every trade it would've made." |
+| "if you go on this website here, you can find many millionaires" | "If you go on this website here, you can just type out a strategy in plain English." | "This is Qube. I just type what I'd trade, in plain English." |
+
+The hook example (J021, from @joe.investss): the original's hook, word for word, with only the untrue number swapped for our own test: "If you bought Micron every day when the market closed and sold it the next morning when it opened, since 1990, you'd be up over 138 million percent." Everything after the hook is written fresh.
+
+What can't be copied: their footage, their body lines (only the hook), and any claim that's false for us.
+
+The idea comes from the video Mark found. You don't invent a topic. You keep the engine of that video and rebuild it around something true about Qube, GATC, or the trading problem they solve.
+
+Input: a lesson card from `video-breakdown`. Output: a remix brief (template below) that the Scriptwriter turns into a script.
+
+## Step 1: name the engine
+
+Write down, in one line each, what made the original work:
+- **Format:** e.g. a ranking from F to S, a countdown build, "day X of trying...", a myth checked against a number.
+- **Hook mechanic:** e.g. a number in the first three words, "you won't like where X landed", a confession.
+- **Viewer payoff:** what they walk away with (a ranking they can argue with, a tool they can try, a result, a warning).
+- **Pacing:** seconds per beat, where the open loop sits, where the payoff lands.
+
+## Step 2: find the true TQX version
+
+- Keep the format, hook mechanic, payoff type and pacing.
+- Replace the subject with something true from `product-truth-qube`, `product-truth-gatc`, or a sourced fact from `claims-and-proof`.
+- The viewer must get the same kind of payoff. If the original gave them a tool they could try, the remix gives them one too.
+- Pick one persona from `audience-profile` and say why they'd care.
+- Product only where it earns it: if Qube or GATC fits the payoff naturally, it goes in the last two lines. If it doesn't, leave it out. Demo, build and "new power" videos are the exception: Qube goes where the original shows its tool (see `cta-and-offer`).
+
+## Step 3: what you must not copy
+
+| Never copy | Why |
+|---|---|
+| Their footage, screenshots or edits | Ownership |
+| Their claims or results | Unverified; often overclaims |
+| Their product's features, attributed to ours | False |
+
+| Bad remix | Fixed remix |
+|---|---|
+| Same script, "their app" swapped for "Qube" | Same F-to-S ranking format, but ranking real tools people use to build strategies, each described from its own website, with the ranking marked as opinion |
+| Keeps the original's "$89 → $68,024" style result | Uses a real, labeled backtest, or no result at all |
+
+## Worked example (the format that's performed best for us so far)
+
+- **Reference:** a tier-list ranking video (F to S).
+- **Engine:** six items ranked, a controversial placement teased in the hook, each item gets one line and one logo, the last slot is the reveal.
+- **TQX version:** "Quant trading tools, ranked S to F." ChatGPT in F, Excel in D, MetaTrader in C, TradingView in B, QuantConnect in A, Qube in S. "And yes, I'm biased. We built one." Each tool described from its own site; the ranking marked as opinion.
+- **Payoff:** a ranking the viewer can argue with, and a tool they can try.
+- **CTA:** "Disagree? Drop your tier list in the comments. Or comment QUBE and I'll send you the free link and a step-by-step on building your first strategy."
+
+## The remix brief
+
+```
+# Remix brief: [working title]
+Original: [lesson card file] · [link]
+Engine: format / hook mechanic / payoff / pacing (one line each)
+Persona: [one] · Why they care: [one line]
+TQX angle: [what's true, and from which skill or source]
+Viewer walks away with: [the payoff]
+Product: [Qube / GATC / none] · Why it fits: [one line]
+Hook: [the original's, word for word; only untrue words swapped]
+Beats: [timestamped outline matching the original's pacing]
+Facts needed: [each with its source from claims-and-proof, or "needs sourcing"]
+Visuals needed: [screens and shots that exist, per broll-sourcing]
+Don't copy: [anything specific from the original to stay away from]
+```
+
+## Checks
+
+- Does the remix keep the engine, not just the topic?
+- Is every product statement in a product-truth skill?
+- Is every number in `claims-and-proof`?
+- Did we copy their footage? If yes, replace it with our own.
+- Is the hook the original's, word for word, and is every other line written fresh? Any body line that copies or lightly rewords the original's sentence fails (Mark, Oct 27).

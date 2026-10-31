@@ -1,0 +1,124 @@
+1
+00:00:00,400 --> 00:00:03,520
+ If you're asking ChatGPT what stock to buy, you're cooked.
+
+2
+00:00:03,520 --> 00:00:10,240
+ A survey found 26% of Americans have used an AI chatbot to ask for financial advice.
+
+3
+00:00:10,240 --> 00:00:12,800
+ About a quarter of them actually did what it told them.
+
+4
+00:00:12,800 --> 00:00:17,440
+ And of the people who acted on it, 29% says it hurt their finances.
+
+5
+00:00:17,440 --> 00:00:20,480
+ Why? Because most people ask the wrong question.
+
+6
+00:00:20,480 --> 00:00:21,360
+ What should I buy?
+
+7
+00:00:21,360 --> 00:00:24,320
+ That's like asking a builder which house you should live in.
+
+8
+00:00:24,320 --> 00:00:26,000
+ They don't know anything about your life.
+
+9
+00:00:26,000 --> 00:00:27,680
+ But a builder is great as something else.
+
+10
+00:00:27,680 --> 00:00:31,680
+ You bring them a plan, they check it, they fix it, and then they build it.
+
+11
+00:00:31,680 --> 00:00:33,280
+ So use AI like a builder.
+
+12
+00:00:33,280 --> 00:00:36,160
+ You bring in your idea, not your wallet.
+
+13
+00:00:36,160 --> 00:00:37,520
+ Here are three prompts.
+
+14
+00:00:37,520 --> 00:00:41,840
+ Prompt 1: Turn my ideas into exact rules.
+
+15
+00:00:41,840 --> 00:00:43,040
+ When do I buy?
+
+16
+00:00:43,040 --> 00:00:43,840
+ When do I sell?
+
+17
+00:00:44,480 --> 00:00:46,000
+ How much do I put in?
+
+18
+00:00:46,000 --> 00:00:47,680
+ And how much do I cut losses?
+
+19
+00:00:47,680 --> 00:00:49,520
+ That's your plan on paper.
+
+20
+00:00:49,520 --> 00:00:51,600
+ No more it looks cheap, just numbers.
+
+21
+00:00:52,160 --> 00:00:55,600
+ Prompt 2: Find holes in my ideas.
+
+22
+00:00:55,600 --> 00:00:57,040
+ Make it argue against you.
+
+23
+00:00:57,040 --> 00:00:59,760
+ Ask it what market conditions will break my idea.
+
+24
+00:00:59,760 --> 00:01:03,520
+ That's the builder telling you the wall won't hold before you move it.
+
+25
+00:01:03,520 --> 00:01:05,840
+ Prompt 3: Ask it to turn it into code.
+
+26
+00:01:05,840 --> 00:01:09,200
+ Now your rules can be tested against past prices.
+
+27
+00:01:09,200 --> 00:01:10,880
+ That's called a backtest.
+
+28
+00:01:10,880 --> 00:01:13,120
+ You own the idea, AI builds it.
+
+29
+00:01:13,120 --> 00:01:16,000
+ Now, you more than likely won't have access to historical data.
+
+30
+00:01:16,000 --> 00:01:18,880
+ And that's okay, because I can give you free access.
+
+31
+00:01:18,880 --> 00:01:20,880
+ Just comment Q and I'll send it over.
+

@@ -1,0 +1,56 @@
+1
+00:00:00,000 --> 00:00:06,500
+ If you bought Micron stock every day at market close and sold it at market open, you'd be up 138 million percent.
+
+2
+00:00:06,940 --> 00:00:10,340
+ What if you did the opposite, bought it every day at open and sold it at close?
+
+3
+00:00:10,520 --> 00:00:12,200
+ You'd be down 99 percent.
+
+4
+00:00:12,340 --> 00:00:16,760
+ A researcher at the London School of Economics found this crazy phenomenon happening across hundreds of stocks
+
+5
+00:00:16,760 --> 00:00:20,820
+ where you're statistically most likely to profit if you buy at close and sell at open.
+
+6
+00:00:20,940 --> 00:00:21,360
+ But why?
+
+7
+00:00:21,700 --> 00:00:24,460
+ This is because there's two groups of traders trading at different times.
+
+8
+00:00:24,780 --> 00:00:26,640
+ Individuals trade as soon as the market opens,
+
+9
+00:00:26,640 --> 00:00:30,380
+ while sophisticated hedge funds trade later in the day when there's more liquidity
+
+10
+00:00:30,380 --> 00:00:32,900
+ and they know they can get in at a more profitable price.
+
+11
+00:00:33,040 --> 00:00:34,780
+ In other words, if you're selling at market close,
+
+12
+00:00:34,980 --> 00:00:37,920
+ you might be missing the most profitable window happening overnight.
+
+13
+00:00:38,220 --> 00:00:41,580
+ Send this to a friend who loves to trade as soon as the market opens to maybe save them
+
+14
+00:00:41,580 --> 00:00:43,760
+ and make sure to follow for more investing breakdowns.
+

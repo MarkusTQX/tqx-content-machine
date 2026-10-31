@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TQX Content Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#07080f;--panel:#10132a;--line:#2b3170;--ink:#f2f4ff;--muted:#8a90c0;--gold:#ffd23f;--green:#3cff8f;--red:#ff4d6d;--cyan:#38e1ff;--pink:#ff5bd6}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font-family:"Press Start 2P",monospace}
+body{padding:12px;min-height:100vh;background:radial-gradient(ellipse at top,#16124a 0%,var(--bg) 60%)}
+.hud{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:10px}
+.logo{font-size:16px;color:#fff;text-shadow:0 0 6px var(--pink),0 0 16px var(--pink),3px 3px 0 #3a0a4a;letter-spacing:2px}
+.logo small{display:block;font-size:8px;color:var(--cyan);text-shadow:0 0 6px var(--cyan);margin-top:6px;letter-spacing:3px}
+.score{display:flex;gap:8px;flex-wrap:wrap}
+.score div{border:2px solid var(--line);background:var(--panel);padding:7px 10px;font-size:9px;color:var(--muted)}
+.score b{display:block;color:var(--gold);font-size:13px;margin-top:4px}
+.stage{position:relative;border:4px solid var(--line);box-shadow:0 0 0 4px #000,0 0 40px rgba(56,225,255,.15);background:#000}
+canvas{display:block;width:100%;height:auto;image-rendering:pixelated;image-rendering:crisp-edges;cursor:pointer}
+.scan{pointer-events:none;position:absolute;inset:0;background:repeating-linear-gradient(0deg,rgba(0,0,0,.18) 0 1px,transparent 1px 3px)}
+.bottom{display:grid;grid-template-columns:1.2fr 1fr;gap:10px;margin-top:10px}
+@media(max-width:860px){.bottom{grid-template-columns:1fr}}
+.box{border:2px solid var(--line);background:var(--panel);padding:10px;min-height:150px}
+.box h3{margin:0 0 8px;font-size:9px;color:var(--cyan);letter-spacing:2px}
+#term{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--green);line-height:1.45;white-space:pre-wrap;word-break:break-word;max-height:180px;overflow:auto}
+#term .h{color:var(--gold)}
+#feed{font-family:"JetBrains Mono",monospace;font-size:12px;line-height:1.5;max-height:180px;overflow:auto;color:#cfd3ff}
+#feed .t{color:var(--muted)}
+.hint{font-size:8px;color:var(--muted);margin-top:8px;line-height:1.6}
+</style>
+</head>
+<body>
+<div class="hud">
+  <div class="logo">TQX CONTENT STUDIO<small>▶ AGENTS AT WORK · LIVE</small></div>
+  <div class="score">
+    <div>IN PROD<b id="sProd">0</b></div>
+    <div>APPROVED<b id="sOk">0</b></div>
+    <div>SENT BACK<b id="sBack">0</b></div>
+    <div>TIME<b id="clock">--:--</b></div>
+  </div>
+</div>
+<div class="stage"><canvas id="c" width="960" height="560"></canvas><div class="scan"></div></div>
+<div class="bottom">
+  <div class="box"><h3 id="termTitle">▶ CLICK AN AGENT TO SEE THEIR SCREEN</h3><div id="term">Nobody selected.</div></div>
+  <div class="box"><h3>▶ ACTIVITY LOG</h3><div id="feed">Quiet so far.</div><div class="hint">Agents line up at the board when a batch starts, carry scripts between desks, and type while they work. Idle agents grab coffee.</div></div>
+</div>
+<script>
+const W=960,H=560,S=3; // pixel scale for sprites
+const cv=document.getElementById("c"),g=cv.getContext("2d");g.imageSmoothingEnabled=false;
+const FONT='8px "Press Start 2P"';
+const DESKS={
+  director:{x:150,y:205,room:[50,140,250,125],label:"DIRECTOR'S OFFICE"},
+  analyst:{x:810,y:205,room:[700,140,210,125],label:"EDIT BAY"},
+  scriptwriter:{x:200,y:420,label:"WRITERS ROOM"},
+  "script-critic":{x:760,y:420,label:"REVIEW DESK"},
+  producer:{x:480,y:455,label:"CONTROL"}
+};
+const SPOTS={coffee:{x:905,y:330},cooler:{x:45,y:330},couch:{x:480,y:300},arcade:{x:900,y:500},plant:{x:60,y:500},window:{x:300,y:160}};
+const CREW=[
+ {id:"director",name:"MAX",role:"DIRECTOR",shirt:"#3b82f6",hair:"#3a2a1f",skin:"#f1c9a5"},
+ {id:"scriptwriter",name:"INK",role:"WRITER",shirt:"#ffd23f",hair:"#a0522d",skin:"#f1c9a5"},
+ {id:"script-critic",name:"REDPEN",role:"CRITIC",shirt:"#ff4d6d",hair:"#1b1b1b",skin:"#e0b896"},
+ {id:"analyst",name:"FRAME",role:"ANALYST",shirt:"#a855f7",hair:"#111",skin:"#c99a78"},
+ {id:"producer",name:"CLAUDE",role:"PRODUCER",shirt:"#3cff8f",hair:"#d9764a",skin:"#f6d3b3"}
+];
+const NEXT={brief:"scriptwriter",outline:"scriptwriter",script:"script-critic",review:"director",approval:"producer"};
+const agents={};
+CREW.forEach((c,i)=>{const d=DESKS[c.id];agents[c.id]=Object.assign({},c,{x:d.x+(i*7%20),y:d.y+44,tx:d.x,ty:d.y+44,mode:"wander",working:false,carry:null,wait:Math.random()*120,frame:0,face:1,bubble:"",bubbleT:0,inbox:0,status:"idle",msg:"",code:""})});
+let state=null,seen={},first=true,selected=null,formationUntil=0,videosKnown=0,t=0;
+
+// ---------- drawing helpers ----------
+function px(x,y,w,h,c){g.fillStyle=c;g.fillRect(Math.round(x),Math.round(y),w,h)}
+function text(s,x,y,c,align){g.font=FONT;g.textAlign=align||"left";g.fillStyle="#000";g.fillText(s,x+1,y+1);g.fillStyle=c;g.fillText(s,x,y)}
+function drawFloor(){
+  for(let y=120;y<H;y+=20)for(let x=0;x<W;x+=20)px(x,y,20,20,((x+y)/20)%2?"#151a3a":"#121632");
+  // walls
+  px(0,0,W,120,"#1d1550");px(0,112,W,8,"#0c0a2a");
+  // window skyline (left)
+  px(20,18,240,80,"#0b0f2e");for(let i=0;i<24;i++){const h=20+((i*37)%50);px(22+i*10,98-h,9,h,"#05071a");for(let j=0;j<3;j++){if(((i*7+j*13+Math.floor(t/90))%5)==0)px(24+i*10+(j%2)*4,98-h+6+j*10,2,2,"#ffd86b")}}
+  px(232,26,12,12,"#f3e9c6");
+  // neon sign (right)
+  g.font='14px "Press Start 2P"';g.textAlign="center";const flick=(t%400)<380?1:0.4;g.globalAlpha=flick;g.fillStyle="#ff5bd6";g.shadowColor="#ff5bd6";g.shadowBlur=14;g.fillText("TQX STUDIO",800,62);g.shadowBlur=0;g.globalAlpha=1;
+  g.font=FONT;g.fillStyle="#38e1ff";g.fillText("CONTENT MACHINE",800,84);
+  // rooms (glass)
+  ["director","analyst"].forEach(k=>{const r=DESKS[k].room;g.fillStyle="rgba(56,225,255,0.06)";g.fillRect(...r);g.strokeStyle="rgba(56,225,255,0.45)";g.lineWidth=2;g.strokeRect(r[0],r[1],r[2],r[3]);text(DESKS[k].label,r[0]+6,r[1]+12,"#38e1ff")});
+  text(DESKS.scriptwriter.label,DESKS.scriptwriter.x-60,DESKS.scriptwriter.y-40,"#ffd23f");
+  text(DESKS["script-critic"].label,DESKS["script-critic"].x-60,DESKS["script-critic"].y-40,"#ff4d6d");
+  text(DESKS.producer.label,DESKS.producer.x-30,DESKS.producer.y+75,"#3cff8f");
+  // props
+  const cf=SPOTS.coffee;px(cf.x-12,cf.y-30,24,30,"#444a6a");px(cf.x-8,cf.y-24,16,8,"#1a1a1a");px(cf.x-3,cf.y-10,6,6,"#fff");if(t%60<40)px(cf.x-1,cf.y-18-(t%40)/6,2,4,"rgba(255,255,255,.5)");text("COFFEE",cf.x-24,cf.y+12,"#8a90c0");
+  const co=SPOTS.cooler;px(co.x-8,co.y-34,16,14,"#7fd4ff");px(co.x-10,co.y-20,20,22,"#d9dde8");text("H2O",co.x-12,co.y+12,"#8a90c0");
+  const ar=SPOTS.arcade;px(ar.x-16,ar.y-44,32,44,"#2b1b6b");px(ar.x-12,ar.y-40,24,16,["#ff5bd6","#38e1ff","#ffd23f"][Math.floor(t/30)%3]);px(ar.x-10,ar.y-18,4,4,"#ff4d6d");px(ar.x+4,ar.y-18,4,4,"#3cff8f");
+  const pl=SPOTS.plant;px(pl.x-8,pl.y-8,16,10,"#8b5a2b");px(pl.x-12,pl.y-26,8,18,"#2fbf5f");px(pl.x-2,pl.y-32,6,24,"#3cff8f");px(pl.x+6,pl.y-24,8,16,"#2fbf5f");
+  const cu=SPOTS.couch;px(cu.x-50,cu.y-14,100,22,"#5b3f8f");px(cu.x-50,cu.y-24,100,12,"#6d4fa8");text("LOUNGE",cu.x-22,cu.y+22,"#8a90c0");
+}
+function drawBoard(){
+  const x=300,y=10,w=420,h=100;px(x-4,y-4,w+8,h+8,"#9aa0b8");px(x,y,w,h,"#f4f1ea");
+  g.font='7px "Press Start 2P"';g.textAlign="left";g.fillStyle="#3a3f55";g.fillText("PRODUCTION BOARD",x+8,y+12);
+  const cols=["BRIEF","OUTLN","SCRPT","REVW","APPRV"];cols.forEach((c,i)=>{g.fillStyle="#7a8099";g.fillText(c,x+72+i*68,y+26)});
+  if(!state)return;
+  state.videos.slice(0,4).forEach((v,r)=>{const ly=y+32+r*16;g.fillStyle="#1d2330";g.fillText(v.code,x+8,ly+10);
+    const nowIdx=v.stages.findIndex(s=>!s.done);
+    v.stages.forEach((s,i)=>{let col="#dfe3ea";const vd=(s.verdict||"").toLowerCase();if(s.done)col="#ffe58a";if(s.done&&vd.includes("send back"))col="#ffb4a8";if(s.done&&(vd.includes("approved")||vd.includes("ready")))col="#a7f0be";
+      px(x+70+i*68,ly,58,12,col);if(i===nowIdx&&(t%40)<24){g.strokeStyle="#e8b04b";g.lineWidth=2;g.strokeRect(x+69+i*68,ly-1,60,14)}});});
+}
+function drawDesk(id){
+  const d=DESKS[id];const a=agents[id];const on=a.working;
+  px(d.x-36,d.y+6,72,22,"#6b4a2b");px(d.x-36,d.y+6,72,4,"#8a6238"); // desk
+  px(d.x-14,d.y-14,28,20,"#1f2433");px(d.x-12,d.y-12,24,16,on?((t%20)<10?"#3cff8f":"#2bd47a"):"#0d2a1a"); // monitor
+  if(on){for(let i=0;i<3;i++){const yy=d.y-10+i*4;px(d.x-10,yy,6+((t/4+i*5)%14),2,"#06120b")}}
+  px(d.x-3,d.y+6,6,4,"#1f2433");
+  // inbox tray
+  px(d.x+22,d.y,14,8,"#c0c6d8");for(let i=0;i<Math.min(a.inbox,4);i++)px(d.x+23,d.y-2-i*2,12,2,"#fff");
+}
+function drawAgent(a){
+  const sit=a.mode==="sit";const bob=sit?0:(a.moving?((Math.floor(a.frame/8)%2)*2):Math.sin(t/20)*1);
+  const x=Math.round(a.x),y=Math.round(a.y-bob);
+  // shadow
+  g.fillStyle="rgba(0,0,0,.35)";g.fillRect(x-9,a.y+14,18,4);
+  if(!sit){const st=Math.floor(a.frame/8)%2;px(x-6,y+6,5,10+(a.moving&&st?2:0),"#2a2f4a");px(x+1,y+6,5,10+(a.moving&&!st?2:0),"#2a2f4a")}
+  px(x-8,y-10,16,16,a.shirt); // body
+  const arm=sit&&a.working?((Math.floor(t/5)%2)?-3:0):0;px(x-11,y-8+arm,3,11,a.shirt);px(x+8,y-8+(sit&&a.working?((Math.floor(t/5)%2)?0:-3):0),3,11,a.shirt);
+  px(x-6,y-22,12,12,a.skin);px(x-7,y-25,14,5,a.hair);px(x-3*a.face-1,y-17,2,2,"#111");if(!sit)px(x+3*a.face-1,y-17,2,2,"#111");
+  if(a.carry){px(x+8,y-12,12,15,"#fff");px(x+10,y-9,8,1,"#999");px(x+10,y-6,8,1,"#999");g.font='6px "Press Start 2P"';g.fillStyle="#111";g.fillText(a.carry,x+8,y+12)}
+  // name tag
+  g.font=FONT;const nm=a.name,w=g.measureText(nm).width+8;px(x-w/2,y-42,w,12,"#000");g.strokeStyle=a.shirt;g.lineWidth=1;g.strokeRect(x-w/2+.5,y-41.5,w-1,11);text(nm,x,y-33,a.shirt,"center");
+  g.font='6px "Press Start 2P"';g.textAlign="center";g.fillStyle="#8a90c0";g.fillText(a.role,x,y-46);
+  // status icon / bubble
+  if(a.working&&sit){const dots=".".repeat(1+Math.floor(t/15)%3);text(dots,x+16,y-26,"#fff")}
+  if(a.bubble&&a.bubbleT>0){g.font=FONT;const bw=Math.min(200,g.measureText(a.bubble).width+12);const bx=Math.min(W-bw-4,Math.max(4,x-bw/2)),by=y-74;px(bx,by,bw,18,"#fff");px(x-3,by+18,6,4,"#fff");g.fillStyle="#111";g.textAlign="left";g.fillText(a.bubble.slice(0,24),bx+6,by+12)}
+  if(selected===a.id){g.strokeStyle="#ffd23f";g.lineWidth=2;g.strokeRect(x-14,y-50,28,72)}
+}
+// ---------- behaviour ----------
+function goTo(a,x,y,mode){a.tx=x;a.ty=y;a.next=mode}
+function pickWander(a){const keys=Object.keys(SPOTS);const k=keys[Math.floor(Math.random()*keys.length)];const s=SPOTS[k];goTo(a,s.x+(Math.random()*30-15),s.y+20+Math.random()*10,"idle")}
+function say(a,s,frames){a.bubble=s;a.bubbleT=frames||180}
+function update(){
+  const now=Date.now();
+  CREW.forEach((c,i)=>{const a=agents[c.id];const d=DESKS[a.id];
+    if(now<formationUntil){const fx=380+i*50,fy=150;if(a.tx!==fx||a.ty!==fy){goTo(a,fx,fy,"idle");a.mode="walk"}}
+    else if(a.carry&&a.mode!=="walk"&&a.delivered){a.carry=null;a.delivered=false}
+    else if(a.working&&!a.carry){if(a.mode!=="sit"&&(a.tx!==d.x||a.ty!==d.y-8)){goTo(a,d.x,d.y-8,"sit");a.mode="walk"}}
+    else if(!a.carry&&(a.mode==="idle"||a.mode==="sit")&&!a.working){a.wait--;if(a.wait<=0){pickWander(a);a.mode="walk";a.wait=180+Math.random()*360}}
+    // move
+    const dx=a.tx-a.x,dy=a.ty-a.y,dist=Math.hypot(dx,dy);
+    if(dist>1.5){const sp=a.carry?1.8:1.4;a.x+=dx/dist*sp;a.y+=dy/dist*sp;a.moving=true;a.frame++;if(Math.abs(dx)>.5)a.face=dx>0?1:-1;if(a.mode==="sit")a.mode="walk"}
+    else{a.moving=false;if(a.mode==="walk"){a.mode=a.next||"idle";if(a.carry&&a.deliverTo){agents[a.deliverTo].inbox++;say(agents[a.deliverTo],"GOT "+a.carry+"!",120);a.delivered=true;a.deliverTo=null;a.mode="idle";a.wait=40}}}
+    if(a.bubbleT>0)a.bubbleT--;
+  });
+}
+function handoff(from,to,label){const a=agents[from],b=agents[to];if(!a||!b||from===to){if(b)say(b,label+" NEXT",120);return}
+  a.carry=label;a.deliverTo=to;goTo(a,DESKS[to].x+40,DESKS[to].y+44,"idle");a.mode="walk";say(a,"TAKING "+label,140)}
+// ---------- data ----------
+function esc(s){return (s||"").replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]))}
+async function poll(){
+  let s;try{s=await (await fetch("/status",{cache:"no-store"})).json()}catch(e){return}
+  state=s;let prod=0,ok=0,back=0;
+  if(s.videos.length>videosKnown){if(!first)formationUntil=Date.now()+6000;else if(s.videos.length&&s.videos.every(v=>!v.stages.some(x=>x.done)))formationUntil=Date.now()+6000;videosKnown=s.videos.length;if(Date.now()<formationUntil)CREW.forEach(c=>say(agents[c.id],"KICKOFF!",160))}
+  s.videos.forEach(v=>{v.stages.forEach(st=>{const k=v.code+":"+st.stage;if(st.done&&!seen[k]){seen[k]=1;if(!first)handoff(st.agent,NEXT[st.stage],v.code)}});
+    const ap=v.stages[4];const av=(ap.verdict||"").toLowerCase();if(ap.done&&av.includes("approved"))ok++;else prod++;
+    if(v.stages[3].done&&(v.stages[3].verdict||"").toLowerCase().includes("send back"))back++});
+  first=false;
+  CREW.forEach(c=>{const a=agents[c.id];const ev=s.agents[c.id];const mon=s.monitors[c.id];
+    const w=(ev&&ev.state==="working")||(mon&&mon.fresh);
+    if(w&&!a.working)say(a,ev?ev.msg.toUpperCase().slice(0,24):"ON IT",160);
+    a.working=!!w;if(ev){a.msg=ev.msg;a.code=ev.code;a.status=ev.state}});
+  document.getElementById("sProd").textContent=prod;document.getElementById("sOk").textContent=ok;document.getElementById("sBack").textContent=back;
+  document.getElementById("feed").innerHTML=s.events.slice().reverse().map(e=>`<div><span class="t">${new Date(e.t*1000).toLocaleTimeString([], {hour:"2-digit",minute:"2-digit"})}</span> ${esc((CREW.find(c=>c.id===e.agent)||{name:e.agent}).name)} · ${esc(e.code)} · ${esc(e.msg)}</div>`).join("")||"Quiet so far.";
+  renderTerm();
+}
+function renderTerm(){if(!selected||!state)return;const a=agents[selected];const mon=state.monitors[selected];
+  document.getElementById("termTitle").textContent="▶ "+a.name+" · "+a.role+" · "+(a.working?"WORKING":a.status.toUpperCase());
+  document.getElementById("term").innerHTML=(a.msg?`<span class="h">${esc(a.code)} · ${esc(a.msg)}</span>\n\n`:"")+(mon?`<span class="h">${esc(mon.code)}/${esc(mon.file)}</span>\n`+mon.lines.map(esc).join("\n"):"No file open yet.")}
+cv.addEventListener("click",e=>{const r=cv.getBoundingClientRect();const x=(e.clientX-r.left)*W/r.width,y=(e.clientY-r.top)*H/r.height;
+  let best=null,bd=40;CREW.forEach(c=>{const a=agents[c.id];const d=Math.hypot(a.x-x,a.y-15-y);if(d<bd){bd=d;best=c.id}});if(best){selected=best;renderTerm()}});
+// ---------- loop ----------
+function frame(){t++;update();g.clearRect(0,0,W,H);drawFloor();drawBoard();
+  const items=[];Object.keys(DESKS).forEach(k=>items.push({y:DESKS[k].y+10,draw:()=>drawDesk(k)}));
+  CREW.forEach(c=>{const a=agents[c.id];items.push({y:a.mode==="sit"?DESKS[c.id].y+9:a.y,draw:()=>drawAgent(a)})});
+  items.sort((p,q)=>p.y-q.y).forEach(i=>i.draw());
+  // hiring silhouettes
+  ["PRODUCTION","B-ROLL","LIBRARIAN","SCOUT","ANALYTICS","RETENTION","UPDATER"].forEach((n,i)=>{const x=330+i*48,y=540;g.globalAlpha=.35;px(x-6,y-18,12,12,"#8a90c0");px(x-4,y-26,8,8,"#8a90c0");g.globalAlpha=1;g.font='5px "Press Start 2P"';g.textAlign="center";g.fillStyle="#5b6190";g.fillText(n,x,y+2)});
+  g.font='6px "Press Start 2P"';g.textAlign="left";g.fillStyle="#5b6190";g.fillText("COMING SOON:",240,526);
+  document.getElementById("clock").textContent=new Date().toLocaleTimeString([], {hour:"2-digit",minute:"2-digit"});
+  requestAnimationFrame(frame)}
+document.fonts.load('8px "Press Start 2P"').finally(()=>{poll();setInterval(poll,2000);frame()});
+</script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+1
+00:00:00,000 --> 00:00:03,840
+ Claude can now automatically copy the trades of Wall Street insiders, and you can set this
+
+2
+00:00:03,840 --> 00:00:08,440
+ entire thing up inside Claude. First, connect LiquidTrade, which lets Claude interact with
+
+3
+00:00:08,440 --> 00:00:12,280
+ stocks, crypto, forex, and even prediction markets. Then connect it to QuiverQuant. This
+
+4
+00:00:12,280 --> 00:00:16,940
+ gives Claude access to data showing what insiders and politicians and even major investors are
+
+5
+00:00:16,940 --> 00:00:20,880
+ actually buying and selling. Now here's where it gets crazy. You can create a routine that has
+
+6
+00:00:20,880 --> 00:00:24,840
+ Claude automatically check those trades throughout the day, compare them against your portfolio,
+
+7
+00:00:25,040 --> 00:00:29,840
+ and find any new positions worth looking at. When it finds one, Claude can send you the trade,
+
+8
+00:00:29,840 --> 00:00:34,100
+ explain what happened, and ask for your approval. Approve it, and Claude can execute the trade
+
+9
+00:00:34,100 --> 00:00:38,500
+ through LiquidTrade for you. So you're basically turned Claude into a trading agent that can research,
+
+10
+00:00:38,680 --> 00:00:42,600
+ monitor, and execute from one place. Comment signal, and I'll send you my full video showing
+
+11
+00:00:42,600 --> 00:00:43,820
+ you exactly how to build it.
+

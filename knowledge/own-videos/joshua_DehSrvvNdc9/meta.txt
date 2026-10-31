@@ -1,0 +1,9 @@
+source: https://www.instagram.com/reel/DehSrvvNdc9/
+duration_s: 71.771429
+uploader: Joshua
+channel: joshua.quant
+upload_date: 20261015
+like_count: 3
+comment_count: 0
+title: Video by joshua.quant
+description: why ai will always win#aitrading #quant #trading #jev #daytrader daytrading algotrading tqx gatc

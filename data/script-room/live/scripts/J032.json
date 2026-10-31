@@ -1,0 +1,451 @@
+{
+  "assets": {
+    "notes": [
+      "**Presenter:** Joshua. One person, one list, in video order.",
+      "**Before recording anything:**",
+      "**Shoot order:** day 1: A5 → A6 → A7 → A8. Day 2: A9 by hand → A9 with Claude → A9 read-back → A1 → A0 talking takes. A1 is filmed last because all four connectors must already be connected."
+    ],
+    "open": [
+      {
+        "done": false,
+        "id": "o1",
+        "text": "**#5 is now a calendar file (line 14, A9).** Anthropic's Google Calendar connector is read-only (\"Claude reads your calendar only; it can't create or change events\", https://claude.com/docs/connectors/google/calendar), so Claude builds the file and Joshua imports it, and the stopwatch includes the import. The connector's own job is line 15: the read-back clip (A9 step 14) is in the main cut. **Length:** trimmed to 180 words, about 59s with the number beats (Notion's \"keep your trading journal\" line and the \"every company has an earnings day\" line cut; the by-hand line tightened)."
+      },
+      {
+        "done": false,
+        "id": "o2",
+        "text": "**Alpha Vantage key:** sourced at 25 free requests a day (https://www.alphavantage.co/support/), handled by filming on two days. Joshua's new key needs saving in Bitwarden the day he gets it."
+      },
+      {
+        "done": false,
+        "id": "o3",
+        "text": "**Notion:** confirmed on https://developers.notion.com/docs/mcp (\"Read, create, and update Notion content\", \"Create pages and databases\"). Closed. The claude.ai fallback in A8 stays in case Notion doesn't show in the A7 session."
+      },
+      {
+        "done": false,
+        "id": "o4",
+        "text": "**claims-and-proof:** the Alpha Vantage, CoinGecko, Notion and Google Calendar rows have been added with today's sources (\"Claude connectors (outside tools)\")."
+      }
+    ],
+    "rows": [
+      {
+        "file": "J032_A0_aroll.mp4 · J032_A0_labels.mp4 · J032_A0_cta.mp4 · 1080×1920",
+        "how": "1. Phone vertical (9:16), eye level, office lights on, lock focus and exposure. 2. **Full take:** the hook, then lines 1–16 in one go, at a quick pace, a short beat after each number. 3. **Label punch-ins,** phone moved in so his face fills the frame, 3 takes each, a little bigger energy: \"One, Alpha Vantage.\" · \"Two, CoinGecko.\" · \"Three, Qube. My team makes it, so I'm not exactly neutral.\" (shrug and smile on \"not exactly neutral\") · \"Four, Notion.\" · \"Five, Google Calendar.\" 4. **CTA,** 3 takes, to camera: \"Comment QUBE and I'll send you the link for the free sign-up.\"",
+        "id": "A0",
+        "ready": false,
+        "what": "Joshua talking (A-roll)",
+        "who": "Joshua"
+      },
+      {
+        "file": "J032_A1_connectors.mp4 · 1920×1080 · 5s",
+        "how": "1. Only after A5, A6, A8 and A9 setup: Alpha Vantage, CoinGecko, Notion and Google Calendar must all show Connected. 2. Chrome, open https://claude.ai/customize/connectors. 3. Start the screen recording, then press Cmd+Shift+R to reload so the rows load in. Hold 3s on \"Your connectors\". 4. **CHECK: the four rows read Alpha Vantage, CoinGecko, Notion and Google Calendar.** If other connectors of Joshua's show too, don't disconnect them; tell the editor which rows to crop out. 5. **CHECK: no email or account name in the shot.**",
+        "id": "A1",
+        "ready": false,
+        "what": "Connectors page loading (frame 1)",
+        "who": "Joshua"
+      },
+      {
+        "file": "J032_A2_list.mov · 1080×960 · 1.5s",
+        "how": "1. Canva or CapCut, 1080×960, background #0B0F14. 2. Five rows, Inter Bold 56px white, the \"#N\" in gold #E8B04B, each with the tool's logo on the left: `#1 Alpha Vantage` · `#2 CoinGecko` · `#3 Qube · connected` · `#4 Notion` · `#5 Google Calendar`. \"connected\" in green #22C55E. 3. Animate: rows land one every 0.2s from 1.2s, all five on screen by 2.0s. Export MP4 with alpha, or PNGs per row.",
+        "id": "A2",
+        "ready": false,
+        "what": "Five-row list card",
+        "who": "Editor"
+      },
+      {
+        "file": "J032_A3_title.png",
+        "how": "1. White rounded pill, black Inter Bold 44px text: `5 Claude connectors for trading`. 2. Under it, small (Inter Bold 28px, light grey #9AA3AE): `my picks`. 3. Sits on the seam between top and bottom halves, 0–2.5s.",
+        "id": "A3",
+        "ready": false,
+        "what": "Title pill and \"my picks\" tag",
+        "who": "Editor"
+      },
+      {
+        "file": "J032_A4_labels (5 PNGs)",
+        "how": "Five on-screen labels for the punch-ins, Inter Bold 72px white on #0B0F14 at 85%, \"#N\" in gold #E8B04B, centred at the top of the face: `#1 Alpha Vantage` · `#2 CoinGecko` · `#3 Qube` (with a second, small line: `my pick · my team makes it`) · `#4 Notion` · `#5 Google Calendar`. Each pops in on the number word, holds to the end of the line.",
+        "id": "A4",
+        "ready": false,
+        "what": "\"#N\" labels",
+        "who": "Editor"
+      },
+      {
+        "file": "J032_A5_alphavantage.mp4 · 1920×1080 · up to 60s (sped up in the edit) · plus J032_A5_answer.png",
+        "how": "**Setup, off camera:** get a free key at https://www.alphavantage.co/support/#api-key (don't film this page). Save the key in Bitwarden. **Film:** 1. Start recording. Chrome → https://claude.ai/customize/connectors → browse the directory → type `Alpha Vantage` in the search. 2. Click the Alpha Vantage tile → Connect. 3. **Stop recording** while the key is entered. Start again once it shows Connected; hold 2s. 4. New chat. Type exactly, don't paste: `Use Alpha Vantage. What's Apple's latest price, what did it report in its last earnings, and what's the news on Apple this week?` Press Enter. 5. When \"Claude wants to use … from Alpha Vantage\" appears, hold 1s, then click **Allow once** (every time it asks). 6. Keep recording until the answer is finished. Scroll it slowly top to bottom in about 4s. 7. Screenshot the answer (J032_A5_answer.png). **CHECK: the answer must come from Alpha Vantage (its tool calls show in the chat).** If Claude answers without using it, start a new chat and run step 4 again. **CHECK: if the answer says buy, sell or hold, crop that part out or run it again adding `Just the facts, no opinion.` at the end.**",
+        "id": "A5",
+        "ready": false,
+        "what": "Alpha Vantage: add it, ask, allow, answer",
+        "who": "Joshua"
+      },
+      {
+        "file": "J032_A6_coingecko.mp4 · 1920×1080 · up to 60s (sped up) · plus J032_A6_table.png",
+        "how": "1. Start recording. https://claude.ai/customize/connectors → **Add custom connector**. 2. Name: `CoinGecko`. URL: `https://mcp.api.coingecko.com/mcp`. Click Add, then Connect. Hold 2s on Connected. **CHECK: if that URL fails, use the free public server URL on https://docs.coingecko.com/docs/mcp-server and tell Mark which one worked.** 3. New chat. Type exactly: `Use CoinGecko. What's trending in crypto right now? Then compare Bitcoin, Ethereum and Solana in a table: price, 24h volume and market cap.` Press Enter. 4. Hold 1s on \"Claude wants to use … from CoinGecko\", then **Allow once** (every time it asks). 5. Keep recording until the table is finished. Hold 3s on the table. 6. Screenshot the table (J032_A6_table.png). **CHECK: the table has all three coins and all three columns. If not, run step 3 again in a new chat.**",
+        "id": "A6",
+        "ready": false,
+        "what": "CoinGecko: add it, compare three coins",
+        "who": "Joshua"
+      },
+      {
+        "file": "J032_A7_qube.mp4 · 1920×1080 · up to 3 min (sped up) · plus the 4 PNGs",
+        "how": "1. Terminal, dark theme, font size 22, full screen. Start recording. 2. Type `claude`, press Enter. Hold 2s on the screen that shows Qube is connected. 3. Type exactly, don't paste: `Build this strategy in Qube and backtest it: buy Microsoft (MSFT) when its 20-day moving average crosses above its 50-day moving average. Sell when it crosses back below. Start with $10,000. Test it from Jan 2021 to Dec 2025. Show me every trade and flag the weak spots.` Press Enter. 4. When Claude asks permission to use Qube, hold 1s, then choose **Yes**. 5. Keep recording until the backtest result is shown. Then open the same run in Qube in Chrome and record: the result screen (hold 3s), the full trade list scrolled top to bottom in about 3s, stopping where at least 3 red losing trades are on screen together (hold 3s), and the weak spots Qube flagged (hold 3s). 6. Back in the terminal, type exactly: `Now optimize it, then backtest the optimized version on the same dates.` Press Enter, allow, and record until the optimized result is shown. Open it in Qube and hold 3s on the result. 7. Screenshots: J032_A7_result_before.png, J032_A7_trades.png, J032_A7_weakspots.png, J032_A7_result_after.png. 8. Write down from the screen, for both runs: final value, number of trades, worst drop. Send the four screenshots and the numbers to Mark and the editor. **CHECK: never change a number, and don't rerun to get a better one. Whatever the first optimized result is, that's the one we show.** **CHECK: line 9 says Qube fixes the weak spots. If the optimized version doesn't beat the first one on the weakness Qube flagged (compare the two screenshots), stop and tell Mark before the edit. Don't rerun.** **CHECK: the trade list must show real losing trades in red.** **CHECK: if Qube can't build or test this strategy, stop and tell Mark; don't swap in another one.**",
+        "id": "A7",
+        "ready": false,
+        "what": "Qube in Claude: type the strategy, backtest, every trade, weak spots, optimized",
+        "who": "Joshua (setup by the Qube team)"
+      },
+      {
+        "file": "J032_A8_notion.mp4 · 1920×1080 · up to 60s (sped up) · plus J032_A8_page.png",
+        "how": "**Setup, off camera:** 1. In Notion, make a new empty page called `Trading journal`. 2. https://claude.ai/customize/connectors → directory → search `Notion` → Connect → on Notion's page, pick the workspace and allow access to the `Trading journal` page. Don't film the workspace picker. **Film:** 3. Start recording with the empty `Trading journal` page open in Notion; hold 2s. 4. Go back to the same Claude session as A7 (Notion must show in its tools). Type exactly: `Log that test in my Trading journal page in Notion: the strategy, both backtest results, and what to try next.` Press Enter. 5. Allow the Notion permission when asked (hold 1s on it first). 6. Switch to Notion and record the page with what Claude wrote. Scroll it slowly in about 3s. Screenshot it (J032_A8_page.png). **CHECK: if Notion isn't available in the A7 session, use the fallback:** claude.ai → new chat → attach J032_A7_result_before.png and J032_A7_result_after.png → type the same prompt as step 4. Tell the editor which way was used. **CHECK: the numbers on the Notion page must match A7's screenshots. If Claude wrote a different number, stop and tell Mark; don't edit the page.**",
+        "id": "A8",
+        "ready": false,
+        "what": "Notion: \"Log that test\" fills the journal",
+        "who": "Joshua"
+      },
+      {
+        "file": "J032_A9_byhand.mp4 · J032_A9_claude.mp4 · J032_A9_readback.mp4 · 1920×1080 · plus J032_A9_calendar.png and a note with both times, the save times and the 10 dates",
+        "how": "**The watchlist (on screen only, never spoken):** AAPL, MSFT, NVDA, AMZN, GOOGL, META, TSLA, AVGO, JPM, NFLX. **Setup, off camera:** 1. https://claude.ai/customize/connectors → find **Google Calendar** → Connect → sign in to Joshua's Google account (never film the account picker). It's read-only: it's used only for the read-back in step 14. 2. In Google Calendar, make two new calendars (gear → Settings → Add calendar → Create new calendar, https://calendar.google.com/calendar/r/settings/createcalendar): `Earnings by hand` and `Earnings from Claude`. 3. In Claude, check that file creation is on: https://claude.ai/settings → Capabilities → code execution and file creation on. 4. Mac Clock app → Stopwatch, set to 0:00, window small in the top-right corner of the screen so it's inside every recording. **By hand (film all of it, one take):** 5. Start the screen recording, then start the stopwatch. 6. For each stock in the order above: open `https://www.nasdaq.com/market-activity/stocks/aapl/earnings` (swap `aapl` for each ticker in lowercase: msft, nvda, amzn, googl, meta, tsla, avgo, jpm, nflx), find the next earnings date, then in Google Calendar make an all-day event on that date in the `Earnings by hand` calendar, called `AAPL earnings` (`MSFT earnings` and so on). Save it. 7. Stop the stopwatch the moment the 10th event is saved. Hold 3s on the stopwatch. 8. Write down the stopwatch time, the time each event was saved (from the recording) and the 10 dates. **With Claude (film all of it, one take, the stopwatch runs through the import):** 9. In Google Calendar, untick `Earnings by hand` so those events are hidden. Reset the stopwatch to 0:00. 10. claude.ai → new chat (web search off). Type the prompt below, then start the recording and the stopwatch together and press Enter: `Use Alpha Vantage to find the next earnings date for AAPL, MSFT, NVDA, AMZN, GOOGL, META, TSLA, AVGO, JPM and NFLX. Show them in a table, then make me one .ics calendar file with each date as an all-day event called \"AAPL earnings\", \"MSFT earnings\" and so on.` 11. Click **Allow once** each time Claude asks. When the file is ready, click its download button (it saves to Downloads). 12. Google Calendar → gear → Settings → Import & export (https://calendar.google.com/calendar/r/settings/export) → **Select file from your computer** → pick the .ics file from Downloads → **Add to calendar:** `Earnings from Claude` → **Import**. 13. Go to the month view. Stop the stopwatch the moment all 10 events show. Hold 3s on the stopwatch, then 3s on the calendar (two months one after the other if the dates spread out). Screenshot it (J032_A9_calendar.png). **Read-back (separate clip, not timed, in the main cut under line 15):** 14. In the same Claude chat, + → Connectors → turn on Google Calendar, then type exactly: `Which earnings events are on my Google Calendar in the next three months?` Allow once. Record the answer listing the 10 events. **CHECK: 10 events, and every date matches the date found by hand in step 6. If any is different or missing, stop and tell Mark. Don't fix it in the calendar, the file or the edit.** **CHECK: both stopwatch times are the real ones, and the Claude clock includes the download and the import. Never stop the clock early, pause it, or restart a run to get a better time.** **CHECK: if Claude can't make the .ics file, stop and tell Mark.**",
+        "id": "A9",
+        "ready": false,
+        "what": "The race: 10 earnings dates by hand, then one prompt and a calendar file",
+        "who": "Joshua"
+      },
+      {
+        "file": "J032_A10_stopwatch.mov · 600×300",
+        "how": "1. Inter Bold 96px white digits on a #0B0F14 rounded box, top-right of the top half. 2. **By hand:** shows A9's real elapsed time frame by frame (copy it from the Clock app in the recording); when the footage time-skips, the digits jump to the real time at that point. Counter under it, Inter Bold 36px: `1 of 10 stocks`, `2 of 10 stocks`… changing at the real save times from A9 step 7. 3. **With Claude:** resets to 0:00 on \"Now\", runs in real time through the prompt, the file and the import, stops on the real A9 step 13 time; counter `10 of 10 stocks` in green #22C55E on the stop. **CHECK: both final times on the graphic match the Clock app in A9 to the second.**",
+        "id": "A10",
+        "ready": false,
+        "what": "Stopwatch and counter graphic",
+        "who": "Editor"
+      },
+      {
+        "file": "J032_A11_end.png · 1080×1920",
+        "how": "Full screen #0B0F14, `Comment QUBE` centred, Instrument Serif 88px white, \"QUBE\" in gold #E8B04B. 2s. No \"Follow\" step.",
+        "id": "A11",
+        "ready": false,
+        "what": "End screen",
+        "who": "Editor"
+      }
+    ]
+  },
+  "code": "J032",
+  "edit": {
+    "notes": [
+      "**Recreating:** @david_knowsai · https://www.instagram.com/p/DesH3mKRmC4/ · copy its rhythm: 28 cuts in 54s (one about every 1.9s), the screen recording itself changing every 1–2s inside a shot; all five names on screen by 2s; a full-face \"#N\" punch-in before every item; the \"Claude wants to use…\" → \"Allow once\" prompt visible in every demo; each demo ending on a concrete result; a running stopwatch as the payoff picture, then the Google Calendar read-back right before the CTA. Our own footage only.",
+      "**Layout:** split screen for the demos, like the original: screen recording in the top half (1080×960), Joshua in the bottom half. Full face for every \"#N\" label. Title pill on the seam between the two halves. Captions white uppercase, 2–3 words at a time, house preset \"TQX Captions\", at the top of the face half (y = 1000). On-screen text: Inter Bold 48px, white on #0B0F14 at 85%.",
+      "**Times** are estimates at Joshua's pace (3.2 words a second, each \"#N\" label held about 1.4s). Re-time to the real take."
+    ],
+    "rows": [
+      {
+        "id": "e1",
+        "onscreen": "Title pill on the seam, from frame 1 to 2.5s: \"5 Claude connectors for trading\" · small tag under it: \"my picks\"",
+        "sound": "Music in at 0. Soft tick as each row lands",
+        "spoken": "Hook: \"Here are the five most powerful Claude connectors.\"",
+        "time": "0.0–2.5",
+        "visual": "0.0–1.2s: Joshua's real Claude Connectors page loading, Alpha Vantage, CoinGecko, Notion and Google Calendar rows filling in and showing Connected (A1). 1.2–2.5s: the five-row list card slides over the top half, one row every 0.2s, ending on all five: \"#1 Alpha Vantage\" \"#2 CoinGecko\" \"#3 Qube · connected\" \"#4 Notion\" \"#5 Google Calendar\" (A2). All five names readable by 2.0s"
+      },
+      {
+        "id": "e2",
+        "onscreen": "\"#1 Alpha Vantage\"",
+        "sound": "Hard cut, bass hit on \"One\"",
+        "spoken": "\"One, Alpha Vantage.\"",
+        "time": "2.5–3.9",
+        "visual": "Full face, punch-in (A0 label take)"
+      },
+      {
+        "id": "e3",
+        "onscreen": "none",
+        "sound": "Hard cut on \"Claude\"",
+        "spoken": "\"Claude can search the web, but it's got no real market data feed.\"",
+        "time": "3.9–7.7",
+        "visual": "Split. Top: Claude's Connectors directory, \"Alpha Vantage\" typed into the search, the tile appears, Connect pressed, \"Connected\" (A5 part 1; the key step is cut out)"
+      },
+      {
+        "id": "e4",
+        "onscreen": "Top-right on the clip: \"Example, not a recommendation\"",
+        "sound": "Click on \"Allow once\". Whoosh as the answer scrolls",
+        "spoken": "\"Connect it, ask about a stock, and you get its price, last earnings and this week's news.\"",
+        "time": "7.7–13.0",
+        "visual": "Top: new chat, the prompt typed (A5 part 2) → \"Claude wants to use … from Alpha Vantage\" → \"Allow once\" clicked on \"ask\" → the answer with the price, the last earnings numbers and this week's headlines, scrolling (A5 part 3). Cut inside the shot every 1–2s"
+      },
+      {
+        "id": "e5",
+        "onscreen": "\"#2 CoinGecko\"",
+        "sound": "Hard cut, bass hit",
+        "spoken": "\"Two, CoinGecko.\"",
+        "time": "13.0–14.4",
+        "visual": "Full face, punch-in (A0)"
+      },
+      {
+        "id": "e6",
+        "onscreen": "none",
+        "sound": "Hard cut on \"Same\"",
+        "spoken": "\"Same deal, but for crypto.\"",
+        "time": "14.4–15.9",
+        "visual": "Split. Top: \"Add custom connector\" dialog, name \"CoinGecko\", URL typed, Add, \"Connected\" (A6 part 1)"
+      },
+      {
+        "id": "e7",
+        "onscreen": "Top-right on the clip: \"Example, not a recommendation\"",
+        "sound": "Click on \"Allow once\". Pop on the table",
+        "spoken": "\"Claude grabs live prices, volume and what's trending, and lines up any three coins side by side.\"",
+        "time": "15.9–21.2",
+        "visual": "Top: the prompt typed (A6 part 2) → \"Claude wants to use … from CoinGecko\" → \"Allow once\" → the trending list on \"trending\" → the three-coin table (price, 24h volume, market cap) lands on \"side by side\", hold 1s (A6 part 3)"
+      },
+      {
+        "id": "e8",
+        "onscreen": "\"#3 Qube\" · small line under it from \"my team\": \"my pick · my team makes it\"",
+        "sound": "Hard cut, bass hit on \"Three\"",
+        "spoken": "\"Three, Qube. My team makes it, so I'm not exactly neutral.\"",
+        "time": "21.2–24.7",
+        "visual": "Full face, punch-in (A0). Joshua shrugs and smiles on \"not exactly neutral\""
+      },
+      {
+        "id": "e9",
+        "onscreen": "Top-left on the clip: \"Claude · Codex → Qube\" · top-right: \"Example strategy\" · from \"tests it\": \"Backtest, not live results · Jan 2021–Dec 2025\"",
+        "sound": "Keyboard clicks under the typing. Whoosh on \"tests it\"",
+        "spoken": "\"Tell Claude what you'd buy and when, and Qube tests it on years of prices, trade by trade.\"",
+        "time": "24.7–30.9",
+        "visual": "Split. Top: Joshua's Claude session with Qube connected, the strategy being typed on \"what you'd buy and when\" (A7 part 1) → the permission prompt to use Qube → \"Yes\" (A7 part 2) → Qube running the backtest on \"tests it\" (A7 part 3)"
+      },
+      {
+        "id": "e10",
+        "onscreen": "\"Backtest, not live results · Jan 2021–Dec 2025\" stays top-left · on the last beat, top-right: \"Optimized version\" (no other numbers typed by the editor: the result on screen is Qube's own)",
+        "sound": "Magnifier whoosh on \"weak spots\". Rising tone into the result",
+        "spoken": "\"Even the losing trades show up, and then Qube fixes the weak spots.\"",
+        "time": "30.9–35.0",
+        "visual": "Top: the full trade list scrolling, stopping on red losing trades on \"losing trades\" (A7 part 4) → the weaknesses Qube flagged, magnifier zoom on the first one on \"weak spots\" (A7 part 5) → the optimized version's backtest result, hold 1s at the end of the line, before \"Four\" (A7 part 6)"
+      },
+      {
+        "id": "e11",
+        "onscreen": "\"#4 Notion\"",
+        "sound": "Hard cut, bass hit",
+        "spoken": "\"Four, Notion.\"",
+        "time": "35.0–36.4",
+        "visual": "Full face, punch-in (A0)"
+      },
+      {
+        "id": "e12",
+        "onscreen": "none",
+        "sound": "Click on the allow. Typing tick as the page fills",
+        "spoken": "\"Just say \"log that test,\" and Notion gets the result and what to try next.\"",
+        "time": "36.4–41.1",
+        "visual": "Split. Top: the empty \"Trading journal\" page in Notion for 0.8s (A8 part 1) → the prompt \"Log that test…\" typed on \"log that test\" (A8 part 2) → permission prompt to use Notion → allowed → cut to Notion on \"Notion gets\", the page filling in: strategy, both results, what to try next (A8 part 3), hold 1s on the filled page"
+      },
+      {
+        "id": "e13",
+        "onscreen": "\"#5 Google Calendar\"",
+        "sound": "Hard cut, bass hit",
+        "spoken": "\"Five, Google Calendar.\"",
+        "time": "41.1–42.5",
+        "visual": "Full face, punch-in (A0)"
+      },
+      {
+        "id": "e14",
+        "onscreen": "Top-right: \"Example watchlist, not recommendations\" · stopwatch graphic top-right of the top half from \"earnings date\", running, showing the real by-hand time (A10), counter under it \"1 of 10 stocks\" → \"2 of 10\" … ticking up at the real moments each event was saved",
+        "sound": "Hard cut on \"Typing\". Clock ticking under the line, getting faster as the footage skips",
+        "spoken": "\"Typing every earnings date on your watchlist into your calendar takes forever.\"",
+        "time": "42.5–46.2",
+        "visual": "Split. Top: the 10-stock watchlist as a plain list card for 0.8s (A9 list), then the by-hand run, time-skipped: look up a date, type the event, save, next (A9 by-hand). The clock always shows the true elapsed time, even when the footage skips"
+      },
+      {
+        "id": "e15",
+        "onscreen": "Stopwatch resets to 0:00 on \"Now\", runs through the prompt, the file and the import, and stops at the real time the 10 events show in Google Calendar (A10). Counter \"10 of 10 stocks\" on the stop",
+        "sound": "Click on Import. Ticking stops dead on the stop, ding on \"10 of 10\"",
+        "spoken": "\"Now it's one prompt. Claude pulls every date from Alpha Vantage into a calendar file you import.\"",
+        "time": "46.2–51.5",
+        "visual": "Top: the one prompt typed in Claude (A9 part 2) → \"Allow once\" for Alpha Vantage → Claude's table of dates and the calendar file ready on \"calendar file\" → Google Calendar's Import screen, the file picked, Import clicked on \"you import\" → the calendar month with all 10 events filled in, hold 1.5s. Time-skip the waits; the clock shows the true time"
+      },
+      {
+        "id": "e16",
+        "onscreen": "Top-left on the clip: \"Google Calendar connector · read-only\"",
+        "sound": "Hard cut on \"And\". Click on \"Allow once\"",
+        "spoken": "\"And with Google Calendar connected, Claude lists every earnings date coming up.\"",
+        "time": "51.5–55.0",
+        "visual": "Split. Top: the read-back (A9 read-back): the question typed in Claude with Google Calendar turned on → \"Allow once\" → Claude's answer listing the 10 earnings events with their dates and citations, scrolling, hold 1s on the full list on \"coming up\""
+      },
+      {
+        "id": "e17",
+        "onscreen": "55.0–56.7s: \"Comment QUBE\" pill on the seam (\"QUBE\" in gold #E8B04B)",
+        "sound": "Music out on the end screen",
+        "spoken": "\"Comment QUBE and I'll send you the link for the free sign-up.\"",
+        "time": "55.0–58.7",
+        "visual": "55.0–56.7s: Joshua full face to camera (A0 CTA take). 56.7–58.7s: end screen (A11), the full 2s under the end of the line"
+      }
+    ]
+  },
+  "length": "about 56s spoken, about 59s with the short beat on each number, at Joshua's pace (3.2 words a second), the end screen under the last 2s of the CTA (the original is 53.7s) · Presenter: Joshua",
+  "original": {
+    "account": "@david_knowsai",
+    "lines": [
+      {
+        "t": "0:00",
+        "text": "Here are the five most powerful Claude connectors."
+      },
+      {
+        "t": "0:03",
+        "text": "Number one is perplexity."
+      },
+      {
+        "t": "0:04",
+        "text": "This gives Claude access to the most powerful research engine on the planet."
+      },
+      {
+        "t": "0:08",
+        "text": "So you can run deep research on any topic and pull real-time information from the entire internet."
+      },
+      {
+        "t": "0:14",
+        "text": "Number two is fire crawl."
+      },
+      {
+        "t": "0:15",
+        "text": "This lets Claude see the internet."
+      },
+      {
+        "t": "0:17",
+        "text": "So it can scrape and copy any website, pull entire brand assets, and even do competitor research for you instantly."
+      },
+      {
+        "t": "0:23",
+        "text": "Number three is post hog."
+      },
+      {
+        "t": "0:25",
+        "text": "It turns Claude into your private investigator."
+      },
+      {
+        "t": "0:27",
+        "text": "It uncovers bugs, finds where you're losing customers, and even automatically upgrades your website."
+      },
+      {
+        "t": "0:32",
+        "text": "Number four is playwright."
+      },
+      {
+        "t": "0:33",
+        "text": "This gives Claude hands so it can control your browser, fill out forms, test websites, and even use tools that don't have an AI connection."
+      },
+      {
+        "t": "0:39",
+        "text": "Number five is composio."
+      },
+      {
+        "t": "0:41",
+        "text": "This lets Claude connect to every app you use at once."
+      },
+      {
+        "t": "0:44",
+        "text": "So instead of wasting your time installing apps one by one, you get all of them connected in one shot."
+      },
+      {
+        "t": "0:49",
+        "text": "If you want the prompt to set all these up at once, just comment post and I'll shoot it over."
+      }
+    ],
+    "seconds": 54,
+    "url": "https://www.instagram.com/p/DesH3mKRmC4/",
+    "words": 183
+  },
+  "originalTitle": "5 Claude connectors you need",
+  "presenter": "Joshua",
+  "recreating": {
+    "account": "@david_knowsai",
+    "summary": "@david_knowsai · \"5 Claude connectors you need\" · 12,825 likes and 9,019 comments (followers not visible)",
+    "url": "https://www.instagram.com/p/DesH3mKRmC4/"
+  },
+  "script": {
+    "hooks": [
+      {
+        "id": "hHook",
+        "label": "Hook",
+        "orig": "Here are the five most powerful Claude connectors.",
+        "text": "Here are the five most powerful Claude connectors."
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "orig": "One, Alpha Vantage.",
+        "text": "One, Alpha Vantage."
+      },
+      {
+        "id": "l2",
+        "orig": "Claude can search the web, but it's got no real market data feed.",
+        "text": "Claude can search the web, but it's got no real market data feed."
+      },
+      {
+        "id": "l3",
+        "orig": "Connect it, ask about a stock, and you get its price, last earnings and this week's news.",
+        "text": "Connect it, ask about a stock, and you get its price, last earnings and this week's news."
+      },
+      {
+        "id": "l4",
+        "orig": "Two, CoinGecko.",
+        "text": "Two, CoinGecko."
+      },
+      {
+        "id": "l5",
+        "orig": "Same deal, but for crypto.",
+        "text": "Same deal, but for crypto."
+      },
+      {
+        "id": "l6",
+        "orig": "Claude grabs live prices, volume and what's trending, and lines up any three coins side by side.",
+        "text": "Claude grabs live prices, volume and what's trending, and lines up any three coins side by side."
+      },
+      {
+        "id": "l7",
+        "orig": "Three, Qube. My team makes it, so I'm not exactly neutral.",
+        "text": "Three, Qube. My team makes it, so I'm not exactly neutral."
+      },
+      {
+        "id": "l8",
+        "orig": "Tell Claude what you'd buy and when, and Qube tests it on years of prices, trade by trade.",
+        "text": "Tell Claude what you'd buy and when, and Qube tests it on years of prices, trade by trade."
+      },
+      {
+        "id": "l9",
+        "orig": "Even the losing trades show up, and then Qube fixes the weak spots.",
+        "text": "Even the losing trades show up, and then Qube fixes the weak spots."
+      },
+      {
+        "id": "l10",
+        "orig": "Four, Notion.",
+        "text": "Four, Notion."
+      },
+      {
+        "id": "l11",
+        "orig": "Just say \"log that test,\" and Notion gets the result and what to try next.",
+        "text": "Just say \"log that test,\" and Notion gets the result and what to try next."
+      },
+      {
+        "id": "l12",
+        "orig": "Five, Google Calendar.",
+        "text": "Five, Google Calendar."
+      },
+      {
+        "id": "l13",
+        "orig": "Typing every earnings date on your watchlist into your calendar takes forever.",
+        "text": "Typing every earnings date on your watchlist into your calendar takes forever."
+      },
+      {
+        "id": "l14",
+        "orig": "Now it's one prompt. Claude pulls every date from Alpha Vantage into a calendar file you import.",
+        "text": "Now it's one prompt. Claude pulls every date from Alpha Vantage into a calendar file you import."
+      },
+      {
+        "id": "l15",
+        "orig": "And with Google Calendar connected, Claude lists every earnings date coming up.",
+        "text": "And with Google Calendar connected, Claude lists every earnings date coming up."
+      },
+      {
+        "id": "l16",
+        "orig": "Comment QUBE and I'll send you the link for the free sign-up.",
+        "text": "Comment QUBE and I'll send you the link for the free sign-up."
+      }
+    ]
+  },
+  "status": "Approved",
+  "title": "Here are the five most powerful Claude connectors.",
+  "updatedAt": 1793120082.8856199,
+  "updatedBy": "Producer"
+}

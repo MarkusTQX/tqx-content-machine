@@ -1,0 +1,11 @@
+I'm going to take you from chat GPT beginner to expert using a four-step prompting process that
+I created. Number one is the role. When you're chatting with AI, you got to tell it how to think.
+If it's a marketing tweet, you got to say as a marketer because then it uses that information
+to go look around its neural network for information that matches to that. Number two
+is the context. You have to tell it what you're trying to do. If you're writing a better blog,
+tell it, I'm trying to write a better blog or I'm trying to create 10 awesome novel tweets for my
+client. Number three, give it the command for what you want. So if you want 10 tweets, tell it,
+I need you to write me 10 tweets. And then the fourth is the format. The format is how you want
+to consume it. So you might want it in a spreadsheet. You might want it in a bulleted list. That'll give
+you the output. Once you get that output dialed in and it's awesome, ask it to write the command
+or the prompt that would have got you to that place faster.

@@ -1,0 +1,112 @@
+1
+00:00:00,000 --> 00:00:03,600
+ If you trade, you should screenshot this, or you might lose $10 million.
+
+2
+00:00:04,200 --> 00:00:07,840
+ There's six steps in trading, but most people forget the fifth one.
+
+3
+00:00:08,400 --> 00:00:12,440
+ Every quant strategy goes through the same six steps before it touches real money.
+
+4
+00:00:12,840 --> 00:00:16,280
+ And if you trade on your phone, you're probably skipping straight to the last one.
+
+5
+00:00:16,460 --> 00:00:17,920
+ Think of it like opening a restaurant.
+
+6
+00:00:18,400 --> 00:00:19,560
+ Step one is data.
+
+7
+00:00:19,940 --> 00:00:20,720
+ That's your groceries.
+
+8
+00:00:21,300 --> 00:00:24,440
+ Prices, news, how much money each company makes.
+
+9
+00:00:24,860 --> 00:00:26,720
+ Bad groceries equals bad food.
+
+10
+00:00:27,000 --> 00:00:27,980
+ Step two is factors.
+
+11
+00:00:28,340 --> 00:00:29,280
+ That's your recipe.
+
+12
+00:00:29,280 --> 00:00:35,160
+ A factor is just a clue that a stock might go up, like it's been going up for three months straight.
+
+13
+00:00:35,440 --> 00:00:36,800
+ Step three is a back test.
+
+14
+00:00:37,120 --> 00:00:38,180
+ That's the taste test.
+
+15
+00:00:38,520 --> 00:00:42,360
+ You try your recipe on past prices to see if it would have made money.
+
+16
+00:00:42,640 --> 00:00:44,240
+ Step four is the portfolio.
+
+17
+00:00:44,740 --> 00:00:46,080
+ That's your portion sizes.
+
+18
+00:00:46,460 --> 00:00:52,040
+ In trading, that's how much money goes into each trade, so one bad trade can't sink the whole account.
+
+19
+00:00:52,320 --> 00:00:54,000
+ Step five is paper trading.
+
+20
+00:00:54,260 --> 00:00:55,520
+ That's your soft opening.
+
+21
+00:00:55,520 --> 00:00:59,400
+ You trade the real market with fake money so nothing's on the line yet.
+
+22
+00:00:59,580 --> 00:01:01,460
+ And step six, it's live trading.
+
+23
+00:01:01,700 --> 00:01:04,200
+ That's the grand opening, real money.
+
+24
+00:01:04,380 --> 00:01:12,220
+ Now, when you buy a stock because some guy on TikTok said so, you just open a restaurant with no groceries, no recipe, and no taste test.
+
+25
+00:01:12,380 --> 00:01:16,740
+ Quants do steps one through five before a single dollar goes in.
+
+26
+00:01:17,060 --> 00:01:20,020
+ And now AI can help you with every one of those steps.
+
+27
+00:01:20,180 --> 00:01:22,960
+ For the rest of the series, I'll walk you through each one.
+
+28
+00:01:23,140 --> 00:01:26,180
+ Save this so you've got the map and follow for day three.
+

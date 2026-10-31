@@ -1,0 +1,50 @@
+# M14 · SCRIPT (Mark reads this)
+
+**Recreating:** @ashtonv.ai · "Six Grok bots trade in one group chat" · 8,715 likes and 20,325 comments (followers not visible)
+**Original video:** https://www.instagram.com/p/DeRXZptsGOC/
+**Words:** original 212 words (54.9s) · cut to strongest beats · ours 157 words (holds-up version) / 147 words (falls-apart version)
+**Length:** about 52s at Mark's pace (13B about 49s), 3 words a second, fast, no pauses between lines (35–60s hard limit) · Presenter: Mark
+
+---
+
+## Hook (the original's, word for word)
+
+**Hook.** Grok might have just killed day trading forever.
+
+---
+
+## Script
+
+1. There's a group chat going viral where six Grok bots trade together.
+
+2. The screenshots show thousands in profit, all self-reported.
+
+3. Each bot has a job, but one's missing.
+
+4. One, the scout spots a stock taking off.
+
+5. Two, the news bot finds the headline behind it.
+
+6. Three, the chart bot plans the trade.
+
+7. Four, the skeptic picks it apart.
+
+8. Sounds careful, right? Here's what scares me.
+
+9. The missing job? Checking if that trade ever worked.
+
+10. So I typed it into Qube.
+
+11. "Buy Tesla any day it jumps 4% or more. Sell at a 6% gain or 3% loss."
+
+12. Qube tested it on years of real Tesla prices. Did the bots get it right?
+
+Line 13: Mark picks one after his Qube run. Say 13A if it made money, 13B if it lost money.
+
+13A. It made money, losses and all. Next, it goes on a simulation account.
+
+13B. It lost money.
+
+14. Six bots can argue all day. The test shows you what happened.
+
+15. Comment QUBE and I'll send you the link for the free sign-up.

@@ -1,0 +1,19 @@
+{
+  "code": "J033",
+  "log": [
+    {
+      "after": "Trying a new side hustle everyday until I make 100 K a month ( spins a wheel it lands on trading) \n\nTrading? All right, we got 15 minutes on the timer. Let's see if I can cook.",
+      "at": 1793117207264,
+      "before": "Trading? All right, we got 15 minutes on the timer. Let's see if I can cook.",
+      "part": "hook",
+      "ref": "Hook"
+    },
+    {
+      "after": "It's this site called TQX.ai , and you just type your strategy in plain English, like you're texting a friend.",
+      "at": 1793120970183,
+      "before": "It's this site called Qube, and you just type your strategy in plain English, like you're texting a friend.",
+      "part": "line",
+      "ref": "2"
+    }
+  ]
+}

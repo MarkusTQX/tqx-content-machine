@@ -1,0 +1,371 @@
+{
+  "assets": {
+    "notes": [
+      "**Presenter:** Joshua. One person, one list, in video order.",
+      "**Before recording anything:** the Qube team connects Claude to Qube on Joshua's laptop and gives him a Qube login. Don't show any install commands, API keys, emails or file paths.",
+      "**The numbers to match** (TQX's own test, `claims-and-proof` → \"10 biggest US stocks\"): AAPL, MSFT, NVDA, AMZN, GOOGL, META, TSLA, AVGO, JPM, BRK.B · buy at the close of a day one drops 3% or more · $2,000 per stock · sell at +3% from the buy or −5% · $10,000 start · no fees · Jan 2021 – Dec 2025 → **$18,147 (+$8,147) · 607 trades · worst drop −$3,207**."
+    ],
+    "open": [
+      {
+        "done": false,
+        "id": "o1",
+        "text": "**A real Qube run of this rule (A2, A3).** The numbers come from our own test, not from Qube yet. If Qube shows anything different, nothing gets filmed until Mark decides."
+      },
+      {
+        "done": false,
+        "id": "o2",
+        "text": "**Same rule and numbers as J018** (Day 1 of the paper-trading series, written, not filmed). Fine to share, but if both get filmed the numbers will look reused. Which one goes first?"
+      },
+      {
+        "done": false,
+        "id": "o3",
+        "text": "**Hook A opens \"Claude can now…\", like J022's hook A.** It's the original's hook, so it stays (Mark's method). If J020 and J022 post close together, use hook B or C here."
+      },
+      {
+        "done": false,
+        "id": "o4",
+        "text": "**Paper trading isn't said out loud** (the original has no such line). The edit shows \"BACKTEST ✓ → PAPER → LIVE\" with \"Go live\" locked. OK as is, or add \"then on paper\" (+3 words, about 1s)?"
+      },
+      {
+        "done": false,
+        "id": "o5",
+        "text": "**Length:** 155 words, about 48s at Joshua's pace (the original is 44s, the brief asks 44–48s). Old line 10 (\"So you get to see all that…\") is cut; the hook already makes that promise."
+      },
+      {
+        "done": false,
+        "id": "o6",
+        "text": "**CTA offer.** The original's CTA pays off its \"all 11 skills\" loop. Ours stays the approved line. If the DM ever sends this video's exact prompt (A1), the CTA could name it; until the flow sends it, no change."
+      },
+      {
+        "done": false,
+        "id": "o7",
+        "text": "**The Breakdown DM still isn't live in ManyChat.** The CTA promises a step-by-step; it has to be in the flow before posting."
+      },
+      {
+        "done": false,
+        "id": "o8",
+        "text": "**Target vs stop split:** if A3 shows it, add it to `claims-and-proof` first. Only then can it go into lines 8–9 as the honest version of their \"29.4% hit target / 25.5% hit stop\"."
+      }
+    ],
+    "rows": [
+      {
+        "file": "J020_A0_aroll.mp4 · 1080×1920",
+        "how": "1. Phone vertical (9:16), eye level, office lights on, lock focus and exposure. 2. Leave the top third of the frame empty above his head (the Qube screens go there). 3. Record hooks A, B and C back to back, one clean take each. 4. Then lines 1–11 in one take, fast, no pauses between lines. 5. Move the phone in close (face fills the frame) and record line 10 (\"Of course, it's a backtest, not live results, and we already know these stocks took off.\") three times, calm, straight to the lens. This is the only close-up; the punch-in on line 6 comes from the main take.",
+        "id": "A0",
+        "ready": false,
+        "what": "Joshua talking (A-roll)",
+        "who": "Joshua"
+      },
+      {
+        "file": "J020_A1_claude_typing.mp4 · 1920×1080 · up to 60s (sped up in edit)",
+        "how": "1. Terminal app, dark theme, font size 22, full screen. 2. Type `claude`, press Enter. 3. Hold 2s on the screen that shows Qube is connected. 4. Type exactly, don't paste: `Build me a strategy in Qube. Watch these 10 stocks: AAPL, MSFT, NVDA, AMZN, GOOGL, META, TSLA, AVGO, JPM, BRK.B. Buy $2,000 of a stock at the close of any day it drops 3% or more. Sell it once it's up 3% from where I bought, or if it falls 5%. Start with $10,000 and no fees. Backtest it from Jan 2021 to Dec 2025.` 5. Press Enter. Keep recording until Claude says it has sent the strategy to Qube. Hide anything with an email, key or file path.",
+        "id": "A1",
+        "ready": false,
+        "what": "Claude with Qube connected: the rule typed in",
+        "who": "Joshua (setup by Qube team)"
+      },
+      {
+        "file": "J020_A2_rules.mp4 · 1920×1080 · 15s · plus J020_A2_rules.png",
+        "how": "1. Chrome, full screen, zoom 125%, no tabs or bookmarks showing, logged in to Qube. 2. Open the strategy Claude just sent over (A1). 3. Record the screen showing the rules: the 10 stocks, $2,000 per stock, buy at the close on a 3% drop, sell at +3%, stop-loss at −5%. Hold 3s. 4. Slowly move the cursor over each rule line in this order: stocks, $2,000, buy, sell, stop-loss. 1s on each. 5. Take one screenshot of the full strategy screen. **CHECK: every rule matches the line above (10 stocks, $2,000, −3% buy, +3% sell, −5% stop-loss). If Qube wrote any rule differently, stop and send Mark a screenshot.**",
+        "id": "A2",
+        "ready": false,
+        "what": "Qube: the strategy and its rules",
+        "who": "Joshua"
+      },
+      {
+        "file": "J020_A3_backtest.mp4 · 1920×1080 · up to 60s · plus J020_A3_result.png, J020_A3_curve.png",
+        "how": "1. On the A2 strategy, check the backtest settings say $10,000, Jan 1 2021 to Dec 31 2025, no fees. 2. Click run. Record from the click until the result appears. 3. Hold 3s on the result (final balance and trade count). 4. Scroll the full trade list top to bottom in about 4s. 5. Hold 3s on the equity curve, with the lowest point visible. 6. Take one screenshot of the result and one of the equity curve. **CHECK: it must say $18,147 (+$8,147), 607 trades and a worst drop of −$3,207. If any number is different, stop and send Mark a screenshot. Don't change any number in the script or the edit to match. CHECK: does Qube measure the −$3,207 from the account's high? Write \"from a high: yes / no\" in the message to the editor (it decides the line 9 on-screen text).** 7. If the result also shows how many trades hit +3% and how many hit −5%, screenshot that too and send it to Mark. It isn't used in the video until it's added to `claims-and-proof`.",
+        "id": "A3",
+        "ready": false,
+        "what": "Qube: the backtest running, every trade, the result",
+        "who": "Joshua"
+      },
+      {
+        "file": "J020_A4_stepbar_1.png … _8.png",
+        "how": "Canva, 1080×120, transparent background. Five rounded tabs left to right, joined by thin arrows: \"STOCKS\" \"SIZE\" \"BUY\" \"SELL\" \"BACKTEST\". Inter Bold 34px, white text. Tab off: grey #2A2F37. Tab on: gold #E8B04B with dark #0B0F14 text. Export 7 PNGs: (1) all grey, (2) STOCKS on, (3) SIZE on, (4) BUY on, (5) SELL on, (6) BACKTEST with a 4px gold outline only, (7) BACKTEST on. Then an extended version, 1080×120: \"BACKTEST ✓\" gold, then \"PAPER\" and \"LIVE\" grey with a small lock icon on \"LIVE\". Export as (8).",
+        "id": "A4",
+        "ready": false,
+        "what": "Step bar",
+        "who": "Editor"
+      },
+      {
+        "file": "J020_A5_tickers_1.png … _4.png",
+        "how": "Canva, 1080×520, dark #0B0F14. 10 rounded chips in 2 rows of 5, ticker text only, no company logos: row 1 \"AAPL\" \"MSFT\" \"NVDA\" \"AMZN\" \"GOOGL\", row 2 \"META\" \"TSLA\" \"AVGO\" \"JPM\" \"BRK.B\". Inter Bold 44px white on grey #2A2F37. Export: (1) plain; (2) \"$2,000\" in gold Inter Bold 28px under every chip; (3) the NVDA chip red #EF4444 with \"−3%\" under it; (4) the NVDA chip gold with \"BUY\" under it. Small line at the bottom of every version: \"Backtest, not live results · 2021–2025\". On (3) and (4) only, add a small grey line bottom-left, above that line: \"Example\" (same as A6). The NVDA chip is a drawn example, not a trade from the run.",
+        "id": "A5",
+        "ready": false,
+        "what": "Ticker grid",
+        "who": "Editor"
+      },
+      {
+        "file": "J020_A6_exits.png",
+        "how": "Canva, 1080×640, dark #0B0F14. A simple grey price line. A white dot labelled \"Buy\". A dashed green #22C55E line above it labelled \"Take profit · +3%\". A dashed red #EF4444 line below it labelled \"Stop-loss · −5%\". Inter Bold 36px. Example chart, so add a small grey line bottom-left: \"Example\". Export PNG.",
+        "id": "A6",
+        "ready": false,
+        "what": "Take-profit and stop-loss chart",
+        "who": "Editor"
+      },
+      {
+        "file": "J020_A7_golive.png",
+        "how": "Canva, transparent background, 420×120: a rounded button reading \"Go live\", grey #2A2F37 with light grey #9AA3AE text, a white lock icon on the right, and \"Test first\" in Inter Bold 26px gold under it. Export PNG. The editor places the button over the Qube screen twice: on the A2 still at 0s, and on the A3 equity-curve still at 35.3s (line 9). This is a graphic, not a real Qube button. No coin.",
+        "id": "A7",
+        "ready": false,
+        "what": "Locked \"Go live\" button",
+        "who": "Editor"
+      },
+      {
+        "file": "J020_A8_startpage.mp4 · 1920×1080 · 5s",
+        "how": "Chrome, full screen, zoom 125%, no tabs or bookmarks: open https://www.tqx.ai/igqube2, scroll slowly until \"Start free\" and \"Free · no card required\" are both on screen. Hold 2s.",
+        "id": "A8",
+        "ready": false,
+        "what": "Qube start page",
+        "who": "Joshua"
+      },
+      {
+        "file": "J020_A9_end.png",
+        "how": "Full screen 1080×1920, #0B0F14, \"Comment QUBE\" centred, Instrument Serif 88px white, \"QUBE\" in gold #E8B04B. 2s.",
+        "id": "A9",
+        "ready": false,
+        "what": "End screen",
+        "who": "Editor"
+      }
+    ]
+  },
+  "code": "J020",
+  "edit": {
+    "notes": [
+      "**Recreating:** @buildwithai.club · https://www.instagram.com/p/DezOgThKETj/ · copy its rhythm: the promise shown by 2s with the buy button locked, a hard cut to full screen at about 5s for the reveal, back to split at about 11s with a step bar across the top and the best step greyed out at the far right, one step every 2–4s, the re-hook (\"But the craziest part\") kept in the split with the best tab outlined, a full-screen cut where the number counts up from 0, back to split right after the count-up, the honesty line in a sudden full-face close-up (the only close-up in the video), then the keyword. The insert changes every 2s or less even when the shot doesn't.",
+      "**Layout:** split screen. Qube or Claude screen in the top third (1080×640), Joshua below. Full screen for the reveal (5.6–11.2s) and the count-up (27.2–35.3s). One full-face close-up only, at 38.1s (the honesty line). Captions 1–3 words, centred at chest height, key words in gold. Our own style (dark #0B0F14 cards, gold #E8B04B), not their cream cards or mascot.",
+      "**Step bar** (A4), pinned across the top of the top third from 11.2s to 38.1s: `STOCKS → SIZE → BUY → SELL → BACKTEST`. Grey #2A2F37 tabs, the current one gold. BACKTEST stays greyed until 25.0s. At 35.3s it extends to `BACKTEST ✓ → PAPER → LIVE`.",
+      "**Times** are estimates at Joshua's pace (3.2 words a second), hook A: 155 words, about 48s. Re-time to the real take. Hooks B and C are 1–2s shorter."
+    ],
+    "rows": [
+      {
+        "id": "e1",
+        "onscreen": "Badge top-right from frame 1: \"Claude → Qube\". At 2s, top-right under the badge: \"607 trades\" (gold). Label top-left from 2s: \"Backtest, not live results\"",
+        "sound": "Music in at 0. Lock clicks shut at 2s. Punch-in (105%) on \"a single dollar\"",
+        "spoken": "Hook A: \"Claude can now test your trading strategy on five years of prices before you risk a single dollar.\"",
+        "time": "0.0–5.6",
+        "visual": "Frame 1: the real Qube strategy screen for this rule (A2 still) with the \"Go live\" button greyed, a lock on it and \"Test first\" under it (A7 overlay). At 2s the backtest chart fills in behind it (A3, first 2s)"
+      },
+      {
+        "id": "e2",
+        "onscreen": "\"Qube · free to start, no card\" pops on \"Qube\". Label top-left: \"Claude · Codex → Qube\"",
+        "sound": "Keyboard clicks under the typing. Whoosh as the step bar slides in",
+        "spoken": "\"I start by connecting Qube to Claude. Qube breaks your strategy into four rules, and each one handles a different job.\"",
+        "time": "5.6–11.2",
+        "visual": "Hard cut to full screen. Claude with Qube connected, the rule typed in (A1, sped up), then Qube opening with the rules listed (A2). On \"different job\" the step bar (A4) slides in across the top, all tabs grey"
+      },
+      {
+        "id": "e3",
+        "onscreen": "\"10 biggest US stocks\"",
+        "sound": "Tick per chip as the scan line passes",
+        "spoken": "\"One rule scans the 10 biggest US stocks looking for a drop.\"",
+        "time": "11.2–15.0",
+        "visual": "Back to split. Step bar: STOCKS gold. Ticker grid (A5): 10 chips, AAPL MSFT NVDA AMZN GOOGL META TSLA AVGO JPM BRK.B, a scan line sweeping across them"
+      },
+      {
+        "id": "e4",
+        "onscreen": "\"$2,000 max per stock\" (\"$2,000\" gold)",
+        "sound": "Cash-register tick on \"$2,000\"",
+        "spoken": "\"Another caps each stock at $2,000.\"",
+        "time": "15.0–16.9",
+        "visual": "Step bar: SIZE gold. Ticker grid (A5) with \"$2,000\" under each chip"
+      },
+      {
+        "id": "e5",
+        "onscreen": "\"Buy at the close · down 3%+ in a day\"",
+        "sound": "Low hit when the chip flashes red",
+        "spoken": "\"Then an entry rule buys the day one of them drops 3%.\"",
+        "time": "16.9–20.6",
+        "visual": "Step bar: BUY gold. Ticker grid (A5): one chip (NVDA) flashes red \"−3%\", then turns gold \"BUY\", with \"Example\" bottom-left. Then Qube's buy line highlighted (A2)"
+      },
+      {
+        "id": "e6",
+        "onscreen": "\"Take profit: +3% from the buy\" (green #22C55E) pops on \"profit\" · \"Stop-loss: −5%\" (red #EF4444) pops on \"losses\"",
+        "sound": "Two pops, one per line",
+        "spoken": "\"And an exit rule takes profit at 3%, or cuts your losses at 5%.\"",
+        "time": "20.6–25.0",
+        "visual": "Step bar: SELL gold. Price chart (A6): green +3% line above the buy, red −5% line below. Then Qube's sell and stop-loss lines highlighted (A2)"
+      },
+      {
+        "id": "e7",
+        "onscreen": "\"BACKTEST\" (gold)",
+        "sound": "Music drops out for the line, back in on \"backtest\"",
+        "spoken": "\"But the craziest part is the backtest.\"",
+        "time": "25.0–27.2",
+        "visual": "Stay in split. Step bar: BACKTEST outlined gold for the first time (A4 (6)). Punch-in to 110% on Joshua"
+      },
+      {
+        "id": "e8",
+        "onscreen": "Counter: \"0 trades\" (top-right) climbing. Dates under it running \"2021 → 2025\". Label top-left: \"Backtest, not live results\"",
+        "sound": "Ticking as trades scroll, speeding up",
+        "spoken": "\"Qube takes your rules and runs them through five years of real prices.\"",
+        "time": "27.2–31.2",
+        "visual": "Hard cut to full screen. The real Qube backtest running (A3), the trade list scrolling fast (this shows \"every trade\"). Step bar: BACKTEST gold"
+      },
+      {
+        "id": "e9",
+        "onscreen": "\"Start: $10,000\" pops on \"$10,000\". Counter lands on \"607 trades\". Balance counts \"$10,000 → $18,147\", then \"+$8,147\" (green). Under it: \"Backtest, not live results · 2021–2025 · 607 trades · no fees\"",
+        "sound": "Counter whirs, a hit when it lands on 607",
+        "spoken": "\"Say I'd put in $10,000. 607 trades later, it was up about $8,100.\"",
+        "time": "31.2–35.3",
+        "visual": "Full screen. Qube result (A3): equity curve and final balance"
+      },
+      {
+        "id": "e10",
+        "onscreen": "\"Worst drop from a high: −$3,207\" (red). \"from a high\" only if A3 confirms −$3,207 is measured from a high. If Qube measures it another way, use \"Worst drop: −$3,207\" and tell Mark",
+        "sound": "Music dips, low thud on \"worst\"",
+        "spoken": "\"At its worst point, it was down about $3,200.\"",
+        "time": "35.3–38.1",
+        "visual": "Back to split. Qube equity curve (A3 still), the worst dip circled in red, with the \"Go live\" button still locked over it (A7). Step bar extends to the right: `BACKTEST ✓ → PAPER → LIVE` (A4 (8)), PAPER and LIVE grey"
+      },
+      {
+        "id": "e11",
+        "onscreen": "\"Backtest, not live results\" stays top-left of the frame · \"Today's 10 biggest companies = hindsight\" pops on \"took off\"",
+        "sound": "Music low under the line",
+        "spoken": "\"Of course, it's a backtest, not live results, and we already know these stocks took off.\"",
+        "time": "38.1–43.1",
+        "visual": "Hard cut to a full-face close-up of Joshua (A0 close-up take). No insert"
+      },
+      {
+        "id": "e12",
+        "onscreen": "\"COMMENT 'QUBE'\" (gold), centred · small line under: \"free sign-up link\"",
+        "sound": "Music out on the end screen",
+        "spoken": "\"Comment QUBE and I'll send you the link for the free sign-up.\"",
+        "time": "43.1–48.4",
+        "visual": "Split: the Qube \"Start free\" page scrolling to \"Free · no card required\" (A8). Last 2s: end screen (A9)"
+      }
+    ]
+  },
+  "length": "about 48s, 155 words (the original is 44s) · Presenter: Joshua",
+  "original": {
+    "account": "@buildwithai.club",
+    "lines": [
+      {
+        "t": "0:00",
+        "text": "Claude can now test your stock trade 10,000 times before you risk a single dollar."
+      },
+      {
+        "t": "0:04",
+        "text": "Someone just open sourced 11 free day trading skills for Claude and each one handles a different job."
+      },
+      {
+        "t": "0:09",
+        "text": "One skill scans thousands of stock charts looking for trading opportunities."
+      },
+      {
+        "t": "0:13",
+        "text": "Another tracks breaking news that could move those stocks."
+      },
+      {
+        "t": "0:16",
+        "text": "Then there's an entry skill that watches for the right signal and an exit skill that plans when to take profit or cut your losses."
+      },
+      {
+        "t": "0:22",
+        "text": "But the craziest one is called the time machine."
+      },
+      {
+        "t": "0:24",
+        "text": "It takes your trade and simulates the rest of the trading day 10,000 times using historical price data."
+      },
+      {
+        "t": "0:29",
+        "text": "Then it shows how often you would have made money, hit your stop loss or ended somewhere in between."
+      },
+      {
+        "t": "0:34",
+        "text": "So you get to see the historical odds before putting your money on the line."
+      },
+      {
+        "t": "0:37",
+        "text": "Of course, it's a simulation, not a guarantee."
+      },
+      {
+        "t": "0:39",
+        "text": "To get all 11 skills and the full setup guide, follow Build with AI and comment trade."
+      }
+    ],
+    "seconds": 44,
+    "url": "https://www.instagram.com/p/DezOgThKETj/",
+    "words": 164
+  },
+  "originalTitle": "Claude tests your trade 10,000 times",
+  "presenter": "Joshua",
+  "recreating": {
+    "account": "@buildwithai.club",
+    "summary": "@buildwithai.club · \"Claude tests your trade 10,000 times\" · https://www.instagram.com/p/DezOgThKETj/ · 4,384 likes and 6,947 comments on a 33K-follower account",
+    "url": "https://www.instagram.com/p/DezOgThKETj/"
+  },
+  "script": {
+    "hooks": [
+      {
+        "id": "hHook",
+        "label": "Hook",
+        "orig": "Claude can now test your stock trade 10,000 times before you risk a single dollar.",
+        "text": "Claude can now test your stock trades 20,000 times before you risk a single dollar."
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "orig": "I start by connecting Qube to Claude. Qube breaks your strategy into four rules, and each one handles a different job.",
+        "text": "I start by connecting Qube to Claude. Qube breaks your strategy into four sections, and each one has a different job."
+      },
+      {
+        "id": "l2",
+        "orig": "One rule scans the 10 biggest US stocks looking for a drop.",
+        "text": "First it scans the 10 biggest US stocks looking for a drop in price."
+      },
+      {
+        "id": "l3",
+        "orig": "Another caps each stock at $2,000.",
+        "text": "Another caps each stock at $2,000."
+      },
+      {
+        "id": "l4",
+        "orig": "Then an entry rule buys the day one of them drops 3%.",
+        "text": "Then an entry rule buys the day one of them drops by 3% or more."
+      },
+      {
+        "id": "l5",
+        "orig": "And an exit rule takes profit at 3%, or cuts your losses at 5%.",
+        "text": "And an exit rule takes profit at 3%, or cuts your losses at 5%."
+      },
+      {
+        "id": "l6",
+        "orig": "But the craziest part is the backtest.",
+        "text": "Thats not even the craziest part."
+      },
+      {
+        "id": "l7",
+        "orig": "Qube takes your rules and runs them through five years of real prices.",
+        "text": "Qube takes your strategy and tests it on up to five years of real price data."
+      },
+      {
+        "id": "l8",
+        "orig": "Say I'd put in $10,000. 607 trades later, it was up about $8,100.",
+        "text": "Say I'd put in $10,000. 607 trades later, it was up about $8,100."
+      },
+      {
+        "id": "l9",
+        "orig": "At its worst point, it was down about $3,200.",
+        "text": "At its worst point, it was down about $3,200."
+      },
+      {
+        "id": "l10",
+        "orig": "Of course, it's a backtest, not live results, and we already know these stocks took off.",
+        "text": "Of course, it's a backtest, not live results, and we already know these stocks took off. But if you can find the reasons why, you just might have a winning strategy."
+      },
+      {
+        "id": "l11",
+        "orig": "Comment QUBE and I'll send you the link for the free sign-up.",
+        "text": "Comment QUBE and I'll send you the link for the free sign-up."
+      }
+    ]
+  },
+  "status": "In review",
+  "title": "Claude can now test your stock trade 10,000 times before you risk a single dollar.",
+  "updatedAt": 1792747794.634,
+  "updatedBy": "Mark"
+}

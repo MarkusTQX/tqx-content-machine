@@ -1,0 +1,74 @@
+# Skill changelog
+
+date · skill · type · summary · trigger · approved by
+
+## Oct 22 2026 · skill review (all approved by Mark)
+
+- Oct 22 · terminology, audience-profile, trading-fundamentals · change rule · Don't explain basics to Frank; show source + label · review · Mark
+- Oct 22 · cta-and-offer, script-qa-checklist, remix-for-product · change rule · Demo and build videos show the product throughout · review · Mark
+- Oct 22 · cta-and-offer · add rule · Breakdown DM added to the QUBE flow (not live in ManyChat yet) · review · Mark
+- Oct 22 · terminology · add rule · GATC = "simulation account"; everything else = "paper trading" · review · Mark
+- Oct 22 · terminology, product-truth-gatc, spoken-sentence-rules · change rule · "AI team" / "GATC team" → "team of agents" · review · Mark
+- Oct 22 · terminology · add rule · TQX said as letters, "T-Q-X" · review · Mark
+- Oct 22 · terminology · add example · 10 new glossary rows (strategy, ready-made strategy, win rate, slippage, liquidation, overfitting, look-ahead bias, Sharpe ratio, API keys, prize pool); "Claude Code" fine in B-roll steps · review · Mark
+- Oct 22 · anti-ai-patterns · fix · Checker catches isn't / wasn't / aren't; "Picture this:" banned, "picture" before a made-up number allowed · review · Mark
+- Oct 22 · claims-and-proof · fix fact · Last-checked rule; ESMA added for CFD losses; Alpha Arena, Mercer and WorldQuant sources marked or upgraded · review · Mark
+- Oct 22 · video-breakdown · add rule · New teaching card for educational videos · review · Mark
+- Oct 22 · script-qa-checklist · add rule · New Pass 1 "worth making" (persona, usable payoff, not a repeat) · review · Mark
+- Oct 22 · on-screen-text, finance-compliance · change rule · Paper-trading badge moves to top-right · review · Mark
+- Oct 22 · filming-setup · add rule · Presenter A-roll filmed vertical · review · Mark
+- Oct 22 · metrics-definitions · add rule · Video map and snapshot locations · review · Mark
+- Oct 22 · skill-updating · new skill · Built: thresholds 2 fixes / 5 videos, Director approves with Mark-only limits · build queue · Mark
+- Oct 22 · kb-curation · new skill · Built: 3+ creators = firm rule, 1–2 = tip, contested and rejected statuses; every creator counts once · build queue · Mark
+- Oct 22 · content-scorecard · new skill · Built: 4 numbers vs own last-10 average; any one beaten = win, 2x = big win, leads first; baseline from 6 Metricool videos · build queue · Mark
+- Oct 22 · slop · update · Real Metricool views for M01–M06; M02 confirmed as the S&P video · Metricool · (no approval needed)
+- Oct 22 · positioning · new skill · Built: 4 enemies, 3 differences mapped to enemy and persona, name and rank tools freely, never-compare list · build queue · Mark
+- Oct 22 · gold-standard-scripts · new skill · Built: M05 and M02 transcribed from the posted Reels and annotated line by line; J016/J018 approved rewrites; rejected scripts in references · build queue · Mark
+- Oct 22 · tools · setup · Installed ffmpeg, whisper-cpp, yt-dlp (project venv) and the speech model; built tools/study-video.sh · build queue · Mark
+- Oct 22 · gold-standard-scripts · change rule · The bar now comes from outside viral Reels Mark picks; M05/M02 demoted to baseline · Mark's feedback · Mark
+- Oct 22 · tqx-voice · new skill · Built from transcripts of all 15 posted Reels + 2 raw takes: shared voice, Mark, Joshua, captions · build queue · Mark
+- Oct 22 · storyboarding · fix fact · Measured pace: Mark ~3.0, Joshua ~3.2 words/s (was 3.0 / 2.5) · transcripts · data (threshold 1)
+- Oct 22 · fix-log · add rows · 10 errors found in posted videos + open GATC/Qube live-trading question · transcripts · (no approval needed)
+- Oct 22 · product-truth-gatc · fix fact · Agents can trade live or on a simulation account; open questions on live capital added · Mark's answer · Mark
+- Oct 22 · product-truth-qube · fix fact · Qube trades live through a real broker today (step 4: Go live) · Mark's answer · Mark
+- Oct 22 · finance-compliance · change rule · 'Never connect live brokerage during setup' → 'never go live before testing' · Mark's answer · Mark
+- Oct 22 · gold-standard-scripts · add example · Outside gold filled: 10 Reels from Mark's batch of 19, with lesson cards and a pattern summary · Mark's list · Mark
+- Oct 22 · script-logic, script-qa-checklist · add rule · 35–60s target; second hook at 60–75% · viral batch 1 · Mark
+- Oct 22 · cta-and-offer, remix-for-product, script-qa-checklist · change rule · Product named in first 8s when it's the answer; CTA names exactly what they get; share CTA for no-product videos · viral batch 1 · Mark
+- Oct 22 · script-logic, script-qa-checklist · change rule · Under 60s is a preference; longer is fine when recreating a longer original · Mark · Mark
+- Oct 23 · hook-writing · new skill · Built from 4 teaching creators (5 cards), 43 template examples and 19 viral Reels: 3 firm rules, 15 tips, rejected list, 5-hooks process · build queue · Mark
+- Oct 23 · story-structures · new skill · 8 shapes + universal timing from 62 videos (43 template examples + 19 viral) · build queue · Mark
+- Oct 23 · retention-writing · new skill · 9 retention moves with counts and TQX lines, from 62 videos + @viewcci · build queue · Mark
+- Oct 23 · hook-writing · change rule · Line 2 starts delivering but doesn't finish (matches retention-writing) · consistency · Director
+- Oct 23 · retention-diagnosis · new skill · Built from M02 and M05 retention screenshots: zones, drop shapes, report format, two worked examples · build queue · Mark
+- Oct 23 · claims-and-proof · add example · TQX's own SPY overnight vs daytime backtest (tools/overnight-test.py) for J021 · own test · (no approval needed)
+- Oct 23 · claims-and-proof · fix fact · Overnight row: round trips, cost per side marked as an assumption, price-only label (REDPEN's J021 note) · review · Director
+- Oct 23 · remix-for-product, hook-writing, cta-and-offer, script-qa-checklist, terminology, spoken-sentence-rules, claims-and-proof · change rule · Copy viral script + slip Qube in; no blanket hook ban; 'trading idea' banned; Micron overnight row · Mark · Mark
+- Oct 23 · product-truth-qube · fix fact · Claude can start live trading through the Qube connection · Mark's answer · Mark
+- Oct 23 · fix-log · add lessons · Lessons written for Mark's 16 Script Room edits (J020, J021, J022); repeat counts raised · new-lessons.md · (no approval needed)
+- Oct 23 · terminology · add rule · #6: what Qube builds is a "strategy", its parts are "sections", not "rules" (J020 lines 1, 2, 7) · fix-log J020 l1/l2/l7, J022 l1, Oct 15 · count 5 · Mark (his edits)
+- Oct 23 · terminology · add example · #5: "try it on fake money first" → "try it on a simulation account first" (J022); wider change waiting on Mark (proposals P1) · fix-log J022 l6, Oct 11 · count 2 · Mark (his edit)
+- Oct 23 · product-truth-qube · add rule · One-line description: "allows you to build a trading strategy from natural language", not "turns it into exact rules" (J022) · fix-log J022 l1 + rules kind · count 5 · Mark (his edit)
+- Oct 23 · product-truth-qube · add rule · Don't fix the length of price history: "years of prices" / "up to five years of real price data" (J022, J020) · fix-log J022 l3, J020 l7 · count 2 · Mark (his edits)
+- Oct 23 · retention-writing · add example · #3 raise the stakes without naming what's next: "But the craziest part is the backtest." → "That's not even the craziest part." (J020) · fix-log J020 l6, M04 teaser · count 2 · Mark (his edit)
+- Oct 23 · spoken-sentence-rules · add example · #5 exact trigger: "a drop" → "a drop in price", "drops 3%" → "drops by 3% or more" (J020) · fix-log J020 l2, l4 · count 2 · Mark (his edits)
+- Oct 23 · proposals to Mark · P1 simulation account for Qube, P2 retire "turns it into exact rules", P3 stop explaining S&P 500, P4 backtest example "ten years" · data/mark-edits/proposals.md · waiting on Mark
+- Oct 25 · fix-log · add lessons · Lesson written for Mark's M23 hook edit ("a quant trading firm" → "an entire quant trading firm"); repeat count raised · new-lessons.md · (no approval needed)
+- Oct 25 · spoken-sentence-rules · add rule · #12: one plain emphasis word on the big claim or worst case ("an entire quant trading firm", "if it all goes wrong") · fix-log M23 hook, J022 l2 · count 2 · Mark (his edits)
+- Oct 25 · fix-log · add lessons · Lessons written for Mark's J024 (lines 1, 2, 12) and J026 (line 10 + new CTA line 11) edits, plus the open J021 line 7 row; conflicts noted · new-lessons.md · (no approval needed)
+- Oct 25 · product-truth-qube · add example · One-line description: Mark's J024 line naming the whole loop (build, optimise, simulate, go live, "all in one eco system") · fix-log J024 l2, J022 l1 · count 2 · Mark (his edit)
+- Oct 25 · remix-for-product · add rule · Step 3: if the original's line is already true for us, keep it; don't tack product facts on ("Completely free, no card needed" → "Completely free") · fix-log J024 l12, J024 l1, Oct 23 decision · count 3 · Mark (his edit)
+- Oct 25 · cta-and-offer · add example · Case note: J026's CTA is Mark's ("Comment qube and ill send you the full breakdown."), left as written; standard CTA unchanged pending P6 · fix-log J026 l10, M03, M04 · count 3 · Mark (his edit)
+- Oct 25 · proposals to Mark · P5 keep the original's "who built it" line (J024 Tsinghua), P6 "full breakdown" CTA; P1 gets J024 evidence · data/mark-edits/proposals.md · waiting on Mark
+- Oct 27 · remix-for-product, scriptwriter (agent), script-critic (agent), director (agent), hook-writing #7, gold-standard-scripts, script-qa-checklist, make-script · change rule · Only the hook is copied word for word; body follows the original's structure, beat order, engine, rhythm and length but every line is written fresh in TQX's voice; beat map = Time | Original beat (what it does) | Our line (fresh); critic FAILs any copied or lightly reworded body line; CTA stays standard. Replaces the Oct 23 copy method · Mark's direct correction, Oct 27 · Mark
+- Oct 27 · script-logic #10 / #10b, scriptwriter, script-critic, script-qa-checklist · change rule · ±10% word count stays; an original past ~60s gets cut to its strongest beats, ~50–60s (replaces "match a longer original's length") · Mark on J032, Oct 27 · Mark
+- Oct 27 · director (agent) Job 1 + approval, make-script 2b, script-qa-checklist Pass 1 · add rule · Mandatory check of every past TQX video (video-map, own-videos transcripts, videos/ scripts and briefs incl. _archive, slop) before a brief; stop or flag on overlap of idea or payoff; brief line "Past videos checked: no overlap (closest: <code, why different>)" replaces "Not a repeat of" · Mark rejecting J032, Oct 27 · Mark
+- Oct 27 · fix-log · add lessons · 24 lessons for Mark's J029, J031, J032, J033 edits; 3 Oct 27 Decisions rows; Oct 23 copy-method row marked superseded · new-lessons.md · (no approval needed)
+- Oct 27 · hook-writing · add example · J033: the original's on-screen setup is part of its hook ("Trying a new side hustle everyday until I make 100 K a month ( spins a wheel it lands on trading)") · fix-log J033 hook, Oct 23 first-time-viewer row · count 2 · Mark (his edit)
+- Oct 27 · spoken-sentence-rules · add example · #12 J029 "200 of those are just learning to code"; #3 J031 "implementable" → "usable", "stitching" → "putting" · fix-log J029 l1, M23, J022 l2; J031 l4, l5, J020 l1 · count 3 / 3 · Mark (his edits)
+- Oct 27 · anti-ai-patterns · add example · #4 lead-in words cut (J031 "Usually,", "Instead,", "actually") · fix-log J031 l1, l2, l4 · count 3 · Mark (his edits)
+- Oct 27 · retention-writing · add example · #3 J031 "That's where things get interesting." → "That's when everything changes." · fix-log J031 l9, J020 l6, M04 · count 3 · Mark (his edit)
+- Oct 27 · product-truth-qube · add example · One-line description table: J031 l7 "flagged its weaknesses and then optimized" (Qube does the check and the improve step) · fix-log J031 l7, J024 l2 · count 2 · Mark (his edit)
+- Oct 27 · proposals to Mark · note: P5 likely moot under the new method; remix step 3 "keep the original's line" retired by Mark's Oct 27 decision; J031 line 2 "TQX" flagged · data/mark-edits/proposals.md · FYI
+- Oct 27 · claims-and-proof · fix fact (add) · new section "Claude connectors (outside tools)": Alpha Vantage (25 free requests/day, realtime premium-only), CoinGecko (keyless URL), Notion (writes pages), Google Calendar (read-only), where to add a connector · J032 brief + critic round 1, sources checked Oct 27 · claims-and-proof own rule ("add it here with the link") · Director to confirm
+- Oct 27 · script-logic #10 / #10b / template, scriptwriter, script-critic, director (agents), remix-for-product, make-script, script-qa-checklist, gold-standard-scripts, tools/check-script.py · change rule · 35–60s spoken is a HARD limit for every script (Joshua ~110–190 words, Mark ~105–180), aim ~40–50s; replaces "a preference" (Oct 22) and "cut to ~50–60s" (J032); ±10% of the original only inside 35–60s; critic/Director auto send-back over 60s or under 35s (except short text-only like J026); checker flags "OVER 60s — hard limit, cut" / "UNDER 35s" · Mark's direct correction on J028 (~81s, matched M05), Oct 27 · Mark

@@ -1,0 +1,120 @@
+1
+00:00:00,000 --> 00:00:01,960
+ Why is AI trading the future?
+
+2
+00:00:01,960 --> 00:00:05,000
+ Hedge funds have traded with algorithms for decades.
+
+3
+00:00:05,000 --> 00:00:06,880
+ They had three things you didn't:
+
+4
+00:00:06,880 --> 00:00:09,680
+ the data, the engineers, and the computers.
+
+5
+00:00:09,680 --> 00:00:11,360
+ Now, everyday traders make up
+
+6
+00:00:11,360 --> 00:00:13,360
+ of a third of all U.S. stock trading.
+
+7
+00:00:13,360 --> 00:00:15,840
+ A record number, more people than ever,
+
+8
+00:00:15,840 --> 00:00:18,680
+ still going up against machines by hand.
+
+9
+00:00:18,680 --> 00:00:21,800
+ I helped launch TikTok in Australia and New Zealand,
+
+10
+00:00:21,800 --> 00:00:24,680
+ from zero to two million daily active users.
+
+11
+00:00:24,680 --> 00:00:26,080
+ I've seen this movie before.
+
+12
+00:00:26,080 --> 00:00:27,760
+ The tools only the pros had
+
+13
+00:00:27,760 --> 00:00:30,320
+ suddenly landed in everyone's pocket.
+
+14
+00:00:30,320 --> 00:00:32,520
+ That's happening to trading right now.
+
+15
+00:00:32,520 --> 00:00:34,880
+ Cloud computing, open source AI,
+
+16
+00:00:34,880 --> 00:00:36,680
+ and AI that writes the code for you.
+
+17
+00:00:36,680 --> 00:00:39,680
+ The three things hedge funds pay millions for
+
+18
+00:00:39,680 --> 00:00:41,920
+ just got cheap, and they're getting cheaper.
+
+19
+00:00:41,920 --> 00:00:43,680
+ That's why we built Cube.
+
+20
+00:00:43,680 --> 00:00:46,120
+ You type your trading idea in plain English
+
+21
+00:00:46,120 --> 00:00:47,480
+ the way you explain it to a friend.
+
+22
+00:00:47,480 --> 00:00:50,520
+ Cube writes the code, pulls the data across the market,
+
+23
+00:00:50,520 --> 00:00:53,440
+ and runs the backtest, results, and signals
+
+24
+00:00:53,440 --> 00:00:54,440
+ right in front of you.
+
+25
+00:00:54,440 --> 00:00:56,840
+ When it looks good, test it on a paper account.
+
+26
+00:00:56,840 --> 00:00:59,440
+ When you're ready, take a life through a real broker.
+
+27
+00:00:59,440 --> 00:01:02,040
+ One place, idea to execution.
+
+28
+00:01:02,040 --> 00:01:04,000
+ Hedge funds needed a whole quantity for them.
+
+29
+00:01:04,000 --> 00:01:05,760
+ You need one idea.
+
+30
+00:01:05,760 --> 00:01:07,960
+ Common Cube, and I'll send you the full breakdown.
+

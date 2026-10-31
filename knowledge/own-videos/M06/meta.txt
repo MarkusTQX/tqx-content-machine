@@ -1,0 +1,9 @@
+source: https://www.instagram.com/reel/DeuVeM4TSbt/
+duration_s: 76.700000
+uploader: Markus.ai.quant
+channel: markus_ai_quant
+upload_date: 20261020
+like_count: 8
+comment_count: 2
+title: Video by markus_ai_quant
+description: half of american men now have a sports betting account… and they are not winning #polymarket #quant #trading #algotrading #daytrader

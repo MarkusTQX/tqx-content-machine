@@ -1,0 +1,100 @@
+1
+00:00:00,000 --> 00:00:03,420
+ Most people don't realize that quant traders never trust a strategy the first time that it works.
+
+2
+00:00:03,640 --> 00:00:06,820
+ They run it through a loop that tests each strategy over and over again until they find
+
+3
+00:00:06,820 --> 00:00:10,560
+ one that sticks. Here's how to build this out. Most people come up with an idea, backtests once,
+
+4
+00:00:10,680 --> 00:00:13,920
+ and then once it looks great, they go live and two weeks later they are bleeding money. That
+
+5
+00:00:13,920 --> 00:00:17,280
+ strategy died because it was one guess with nothing iterating on it. A quant runs a loop
+
+6
+00:00:17,280 --> 00:00:21,760
+ testing strategy instead. You generate a strategy, backtest it, score it against a specific metric,
+
+7
+00:00:22,020 --> 00:00:25,720
+ read why it failed, feed that information back in, and then you generate a better version. Then
+
+8
+00:00:25,720 --> 00:00:28,980
+ you test that version, score it, read the failures, and run it again. Each round keeps
+
+9
+00:00:28,980 --> 00:00:32,260
+ the variance that scored well and refines the ones that did not. The whole edge in quant trading
+
+10
+00:00:32,260 --> 00:00:35,760
+ is the iteration and most people don't iterate at all. The loop also needs a way to score each
+
+11
+00:00:35,760 --> 00:00:39,940
+ strategy or else it just wonders. The metric that quants use is called ICIR and all it measures is
+
+12
+00:00:39,940 --> 00:00:43,680
+ how consistently your strategy performs over time. A strategy that makes a little bit of money every
+
+13
+00:00:43,680 --> 00:00:47,160
+ single week completely beats out a strategy that makes a lot of money in one week and loses it all
+
+14
+00:00:47,160 --> 00:00:51,020
+ in the next. That consistency score is what the loop optimizes towards. And here's the second check
+
+15
+00:00:51,020 --> 00:00:54,920
+ that most people skip. Even a real strategy has a shelf life. If the signal decays in two days,
+
+16
+00:00:54,980 --> 00:00:58,400
+ you're basically just paying fees to chase noise. If it decays in 50 days, you have a real
+
+17
+00:00:58,400 --> 00:01:01,980
+ traceable edge. The loop rejects these short-lived signals automatically. And this is the most
+
+18
+00:01:01,980 --> 00:01:05,860
+ important part. A loop that optimizes that same data that was built on does not find better strategies
+
+19
+00:01:05,860 --> 00:01:09,800
+ faster. It just finds prettier noise faster. Every extra iteration is just another chance to
+
+20
+00:01:09,800 --> 00:01:13,260
+ accidentally fit the past data. The fix that quant uses is called an out of sample gate. Every
+
+21
+00:01:13,260 --> 00:01:17,600
+ strategy that survives the loop gets tested one final time on fresh data that is never seen. If the
+
+22
+00:01:17,600 --> 00:01:21,280
+ consistency data holds on fresh data, then the score is real. If it does not, it gets thrown out no
+
+23
+00:01:21,280 --> 00:01:24,660
+ matter how good it looked before. I created a step-by-step guide on exactly how to build out this loop
+
+24
+00:01:24,660 --> 00:01:28,340
+ system to help you build trading bots that find alpha. Just like the video and comment quant and
+
+25
+00:01:28,340 --> 00:01:31,220
+ I'll send it to you. Follow for more ways to make money and run your business with tech and AI.
+

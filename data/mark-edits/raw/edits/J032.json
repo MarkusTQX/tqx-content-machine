@@ -1,0 +1,103 @@
+{
+  "code": "J032",
+  "log": [
+    {
+      "after": "",
+      "at": 1793117087050,
+      "before": "Comment QUBE and I'll send you the link for the free sign-up.",
+      "part": "line-delete",
+      "ref": "12"
+    },
+    {
+      "after": "",
+      "at": 1793117087874,
+      "before": "If it holds up, you keep it.",
+      "part": "line-delete",
+      "ref": "10"
+    },
+    {
+      "after": "",
+      "at": 1793117088962,
+      "before": "Every strategy that survives the loop gets tested on data it's never seen.",
+      "part": "line-delete",
+      "ref": "9"
+    },
+    {
+      "after": "",
+      "at": 1793117089795,
+      "before": "So that last test is an out-of-sample gate.",
+      "part": "line-delete",
+      "ref": "8"
+    },
+    {
+      "after": "",
+      "at": 1793117090409,
+      "before": "It just finds prettier noise faster.",
+      "part": "line-delete",
+      "ref": "7"
+    },
+    {
+      "after": "",
+      "at": 1793117091641,
+      "before": "If it doesn't, it gets thrown out, no matter how good it looked before.",
+      "part": "line-delete",
+      "ref": "6"
+    },
+    {
+      "after": "",
+      "at": 1793117092745,
+      "before": "You read why it failed, feed that back in, and the AI builds a better version to test again.",
+      "part": "line-delete",
+      "ref": "5"
+    },
+    {
+      "after": "",
+      "at": 1793117093505,
+      "before": "In Qube, you build a strategy, backtest it, and score it.",
+      "part": "line-delete",
+      "ref": "4"
+    },
+    {
+      "after": "",
+      "at": 1793117094570,
+      "before": "A quant runs a loop instead, and one last test decides which strategy they keep.",
+      "part": "line-delete",
+      "ref": "3"
+    },
+    {
+      "after": "",
+      "at": 1793117095258,
+      "before": "Most people backtest once, and once it looks great, they go live. Two weeks later, they're bleeding money.",
+      "part": "line-delete",
+      "ref": "2"
+    },
+    {
+      "after": "",
+      "at": 1793117096113,
+      "before": "They run it through a loop that tests each strategy over and over again until they find one that sticks.",
+      "part": "line-delete",
+      "ref": "1"
+    },
+    {
+      "after": "",
+      "at": 1793117097169,
+      "before": "Most people don't realize that quant traders never trust a strategy the first time that it works.",
+      "part": "hook-delete",
+      "ref": "Hook"
+    },
+    {
+      "after": "",
+      "at": 1793117101762,
+      "before": "",
+      "part": "line-add",
+      "ref": "1"
+    },
+    {
+      "after": "DELETE THIS SHIT I DONT WANT IT \n",
+      "at": 1793117112851,
+      "before": "",
+      "part": "line",
+      "ref": "1"
+    }
+  ]
+}

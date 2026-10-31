@@ -1,0 +1,36 @@
+No quant team, no code, just the new Jeff model.
+Here's what happened, how I built it, and how you can copy it.
+I started with $50,000, and in five days, I was up 20%.
+Now, let me show you how it's done.
+First, what is Jeff?
+ChatGPT is built to talk.
+You ask it a question, and it gives you back a paragraph.
+Jeff is built to decide.
+Think of it like a multiple choice question.
+You give it a clear set of questions and answers
+and can choose from buy, sell, or hold.
+It will make a decision and give you a confident score.
+Something like buy 82% sure.
+It can only choose from your list, so it can't make something up.
+And it answers in just half a second.
+It was built by Diogo Almeida when the researchers behind ChatGPT
+just launched, and the developers are going crazy over it.
+Why does this matter for trading?
+Think of a stock going up 8% in just one minute.
+By the time you ask ChatGPT, that stock has already moved.
+But Jeff can make a decision in milliseconds.
+So, I plug it into my own trading account.
+Three pieces.
+One, TKO exposed the strategy.
+I describe my strategy in plain English, and it creates a set of clear rules.
+Then, it back-tests them on years of market data
+and stress-test them on trading fees, slippage, and market conditions where the strategy no longer works.
+Two, Jeff makes the call.
+Every time new market data comes in, Jeff checks against my clear set of rules
+and decides buy, sell, or hold with a confidence score.
+Three, TKOX trades through my broker inside the risk limits I set,
+like how much I'm willing to lose in one day, then I stay out of the way.
+That's where the number comes from.
+Rules and discipline.
+Not a gut feeling.
+Comment, Jeff, and I'll send you the full setup.

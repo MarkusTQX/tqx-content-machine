@@ -1,0 +1,108 @@
+1
+00:00:00,000 --> 00:00:02,560
+ What if I told you that you could copy and paste
+
+2
+00:00:02,560 --> 00:00:04,720
+ a little piece of code onto your website
+
+3
+00:00:04,720 --> 00:00:06,380
+ and potentially triple your revenue?
+
+4
+00:00:06,380 --> 00:00:07,220
+ Let me show you.
+
+5
+00:00:07,220 --> 00:00:08,940
+ It's called the meta pixel.
+
+6
+00:00:09,920 --> 00:00:12,560
+ If you don't have this on your website,
+
+7
+00:00:12,560 --> 00:00:15,440
+ stop running ads and set it up now.
+
+8
+00:00:15,440 --> 00:00:16,280
+ Here's why.
+
+9
+00:00:16,280 --> 00:00:18,520
+ So when somebody clicks on your ad
+
+10
+00:00:18,520 --> 00:00:20,040
+ and goes to your website,
+
+11
+00:00:20,040 --> 00:00:23,500
+ Facebook can't see what's going on from that point.
+
+12
+00:00:23,500 --> 00:00:24,560
+ But why does that matter?
+
+13
+00:00:24,560 --> 00:00:28,380
+ Well, if Facebook can't see whether you get the customer
+
+14
+00:00:28,380 --> 00:00:30,140
+ or they just bounce off of your page,
+
+15
+00:00:30,140 --> 00:00:33,480
+ then they can't tell if your ads are working or not.
+
+16
+00:00:33,480 --> 00:00:34,320
+ And without that,
+
+17
+00:00:34,320 --> 00:00:37,440
+ they can't find more people like your customers.
+
+18
+00:00:37,440 --> 00:00:40,440
+ They're just going to keep finding people that are random
+
+19
+00:00:40,440 --> 00:00:42,080
+ that might like your product.
+
+20
+00:00:42,080 --> 00:00:44,020
+ But with this piece of code,
+
+21
+00:00:44,020 --> 00:00:45,900
+ you're basically telling Facebook,
+
+22
+00:00:45,900 --> 00:00:47,580
+ hey, that one was a good one.
+
+23
+00:00:47,580 --> 00:00:49,500
+ Keep sending me more like that.
+
+24
+00:00:49,500 --> 00:00:51,980
+ Set it up, pay somebody to help you set it up.
+
+25
+00:00:51,980 --> 00:00:53,680
+ I don't care how you do it, just get it done.
+
+26
+00:00:53,680 --> 00:00:54,840
+ It's really important.
+
+27
+00:00:54,840 --> 00:00:55,560
+ Have fun.
+

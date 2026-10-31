@@ -1,0 +1,9 @@
+source: https://www.instagram.com/p/DayGvQMMzyd/
+duration_s: 51.012789
+uploader: Tomer Tzadok
+channel: thecodingjesusquant
+upload_date: 20260714
+like_count: 1729
+comment_count: 44
+title: Video by thecodingjesusquant
+description: How long does it take to crack each quant role? #swe #computerscience #trader #quant #researcher

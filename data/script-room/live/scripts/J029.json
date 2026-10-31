@@ -1,0 +1,367 @@
+{
+  "assets": {
+    "notes": [
+      "**Presenter:** Joshua. One person, one list, in video order.",
+      "**Before recording anything:** nothing in this video uses Qube, Claude, Codex or a terminal on screen. It's Joshua talking plus one hand-drawn-style table. Four assets, that's all.",
+      "**The six numbers** (ours, typical estimates, Mark Oct 27) must match the script exactly: Python (from scratch) 300 hrs · Pine Script 100 hrs · QuantConnect 150 hrs · Excel 60 hrs · ChatGPT 5 min · Qube 15 min."
+    ],
+    "open": [
+      {
+        "done": false,
+        "id": "o1",
+        "text": "Nothing blocks the shoot. If you want different times in the table, change the cell in A1 and the matching spoken word in the script (Pine Script's 100 hrs and Qube's 15 min are on screen only, never said)."
+      }
+    ],
+    "rows": [
+      {
+        "file": "J029_A0_aroll.mp4 · 1080×1920",
+        "how": "1. Phone vertical (9:16), eye level, office lights on, lock focus and exposure. 2. Frame close: face and shoulders fill the frame, a mic in front of him at chin height and slightly to one side (any podcast mic on a stand or boom arm; it's a prop, the phone records the sound). 3. Leave space above his head: the editor crops him to the top 37% of the screen (1080×710). 4. Record the hook twice, clean. 5. Then the whole script, lines 1–16, in **one take**, calm, no pauses between lines, no cuts. If he stumbles, start the take again from line 1. 6. Look at the lens, with a glance down now and then, as if reading the table.",
+        "id": "A0",
+        "ready": false,
+        "what": "Joshua talking (A-roll)",
+        "who": "Joshua"
+      },
+      {
+        "file": "J029_A1_table.excalidraw · 1080×1210 on screen",
+        "how": "1. Open https://excalidraw.com in Chrome. Menu → Canvas background → white #FFFFFF. 2. Text tool, font \"Hand-drawn\", colour black #1E1E1E, size L. 3. Type the header row on one line, two columns: left `Tool`, right `Time`. Draw a thin grey #9AA3AE line under it. 4. Under the line, small text (size S), grey #9AA3AE, left-aligned: `Our estimates`. 5. Left column, one name per row, size L, same row spacing every row: `Python (from scratch)` · `Pine Script` · `QuantConnect` · `Excel` · `ChatGPT` · `Qube`. 6. Right column, right-aligned, size L, same rows: `300 hrs` · `100 hrs` · `150 hrs` · `60 hrs` · `5 min` · `15 min`. 7. On the ChatGPT row, right after `5 min`, small text (size S) in red #EF4444: `untested`. On the Qube row, right after `15 min`, small text (size S) in green #22C55E: `tested`. (Same row, not under it, so every row is the same height and the box moves the same distance each time.) 8. Rectangle tool: black #000000 fill, solid, sharp corners, no stroke. Draw it over the whole Time column, from just under the `Our estimates` line down well past the Qube row (it must be taller than the column so its bottom is always off-screen, like the original). Make it a little wider than `15 min tested`. 9. Zoom so the table fills a 1080×1210 area (portrait). Save the file as `J029_A1_table.excalidraw`. **CHECK: read the six numbers back against the list at the top of this sheet: 300 hrs, 100 hrs, 150 hrs, 60 hrs, 5 min, 15 min. Units in every cell.** **CHECK: the box hides every number, the red `untested` and the green `tested` before recording starts.**",
+        "id": "A1",
+        "ready": false,
+        "what": "The table (hand-drawn style)",
+        "who": "Editor"
+      },
+      {
+        "file": "J029_A2_reveal.mp4 · cropped to 1080×1210 · about 45s",
+        "how": "1. A1 open in Chrome, full screen, no tabs, bookmarks or toolbars showing (hide the Excalidraw toolbar: View mode, or crop it in the edit). 2. Start a screen recording (QuickTime → File → New Screen Recording, whole screen). 3. Click the black box once so the move cursor (four arrows) shows on it. Hold 5s. 4. Drag the box straight down by exactly one row, so `300 hrs` shows. Hold 5s. 5. Repeat, one row at a time, holding 5s after each: `100 hrs`, `150 hrs`, `60 hrs`, `5 min untested`, then drag it off the last row so `15 min tested` shows. Hold 5s on the full table. 6. Stop. 7. In the edit: keep it one continuous shot (no cuts); stretch each hold with a freeze frame so each drag lands on its spoken word (`J029-2-EDIT.md`). **CHECK: each drag uncovers exactly one row, in this order: Python, Pine Script, QuantConnect, Excel, ChatGPT, Qube.** **CHECK: no row shows a number before its drag (watch the box edges).**",
+        "id": "A2",
+        "ready": false,
+        "what": "The reveal: box dragged down one row at a time",
+        "who": "Editor"
+      },
+      {
+        "file": "J029_A3_end.png · 1080×1920",
+        "how": "Canva, 1080×1920, full screen #0B0F14, `Comment QUBE` centred, Instrument Serif 88px, white, \"QUBE\" in gold #E8B04B. 2s.",
+        "id": "A3",
+        "ready": false,
+        "what": "End screen",
+        "who": "Editor"
+      }
+    ]
+  },
+  "code": "J029",
+  "edit": {
+    "notes": [
+      "**Recreating:** @thecodingjesusquant · https://www.instagram.com/p/DayGvQMMzyd/ · copy its rhythm: no cuts at all. One continuous take of Joshua on top, one continuous screen recording of the table below. The only visual change is the reveal: a black box dragged down one row at a time, move cursor visible on it, a new number every 5–10s. The last number is held to the last second before the CTA.",
+      "**Layout:** split screen for the whole video except the end screen. **Top 37%:** Joshua, 1080×710, close up at a mic (A0). **Bottom 63%:** the table, 1080×1210, white canvas (A1 + A2). Captions **one word at a time**, uppercase, house preset \"TQX Captions\" (Inter Bold 58px, white, black stroke 6px), centred on the split line (y = 710), like the original's \"CRACK\", \"ROLE\", \"HOURS\".",
+      "**The table** (A1): \"Tool"
+    ],
+    "rows": [
+      {
+        "id": "e1",
+        "onscreen": "Captions one word at a time. The table shows all six tool names; the Time column is fully covered",
+        "sound": "No music. Room sound only, like the original. The move cursor sits on the box from frame 1",
+        "spoken": "Hook: \"So how long does it take to build a trading strategy with every quant trading tool?\"",
+        "time": "0.0–5.0",
+        "visual": "Top: Joshua (A0). Bottom: the table, whole Time column under the black box (A2, start)"
+      },
+      {
+        "id": "e2",
+        "onscreen": "On \"300\": \"300 hrs\" uncovered in the Python (from scratch) row",
+        "sound": "Box slides in about 0.4s. Soft click on the drop",
+        "spoken": "\"For Python, we have around 300 hours, 200 of those are just learning to code.\"",
+        "time": "5.0–9.7",
+        "visual": "Bottom: box dragged down one row (A2, reveal 1)"
+      },
+      {
+        "id": "e3",
+        "onscreen": "On \"Pine Script\": \"100 hrs\" uncovered in the Pine Script row (**never said**)",
+        "sound": "Same slide, same click",
+        "spoken": "\"Pine Script. That's TradingView's own coding language.\"",
+        "time": "9.7–11.9",
+        "visual": "Bottom: box down one more row (A2, reveal 2)"
+      },
+      {
+        "id": "e4",
+        "onscreen": "Captions only",
+        "sound": "None",
+        "spoken": "\"Hardly anybody learns it.\"",
+        "time": "11.9–13.1",
+        "visual": "No change. Hold"
+      },
+      {
+        "id": "e5",
+        "onscreen": "Captions only",
+        "sound": "None",
+        "spoken": "\"Which is crazy, because it's honestly not that hard to pick up.\"",
+        "time": "13.1–16.9",
+        "visual": "No change. Hold"
+      },
+      {
+        "id": "e6",
+        "onscreen": "On \"150\": \"150 hrs\" uncovered in the QuantConnect row",
+        "sound": "Slide, click",
+        "spoken": "\"QuantConnect? You're looking at about 150 hours.\"",
+        "time": "16.9–19.1",
+        "visual": "Bottom: box down one row (A2, reveal 3)"
+      },
+      {
+        "id": "e7",
+        "onscreen": "Captions only",
+        "sound": "None",
+        "spoken": "\"Heads up, that bottom one's ours.\"",
+        "time": "19.1–21.0",
+        "visual": "No change. Hold. The Qube row's name is in view at the bottom of the table"
+      },
+      {
+        "id": "e8",
+        "onscreen": "Captions only",
+        "sound": "None",
+        "spoken": "\"Stick around for that one.\"",
+        "time": "21.0–22.5",
+        "visual": "No change"
+      },
+      {
+        "id": "e9",
+        "onscreen": "Captions only",
+        "sound": "None",
+        "spoken": "\"Excel's up next.\"",
+        "time": "22.5–23.5",
+        "visual": "No change. The box now sits on Excel's cell"
+      },
+      {
+        "id": "e10",
+        "onscreen": "Captions only",
+        "sound": "None",
+        "spoken": "\"You're dragging formulas down a sheet of old prices.\"",
+        "time": "23.5–26.3",
+        "visual": "No change"
+      },
+      {
+        "id": "e11",
+        "onscreen": "On \"60\": \"60 hrs\" uncovered in the Excel row",
+        "sound": "Slide, click",
+        "spoken": "\"Call it 60 hours. ChatGPT's as easy as it gets. You ask, boom, there's a strategy.\"",
+        "time": "26.3–31.3",
+        "visual": "Bottom: box down one row on \"60\" (A2, reveal 4). Hold through \"as easy as it gets\""
+      },
+      {
+        "id": "e12",
+        "onscreen": "On \"5 minutes\": \"5 min\" uncovered in the ChatGPT row, with \"untested\" in small red right after it on the same row",
+        "sound": "Slide, click",
+        "spoken": "\"5 minutes, anyone can do it. But you've got no idea if it works.\"",
+        "time": "31.3–35.6",
+        "visual": "Bottom: box down one row on \"5 minutes\" (A2, reveal 5). Only the Qube cell is still covered"
+      },
+      {
+        "id": "e13",
+        "onscreen": "Captions only",
+        "sound": "None",
+        "spoken": "\"Last one. Building a strategy used to take a whole hedge fund team.\"",
+        "time": "35.6–39.7",
+        "visual": "No change. Hold on the one covered cell. Second hook: the biggest moment of waiting"
+      },
+      {
+        "id": "e14",
+        "onscreen": "Captions only",
+        "sound": "None",
+        "spoken": "\"Pick a ready-made strategy, backtest it, let the AI make it better.\"",
+        "time": "39.7–43.4",
+        "visual": "No change"
+      },
+      {
+        "id": "e15",
+        "onscreen": "Captions only",
+        "sound": "None",
+        "spoken": "\"No team, no coder. Just you and one app.\"",
+        "time": "43.4–46.2",
+        "visual": "No change"
+      },
+      {
+        "id": "e16",
+        "onscreen": "On \"last number\": \"15 min\" uncovered in the Qube row, with \"tested\" in small green right after it on the same row (**never said**)",
+        "sound": "Slide, click. Hold the full table",
+        "spoken": "\"That's Qube. Now look at that last number.\"",
+        "time": "46.2–48.7",
+        "visual": "Bottom: box dragged down off the last row (A2, reveal 6). The full table, nothing covered"
+      },
+      {
+        "id": "e17",
+        "onscreen": "Captions one word at a time; \"QUBE\" in gold #E8B04B",
+        "sound": "None",
+        "spoken": "\"Comment QUBE and I'll send you the link for the free sign-up.\"",
+        "time": "48.7–50.4",
+        "visual": "Top: Joshua. Bottom: the full table, held"
+      },
+      {
+        "id": "e18",
+        "onscreen": "\"Comment QUBE\"",
+        "sound": "Cut to the end screen. Silence",
+        "spoken": "(end of the CTA)",
+        "time": "50.4–52.4",
+        "visual": "End screen, full screen (A3), last 2s"
+      }
+    ]
+  },
+  "length": "about 52s at Joshua's pace, calm, one continuous take, no pauses between lines (the original is 51s) · Presenter: Joshua",
+  "original": {
+    "account": "@thecodingjesusquant",
+    "lines": [
+      {
+        "t": "0:00",
+        "text": "So how long does it take to crack every quant trading industry role?"
+      },
+      {
+        "t": "0:03",
+        "text": "For research, we have around 12,000 hours, 9,000 of those being hardcore math."
+      },
+      {
+        "t": "0:07",
+        "text": "Hardware engineer, think FPGA, low latency."
+      },
+      {
+        "t": "0:09",
+        "text": "Not a lot of people go for this."
+      },
+      {
+        "t": "0:11",
+        "text": "It's not on anybody's radar, and that's why it pays so much, and it's probably not as competitive as you think."
+      },
+      {
+        "t": "0:16",
+        "text": "Dev, around 1,200 hours."
+      },
+      {
+        "t": "0:18",
+        "text": "We can cut this down by 300 to 400 hours with getcracked.io."
+      },
+      {
+        "t": "0:21",
+        "text": "More with our upcoming placement accelerator."
+      },
+      {
+        "t": "0:23",
+        "text": "Then we have DevOps."
+      },
+      {
+        "t": "0:24",
+        "text": "Think infrastructure as code, chef, deployments, CICD, etc."
+      },
+      {
+        "t": "0:29",
+        "text": "800 hours, trade-offs, the easiest one, trade reconciliation, slippage, settlements, really things nobody wants to do, 500 hours, lowest bar to entry."
+      },
+      {
+        "t": "0:37",
+        "text": "And lastly, we have something that you'll compete against other people fiercely in."
+      },
+      {
+        "t": "0:41",
+        "text": "This is statistics, probability, EV, trading games, almost everything that you can think of that you need to execute and trade well."
+      },
+      {
+        "t": "0:48",
+        "text": "This is going to take 1,500 hours."
+      }
+    ],
+    "seconds": 51,
+    "url": "https://www.instagram.com/p/DayGvQMMzyd/",
+    "words": 159
+  },
+  "originalTitle": "How long does it take to crack each quant role?",
+  "presenter": "Joshua",
+  "recreating": {
+    "account": "@thecodingjesusquant",
+    "summary": "@thecodingjesusquant · \"How long does it take to crack each quant role?\" · 1,729 likes and 44 comments on a 65K-follower account",
+    "url": "https://www.instagram.com/p/DayGvQMMzyd/"
+  },
+  "script": {
+    "hooks": [
+      {
+        "id": "hHook",
+        "label": "Hook",
+        "orig": "So how long does it take to build a trading strategy with every quant trading tool?",
+        "text": "So how long does it take to build a trading strategy with every quant trading tool?\n\nI tested them so you dont have to."
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "orig": "For Python, we have around 300 hours, 200 of those are just learning to code.",
+        "text": "For Python, we have around 300 hours, 200 of those are just learning to code."
+      },
+      {
+        "id": "l2",
+        "orig": "Pine Script. That's TradingView's own coding language.",
+        "text": "Pine Script, around 100 hours. That's TradingView's own coding language."
+      },
+      {
+        "id": "l3",
+        "orig": "Hardly anybody learns it.",
+        "text": "Hardly anybody learns it."
+      },
+      {
+        "id": "l4",
+        "orig": "Which is crazy, because it's honestly not that hard to pick up.",
+        "text": "Which is crazy, because it's honestly not that hard to pick up."
+      },
+      {
+        "id": "l5",
+        "orig": "QuantConnect? You're looking at about 150 hours.",
+        "text": "QuantConnect, you're looking at about 150 hours."
+      },
+      {
+        "id": "l6",
+        "orig": "Heads up, that bottom one's ours.",
+        "text": "Heads up, my team built the bottom one."
+      },
+      {
+        "id": "l7",
+        "orig": "Stick around for that one.",
+        "text": "Stick around for that one."
+      },
+      {
+        "id": "l8",
+        "orig": "Excel's up next.",
+        "text": "Excel's up next. 60 hours."
+      },
+      {
+        "id": "l9",
+        "orig": "You're dragging formulas down a sheet of old prices.",
+        "text": "You're dragging formulas down a sheet of old prices."
+      },
+      {
+        "id": "l10",
+        "orig": "Call it 60 hours. ChatGPT's as easy as it gets. You ask, boom, there's a strategy.",
+        "text": "ChatGPT, 5 minutes. You ask, boom, there's a strategy."
+      },
+      {
+        "id": "l11",
+        "orig": "5 minutes, anyone can do it. But you've got no idea if it works.",
+        "text": "Anyone can do it. But you've got no idea if it works."
+      },
+      {
+        "id": "l12",
+        "orig": "Last one. Building a strategy used to take a whole hedge fund team.",
+        "text": "Last one, Qube, 15 minutes."
+      },
+      {
+        "id": "l13",
+        "orig": "Pick a ready-made strategy, backtest it, let the AI make it better.",
+        "text": "Building a strategy used to take a whole hedge fund team. Now you pick a ready-made strategy, backtest it, and let the AI make it better."
+      },
+      {
+        "id": "l14",
+        "orig": "No team, no coder. Just you and one app.",
+        "text": "No team, no coder. Just you and one app."
+      },
+      {
+        "id": "l16",
+        "orig": "Comment QUBE and I'll send you the link for the free sign-up.",
+        "text": "Comment QUBE and I'll send you the link for the free sign-up."
+      }
+    ]
+  },
+  "status": "Approved",
+  "title": "So how long does it take to build a trading strategy with every quant trading tool?",
+  "updatedAt": 1793120560.389,
+  "updatedBy": "Producer"
+}

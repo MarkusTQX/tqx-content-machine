@@ -1,0 +1,33 @@
+I ranked 6 tools for building a trading strategy from S to F, so you don't have to.
+Quant trading just means trading with rules and data instead of your gut.
+And yes, I am biased because we built one.
+Asking chat GPT what to buy.
+F tier.
+You're just getting an opinion that nobody has actually tested.
+Excel.
+D tier.
+You can test a strategy on past prices in a spreadsheet, but one wrong sell and your test is secretly using tomorrow's price
+to make today's trade.
+Your results look amazing, but they're fake.
+Meta trader.
+C tier.
+It's popular for Forex, which is trading currencies like the dollar and the euro.
+But to build a bot that trades for you, it needs to learn its own coding language.
+Trading view.
+B tier.
+Really good charts and it can test strategies on past prices.
+But to do that, you need to learn its coding language.
+Pinescript.
+Quant connect.
+A tier.
+Very powerful for testing strategies, but you have to write real code in Python or C-sharp.
+Notice the pattern?
+Everything from C to A wants you to be a programmer.
+Cube.
+S tier.
+You describe the idea in plain English.
+It turns it into exact rules, tests them on past prices and runs it.
+No code required.
+The hard part of trading should be the idea, not learning how to code.
+Disagree?
+Drop your tier list in the comments or comment cube and I'll send you the full breakdown.

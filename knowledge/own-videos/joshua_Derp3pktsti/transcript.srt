@@ -1,0 +1,60 @@
+1
+00:00:00,000 --> 00:00:05,680
+ here's how to build your first trading system with ai buy the dip sounds like a strategy but it isn't
+
+2
+00:00:05,680 --> 00:00:11,200
+ when do you buy it which dip how much do you buy when you get out it's like walking to a coffee
+
+3
+00:00:11,200 --> 00:00:16,080
+ shop and asking for a good cup of coffee the barista needs a bit more information before
+
+4
+00:00:16,080 --> 00:00:22,160
+ they can tend to a coffee addiction what size what type of milk hot or cold a strategy needs
+
+5
+00:00:22,160 --> 00:00:28,160
+ exact answers too four of them when to buy when to sell how much to put in and when you should cut
+
+6
+00:00:28,160 --> 00:00:34,720
+ your losses the last one is called a stop loss it's a price where you sell automatically so one
+
+7
+00:00:34,720 --> 00:00:40,560
+ bad trade can't wipe out your account let me show you this is cube and i'm gonna type in a sentence
+
+8
+00:00:40,560 --> 00:00:47,840
+ and here's the rules it gives me when to buy when to sell how much and when to cut losses undefining
+
+9
+00:00:47,840 --> 00:00:55,520
+ what a good cup of coffee means to my ai for me that's a large flat white with two extra shots these
+
+10
+00:00:55,520 --> 00:01:02,080
+ rules do the same thing for my strategy i'm not asking for a good trade anymore i'm saying exactly
+
+11
+00:01:02,080 --> 00:01:08,560
+ when to buy when to sell how much to put in and when to cut my losses and because the rules are exact
+
+12
+00:01:08,560 --> 00:01:15,200
+ cube can test them on past prices that's called a back test here's how it did the biggest gromp along
+
+13
+00:01:15,200 --> 00:01:21,440
+ the way is called a drawdown it tells you if you could have held on during the bad months now i know
+
+14
+00:01:21,440 --> 00:01:27,680
+ if this strategy actually works i tested on past prices not my real money and it didn't even cost me
+
+15
+00:01:27,680 --> 00:01:30,880
+ a thing comment cube i'll send you how you can use cube too
+

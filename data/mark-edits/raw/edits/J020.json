@@ -1,0 +1,61 @@
+{
+  "code": "J020",
+  "log": [
+    {
+      "after": "Claude can now test your stock trade 20,000 times before you risk a single dollar.",
+      "at": 1792747471622,
+      "before": "Claude can now test your stock trade 10,000 times before you risk a single dollar.",
+      "part": "hook",
+      "ref": "Hook"
+    },
+    {
+      "after": "I start by connecting Qube to Claude. Qube breaks your strategy into four sections, and each one has a different job.",
+      "at": 1792747522263,
+      "before": "I start by connecting Qube to Claude. Qube breaks your strategy into four rules, and each one handles a different job.",
+      "part": "line",
+      "ref": "1"
+    },
+    {
+      "after": "First it scans the 10 biggest US stocks looking for a drop in price.",
+      "at": 1792747794634,
+      "before": "One rule scans the 10 biggest US stocks looking for a drop.",
+      "part": "line",
+      "ref": "2"
+    },
+    {
+      "after": "Then an entry rule buys the day one of them drops by 3% or more.",
+      "at": 1792747604309,
+      "before": "Then an entry rule buys the day one of them drops 3%.",
+      "part": "line",
+      "ref": "4"
+    },
+    {
+      "after": "Thats not even the craziest part.",
+      "at": 1792747636602,
+      "before": "But the craziest part is the backtest.",
+      "part": "line",
+      "ref": "6"
+    },
+    {
+      "after": "Qube takes your strategy and tests it on up to five years of real price data.",
+      "at": 1792747693710,
+      "before": "Qube takes your rules and runs them through five years of real prices.",
+      "part": "line",
+      "ref": "7"
+    },
+    {
+      "after": "Of course, it's a backtest, not live results, and we already know these stocks took off. But if you can find the reasons why, you just might have a winning strategy.",
+      "at": 1792747759871,
+      "before": "Of course, it's a backtest, not live results, and we already know these stocks took off.",
+      "part": "line",
+      "ref": "10"
+    },
+    {
+      "after": "Claude can now test your stock trades 20,000 times before you risk a single dollar.",
+      "at": 1792747766892,
+      "before": "Claude can now test your stock trade 20,000 times before you risk a single dollar.",
+      "part": "hook",
+      "ref": "Hook"
+    }
+  ]
+}

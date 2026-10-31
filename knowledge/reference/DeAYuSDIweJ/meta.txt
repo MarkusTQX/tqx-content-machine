@@ -1,0 +1,9 @@
+source: https://www.instagram.com/p/DeAYuSDIweJ/
+duration_s: 50.316190
+uploader: Andrei Shpanchuk
+channel: ai.with.andrew
+upload_date: 20261002
+like_count: 8153
+comment_count: 3505
+title: Video by ai.with.andrew
+description: Claude can now build an AI trading agent that monitors the market and alerts you to any significant changes. By connecting Claude to LiquidTrade and QuiverQuant, it accesses broad market data and insider activity to analyze trades against your portfolio and provide actionable recommendations. The system supports custom strategies and paper trading to test before investing real money. #AI #Trading #Finance #MarketAnalysis #AlgoTrading

@@ -1,0 +1,64 @@
+1
+00:00:00,000 --> 00:00:03,080
+ Here are the five most powerful Claude connectors.
+
+2
+00:00:03,380 --> 00:00:04,800
+ Number one is perplexity.
+
+3
+00:00:04,980 --> 00:00:08,700
+ This gives Claude access to the most powerful research engine on the planet.
+
+4
+00:00:08,840 --> 00:00:13,860
+ So you can run deep research on any topic and pull real-time information from the entire internet.
+
+5
+00:00:14,160 --> 00:00:15,540
+ Number two is fire crawl.
+
+6
+00:00:15,740 --> 00:00:17,200
+ This lets Claude see the internet.
+
+7
+00:00:17,480 --> 00:00:23,380
+ So it can scrape and copy any website, pull entire brand assets, and even do competitor research for you instantly.
+
+8
+00:00:23,660 --> 00:00:24,980
+ Number three is post hog.
+
+9
+00:00:25,100 --> 00:00:27,320
+ It turns Claude into your private investigator.
+
+10
+00:00:27,320 --> 00:00:32,260
+ It uncovers bugs, finds where you're losing customers, and even automatically upgrades your website.
+
+11
+00:00:32,460 --> 00:00:33,400
+ Number four is playwright.
+
+12
+00:00:33,560 --> 00:00:39,360
+ This gives Claude hands so it can control your browser, fill out forms, test websites, and even use tools that don't have an AI connection.
+
+13
+00:00:39,640 --> 00:00:41,000
+ Number five is composio.
+
+14
+00:00:41,200 --> 00:00:44,000
+ This lets Claude connect to every app you use at once.
+
+15
+00:00:44,280 --> 00:00:49,340
+ So instead of wasting your time installing apps one by one, you get all of them connected in one shot.
+
+16
+00:00:49,440 --> 00:00:53,520
+ If you want the prompt to set all these up at once, just comment post and I'll shoot it over.
+

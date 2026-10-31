@@ -1,0 +1,26 @@
+{
+  "code": "J029",
+  "log": [
+    {
+      "after": "For Python, we have around 300 hours, 200 of those are just learning to code.",
+      "at": 1793116613207,
+      "before": "For Python from scratch, we have around 300 hours, 200 of those learning to code.",
+      "part": "line",
+      "ref": "1"
+    },
+    {
+      "after": "So how long does it take to build a trading strategy with every quant trading tool?\n\nI tested them so you dont have to.",
+      "at": 1793120515842,
+      "before": "So how long does it take to build a trading strategy with every quant trading tool?",
+      "part": "hook",
+      "ref": "Hook"
+    },
+    {
+      "after": "60 hours. ChatGPT's as easy as it gets. You ask, boom, there's a strategy.",
+      "at": 1793120560389,
+      "before": "Call it 60 hours. ChatGPT's as easy as it gets. You ask, boom, there's a strategy.",
+      "part": "line",
+      "ref": "10"
+    }
+  ]
+}

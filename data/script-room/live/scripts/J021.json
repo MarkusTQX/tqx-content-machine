@@ -1,0 +1,417 @@
+{
+  "assets": {
+    "notes": [
+      "**Presenter:** Joshua. One person, one list, in video order.",
+      "**Before recording anything:** Joshua needs a Qube login. Every Qube run below is typed in plain English into Qube's Build step. Don't show any emails, API keys or account details on screen.",
+      "**The numbers to expect** come from our own test scripts (`tools/micron-overnight.py`, `tools/overnight-test.py`, rows in `claims-and-proof`). Qube has to show the same numbers. If any CHECK fails, stop, send Mark a screenshot, and don't change any number."
+    ],
+    "open": [
+      {
+        "done": false,
+        "id": "o1",
+        "text": "**\"We tested this on Qube. And verified the results.\" is only true once A1, A2, A4 and A5 are real Qube runs.** Every number so far comes from our Python scripts, not Qube. Someone has to check with the Qube team that Qube can (a) buy at the close and sell at the next open on daily prices, (b) use Micron prices back to January 1990, and (c) use prices without dividends. If (b) fails, follow the A1 backup and the script comes back to me with Qube's own date range."
+      },
+      {
+        "done": false,
+        "id": "o2",
+        "text": "**The CTA now says \"run this test yourself\".** That's only true if (a)–(c) above work in Qube for a viewer on the free plan."
+      },
+      {
+        "done": false,
+        "id": "o3",
+        "text": "**The Breakdown DM still isn't live in ManyChat.** The CTA promises \"a step-by-step\"; until it's added, the CTA promises more than the flow sends."
+      },
+      {
+        "done": false,
+        "id": "o4",
+        "text": "**The paper's link** is still \"to be added\" in `claims-and-proof`. A3's CHECK covers the title card, but the row needs the link."
+      },
+      {
+        "done": false,
+        "id": "o5",
+        "text": "**The two-crowds explanation is back** (original lines 9–12, word for word), on your direction (Oct 23). The fee lines, the just-holding line and their assets (old A6 fees, old A7 just holding, old A8 summary) are cut, since the original doesn't have them. Assets after A5 are renumbered: A6 two-crowds graphic (new), A7 summary (now overnight vs daytime, no fees), A8 start page, A9 end screen."
+      },
+      {
+        "done": false,
+        "id": "o6",
+        "text": "**\"And the research says\" (line 12)** points back to the paper title card (A3, line 5), because the original's \"A research paper found the same phenomenon across hundreds of stocks\" isn't in our script. The source line under line 12 names the paper again so the viewer can see which research. If you'd rather say it out loud, that original line fits after line 6 and keeps us at 200 words, which is over the 195 limit, so something else would have to go."
+      },
+      {
+        "done": false,
+        "id": "o7",
+        "text": "**\"So what's actually going on?\" is kept** on your direction. The brief listed it under \"Don't copy\". Your direction wins; flagging it so the brief can be updated."
+      },
+      {
+        "done": false,
+        "id": "o8",
+        "text": "**Length is about 59s** (189 words, the original is 177; the range is 159–195, `script-logic` #10)."
+      }
+    ],
+    "rows": [
+      {
+        "file": "J021_A0_aroll.mp4 · 1080×1920",
+        "how": "Phone vertical (9:16), eye level, office lights on, lock focus. Leave the top third of the frame clear above his head. Record the hook, then lines 1–14 in one take. Then line 8 (\"So what's actually going on?\") again as a tight close-up, 3 takes.",
+        "id": "A0",
+        "ready": false,
+        "what": "Joshua talking (A-roll)",
+        "who": "Joshua"
+      },
+      {
+        "file": "J021_A1_mu_overnight.mp4 · 1920×1080 · up to 30s (sped up in edit)",
+        "how": "1. Chrome, full screen, zoom 125%, no tabs or bookmarks. Open Qube and start a new strategy. 2. Type exactly, don't paste: `Buy Micron (MU) at the close every trading day and sell it at the next day's open. Start with $1. Test it on all daily prices from January 2, 1990 to October 22, 2026. No trading fees.` 3. Run the backtest. 4. Hold 3s on the result with the chart showing. **CHECK: the total return must read about +145,000,000% (over 300 million percent), and $1 must end at about $1.45 million. If Qube won't start at $1, use $10,000 and check the percent only. If the percent is different, stop and send Mark a screenshot.** **Backup if Qube's Micron prices start later than January 2, 1990:** don't change the dates to make it fit. Write down Qube's earliest Micron date exactly as Qube shows it, run the same sentence from that date, hold 3s on the result, and send Mark the screenshot and the date. The hook number and line 4 then get rewritten from that run before the edit.",
+        "id": "A1",
+        "ready": false,
+        "what": "Micron, buy at the close, sell at the open",
+        "who": "Joshua"
+      },
+      {
+        "file": "J021_A2_mu_daytime.mp4 · 1920×1080 · up to 20s",
+        "how": "1. In the same strategy, change the rule. Type exactly: `Buy Micron (MU) at the open every trading day and sell it at that same day's close. Start with $1. Same dates. No trading fees.` 2. Run the backtest. 3. Hold 3s on the result. **CHECK: $1 must end at about $0.0006, a return of about −99.94%. If it doesn't, stop and send Mark a screenshot.**",
+        "id": "A2",
+        "ready": false,
+        "what": "Micron, the exact opposite",
+        "who": "Joshua"
+      },
+      {
+        "file": "J021_A3_paper.png · 1080×1920",
+        "how": "1. Canva, 1080×1920 full screen, background #0B0F14. 2. Top, Inter Bold 48px, light grey #9AA3AE: `Published research` 3. Middle, Instrument Serif 72px, white: `A tug of war: overnight versus intraday expected returns` 4. Under it, Inter Bold 48px, gold #E8B04B: `Lou, Polk & Skouras` 5. Under that, Inter Bold 40px, white: `Journal of Financial Economics, 2019` 6. **CHECK: before export, find the paper on the journal's site and confirm the title, the three names and the year match exactly. If anything differs, send Mark the link.** Export PNG.",
+        "id": "A3",
+        "ready": false,
+        "what": "Paper title card",
+        "who": "Editor"
+      },
+      {
+        "file": "J021_A4_spy_overnight.mp4 · 1920×1080 · up to 30s",
+        "how": "1. In Qube, start a new strategy. 2. Type exactly: `Buy SPY at the close every trading day and sell it at the next day's open. Start with $10,000. Test it from January 2, 2015 to December 31, 2024. Use prices only, no dividends. No trading fees.` 3. Run the backtest. 4. Hold 3s on the result and the trade count. **CHECK: it must end at $19,225 (+92.3%), with 2,515 round trips (2,515 buys and 2,515 sells) and a worst drop of −29.4%. If it doesn't, stop and send Mark a screenshot.**",
+        "id": "A4",
+        "ready": false,
+        "what": "S&P 500, buy at the close, sell at the open",
+        "who": "Joshua"
+      },
+      {
+        "file": "J021_A5_spy_daytime.mp4 · 1920×1080 · up to 20s",
+        "how": "1. In a second strategy, type exactly: `Buy SPY at the open every trading day and sell it at that same day's close. Start with $10,000. Test it from January 2, 2015 to December 31, 2024. Use prices only, no dividends. No trading fees.` 2. Run the backtest. 3. If Qube can compare two runs on one chart, open both A4 and A5 together and hold 3s. If it can't, hold 3s on this result alone and the editor puts the two side by side. **CHECK: it must end at $14,771 (+47.7%). If it doesn't, stop and send Mark a screenshot.**",
+        "id": "A5",
+        "ready": false,
+        "what": "S&P 500, the exact opposite",
+        "who": "Joshua"
+      },
+      {
+        "file": "J021_A6a_crowds.png, J021_A6b_crowds.png, J021_A6c_crowds.png, J021_A6d_crowds.png · 1080×640 each",
+        "how": "1. Canva, 1080×640, background #0B0F14. Make 4 pages with the same layout; each page adds one thing. 2. **Page 1.** Top, centred, Inter Bold 48px, white: `2 crowds · 2 times`. In the middle (y = 280), a bar 640×40px, rounded 20px, grey #2A2F37, starting 100px from the left edge. Right after it, a dotted line 240×40px in grey #2A2F37. Above the bar's left end, Inter Bold 36px, white: `9:30am open`. Above the bar's right end: `4pm close`. Above the dotted line, Inter Bold 36px, light grey #9AA3AE: `overnight`. Bottom, centred, Inter Bold 28px, light grey #9AA3AE: `New York time · one trading day` 3. **Page 2.** Duplicate page 1. Fill the first 160px of the bar (the open end) white #FFFFFF. Under the left end, Inter Bold 40px, white: `Regular people`. Under that, Inter Bold 28px, light grey #9AA3AE: `reacting to overnight news` 4. **Page 3.** Duplicate page 2. Fill the rest of the bar, up to the close, light grey #9AA3AE. Under the right end, Inter Bold 40px, white: `Big institutions`. Under that, Inter Bold 28px, light grey #9AA3AE: `the day into the close`. Replace the bottom line with Inter Bold 32px, white: `Liquidity = lots of buyers and sellers` 5. **Page 4.** Duplicate page 3. Drop the bar's white and light grey fills to 40% opacity. Turn the dotted line gold #E8B04B and the word `overnight` gold. Replace the bottom line with two lines: Inter Bold 44px, white: `Biggest share of returns: 4pm → 9:30am` with `4pm → 9:30am` in gold #E8B04B, and under it Inter Bold 28px, light grey #9AA3AE: `Lou, Polk & Skouras · Journal of Financial Economics, 2019` 6. **CHECK: every word matches the EDIT doc (32.2–49.7) exactly, and the source line matches the A3 title card (same three names, same year). If A3 changed after its own CHECK, use A3's version.** Export each page as PNG.",
+        "id": "A6",
+        "ready": false,
+        "what": "Two-crowds graphic (4 pages)",
+        "who": "Editor"
+      },
+      {
+        "file": "J021_A7_summary.png · 1080×640",
+        "how": "1. Canva, 1080×640, background #0B0F14. 2. Two rows, top to bottom, Inter Bold 56px: `Overnight only  $19,225` in gold #E8B04B · `Daytime only  $14,771` in light grey #9AA3AE. 3. Under each row, Inter Bold 28px, light grey #9AA3AE: `buy at the close, sell at the next open` under the first, `buy at the open, sell at the close` under the second. 4. Bottom line, Inter Bold 32px, light grey #9AA3AE: `$10,000 each · SPY · 2015–2024 · price only, no dividends · no fees` 5. Top-left, Inter Bold 32px, white: `Backtest, not live results` 6. **CHECK: the two numbers match A4 and A5 exactly.** Export PNG.",
+        "id": "A7",
+        "ready": false,
+        "what": "Summary graphic",
+        "who": "Editor"
+      },
+      {
+        "file": "J021_A8_startpage.mp4 · 1920×1080 · 5s",
+        "how": "Chrome, full screen, zoom 125%, no tabs or bookmarks: open https://www.tqx.ai/igqube2, scroll slowly to \"Start free\" and \"Free · no card required\".",
+        "id": "A8",
+        "ready": false,
+        "what": "Qube start page",
+        "who": "Joshua"
+      },
+      {
+        "file": "J021_A9_end.png · 1080×1920",
+        "how": "Full screen #0B0F14, \"Comment QUBE\" centred, Instrument Serif 88px white, \"QUBE\" in gold #E8B04B. 2s.",
+        "id": "A9",
+        "ready": false,
+        "what": "End screen",
+        "who": "Editor"
+      }
+    ]
+  },
+  "code": "J021",
+  "edit": {
+    "notes": [
+      "**Recreating:** @joe.investss · https://www.instagram.com/p/Ddo1OMSIZeo/ · copy its rhythm: the number said and shown in the first 3 seconds (title typed on letter by letter, chart already on screen), a hard cut on \"Now, imagine you did the exact opposite\", another on \"isn't the only one\", the open loop \"So what's actually going on?\" said straight to camera, and a new graphic or number every 2 to 4 seconds even between cuts.",
+      "**Layout:** Qube screen pinned in the top third (1080×640) the whole way through, Joshua below. Full screen only for the paper title card and the end screen. Captions 1–3 words, centred at chest height, key numbers in gold. Captions already show every spoken word, so the on-screen text below only adds what isn't said: exact numbers, dates, the rule, the source.",
+      "**Times** are estimates at Joshua's pace (3.2 words a second). Re-time to the real take. Cut every pause in the edit."
+    ],
+    "rows": [
+      {
+        "id": "e1",
+        "onscreen": "Title typed on letter by letter, done by 2s: \"Up 138 million percent?\" (\"138 million\" in gold). Small line under it: \"Micron (MU) · buy at the close, sell at the next open · Jan 1990 – Oct 2026 · no fees\"",
+        "sound": "Music in at 0. Punch-in on \"138 million\"",
+        "spoken": "Hook: \"If you bought Micron every day when the market closed and sold it the next morning when it opened, since 1990, you'd be up over 138 million percent.\"",
+        "time": "0.0–8.8",
+        "visual": "Frame 1: Qube backtest result for the Micron overnight rule, chart and \"+138 million %\" visible (A1, last 3s). Label top-left \"Backtest, not live results\""
+      },
+      {
+        "id": "e2",
+        "onscreen": "\"Qube · MU · Jan 1990 – Oct 2026\"",
+        "sound": "Keyboard clicks. Soft tick on \"verified\"",
+        "spoken": "\"We tested this on Qube. And verified the results.\"",
+        "time": "8.8–11.6",
+        "visual": "Screen recording: the Micron rule typed into Qube and the backtest running (A1, sped up to 2s), landing back on the result on \"verified\""
+      },
+      {
+        "id": "e3",
+        "onscreen": "\"Buy at the open · sell at the close\" (pops on \"opposite\")",
+        "sound": "Whoosh on the cut",
+        "spoken": "\"Now, imagine you did the exact opposite.\"",
+        "time": "11.6–13.8",
+        "visual": "Hard cut. Qube: the rule edited to \"buy at the open, sell at the close\" (A2, first part)"
+      },
+      {
+        "id": "e4",
+        "onscreen": "\"Same stock · same dates · no fees\" (pops on \"Buy\")",
+        "sound": "Click as the line pops",
+        "spoken": "\"Buy on market open and sell on market closed.\"",
+        "time": "13.8–16.6",
+        "visual": "Qube backtest running on the edited rule (A2)"
+      },
+      {
+        "id": "e5",
+        "onscreen": "\"$1 → $0.0006\" (red #EF4444). Small line: \"−99.94% · Micron · Jan 1990 – Oct 2026 · no fees\"",
+        "sound": "Low hit on \"90 percent\"",
+        "spoken": "\"That same exact trade would be down over 90 percent.\"",
+        "time": "16.6–19.7",
+        "visual": "Qube result for the daytime rule, line falling to zero (A2, last 3s). Label top-left \"Backtest, not live results\""
+      },
+      {
+        "id": "e6",
+        "onscreen": "none (the card is the text)",
+        "sound": "Page-turn sound",
+        "spoken": "\"Micron's not the only one making its money overnight.\"",
+        "time": "19.7–22.5",
+        "visual": "Hard cut. Full screen: the paper title card (A3), 2.8s"
+      },
+      {
+        "id": "e7",
+        "onscreen": "\"SPY · 2015–2024 · price only, no dividends\" pops on \"S&P 500\"",
+        "sound": "Keyboard clicks",
+        "spoken": "\"The S&P 500 does it too.\"",
+        "time": "22.5–24.4",
+        "visual": "Back to split. Qube: the S&P 500 overnight rule typed in and the backtest running (A4, sped up)"
+      },
+      {
+        "id": "e8",
+        "onscreen": "On \"Same trade\": \"Buy at the close · sell at the next open\". On \"about\": \"$10,000 → $19,225\" (\"$19,225\" in gold). Right after \"$19,200\": \"Opposite: $10,000 → $14,771\" (grey #9AA3AE) under it. Small line: \"+92.3% vs +47.7% · 2,515 round trips · no fees\"",
+        "sound": "Counter ticks up from $10,000 to $19,225, then the grey one to $14,771",
+        "spoken": "\"Same trade on the S&P 500, buy at the close, sell at the open. Ten years, $10,000 becomes about $19,200.\"",
+        "time": "24.4–30.6",
+        "visual": "Qube: the S&P 500 overnight rule on screen as he says \"buy at the close, sell at the open\", then the result (A4, last 2s), then the daytime line added next to it (A5). Label top-left \"Backtest, not live results\""
+      },
+      {
+        "id": "e9",
+        "onscreen": "none (captions only, so nothing covers his face)",
+        "sound": "Music drops out for the line",
+        "spoken": "\"So what's actually going on?\"",
+        "time": "30.6–32.2",
+        "visual": "Tight close-up on Joshua, full frame for this line only (the biggest visual change in the video)"
+      },
+      {
+        "id": "e10",
+        "onscreen": "\"2 crowds · 2 times\" (built into A6 page 1, pops on \"two different crowds\"). The day bar under it: \"9:30am open\" · \"4pm close\" · \"overnight\"",
+        "sound": "Music back in on \"There's\". Whoosh as the bar draws left to right",
+        "spoken": "\"There's two different crowds trading at two different times.\"",
+        "time": "32.2–35.0",
+        "visual": "Back to split. Two-crowds graphic, page 1: one trading day as a grey bar, the overnight stretch dotted after it (A6, page 1)"
+      },
+      {
+        "id": "e11",
+        "onscreen": "\"Regular people\" under the open end (pops on \"Regular people\"). Small line: \"reacting to overnight news\" (built into A6 page 2)",
+        "sound": "Click as the label pops",
+        "spoken": "\"Regular people tend to trade around market open, reacting to whatever news came out overnight.\"",
+        "time": "35.0–39.7",
+        "visual": "A6 page 2: the open end of the bar lights up white"
+      },
+      {
+        "id": "e12",
+        "onscreen": "\"Big institutions\" under the close end (pops on \"Big institutions\"). Small line: \"the day into the close\". On \"liquidity\": \"Liquidity = lots of buyers and sellers\" (bottom line) (built into A6 page 3)",
+        "sound": "Click as each label pops",
+        "spoken": "\"Big institutions trade during the day and into close because that's where liquidity is.\"",
+        "time": "39.7–44.1",
+        "visual": "A6 page 3: the rest of the day bar fills light grey up to the close"
+      },
+      {
+        "id": "e13",
+        "onscreen": "On \"while the market is closed\": \"Biggest share of returns: 4pm → 9:30am\" (\"4pm → 9:30am\" in gold). Small line: \"Lou, Polk & Skouras · Journal of Financial Economics, 2019\" (built into A6 page 4)",
+        "sound": "Rising whoosh as the overnight stretch turns gold",
+        "spoken": "\"And the research says that the biggest portions of stock returns actually happen while the market is closed.\"",
+        "time": "44.1–49.7",
+        "visual": "A6 page 4: the dotted overnight stretch turns gold, the day bar dims"
+      },
+      {
+        "id": "e14",
+        "onscreen": "Both, stacked: \"Overnight only $19,225\" (gold) · \"Daytime only $14,771\" (grey #9AA3AE)",
+        "sound": "Punch-in on \"entire point\"",
+        "spoken": "\"So if you only trade during the day, you might miss the entire point.\"",
+        "time": "49.7–54.1",
+        "visual": "Summary graphic (A7). Label top-left \"Backtest, not live results · SPY · 2015–2024 · price only, no dividends\""
+      },
+      {
+        "id": "e15",
+        "onscreen": "\"COMMENT 'QUBE'\" (gold), centred, pops on \"comment\"",
+        "sound": "Music out",
+        "spoken": "\"And if you want to run this exact test yourself for completely free, comment QUBE and I'll send it over to you.\"",
+        "time": "54.1–60.9",
+        "visual": "The Qube \"Start free\" page scrolling (A8), then the end screen for the last 2s (A9)"
+      }
+    ]
+  },
+  "length": "about 61s (the original is 42s)",
+  "original": {
+    "account": "@joe.investss",
+    "lines": [
+      {
+        "t": "0:00",
+        "text": "If you bought Micron every day when the market closed and sold it the next morning when it opened, since 1990, you'd be up over 138 million percent."
+      },
+      {
+        "t": "0:07",
+        "text": "Now, imagine you did the exact opposite."
+      },
+      {
+        "t": "0:08",
+        "text": "You bought when the market opened and you sold when the market closed."
+      },
+      {
+        "t": "0:11",
+        "text": "That same exact trade would be down over 99 percent."
+      },
+      {
+        "t": "0:13",
+        "text": "And apparently, Micron isn't the only stock that does this."
+      },
+      {
+        "t": "0:16",
+        "text": "A research paper found the same phenomenon across hundreds of stocks."
+      },
+      {
+        "t": "0:19",
+        "text": "So what's actually going on?"
+      },
+      {
+        "t": "0:20",
+        "text": "There's two different crowds trading at two different times."
+      },
+      {
+        "t": "0:22",
+        "text": "Regular people tend to trade around market open, reacting to whatever news came out overnight."
+      },
+      {
+        "t": "0:26",
+        "text": "Big institutions trade during the day and into close because that's where liquidity is."
+      },
+      {
+        "t": "0:30",
+        "text": "And the research says that the biggest portions of stock returns actually happen while the market is closed."
+      },
+      {
+        "t": "0:34",
+        "text": "So if you're only trading between open and close, you might be missing the entire point."
+      },
+      {
+        "t": "0:38",
+        "text": "And if you want to see my entire portfolio for completely free common stocks, then I'll send it over to you."
+      }
+    ],
+    "seconds": 42,
+    "url": "https://www.instagram.com/p/Ddo1OMSIZeo/",
+    "words": 177
+  },
+  "originalTitle": "The stock market is broken",
+  "presenter": "Joshua",
+  "recreating": {
+    "account": "@joe.investss",
+    "summary": "@joe.investss · \"The stock market is broken\" (overnight returns) · https://www.instagram.com/p/Ddo1OMSIZeo/ · 1,673 likes and 344 comments on a 137K-follower account",
+    "url": "https://www.instagram.com/p/Ddo1OMSIZeo/"
+  },
+  "script": {
+    "hooks": [
+      {
+        "id": "hHook",
+        "label": "Hook",
+        "orig": "If you bought Micron every day when the market closed and sold it the next morning when it opened, since 1990, you'd be up over 138 million percent.",
+        "text": "If you bought Micron every day when the market closed and sold it the next morning when it opened, since 1990, you'd be up over 138 million percent."
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "orig": "We tested this on Qube. And verified the results.",
+        "text": "We tested this on Qube. And verified the results."
+      },
+      {
+        "id": "l2",
+        "orig": "Now, imagine you did the exact opposite.",
+        "text": "Now, imagine you did the exact opposite."
+      },
+      {
+        "id": "l3",
+        "orig": "You bought when the market opened and you sold when the market closed.",
+        "text": "Buy on market open and sell on market closed."
+      },
+      {
+        "id": "l4",
+        "orig": "That same exact trade would be down over 99 percent.",
+        "text": "That same exact trade would be down over 90 percent."
+      },
+      {
+        "id": "l5",
+        "orig": "Micron's not the only one making its money overnight.",
+        "text": "Micron's not the only one making its money overnight."
+      },
+      {
+        "id": "l6",
+        "orig": "The S&P 500 does it too. That's about 500 of the biggest US companies.",
+        "text": "The S&P 500 does it too."
+      },
+      {
+        "id": "l7",
+        "orig": "Same trade on the S&P 500, buy at the close, sell at the open. Ten years, $10,000 becomes about $19,200.",
+        "text": ""
+      },
+      {
+        "id": "l8",
+        "orig": "So what's actually going on?",
+        "text": "So what's actually going on?"
+      },
+      {
+        "id": "l9",
+        "orig": "There's two different crowds trading at two different times.",
+        "text": "There's two different crowds trading at two different times."
+      },
+      {
+        "id": "l10",
+        "orig": "Regular people tend to trade around market open, reacting to whatever news came out overnight.",
+        "text": "Regular people tend to trade around market open, reacting to whatever news came out overnight."
+      },
+      {
+        "id": "l11",
+        "orig": "Big institutions trade during the day and into close because that's where liquidity is.",
+        "text": "Big institutions trade during the day and into close because that's where liquidity is."
+      },
+      {
+        "id": "l12",
+        "orig": "And the research says that the biggest portions of stock returns actually happen while the market is closed.",
+        "text": "And the research says that the biggest portions of stock returns actually happen while the market is closed."
+      },
+      {
+        "id": "l13",
+        "orig": "So if you only trade during the day, you might miss the entire point.",
+        "text": "So if you only trade during the day, you might miss the entire point."
+      },
+      {
+        "id": "l14",
+        "orig": "And if you want to run this exact test yourself for completely free, comment QUBE and I'll send it over to you.",
+        "text": "And if you want to run this exact test yourself for completely free, comment QUBE and I'll send it over to you."
+      }
+    ]
+  },
+  "status": "In review",
+  "title": "If you bought Micron every day when the market closed and sold it the next morning when it opened, since 1990, you'd be up over 138 million percent.",
+  "updatedAt": 1792819688.864,
+  "updatedBy": "Mark"
+}

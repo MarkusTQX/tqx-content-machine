@@ -1,0 +1,61 @@
+{
+  "code": "J031",
+  "log": [
+    {
+      "after": "Connect TQX to Claude and drop in the PDF.",
+      "at": 1793116950028,
+      "before": "Instead, I connect Qube to Claude and drop in the PDF.",
+      "part": "line",
+      "ref": "2"
+    },
+    {
+      "after": "That's when everything changes.",
+      "at": 1793116843885,
+      "before": "That's where things get interesting.",
+      "part": "line",
+      "ref": "9"
+    },
+    {
+      "after": "I'm telling Claude to act like a quant researcher instead of just summarizing the paper.",
+      "at": 1793116856193,
+      "before": "I'm asking Claude to act like a quant researcher instead of just summarizing the paper.",
+      "part": "line",
+      "ref": "3"
+    },
+    {
+      "after": "Claude reads the methodology section, then Qube translates it into usable code.",
+      "at": 1793116958758,
+      "before": "Claude actually reads the methodology section, then Qube translates it into implementable code.",
+      "part": "line",
+      "ref": "4"
+    },
+    {
+      "after": "Normally, this would mean putting together data, charting tools, and backtesting frameworks.",
+      "at": 1793116972621,
+      "before": "Normally, this would mean stitching together data, charting tools, and backtesting frameworks.",
+      "part": "line",
+      "ref": "5"
+    },
+    {
+      "after": "Then it ran the backtest, showed every trade, flagged its weaknesses and then optimized.",
+      "at": 1793116996731,
+      "before": "Then it ran the backtest, showed every trade, and Claude even flagged weaknesses.",
+      "part": "line",
+      "ref": "7"
+    },
+    {
+      "after": "Turning a research paper into something tradable means hours of reading, decoding equations, and manually implementing the strategy. Or does it?",
+      "at": 1793116941206,
+      "before": "Usually, turning a research paper into something tradable means hours of reading, decoding equations, and manually implementing the strategy.",
+      "part": "line",
+      "ref": "1"
+    },
+    {
+      "after": "But Qube builds the entire workflow automatically.",
+      "at": 1793116988211,
+      "before": "But Qube built the entire workflow automatically.",
+      "part": "line",
+      "ref": "6"
+    }
+  ]
+}

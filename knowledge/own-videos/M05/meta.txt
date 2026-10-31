@@ -1,0 +1,9 @@
+source: https://www.instagram.com/reel/DerwxsIzyeX/
+duration_s: 83.666667
+uploader: Markus.ai.quant
+channel: markus_ai_quant
+upload_date: 20261019
+like_count: 54
+comment_count: 41
+title: Video by markus_ai_quant
+description: ranking the best quant tools so you don’t have to #quant #trading #algotrading #aitrading #tqx

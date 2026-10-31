@@ -1,0 +1,15 @@
+A $30,000 software that Wall Street has depended on for decades just got replaced by a free GitHub repo.
+Researchers from Tsinghua University just open-sourced an AI called Kronos,
+and it's the first foundation model ever built specifically to read the stock market like a language.
+Here's what makes this different from every trading bot you've seen.
+Kronos doesn't look at charts the way you do.
+It takes raw candlestick data, opens, closes, highs, lows, volume, and converts it into tokens.
+The same way ChatGPT turns words into tokens, except this isn't reading English.
+It's reading the language of financial markets.
+Kronos trained on data from over 45 stock exchanges around the world.
+Crypto, Forex, equities, and more.
+And the model? Completely free.
+Wall Street firms have spent billions building proprietary models like this,
+and a group of researchers just gave it away.
+This is the kind of thing that used to be locked behind hedge fund doors.
+Comment Kronos and I'll DM you the link.

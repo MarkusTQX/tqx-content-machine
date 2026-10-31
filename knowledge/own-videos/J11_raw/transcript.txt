@@ -1,0 +1,28 @@
+If you trade, you should screenshot this, or you might lose $10 million.
+There's six steps in trading, but most people forget the fifth one.
+Every quant strategy goes through the same six steps before it touches real money.
+And if you trade on your phone, you're probably skipping straight to the last one.
+Think of it like opening a restaurant.
+Step one is data.
+That's your groceries.
+Prices, news, how much money each company makes.
+Bad groceries equals bad food.
+Step two is factors.
+That's your recipe.
+A factor is just a clue that a stock might go up, like it's been going up for three months straight.
+Step three is a back test.
+That's the taste test.
+You try your recipe on past prices to see if it would have made money.
+Step four is the portfolio.
+That's your portion sizes.
+In trading, that's how much money goes into each trade, so one bad trade can't sink the whole account.
+Step five is paper trading.
+That's your soft opening.
+You trade the real market with fake money so nothing's on the line yet.
+And step six, it's live trading.
+That's the grand opening, real money.
+Now, when you buy a stock because some guy on TikTok said so, you just open a restaurant with no groceries, no recipe, and no taste test.
+Quants do steps one through five before a single dollar goes in.
+And now AI can help you with every one of those steps.
+For the rest of the series, I'll walk you through each one.
+Save this so you've got the map and follow for day three.

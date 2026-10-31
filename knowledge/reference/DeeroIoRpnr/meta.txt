@@ -1,0 +1,9 @@
+source: https://www.instagram.com/p/DeeroIoRpnr/
+duration_s: 60.960000
+uploader: AI with Remy | Learn AI
+channel: aiwithremy
+upload_date: 20261014
+like_count: 6726
+comment_count: 17827
+title: Video by aiwithremy
+description: 500 hours of short form, in one claude skill

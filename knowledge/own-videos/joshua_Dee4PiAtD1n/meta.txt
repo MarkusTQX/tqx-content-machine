@@ -1,0 +1,9 @@
+source: https://www.instagram.com/reel/Dee4PiAtD1n/
+duration_s: 112.243810
+uploader: Joshua
+channel: joshua.quant
+upload_date: 20261014
+like_count: 4
+comment_count: 0
+title: Video by joshua.quant
+description: everybody talks about backtesting but nobody explains it. #aitrading #algotrading #quant

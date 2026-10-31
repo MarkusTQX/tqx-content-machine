@@ -1,0 +1,9 @@
+source: https://www.instagram.com/reel/DemVG7PTsv7/
+duration_s: 73.800000
+uploader: Markus.ai.quant
+channel: markus_ai_quant
+upload_date: 20261017
+like_count: 2
+comment_count: 0
+title: Video by markus_ai_quant
+description: 93% of indian traders never win! #quant #trading #algotrading #aitrading #tqx

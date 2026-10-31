@@ -1,0 +1,88 @@
+1
+00:00:00,000 --> 00:00:03,820
+ I've spent hundreds of hours using every ChatGBT prompt I can.
+
+2
+00:00:03,960 --> 00:00:04,880
+ Don't waste your time.
+
+3
+00:00:05,020 --> 00:00:07,880
+ Here are the top three prompts that have actually saved me time
+
+4
+00:00:07,880 --> 00:00:09,460
+ and made me more productive day-to-day.
+
+5
+00:00:09,580 --> 00:00:12,260
+ The first is how to use the 80-20 rule.
+
+6
+00:00:12,340 --> 00:00:14,900
+ The 80-20 rule is actually a scary rule,
+
+7
+00:00:15,000 --> 00:00:19,200
+ which means that 80% of outputs often come from 20% of inputs.
+
+8
+00:00:19,480 --> 00:00:20,640
+ This is what you need to type.
+
+9
+00:00:20,740 --> 00:00:22,600
+ I want to learn about input the topic,
+
+10
+00:00:22,800 --> 00:00:26,580
+ find and share the most important 20% of learnings on this topic
+
+11
+00:00:26,580 --> 00:00:29,260
+ that will help me understand 80% of it.
+
+12
+00:00:29,260 --> 00:00:33,320
+ And ChatGBT will then create you learnings on that topic to get you there faster.
+
+13
+00:00:33,520 --> 00:00:37,280
+ Number two, if you want to improve your writing, ask ChatGBT for feedback.
+
+14
+00:00:37,520 --> 00:00:40,240
+ So copy and paste your writing into ChatGBT and type,
+
+15
+00:00:40,320 --> 00:00:44,140
+ I want you to proofread my writing, fix any spelling or grammar mistakes,
+
+16
+00:00:44,420 --> 00:00:47,620
+ and make suggestions to improve the quality and clarity of my writing.
+
+17
+00:00:47,780 --> 00:00:51,100
+ And if you want to get instant summaries of documents and articles,
+
+18
+00:00:51,520 --> 00:00:55,040
+ just type in, I want you to summarize the text
+
+19
+00:00:55,040 --> 00:00:58,240
+ and give me a bullet point breakdown of the key points and facts.
+
+20
+00:00:58,240 --> 00:01:02,040
+ And ChatGBT will come back to you with a clearly broken down key points
+
+21
+00:01:02,040 --> 00:01:03,200
+ about whatever you've given them.
+
+22
+00:01:03,500 --> 00:01:06,520
+ And so those are my three key prompts that I'm using day to day.
+

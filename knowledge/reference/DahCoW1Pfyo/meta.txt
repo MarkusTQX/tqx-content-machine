@@ -1,0 +1,9 @@
+source: https://www.instagram.com/p/DahCoW1Pfyo/
+duration_s: 91.345850
+uploader: Rui Fu
+channel: raycfu
+upload_date: 20260708
+like_count: 7166
+comment_count: 4933
+title: Video by raycfu
+description: How Quants use Loop Engineering to create a trading bot with alpha #ai #tech

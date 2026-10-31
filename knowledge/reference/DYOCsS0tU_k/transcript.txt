@@ -1,0 +1,10 @@
+Let's code a trading strategy based on this quantitative trading research paper using Codex.
+Usually, turning a research paper into something tradable means hours of reading,
+decoding equations, and manually implementing the strategy. Instead, I drop the raw PDF directly
+into Codex. I'm asking Codex to act like a quant researcher instead of just summarizing the paper.
+Codex actually reads the methodology section, then translates it into implementable code.
+Normally, this would mean stitching together signal processing libraries, reinforcement learning
+frameworks, and backtesting the code. But Codex built the entire workflow automatically.
+Then it ran the backtest, generated the charts, and even flagged weaknesses. Reading quant papers
+is extremely useful, but having AI turn them into executable strategies in minutes? That's
+where things get interesting.

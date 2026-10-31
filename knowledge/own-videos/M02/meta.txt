@@ -1,0 +1,9 @@
+source: https://www.instagram.com/reel/DehTShgz3UW/
+duration_s: 90.066667
+uploader: Markus.ai.quant
+channel: markus_ai_quant
+upload_date: 20261015
+like_count: 3
+comment_count: 1
+title: Video by markus_ai_quant
+description: you probs should just buy the sp500 bro damn…. #quant #trading #algotrading #aitrading #tqx

@@ -1,0 +1,10 @@
+Here's a dirty little secret, prompt engineers don't want you to know.
+I've finally figured out how they're printing out lots of prompts and selling it, but this
+tool is actually free and it is 10 times, if not 100 times better than those prompt packs.
+I bet people would pay for this, but I'm going to show you for free.
+If you go to console.anthropic.com, hit generate prompt and write out what you're trying to
+achieve with the prompt.
+This was just a mishmash of all my thoughts.
+And once you hit generate prompt, it'll actually create a very detailed prompt with lots of
+structure that you can literally paste into Claude or ChaiGBT.
+Follow for more AI tips.

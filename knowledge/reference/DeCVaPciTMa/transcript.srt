@@ -1,0 +1,56 @@
+1
+00:00:00,000 --> 00:00:03,280
+ Cloud just killed the finance industry because these new finance agents can do some seriously
+
+2
+00:00:03,280 --> 00:00:04,840
+ powerful research for investors.
+
+3
+00:00:04,840 --> 00:00:06,040
+ The first is market researcher.
+
+4
+00:00:06,040 --> 00:00:09,760
+ Give it any stock and it can pull together the latest news, analyst ratings and company
+
+5
+00:00:09,760 --> 00:00:10,760
+ announcements automatically.
+
+6
+00:00:10,760 --> 00:00:11,840
+ The second is the model builder.
+
+7
+00:00:11,840 --> 00:00:15,200
+ Give it a company and it can build a financial model and excel, estimate what the business
+
+8
+00:00:15,200 --> 00:00:16,840
+ could be worth and break down the risks.
+
+9
+00:00:16,840 --> 00:00:18,160
+ Then there's the earnings reviewer.
+
+10
+00:00:18,160 --> 00:00:21,320
+ Give it an earnings call and it'll break down what management actually said and help
+
+11
+00:00:21,320 --> 00:00:23,760
+ you test whether your investment thesis still makes sense.
+
+12
+00:00:23,760 --> 00:00:27,000
+ So instead of digging through hours of financial information yourself, you can have Cloud
+
+13
+00:00:27,000 --> 00:00:27,880
+ analyze it with you.
+
+14
+00:00:27,880 --> 00:00:29,560
+ So just comment Wall Street and I'll send you all three.
+

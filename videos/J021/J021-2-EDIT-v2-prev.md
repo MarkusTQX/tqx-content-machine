@@ -1,0 +1,28 @@
+# J021 · EDIT (what's on screen, and when)
+
+**Recreating:** @joe.investss · https://www.instagram.com/p/Ddo1OMSIZeo/ · copy its rhythm: the number said and shown in the first 3 seconds (title typed on letter by letter, chart already on screen), a hard cut on "Now, imagine you did the exact opposite", another on "isn't the only one", the open loop "So what's actually going on?" said straight to camera, and a new graphic or number every 2 to 4 seconds even between cuts.
+**Layout:** Qube screen pinned in the top third (1080×640) the whole way through, Joshua below. Full screen only for the paper title card and the end screen. Captions 1–3 words, centred at chest height, key numbers in gold.
+**Times** are estimates at Joshua's pace (3.2 words a second). Re-time to the real take.
+
+| Time | Spoken | On-screen text | Top third / full screen | Movement and sound |
+|---|---|---|---|---|
+| 0.0–8.8 | Hook A: "If you bought Micron every day when the market closed and sold it the next morning when it opened, since 1984, you'd be up over 300 million percent." | Title typed on letter by letter, done by 2s: "Up 311 million percent?" ("311 million" in gold). Small line under it: "Micron (MU) · buy at the close, sell at the next open · Jun 1984 – Oct 2026 · no costs" | Frame 1: Qube backtest result for the Micron overnight rule, chart and "+311 million %" visible (A1, last 3s). Label top-left "Backtest, not live results" | Music in at 0. Punch-in on "300 million" |
+| 8.8–10.3 | "We tested this on Qube." | "TESTED ON QUBE" | Screen recording: the Micron rule typed into Qube and the backtest running (A1, sped up to 1.5s) | Keyboard clicks |
+| 10.3–12.5 | "Now, imagine you did the exact opposite." | "THE EXACT OPPOSITE" | Hard cut. Qube: the rule edited to "buy at the open, sell at the close" (A2, first part) | Whoosh on the cut |
+| 12.5–16.6 | "You bought when the market opened and you sold when the market closed." | Two chips pop on their words: "BUY AT THE OPEN" on "opened", "SELL AT THE CLOSE" on "closed" | Qube backtest running on the edited rule (A2) | Each chip pops with a click |
+| 16.6–19.7 | "That same exact trade would be down over 99 percent." | "$1 → $0.0002" (red #EF4444). Small line: "−99.98% · Micron · Jun 1984 – Oct 2026 · no costs" | Qube result for the daytime rule, line falling to zero (A2, last 3s). Label top-left "Backtest, not live results" | Low hit on "99 percent" |
+| 19.7–22.5 | "And Micron isn't the only one that does this." | none (the card is the text) | Hard cut. Full screen: the paper title card (A3), 2.8s | Page-turn sound |
+| 22.5–26.6 | "We ran the S&P 500 too, about 500 of the biggest US companies." | "About 500 of the biggest US companies" pops on "biggest". Small line: "SPY · Jan 2015 – Dec 2024 · price only, no dividends" | Back to split. Qube: the S&P 500 overnight rule typed in and the backtest running (A4, sped up) | Keyboard clicks |
+| 26.6–30.0 | "Over ten years, the overnight trade turned $10,000 into about $19,200." | "$10,000 → $19,225" ("$19,225" in gold). Small line: "+92.3% · 2,515 round trips · no costs" | Qube S&P 500 overnight result (A4, last 3s). Label top-left "Backtest, not live results" | Counter ticks up from $10,000 to $19,225 |
+| 30.0–32.5 | "The exact opposite only got to about $14,800." | "$10,000 → $14,771" (grey #9AA3AE). Small line: "+47.7% · buy at the open, sell at the close" | Qube: the daytime line added next to the overnight line (A5) | Counter ticks |
+| 32.5–34.1 | "So what's actually going on?" | none (captions only, so nothing covers his face) | Tight close-up on Joshua, full frame for this line only (the biggest visual change in the video) | Music drops out for the line |
+| 34.1–40.0 | "Those tests had zero trading costs. So we added one cent per $100 on every buy and every sell." | "ZERO TRADING COSTS" on "zero". Then "+0.01% on every buy and every sell" on "one cent" | Back to split. Qube: cursor sets the cost to 0.01% per buy and per sell, then reruns (A6, first part) | Music back in on "So we added". Click on the setting |
+| 40.0–43.8 | "The overnight trade fell to about $11,600. The opposite one lost money." | "Overnight: $11,625" then "Daytime: $8,930" (red). Small line: "with 0.01% on every buy and every sell" | Qube rerun with costs on: overnight line collapses, daytime line drops below $10,000 (A6, last 4s). Label top-left "Backtest, not live results" | Counter ticks down on each number |
+| 43.8–47.2 | "And just holding the S&P 500 those ten years? About $28,500." | "Just holding: $28,529" (green #22C55E). Small line: "price only, no dividends" | Qube: the buy-and-hold line added on top of the other two (A7) | Rising whoosh as the line draws |
+| 47.2–52.2 | "So if you're trading in and out every day, you might be missing the entire point." | All three, stacked: "Just holding $28,529" (green) · "Overnight $11,625" · "Daytime $8,930" (red) | Summary graphic (A8). Label top-left "Backtest, not live results · SPY · 2015–2024 · price only, no dividends" | Punch-in on "entire point" |
+| 52.2–57.5 | "Comment QUBE and I'll send you the free link and a step-by-step on building your first strategy." | "COMMENT 'QUBE'" (gold), centred | The Qube "Start free" page scrolling (A9), then the end screen for the last 2s (A10) | Music out |
+
+**Labels that must stay on:**
+- "Backtest, not live results" top-left whenever a Qube result, chart or number is on screen (0.0–19.7, 22.5–52.2).
+- Micron numbers always with "Jun 1984 – Oct 2026 · no costs". S&P 500 numbers always with "SPY · 2015–2024 · price only, no dividends".
+- The cost numbers ($11,625 and $8,930) always with "0.01% on every buy and every sell".

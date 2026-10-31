@@ -1,0 +1,11 @@
+source: https://www.instagram.com/p/DesH3mKRmC4/
+duration_s: 53.729524
+uploader: David Ho
+channel: david_knowsai
+upload_date: 20261019
+like_count: 12825
+comment_count: 9019
+title: Video by david_knowsai
+description: If you use Claude, here are 5 connecters you definitely need ⬇️
+
+Comment “Post” and I’ll send the setup📩

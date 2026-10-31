@@ -1,0 +1,26 @@
+# J026 · EDIT (what's on screen, and when)
+
+**Recreating:** @raycfu · https://www.instagram.com/p/Dd2dbtOPpv-/ · copy its rhythm exactly: one locked desk shot that never cuts, a title card for 1.7s, then a new item every 1.1s (11 changes in 14s), and the CTA over the same desk shot so the end loops into frame 1. It's too fast to read both lines in one watch. That's on purpose, because it makes people rewatch or save.
+**Nothing is spoken.** No voiceover, no captions. Music bed only.
+**Layout (1080×1920, 30 fps):** the desk shot (A0) fills the frame the whole time. On-screen text sits in the upper area, at y = 520–820, centred. The screen insert floats across the middle at 960×520, centred, top edge at y = 860, with 28px rounded corners and a soft shadow (black, 35%, 24px blur). Joshua and the desk stay visible below the insert.
+**Text style (A11):** Instrument Serif. Hook: 3 lines, 104px, white, with the key words in gold #E8B04B. Item title: "N. Title" at 76px, gold #E8B04B. Subtitle: 46px, white, 2 lines at most, 900px wide. Every text layer gets a black drop shadow at 45%, 6px blur, so it reads over the bright office.
+**Timing:** each insert cuts in hard with its text, on the beat. No transitions or slides, just a straight cut, as in the original.
+
+| Time | Spoken | On-screen text | Middle insert (asset IDs) | Movement and sound |
+|---|---|---|---|---|
+| 0.0–1.7 | none | Hook, 3 lines, left-aligned in the upper left like the original: "**10** ways" / "to **trade**" / "with **Claude**". "10", "trade" and "Claude" in gold, the rest white | None. Just Joshua typing (A0) | Music in at 0, already mid-groove (no intro) |
+| 1.7–2.7 | none | "1. Multi-Agent Trading" / "Trade with 6 specialized agents on Claude and Qube" | Org chart lighting up box by box: RESEARCH → DATA → STRATEGY → BACKTEST → TRADER → RISK MANAGER green (A1, 7 frames, about 0.14s each) | Hard cut on the beat |
+| 2.7–3.9 | none | "2. No-Code Trader" / "Build a strategy from natural language. Qube writes the code" | Claude: the plain-English strategy being typed, then Qube's strategy appearing (A2, sped up to fit). Label top-left: "Claude · Codex → Qube" | Cut on the beat |
+| 4.0–4.9 | none | "3. Auto Bug Fixer" / "Finds what's broken in your strategy and fixes it" | "Find what's broken in this strategy and fix it." typed into Claude, then Qube re-running the new version (A3). Label top-left: "Claude · Codex → Qube" | Cut on the beat |
+| 5.0–6.1 | none | "4. Ready-Made Strategies" / "Moving-average crossovers and breakouts, ready to test" | Qube's ready-made strategy list scrolling past the moving-average crossover and breakout templates (A4). No label | Cut on the beat |
+| 6.2–7.1 | none | "5. AI Backtest Engine" / "Tests your strategy on years of prices, every trade shown" | Qube backtest result, then the trade list scrolling fast (A5). Label top-left: "Backtest, not live results" | Cut on the beat |
+| 7.2–8.3 | none | "6. Simulation Trader" / "Tries your strategy on a simulation account first" | **Big middle visual 1.** Qube's simulation account running the strategy, with something moving on screen (A6). Label top-right: "Paper trading · simulated results" | Cut on the beat. Insert scales from 100% to 104% across the 1.1s |
+| 8.4–9.3 | none | "7. Factor Research" / "Tests clues that a stock might go up, like 20-day momentum" | Qube factor research: 20-day momentum, the IC chart drawing in (A7). Label top-left: "Backtest, not live results" | Cut on the beat |
+| 9.4–10.4 | none | "8. Hands-Free Live Trading" / "Claude runs your tested strategy live through a real broker" | **Big middle visual 2, the re-hook at 67%.** Claude starting the live run through Qube, ending on the live status (A8). No P&L, no account numbers. Label top-left: "Claude · Codex → Qube" | Cut on the beat. Insert scales from 100% to 104% |
+| 10.5–11.4 | none | "9. Strategy Library" / "Keeps every strategy, version and run in one place" | Qube strategy library, then the version history of the A2 strategy (A9). No label | Cut on the beat |
+| 11.5–12.6 | none | "10. One-Prompt Strategies" / "Builds a fully tested strategy from a single text brief" | One prompt in Claude → strategy built in Qube → backtest result (A10, sped up hard, ending on the result). Label top-left: "Backtest, not live results" | Cut on the beat |
+| 12.7–14.0 | none | Centred, 3 lines, 64px white: "Comment "**QUBE**" to get" / "the link for the" / "free sign-up." with "QUBE" in gold | None. Just Joshua typing (A0), the same shot as frame 1 | Music keeps going to the last frame (no fade), so the loop back to 0.0 is seamless |
+
+**Labels that must stay on (even at 1.1s):** "Claude · Codex → Qube" top-left on every Claude recording (items 2, 3, 8). "Backtest, not live results" top-left on every backtest or result screen (items 5, 7, 10). "Paper trading · simulated results" top-right on the simulation account (item 6). Labels sit on the insert, never on the desk shot. Style: Inter Bold 26px, white, on a #0B0F14 box at 85%, 10px padding, 8px rounded corners, 16px in from the insert's corner.
+**Don't:** add captions, a voiceover, the house dark end screen or any logo badge. Don't use any of raycfu's footage. If any insert shows a number that differs from the CHECK in ASSETS, stop and tell Mark.
+**Post caption:** "10 ways to trade with Claude #ai #trading"

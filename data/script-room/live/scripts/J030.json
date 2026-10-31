@@ -1,0 +1,256 @@
+{
+  "assets": {
+    "notes": [
+      "**Presenter:** Joshua. One person, one list, in video order.",
+      "**Before recording anything:** the Qube team connects Claude to Qube on Joshua's laptop and gives him a Qube login. Don't show any install commands, API keys, emails, file paths or account details.",
+      "**The look:** every screen clip is filmed with Joshua's phone pointed at his monitor, handheld, like the original. Not a screen recording. Before each one: monitor brightness full, room lights on, wipe the screen, close every other window, hide the taskbar or dock, turn notifications off.",
+      "**Recording order for the screen clips** (one run, they build on each other): A2 → A4. A3 and A5 can be filmed any time."
+    ],
+    "open": [
+      {
+        "done": false,
+        "id": "o1",
+        "text": "**Broker screen (A5).** Which broker app or page Joshua films. It's never named out loud or shown, since the supported brokers aren't in our product notes. If there's no broker to film, A5 falls back to the Pexels clip."
+      },
+      {
+        "done": false,
+        "id": "o2",
+        "text": "**\"Paper trading\" in line 5** is the original's word and our rule for Qube videos as it stands. Your J022 edit used \"simulation account\" in a Qube video (proposal P1). Kept as \"paper trading\" until you answer."
+      }
+    ],
+    "rows": [
+      {
+        "file": "J030_A0_aroll.mp4 · 1080×1920",
+        "how": "1. Phone vertical (9:16), front camera, held in his hand at chest height and tilted up at his face (low and close, like the original). 2. At his desk, ceiling light on, lock focus and exposure on his face. 3. Record the hook twice, calm and deadpan. 4. Record lines 1–6 in one take, same calm voice, no pauses between lines. 5. Record the whole script once more, start to finish. The editor uses his voice the whole way and lays the screen clips over it.",
+        "id": "A0",
+        "ready": false,
+        "what": "Joshua talking (A-roll)",
+        "who": "Joshua"
+      },
+      {
+        "file": "J030_A1_label (CapCut preset)",
+        "how": "1. CapCut text box, top left, 60px from the left and top edges. 2. Box red #EF4444, 16px rounded corners, 24px padding. 3. Two lines, Inter Bold 56px, white: line 1 `DO NOT build an` · line 2 `AI TRADING BOT`. 4. On from frame 1, off at 5.3s (on \"Think\"), no animation.",
+        "id": "A1",
+        "ready": false,
+        "what": "Red hook label",
+        "who": "Editor"
+      },
+      {
+        "file": "J030_A2_claude.mp4 · 1080×1920 · up to 30s (sped up in the edit)",
+        "how": "1. Terminal app, dark theme, font size 22, full screen. 2. Type `claude`, press Enter. Wait until Claude is ready. 3. Start filming the monitor with the phone, vertical, handheld, the Claude window filling the frame. 4. Type exactly, by hand, don't paste: `Build me a strategy in Qube. Buy the S&P 500 when it drops 2% or more in a day. Sell once it's up 2% from where I bought, or if it falls another 3%. Then test it on the last five years.` 5. Press Enter. 6. Keep filming until Claude says it has sent the strategy to Qube. Hold 3s. **CHECK: no email, key, file path or account name anywhere in the frame. If the setup shows one, stop and ask the Qube team to hide it.** **CHECK: Claude's reply must say the strategy went to Qube. If it doesn't, stop and send Mark a photo.**",
+        "id": "A2",
+        "ready": false,
+        "what": "The strategy typed into Claude",
+        "who": "Joshua (setup by Qube team)"
+      },
+      {
+        "file": "J030_A3_page.mp4 · 1080×1920 · 3s",
+        "how": "1. Chrome, full screen, zoom 125%, no tabs or bookmarks showing, logged out (a private window works). 2. Open https://www.tqx.ai/igqube2. 3. Film the monitor with the phone, vertical, handheld: the top of the page, Qube logo and headline in the middle of the frame. Hold 3s. **CHECK: the page's sample backtest (+55.43%, 814 trades) must not be in the frame. If it's in the way, film higher up the page.**",
+        "id": "A3",
+        "ready": false,
+        "what": "Qube page",
+        "who": "Joshua"
+      },
+      {
+        "file": "J030_A4_backtest.mp4 · 1080×1920 · 8s",
+        "how": "1. In Qube, open the strategy Claude sent over in A2. 2. Run the backtest on the last five years. 3. Film the monitor with the phone, vertical, handheld: the result screen, hold 2s. 4. Open the list of every trade and scroll slowly from the top, about 4s. **CHECK: the dates must cover five years or less (Qube tests on up to five years of real price data). If Qube runs longer, tell Mark before the edit.** **CHECK: no email or account name on screen. Don't change any number Qube shows; nothing from the result is said out loud.** 5. Photograph the result screen so the editor can copy the start date, end date and trade count exactly.",
+        "id": "A4",
+        "ready": false,
+        "what": "Qube backtest and every trade",
+        "who": "Joshua"
+      },
+      {
+        "file": "J030_A5_broker.mp4 · 1080×1920 · 6s",
+        "how": "1. Open the broker app or web page Mark picks (see Still open). If it has a paper trading mode, switch it on. 2. Open the screen where you place an order (buy or sell ticket), with no order filled in. 3. Film it with the phone, vertical, handheld, the order screen filling the frame. Hold 6s. **CHECK: every account number, name, email, balance and the broker's logo or name gets blurred in the edit. If any of them can't be blurred cleanly, don't use the clip.** If there's no broker screen to film: Pexels, search exactly `trading app order screen`, pick a clip with no logos, no brand names and no faces, 6s.",
+        "id": "A5",
+        "ready": false,
+        "what": "Broker order screen",
+        "who": "Joshua"
+      },
+      {
+        "file": "J030_A6 (CapCut presets)",
+        "how": "1. Text in the top third, 1080×640 box: `Paper trading = fake money, real market`, Inter Bold 48px, white, on #0B0F14 85%, 24px padding, 16px rounded corners, \"fake money\" in gold #E8B04B. Pops in on \"paper trading\" (about 27.2s), holds 2.5s. 2. Badge top-right, whole of line 5 (25.0–31.3s): `Paper trading · simulated results`, Inter Bold 32px, white on #0B0F14 85%.",
+        "id": "A6",
+        "ready": false,
+        "what": "Paper trading text and badge",
+        "who": "Editor"
+      },
+      {
+        "file": "J030_A7_end.png · 1080×1920",
+        "how": "Full screen 1080×1920, #0B0F14, \"Comment QUBE\" centred, Instrument Serif 88px white, \"QUBE\" in gold #E8B04B. 2s.",
+        "id": "A7",
+        "ready": false,
+        "what": "End screen",
+        "who": "Editor"
+      }
+    ]
+  },
+  "code": "J030",
+  "edit": {
+    "notes": [
+      "**Recreating:** @max_kelleyy · https://www.instagram.com/p/DZsAke9RXxu/ · copy its rhythm: only five real visual changes, one every 5–7s (label off → screen 1 → screen 2 → screen 3 → face). Layer 1's screen cuts in on \"Claude\". Layers 2 and 3 cut in on the first words of their line (\"Layer two\", \"And the third layer\") and hold the whole line, like the original. Low-effort look on purpose: selfie held low and close, deadpan, phone pointed at a real monitor. No B-roll, no fast cuts, no punch-ins, no music hits.",
+      "**Layout:** full frame the whole way. Selfie full frame, or the phone-filmed monitor full frame (A2–A5), never split screen. Captions like the original: 2 lines, 4–6 words at a time, Inter Bold white with a soft black shadow, centred over his face (house preset \"TQX Captions\", set to 2 lines). Spell Qube and Claude exactly.",
+      "**Times** are estimates at Joshua's pace (3.2 words a second, about 35s). Re-time to the real take."
+    ],
+    "rows": [
+      {
+        "id": "e1",
+        "onscreen": "Red label (A1), top left, from frame 1 to 5.3s: \"DO NOT build an\" / \"AI TRADING BOT\"",
+        "sound": "Voice only, or a very quiet bed under it. Handheld wobble left in",
+        "spoken": "Hook: \"If you're trying to use AI to trade, don't think of it as building one trading bot.\"",
+        "time": "0.0–5.3",
+        "visual": "Selfie, full frame (A0): low and close, ceiling light above, desk behind"
+      },
+      {
+        "id": "e2",
+        "onscreen": "none (label off on \"Think\": the first visual change)",
+        "sound": "Same take, no cut",
+        "spoken": "\"Think of it as three layers that need to integrate and work together.\"",
+        "time": "5.3–9.4",
+        "visual": "Selfie (A0)"
+      },
+      {
+        "id": "e3",
+        "onscreen": "On the Claude clip: label top-left \"Claude · Codex → Qube\" · chip top-right \"Example strategy\"",
+        "sound": "Hard cut. Keep the phone's handheld drift on the monitor. Keyboard sound from the clip, low",
+        "spoken": "\"Layer one is the brain. That's Claude, where you type your strategy in plain English.\"",
+        "time": "9.4–13.8",
+        "visual": "9.4–11.3s: selfie (A0). **Cut on \"Claude\" (about 11.3s)**: phone-filmed monitor, the strategy being typed into Claude (A2), the typed sentence readable by \"plain English\". A2 sped up to fit 11.3–13.8s, ending on Claude's reply that it sent the strategy to Qube"
+      },
+      {
+        "id": "e4",
+        "onscreen": "On the Qube page: none · on the backtest from \"It builds\": label top-left \"Backtest, not live results\", then on the same line the start and end dates and the trade count, copied exactly as Qube shows them in A4",
+        "sound": "Hard cuts on \"Layer two\" and \"It builds\". Slow handheld scroll, no zoom",
+        "spoken": "\"Layer two is the testing layer. That's Qube. It builds your strategy and tests it on years of prices.\"",
+        "time": "13.8–20.0",
+        "visual": "**Cut on \"Layer two\" (13.8s)**: phone-filmed Qube page top, Qube logo and headline (A3), holds through \"That's Qube.\" **Cut on \"It builds\" (about 16.3s)**: phone-filmed Qube backtest result (A4). **On \"tests it\" (about 17.9s)**: slow scroll down the list of every trade (A4), to 20.0s"
+      },
+      {
+        "id": "e5",
+        "onscreen": "Chip top-right: \"Your broker\" from \"broker\" to 25.0s",
+        "sound": "Hard cut. Blur boxes stay locked to the screen as the phone drifts",
+        "spoken": "\"And the third layer is the execution layer. That's your broker, where the trades actually go.\"",
+        "time": "20.0–25.0",
+        "visual": "**Cut on \"And the third layer\" (20.0s)**: phone-filmed broker order screen, every account number, name, balance and logo blurred (A5), holds to 25.0s"
+      },
+      {
+        "id": "e6",
+        "onscreen": "Badge top-right, whole line: \"Paper trading · simulated results\" (A6 badge) · on \"paper trading\" (about 27.2s), in the top third, holds 2.5s: \"Paper trading = fake money, real market\" (\"fake money\" in gold #E8B04B) (A6 text)",
+        "sound": "Hard cut. Same deadpan delivery, no push-in",
+        "spoken": "\"I'd start with these three tools in paper trading, test out a few different strategies, and see how they perform.\"",
+        "time": "25.0–31.3",
+        "visual": "**Cut back to the selfie on \"I'd\" (25.0s)**: full frame (A0). The second hook: his face again for the \"what I'd do\" line"
+      },
+      {
+        "id": "e7",
+        "onscreen": "Captions only, \"QUBE\" in gold #E8B04B",
+        "sound": "Stops dead into the end screen",
+        "spoken": "\"Comment QUBE and I'll send you the link for the free sign-up.\"",
+        "time": "31.3–35.0",
+        "visual": "31.3–33.0s: selfie (A0). 33.0–35.0s: end screen (A7)"
+      }
+    ]
+  },
+  "length": "about 35s at Joshua's pace, calm and close to the camera (the original is 34.6s) · Presenter: Joshua",
+  "original": {
+    "account": "@max_kelleyy",
+    "lines": [
+      {
+        "t": "0:00",
+        "text": "If you're trying to use AI to trade, don't think of it as building one trading bot."
+      },
+      {
+        "t": "0:06",
+        "text": "Think of it as three layers that need to integrate and work together."
+      },
+      {
+        "t": "0:10",
+        "text": "Layer 1 is the analysts."
+      },
+      {
+        "t": "0:10",
+        "text": "It's going to be this repo."
+      },
+      {
+        "t": "0:13",
+        "text": "Layer 2 is going to be the agentic framework."
+      },
+      {
+        "t": "0:13",
+        "text": "That's this repo."
+      },
+      {
+        "t": "0:18",
+        "text": "And the third layer is going to be the data layer."
+      },
+      {
+        "t": "0:18",
+        "text": "And that's this repo."
+      },
+      {
+        "t": "0:22",
+        "text": "I would start with these three tools in paper trading, test out a few different strategies, and see how they perform."
+      },
+      {
+        "t": "0:29",
+        "text": "comment AI and I'll send you over the repo links plus a setup guide."
+      }
+    ],
+    "seconds": 35,
+    "url": "https://www.instagram.com/p/DZsAke9RXxu/",
+    "words": 103
+  },
+  "originalTitle": "Don't build an AI trading bot, build three layers",
+  "presenter": "Joshua",
+  "recreating": {
+    "account": "@max_kelleyy",
+    "summary": "@max_kelleyy · \"Don't build an AI trading bot, build three layers\" · 8,561 likes and 5,021 comments on a 14K-follower account",
+    "url": "https://www.instagram.com/p/DZsAke9RXxu/"
+  },
+  "script": {
+    "hooks": [
+      {
+        "id": "hHook",
+        "label": "Hook",
+        "orig": "If you're trying to use AI to trade, don't think of it as building one trading bot.",
+        "text": "If you're trying to use AI to trade, don't think of it as building one trading bot."
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "orig": "Think of it as three layers that need to integrate and work together.",
+        "text": "Think of it as three layers that need to integrate and work together."
+      },
+      {
+        "id": "l2",
+        "orig": "Layer one is the brain. That's Claude, where you type your strategy in plain English.",
+        "text": "Layer one is the brain. That's Claude, where you type your strategy in plain English."
+      },
+      {
+        "id": "l3",
+        "orig": "Layer two is the testing layer. That's Qube. It builds your strategy and tests it on years of prices.",
+        "text": "Layer two is the testing layer. That's Qube. It builds your strategy and tests it on years of prices."
+      },
+      {
+        "id": "l4",
+        "orig": "And the third layer is the execution layer. That's your broker, where the trades actually go.",
+        "text": "And the third layer is the execution layer. That's your broker, where the trades actually go."
+      },
+      {
+        "id": "l5",
+        "orig": "I'd start with these three tools in paper trading, test out a few different strategies, and see how they perform.",
+        "text": "I'd start with these three tools in paper trading, test out a few different strategies, and see how they perform."
+      },
+      {
+        "id": "l6",
+        "orig": "Comment QUBE and I'll send you the link for the free sign-up.",
+        "text": "Comment QUBE and I'll send you the link for the free sign-up."
+      }
+    ]
+  },
+  "status": "Approved",
+  "title": "If you're trying to use AI to trade, don't think of it as building one trading bot.",
+  "updatedAt": 1793113363.75239,
+  "updatedBy": "Producer"
+}

@@ -1,0 +1,108 @@
+1
+00:00:00,000 --> 00:00:04,100
+ If you're still asking ChatGPT what stocks to buy, you need to watch this video.
+
+2
+00:00:04,240 --> 00:00:06,540
+ AI trading works like self-driving cars.
+
+3
+00:00:06,740 --> 00:00:10,320
+ There are five levels, and asking ChatGPT barely gets you off the ground.
+
+4
+00:00:10,500 --> 00:00:11,700
+ Level 1, you do everything.
+
+5
+00:00:11,840 --> 00:00:14,380
+ You read the charts, you make the calls, and you click buy.
+
+6
+00:00:14,520 --> 00:00:16,320
+ That's driving with no dashboard.
+
+7
+00:00:16,480 --> 00:00:17,600
+ You are a dinosaur.
+
+8
+00:00:17,840 --> 00:00:20,060
+ Level 2, AI helps, but you still drive.
+
+9
+00:00:20,160 --> 00:00:24,380
+ You ask a chatbot about a stock, it gives you the options, you decide, and click.
+
+10
+00:00:24,480 --> 00:00:25,340
+ That's lane assist.
+
+11
+00:00:25,340 --> 00:00:32,400
+ Level 3, you give an AI the idea, it writes the strategy, pulls the data, and tests it against years of history.
+
+12
+00:00:32,560 --> 00:00:33,820
+ You review it and hit go.
+
+13
+00:00:33,940 --> 00:00:38,020
+ That's the car driving itself on the highway, hands ready on the wheel.
+
+14
+00:00:38,180 --> 00:00:46,460
+ Level 4, a team of AI agents researches, decides, builds, and trades on its own inside the rules that you've set.
+
+15
+00:00:46,560 --> 00:00:48,320
+ You just watch the dashboard.
+
+16
+00:00:48,500 --> 00:00:49,600
+ That's a robot taxi.
+
+17
+00:00:49,600 --> 00:00:55,480
+ Level 5, AI finds its own strategies, adapts to new markets, and manages its own risk.
+
+18
+00:00:55,640 --> 00:00:56,940
+ No human in the loop.
+
+19
+00:00:57,080 --> 00:00:57,760
+ So where are we?
+
+20
+00:00:57,900 --> 00:01:03,720
+ The pros are at level 3, the biggest hedge funds are pushing into level 4, and nobody's at level 5.
+
+21
+00:01:03,880 --> 00:01:10,300
+ And if you're asking ChatGPT for stock tips, you're at level 2, a level behind the pros, and the hedge funds are already overtaking them.
+
+22
+00:01:10,380 --> 00:01:12,660
+ That's the gap with no cube to close.
+
+23
+00:01:12,860 --> 00:01:19,860
+ Type your idea in plain English, he writes the code, pulls the data, runs the bad test, and you decide when to go live.
+
+24
+00:01:20,000 --> 00:01:20,700
+ That's level 3.
+
+25
+00:01:20,780 --> 00:01:22,300
+ Today, no code required.
+
+26
+00:01:22,560 --> 00:01:26,620
+ And level 4, we're weeks away from launching something revolutionary that takes you right there.
+
+27
+00:01:26,720 --> 00:01:29,880
+ Comment TQX, and I'll send you the full breakdown of all five levels.
+

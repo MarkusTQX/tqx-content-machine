@@ -1,0 +1,11 @@
+source: https://www.instagram.com/reel/DeESSBZt0lu/
+duration_s: 67.986576
+uploader: Joshua
+channel: joshua.quant
+upload_date: 20261004
+like_count: 6
+comment_count: 0
+title: Video by joshua.quant
+description: Why is ai trading the future? 
+
+#aitrading #quant #algotrading #tqx #trading

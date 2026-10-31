@@ -1,0 +1,44 @@
+1
+00:00:00,000 --> 00:00:04,720
+ Claude can now build an AI trading agent that watches the market and tells you exactly when
+
+2
+00:00:04,720 --> 00:00:08,920
+ something changes. Here's how it works. First, connect Claude to LiquidTrade, which lets it
+
+3
+00:00:08,920 --> 00:00:14,820
+ interact with stocks, crypto, forex, commodities, and prediction markets from inside Claude. Then,
+
+4
+00:00:14,820 --> 00:00:19,000
+ connect QuiverQuant. This gives Claude market data, including insider transactions,
+
+5
+00:00:19,380 --> 00:00:23,780
+ politician trades, and institutional activity. Now you can give Claude a strategy. For example,
+
+6
+00:00:23,940 --> 00:00:28,540
+ tell it to watch a specific investor's disclosed trades and check for new activity throughout the
+
+7
+00:00:28,540 --> 00:00:32,680
+ day. Claude can compare that against your portfolio, analyze the new trade, and send you a
+
+8
+00:00:32,680 --> 00:00:37,100
+ recommendation when something changes. You can even create a routine so it keeps checking automatically
+
+9
+00:00:37,100 --> 00:00:41,200
+ without you having to ask. And before risking actual money, you can run the whole thing through
+
+10
+00:00:41,200 --> 00:00:45,580
+ paper trading to see how the strategy performs. So you're giving Claude access to market data,
+
+11
+00:00:45,760 --> 00:00:50,060
+ a brokerage connection, and a set of rules to follow. Follow for useful AI explained simply.
+

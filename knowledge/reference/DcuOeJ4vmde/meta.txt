@@ -1,0 +1,9 @@
+source: https://www.instagram.com/p/DcuOeJ4vmde/
+duration_s: 40.354830
+uploader: Rui Fu
+channel: raycfu
+upload_date: 20260831
+like_count: 2346
+comment_count: 3867
+title: Video by raycfu
+description: How to build a trading firm with AI Agents #ai #tech

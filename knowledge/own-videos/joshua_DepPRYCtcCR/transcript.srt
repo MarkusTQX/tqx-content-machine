@@ -1,0 +1,104 @@
+1
+00:00:00,000 --> 00:00:02,720
+ Have you ever placed a trade because a chatbot said so?
+
+2
+00:00:02,720 --> 00:00:05,280
+ Asking a chatbot what to buy feels smart.
+
+3
+00:00:05,280 --> 00:00:07,440
+ Why? Because it's read the whole internet.
+
+4
+00:00:07,440 --> 00:00:10,000
+ But think about the guy who's read every newspaper.
+
+5
+00:00:10,000 --> 00:00:11,360
+ He sounds smart too.
+
+6
+00:00:11,360 --> 00:00:13,440
+ He has an opinion on every stock.
+
+7
+00:00:13,440 --> 00:00:15,440
+ But has he tested on any of it?
+
+8
+00:00:15,440 --> 00:00:17,520
+ No, that's a chatbot.
+
+9
+00:00:17,520 --> 00:00:20,160
+ Well, read isn't the same as tested.
+
+10
+00:00:20,160 --> 00:00:22,880
+ When you ask it what to buy, you get an opinion.
+
+11
+00:00:22,880 --> 00:00:26,320
+ It sounds right, but nobody has actually checked whether it was correct.
+
+12
+00:00:26,320 --> 00:00:30,240
+ So someone did, with real money, and the results are shocking.
+
+13
+00:00:30,240 --> 00:00:32,480
+ In a competition called Alpha Arena,
+
+14
+00:00:32,480 --> 00:00:38,480
+ six chatbots used $10,000 of real money to trade crypto for about two weeks.
+
+15
+00:00:38,480 --> 00:00:41,040
+ Four of the six lost money.
+
+16
+00:00:41,040 --> 00:00:44,000
+ The best one made about $2,000.
+
+17
+00:00:44,000 --> 00:00:48,080
+ And the worst one, GPT-5, lost about $6,000.
+
+18
+00:00:48,080 --> 00:00:50,320
+ Almost half of it in just two weeks.
+
+19
+00:00:50,320 --> 00:00:54,320
+ These are the same kinds of AI people ask for stock picks every day.
+
+20
+00:00:54,320 --> 00:00:56,320
+ The problem isn't that AI is dumb.
+
+21
+00:00:56,320 --> 00:00:57,920
+ It's that it's an opinion.
+
+22
+00:00:57,920 --> 00:01:02,160
+ No matter how smart it sounds, it hasn't been tested.
+
+23
+00:01:02,160 --> 00:01:04,080
+ So don't ask it what to buy.
+
+24
+00:01:04,080 --> 00:01:05,600
+ Ask it to build your rules.
+
+25
+00:01:05,600 --> 00:01:09,760
+ Then test those rules on past prices before you put in real money.
+
+26
+00:01:09,760 --> 00:01:12,160
+ Comment cube, and I'll send you how you can do this too.
+

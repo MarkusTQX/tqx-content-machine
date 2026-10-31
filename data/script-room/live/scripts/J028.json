@@ -1,0 +1,576 @@
+{
+  "assets": {
+    "notes": [
+      "**Presenter:** Joshua. One person, one list, in video order.",
+      "**Before recording anything:** the Qube team connects Qube to Claude on Joshua's laptop (same setup as J022) and he has a Qube login. Don't show any install commands, API keys, emails, account names or file paths. Every chatbot recording is on Joshua's own accounts, logged in, with notifications off.",
+      "**Reuse from M05:** the tier board, the \"QUANT TRADING\" pill, the \"I'm biased\" big text, M05's big-text style (used for A5 with new words) and the caption style are M05's own. Duplicate them from the M05 CapCut project and swap only the logos, names and the A5 words. If the M05 project isn't available, build them from the specs below."
+    ],
+    "open": [
+      {
+        "done": false,
+        "id": "o1",
+        "text": "**CTA.** Line 11 is M05's ending word for word, as you asked: \"…comment QUBE and I'll send you the full breakdown.\" The Breakdown DM isn't live in ManyChat yet (P6), so today the DM sends only the link. If you'd rather not wait: \"…or comment QUBE and I'll send you the link for the free sign-up.\""
+      },
+      {
+        "done": false,
+        "id": "o2",
+        "text": "**Example stock in the inserts.** A4 and A6 use Apple as the search and question, only as news, never a call. Say if you'd rather use another."
+      }
+    ],
+    "rows": [
+      {
+        "file": "J028_A0_aroll.mp4 · 1080×1920 · plus J028_A0_closeups.mp4",
+        "how": "1. Phone vertical (9:16), eye level, office lights on, lock focus and exposure, mic in hand like M05. 2. Frame head and chest in the lower two thirds, leaving the top third (640px) clear above his head for the board. 3. Record the hook twice, clean. 4. Record lines 1–11 in one take. Say each tier word on its own with a short beat after it: \"F tier.\" \"D tier.\" 5. Move the phone in close and record, three times each: \"See the problem?\" · \"That number looks insane. Totally made up.\"",
+        "id": "A0",
+        "ready": false,
+        "what": "Joshua talking (A-roll)",
+        "who": "Joshua"
+      },
+      {
+        "file": "J028_A1_logos.png · 1080×640",
+        "how": "1. Get each logo from the company's own press or brand page: ChatGPT, Gemini, Grok, Perplexity, Claude, Qube (Qube from the TQX team). 2. Canva, 1080×640 transparent: the six logos in one row, top-left, each 90×90, 20px apart, in this order: ChatGPT, Gemini, Grok, Perplexity, Claude, Qube. 3. Export PNG.",
+        "id": "A1",
+        "ready": false,
+        "what": "Six logos in a row (frame 1)",
+        "who": "Editor"
+      },
+      {
+        "file": "J028_A2_board_0.png … _6.png, J028_A2_chip.png, J028_A2_box.png · 1080×640",
+        "how": "1. Duplicate M05's board. Spec if rebuilding: 1080×640, background #0B0F14, six rows top to bottom S, A, B, C, D, F, each 96px high with 8px gaps; a 64×64 rounded letter tile on the left (S #F472B6, A #FB923C, B #FACC15, C #4ADE80, D #60A5FA, F #A78BFA, letter white Inter Bold 40px); row body #1A1F27; logo 56×56 after the tile; name right-aligned, Inter Bold 36px white. 2. Export 7 PNGs: (0) empty · (1) F: ChatGPT · (2) + D: Gemini · (3) + C: Grok · (4) + B: Perplexity · (5) + A: Claude · (6) + S: Claude and Qube logos side by side, name \"Claude + Qube\". 3. Chips: \"YOU TEST IT\", Inter Bold 28px #0B0F14 on gold #E8B04B, 16px rounded, sized to sit on the right end of a row. Export 1 PNG. 4. Gold row box: #E8B04B, 6px line, 12px rounded, round the C, B and A rows together. Export 1 PNG.",
+        "id": "A2",
+        "ready": false,
+        "what": "Tier board, 7 states + chips",
+        "who": "Editor"
+      },
+      {
+        "file": "J028_A3a_pill.png, J028_A3b_biased.png",
+        "how": "Copy both from M05 as they are. (a) Pill text exactly: \"QUANT TRADING\". (b) Big text exactly: \"I'm biased\".",
+        "id": "A3",
+        "ready": false,
+        "what": "\"QUANT TRADING\" pill (a) and \"I'm biased\" big text (b)",
+        "who": "Editor"
+      },
+      {
+        "file": "J028_A4a_google.mp4 · 1920×1080 · 5s · J028_A4b_bubble.png · J028_A4c_answer.png · 1080×640",
+        "how": "(a) 1. Chrome, full screen, zoom 125%, no tabs or bookmarks showing. 2. Open https://www.google.com and type exactly: `Apple stock latest news`. 3. Press Enter, start a screen recording, hold 2s on the AI answer at the top, then scroll slowly for 3s. **CHECK: if Google shows no AI answer at the top, try `Apple stock news today`. If it still shows none, tell Mark before the edit.** **CHECK: nothing that says \"buy\" or gives a price target is on screen; if it is, crop it out.** (b) Canva, 1080×640, #0B0F14: one chat bubble, white, 32px rounded, right side, text exactly: \"Backtest my strategy\", Inter 40px #0B0F14. Gemini logo small top-left. (c) Same canvas: one answer bubble on the left, light grey #2A2F37, filled with 6 lines of grey bars and one big number-shaped bar in the middle, all under a 30px blur. **CHECK: no digit, $ sign or % is readable anywhere in (c).**",
+        "id": "A4",
+        "ready": false,
+        "what": "Gemini insert: (a) Google with the AI answer, (b) \"Backtest my strategy\" bubble, (c) blurred answer",
+        "who": "Joshua (a) · Editor (b, c)"
+      },
+      {
+        "file": "J028_A5_insane.png, J028_A5_madeup.png",
+        "how": "1. Duplicate M05's \"Your results look amazing\" big text and change the words to exactly: \"That number looks insane\" (\"insane\" larger, the way M05 sized \"amazing\"). 2. Add a stamp: \"MADE UP\", Inter Black 120px, red #EF4444, rotated −8°, 6px red border, 70% opacity. Export separately so it can drop in on \"made up\".",
+        "id": "A5",
+        "ready": false,
+        "what": "\"That number looks insane\" big text + \"MADE UP\" stamp",
+        "who": "Editor"
+      },
+      {
+        "file": "J028_A6a_grok.mp4 · 1080×1920 · up to 15s (sped up) · J028_A6b_xlogo.png",
+        "how": "(a) 1. Phone, X app, logged in, notifications off. 2. Start the phone's screen recording. 3. On the home feed, hold 1s, then tap the Grok button. 4. Type exactly: `What are people saying about Apple stock today?` 5. Send. Record until the answer has 4–5 lines on screen. Hold 2s. Stop. **CHECK: no username, profile photo of a real person, \"buy\"/\"sell\" call or price target readable in the answer. If any is, blur it in the edit.** (b) X logo from X's own brand page, white on transparent, 200×200.",
+        "id": "A6",
+        "ready": false,
+        "what": "Grok insert: (a) X with Grok, (b) X logo pop",
+        "who": "Joshua (a) · Editor (b)"
+      },
+      {
+        "file": "J028_A7_perplexity.mp4 · 1920×1080 · up to 20s (sped up) · plus J028_A7_sources.png",
+        "how": "1. Chrome, full screen, zoom 125%, no tabs or bookmarks showing, https://www.perplexity.ai logged in. 2. Start a screen recording. 3. Type exactly: `What moved the S&P 500 this week?` 4. Press Enter. Record until the answer is done and its numbered sources are on screen. Hold 3s on the sources. 5. Screenshot the answer with the sources showing. **CHECK: the numbered source markers ([1], [2]…) or source cards must be readable. If Perplexity hides them, open the Sources tab and record that.**",
+        "id": "A7",
+        "ready": false,
+        "what": "Perplexity answer with its sources",
+        "who": "Joshua"
+      },
+      {
+        "file": "J028_A8_claude_code.mp4 · 1920×1080 · up to 30s (sped up)",
+        "how": "1. Chrome, full screen, zoom 125%, no tabs or bookmarks showing, https://claude.ai logged in, a new chat. 2. Start a screen recording. 3. Type exactly, don't paste: `Write Python code for a strategy that buys the S&P 500 when it drops 2% in a day.` 4. Press Enter. Record until the code block is finished. Hold 2s on the code. **CHECK: stop the recording before Claude runs anything or shows any result. Only the code is on screen.**",
+        "id": "A8",
+        "ready": false,
+        "what": "Claude writing Python code",
+        "who": "Joshua"
+      },
+      {
+        "file": "J028_A9_claude_qube.mp4 · 1920×1080 · up to 40s (sped up)",
+        "how": "1. Terminal app, dark theme, font 22, full screen. 2. Start a screen recording. 3. Type `claude`, press Enter. 4. Hold 2s on the screen that shows Qube is connected. 5. Type exactly, by hand, don't paste: `Using Qube, build a strategy that buys the S&P 500 when it drops 2% in a day. Sell once it's up 2% from where I bought, or if it falls another 3%. Test it on the last five years.` 6. Press Enter. Keep recording into A10. **CHECK: no email, key, file path or account name on screen at any point.**",
+        "id": "A9",
+        "ready": false,
+        "what": "Claude connected to Qube, the strategy typed",
+        "who": "Joshua (setup by Qube team)"
+      },
+      {
+        "file": "J028_A10_qube.mp4 · 1920×1080 · up to 30s (sped up) · plus J028_A10_result.png, _trades.png",
+        "how": "1. Keep recording from A9 until Claude says the strategy is built and tested in Qube. 2. Open the strategy in Qube (Chrome, full screen, zoom 125%). 3. Record the backtest result for 3s. 4. Open the list of every trade and scroll top to bottom in about 3s. Hold 2s. 5. Screenshot the result and the trade list. **CHECK: the dates must cover five years or less (Qube tests on up to five years of real price data). If it ran longer, tell Mark before the edit.** **CHECK: don't change any number Qube shows; nothing is spoken about it. If the result shows no trades, stop and send Mark the screenshot.**",
+        "id": "A10",
+        "ready": false,
+        "what": "Qube builds it, the backtest, every trade",
+        "who": "Joshua"
+      },
+      {
+        "file": "J028_A11_end.png · 1080×1920",
+        "how": "Full screen 1080×1920, #0B0F14, \"Comment QUBE\" centred, Instrument Serif 88px white, \"QUBE\" in gold #E8B04B. 2s.",
+        "id": "A11",
+        "ready": false,
+        "what": "End screen",
+        "who": "Editor"
+      }
+    ]
+  },
+  "code": "J028",
+  "edit": {
+    "notes": [
+      "**Recreating:** our own M05 · https://www.instagram.com/reel/DerwxsIzyeX/ · copy its rhythm exactly: one tool every 8–13s, each tool = name → tier → one honest reason; the tier word said on its own (\"F tier.\") is an edit beat, the board fills one row on it; one short screen insert per tool; big text on \"I'm biased\" and \"That number looks insane\"; the board drops in on \"so you don't have to\".",
+      "**Layout:** M05's, reused as is (it's our own video). Talking head full frame; the tier board (A2) fixed in the top third (1080×640) and filling in; screen inserts replace the board in the top third for 2–6s, then the board comes back. Captions 2–4 words, M05's style (\"TQX Captions\" preset, key word on the navy highlight box), chest height (y = 1380).",
+      "**Times** are estimates at Joshua's pace (3.2 words a second, about 81s; 259 words). Re-time to the real take."
+    ],
+    "rows": [
+      {
+        "id": "e1",
+        "onscreen": "Captions: \"6 AI CHATBOTS FOR\" / \"TRADING FROM S TO F\" / \"SO YOU DON'T HAVE TO\"",
+        "sound": "Music in at 0. Board drops with a thud on \"don't\"",
+        "spoken": "Hook: \"I ranked 6 AI chatbots for trading from S to F, so you don't have to.\"",
+        "time": "0.0–5.0",
+        "visual": "0–3.6s: the six logos small in a row, top-left (A1), like M05's first frame. 3.6s, on \"so you don't have to\": the empty tier board drops into the top third (A2 state 0)"
+      },
+      {
+        "id": "e2",
+        "onscreen": "Pill top-centre: \"QUANT TRADING\" (A3a), pops on \"Quant trading\", holds to the end of the line",
+        "sound": "Pill pops with a click",
+        "spoken": "\"Quant trading means no hunches. Rules and data make every call.\"",
+        "time": "5.0–8.5",
+        "visual": "Board (A2 state 0)"
+      },
+      {
+        "id": "e3",
+        "onscreen": "Big text top-right: \"I'm biased\" (A3b), pops on \"biased\"",
+        "sound": "Small punch-in (100→108%) on \"biased\"",
+        "spoken": "\"Full disclosure, I'm biased. We built something on this list.\"",
+        "time": "8.5–11.7",
+        "visual": "Board hidden for this line (Joshua full frame, as in M05)"
+      },
+      {
+        "id": "e4",
+        "onscreen": "Captions only",
+        "sound": "Hard cut back to the board",
+        "spoken": "\"ChatGPT for stock picks.\"",
+        "time": "11.7–13.0",
+        "visual": "Board back (A2 state 0)"
+      },
+      {
+        "id": "e5",
+        "onscreen": "none",
+        "sound": "Row lands on \"F\", hit sound",
+        "spoken": "\"F tier.\"",
+        "time": "13.0–13.9",
+        "visual": "ChatGPT logo + name lands in the F row (A2 state 1)"
+      },
+      {
+        "id": "e6",
+        "onscreen": "Captions: \"SUPER CONFIDENT\" / \"ZERO PROOF\" (\"ZERO PROOF\" on the highlight box)",
+        "sound": "Hold, no cut (let the line land)",
+        "spoken": "\"Sounds super confident. Zero proof behind it.\"",
+        "time": "13.9–16.2",
+        "visual": "Board (state 1)"
+      },
+      {
+        "id": "e7",
+        "onscreen": "none",
+        "sound": "Hit on \"D\"",
+        "spoken": "\"Gemini. D tier.\"",
+        "time": "16.2–17.4",
+        "visual": "Gemini lands in the D row (A2 state 2)"
+      },
+      {
+        "id": "e8",
+        "onscreen": "Small line under the clip: \"Gemini · right inside Google\"",
+        "sound": "Cut on \"Google\"",
+        "spoken": "\"It's right inside Google, so it's great for a stock's latest news.\"",
+        "time": "17.4–21.2",
+        "visual": "Insert: Google search with the AI answer at the top (A4a), slow scroll"
+      },
+      {
+        "id": "e9",
+        "onscreen": "On \"without running one trade\": \"0 trades run\" (\"0\" in red #EF4444), holds to the end of the line",
+        "sound": "Keyboard clicks under the bubble. Blur pulses once on \"profit number\"",
+        "spoken": "\"But ask it to test a strategy, and it can spit out a profit number without running one trade.\"",
+        "time": "21.2–27.2",
+        "visual": "Insert: the chat bubble \"Backtest my strategy\" (A4b), then the blurred answer card (A4c) on \"a profit number\". **No real figure readable anywhere**"
+      },
+      {
+        "id": "e10",
+        "onscreen": "Big text top-left: \"That number looks insane\" (\"insane\" larger, M05's big-text style, A5), then on \"made up\": \"MADE UP\" stamped over it in red #EF4444",
+        "sound": "Music drops for \"Totally made up\", stamp sound on \"made up\"",
+        "spoken": "\"That number looks insane. Totally made up.\"",
+        "time": "27.2–29.4",
+        "visual": "Joshua full frame, no board"
+      },
+      {
+        "id": "e11",
+        "onscreen": "none",
+        "sound": "Hit on \"C\"",
+        "spoken": "\"Grok. C tier.\"",
+        "time": "29.4–30.7",
+        "visual": "Board back, Grok lands in the C row (A2 state 3)"
+      },
+      {
+        "id": "e12",
+        "onscreen": "X logo pops beside Joshua's head on \"X\" (A6b), 1s",
+        "sound": "Cut on \"X\". Pop on the logo",
+        "spoken": "\"It lives on X, where a ton of traders hang out.\"",
+        "time": "30.7–34.2",
+        "visual": "Insert: X on the phone, the Grok button tapped (A6a, first part)"
+      },
+      {
+        "id": "e13",
+        "onscreen": "none",
+        "sound": "Fast scroll, 1.5x",
+        "spoken": "\"So it knows what everyone's saying about a stock.\"",
+        "time": "34.2–37.0",
+        "visual": "Insert: the Grok question and the start of its answer (A6a, second part)"
+      },
+      {
+        "id": "e14",
+        "onscreen": "On \"works\": \"Works? ✗\" (\"✗\" in red #EF4444) top-right",
+        "sound": "Hard cut back to the board on \"But\"",
+        "spoken": "\"But hype won't tell you if your strategy works.\"",
+        "time": "37.0–39.9",
+        "visual": "Board (state 3)"
+      },
+      {
+        "id": "e15",
+        "onscreen": "none",
+        "sound": "Hit on \"B\"",
+        "spoken": "\"Perplexity. B tier.\"",
+        "time": "39.9–41.1",
+        "visual": "Perplexity lands in the B row (A2 state 4)"
+      },
+      {
+        "id": "e16",
+        "onscreen": "none (the sources on screen carry it)",
+        "sound": "Zoom 100→140%, eased",
+        "spoken": "\"Legit for research, and it shows you where every answer came from.\"",
+        "time": "41.1–44.9",
+        "visual": "Insert: a Perplexity answer, zoom into the numbered sources (A7); gold box (#E8B04B, 6px) draws round the source list on \"where every answer came from\""
+      },
+      {
+        "id": "e17",
+        "onscreen": "none",
+        "sound": "Music dips on \"for you\"",
+        "spoken": "\"But it won't test your strategy on past prices for you.\"",
+        "time": "44.9–48.4",
+        "visual": "Joshua full frame (board hidden), small push-in"
+      },
+      {
+        "id": "e18",
+        "onscreen": "none",
+        "sound": "Hit on \"A\"",
+        "spoken": "\"Claude. A tier.\"",
+        "time": "48.4–49.6",
+        "visual": "Board back, Claude lands in the A row (A2 state 5)"
+      },
+      {
+        "id": "e19",
+        "onscreen": "none",
+        "sound": "Cut on \"write the code\", typing sound",
+        "spoken": "\"It's really strong at building strategies, and it'll even write the code.\"",
+        "time": "49.6–53.4",
+        "visual": "Insert: Claude writing Python code, sped up (A8)"
+      },
+      {
+        "id": "e20",
+        "onscreen": "On \"on your own\": \"You set it up\" chip, top-right",
+        "sound": "Hard cut to Joshua on \"You're on your own\"",
+        "spoken": "\"But testing that code on years of prices? You're on your own.\"",
+        "time": "53.4–57.2",
+        "visual": "Same insert (A8) held on the finished code, then Joshua"
+      },
+      {
+        "id": "e21",
+        "onscreen": "none",
+        "sound": "Music drops out. Tight push-in on Joshua (biggest change in the video, same as M05)",
+        "spoken": "\"See the problem?\"",
+        "time": "57.2–58.2",
+        "visual": "Board (state 5): a gold #E8B04B box draws round the C, B and A rows"
+      },
+      {
+        "id": "e22",
+        "onscreen": "On \"the testing on you\": \"YOU TEST IT\" chip pops on each of the C, B and A rows, one after another (A2 chips)",
+        "sound": "Three quick pops. Music back on \"you\"",
+        "spoken": "\"Grok, Perplexity and Claude all dump the testing on you.\"",
+        "time": "58.2–61.4",
+        "visual": "Board, gold box stays"
+      },
+      {
+        "id": "e23",
+        "onscreen": "none",
+        "sound": "Biggest hit of the video on \"S\", short riser before it",
+        "spoken": "\"Claude plus Qube. S tier.\"",
+        "time": "61.4–63.3",
+        "visual": "Claude + Qube logos land together in the S row, name \"Claude + Qube\" (A2 state 6). Stays on the board to the end"
+      },
+      {
+        "id": "e24",
+        "onscreen": "Label top-left: \"Claude → Qube\"",
+        "sound": "Keyboard clicks",
+        "spoken": "\"Connect Qube to Claude and type your strategy like you're texting a friend.\"",
+        "time": "63.3–67.4",
+        "visual": "Insert: Claude with Qube connected (A9), the strategy typed letter by letter"
+      },
+      {
+        "id": "e25",
+        "onscreen": "Label top-left: \"Claude → Qube\" stays on. \"Backtest, not live results\" directly under it (same box style, 12px gap) from the first Qube frame / backtest report to the end of the line",
+        "sound": "Whoosh into the result; ticking as trades scroll",
+        "spoken": "\"Claude builds it in Qube, tests it on years of prices, and shows you every trade.\"",
+        "time": "67.4–72.4",
+        "visual": "Insert: Qube building it, then the backtest result, then the full trade list scrolling fast (A10)"
+      },
+      {
+        "id": "e26",
+        "onscreen": "\"0 lines of code\" (\"0\" in gold), centred, on \"a line of code\"",
+        "sound": "Hit on \"code\"",
+        "spoken": "\"You never write a line of code.\"",
+        "time": "72.4–74.7",
+        "visual": "Board back (state 6), S row glows"
+      },
+      {
+        "id": "e27",
+        "onscreen": "Captions only",
+        "sound": "Music low, let the line land",
+        "spoken": "\"Your job is the strategy. The code shouldn't be your problem.\"",
+        "time": "74.7–78.2",
+        "visual": "Joshua full frame, board hidden (as M05)"
+      },
+      {
+        "id": "e28",
+        "onscreen": "Captions; \"QUBE\" in gold #E8B04B",
+        "sound": "Pop on \"Disagree?\"",
+        "spoken": "\"Disagree? Drop your tier list in the comments, or comment QUBE and I'll send you the full breakdown.\"",
+        "time": "78.2–81.8",
+        "visual": "Full board (state 6) back for \"Drop your tier list\""
+      },
+      {
+        "id": "e29",
+        "onscreen": "\"Comment QUBE\"",
+        "sound": "Music out",
+        "spoken": "(end of the CTA)",
+        "time": "81.8–83.8",
+        "visual": "End screen (A11) for the last 2s"
+      }
+    ]
+  },
+  "length": "about 81s at Joshua's pace, matches M05 · Presenter: Joshua",
+  "original": {
+    "account": "@markus_ai_quant",
+    "lines": [
+      {
+        "t": "0:00",
+        "text": "I ranked 6 tools for building a trading strategy from S to F, so you don't have to."
+      },
+      {
+        "t": "0:05",
+        "text": "Quant trading just means trading with rules and data instead of your gut."
+      },
+      {
+        "t": "0:10",
+        "text": "And yes, I am biased because we built one."
+      },
+      {
+        "t": "0:12",
+        "text": "Asking chat GPT what to buy."
+      },
+      {
+        "t": "0:15",
+        "text": "F tier."
+      },
+      {
+        "t": "0:15",
+        "text": "You're just getting an opinion that nobody has actually tested."
+      },
+      {
+        "t": "0:19",
+        "text": "Excel."
+      },
+      {
+        "t": "0:20",
+        "text": "D tier."
+      },
+      {
+        "t": "0:20",
+        "text": "You can test a strategy on past prices in a spreadsheet, but one wrong sell and your test is secretly using tomorrow's price to make today's trade."
+      },
+      {
+        "t": "0:30",
+        "text": "Your results look amazing, but they're fake."
+      },
+      {
+        "t": "0:33",
+        "text": "Meta trader."
+      },
+      {
+        "t": "0:34",
+        "text": "C tier."
+      },
+      {
+        "t": "0:34",
+        "text": "It's popular for Forex, which is trading currencies like the dollar and the euro."
+      },
+      {
+        "t": "0:39",
+        "text": "But to build a bot that trades for you, it needs to learn its own coding language."
+      },
+      {
+        "t": "0:44",
+        "text": "Trading view."
+      },
+      {
+        "t": "0:45",
+        "text": "B tier."
+      },
+      {
+        "t": "0:45",
+        "text": "Really good charts and it can test strategies on past prices."
+      },
+      {
+        "t": "0:49",
+        "text": "But to do that, you need to learn its coding language."
+      },
+      {
+        "t": "0:52",
+        "text": "Pinescript."
+      },
+      {
+        "t": "0:53",
+        "text": "Quant connect."
+      },
+      {
+        "t": "0:54",
+        "text": "A tier."
+      },
+      {
+        "t": "0:54",
+        "text": "Very powerful for testing strategies, but you have to write real code in Python or C-sharp."
+      },
+      {
+        "t": "1:00",
+        "text": "Notice the pattern?"
+      },
+      {
+        "t": "1:01",
+        "text": "Everything from C to A wants you to be a programmer."
+      },
+      {
+        "t": "1:04",
+        "text": "Cube."
+      },
+      {
+        "t": "1:05",
+        "text": "S tier."
+      },
+      {
+        "t": "1:05",
+        "text": "You describe the idea in plain English."
+      },
+      {
+        "t": "1:08",
+        "text": "It turns it into exact rules, tests them on past prices and runs it."
+      },
+      {
+        "t": "1:12",
+        "text": "No code required."
+      },
+      {
+        "t": "1:13",
+        "text": "The hard part of trading should be the idea, not learning how to code."
+      },
+      {
+        "t": "1:18",
+        "text": "Disagree?"
+      },
+      {
+        "t": "1:19",
+        "text": "Drop your tier list in the comments or comment cube and I'll send you the full breakdown."
+      }
+    ],
+    "seconds": 84,
+    "url": "https://www.instagram.com/reel/DerwxsIzyeX/",
+    "words": 250
+  },
+  "originalTitle": "Quant trading tools ranked S to F",
+  "presenter": "Joshua",
+  "recreating": {
+    "account": "@markus_ai_quant",
+    "summary": "@markus_ai_quant (our own M05) · \"Quant trading tools ranked S to F\" · 54 likes, 41 comments, 115 saves, 28 shares, 2,610 views",
+    "url": "https://www.instagram.com/reel/DerwxsIzyeX/"
+  },
+  "script": {
+    "hooks": [
+      {
+        "id": "hHook",
+        "label": "Hook",
+        "orig": "I ranked 6 AI chatbots for trading from S to F, so you don't have to.",
+        "text": "I ranked 6 AI trading chatbots from S to F, so you don't have to."
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "orig": "Quant trading means no hunches. Rules and data make every call.",
+        "text": "Quant trading means no hunches. Rules and data make every call."
+      },
+      {
+        "id": "l2",
+        "orig": "Full disclosure, I'm biased. We built something on this list.",
+        "text": "Full disclosure, I'm biased. We built something on this list."
+      },
+      {
+        "id": "l3",
+        "orig": "ChatGPT for stock picks. F tier. Sounds super confident. Zero proof behind it.",
+        "text": "ChatGPT for stock picks. F tier. Sounds super confident. Zero proof behind it."
+      },
+      {
+        "id": "l4",
+        "orig": "Gemini. D tier. It's right inside Google, so it's great for a stock's latest news. But ask it to test a strategy, and it can spit out a profit number without running one trade. That number looks insane. Totally made up.",
+        "text": "Gemini. D tier. It's right inside Google, so it's great for a stock's latest news. But ask it to test a strategy, and it can spit out a profit number without running one trade. That number looks insane. Totally made up."
+      },
+      {
+        "id": "l5",
+        "orig": "Grok. C tier. It lives on X, where a ton of traders hang out. So it knows what everyone's saying about a stock. But hype won't tell you if your strategy works.",
+        "text": "Grok. C tier. It lives on X, where a ton of traders hang out. So it knows what everyone's saying about a stock. But hype won't tell you if your strategy works."
+      },
+      {
+        "id": "l6",
+        "orig": "Perplexity. B tier. Legit for research, and it shows you where every answer came from. But it won't test your strategy on past prices for you.",
+        "text": "Perplexity. B tier. Legit for research, and it shows you where every answer came from. But it won't test your strategy on past prices for you."
+      },
+      {
+        "id": "l7",
+        "orig": "Claude. A tier. It's really strong at building strategies, and it'll even write the code. But testing that code on years of prices? You're on your own.",
+        "text": "Claude. A tier. It's really strong at building strategies, and it'll even write the code. But testing that code on years of prices? You're on your own."
+      },
+      {
+        "id": "l8",
+        "orig": "See the problem? Grok, Perplexity and Claude all dump the testing on you.",
+        "text": "See the problem? Grok, Perplexity and Claude all dump the testing on you."
+      },
+      {
+        "id": "l9",
+        "orig": "Claude plus Qube. S tier. Connect Qube to Claude and type your strategy like you're texting a friend. Claude builds it in Qube, tests it on years of prices, and shows you every trade. You never write a line of code.",
+        "text": "Claude plus Qube. S tier. Connect Qube to Claude and type your strategy like you're texting a friend. Claude builds it in Qube, tests it on years of prices, and shows you every trade. You never write a line of code."
+      },
+      {
+        "id": "l10",
+        "orig": "Your job is the strategy. The code shouldn't be your problem.",
+        "text": "Your job is the thinking of a strategy. The code shouldn't be your biggest obstacle."
+      },
+      {
+        "id": "l11",
+        "orig": "Disagree? Drop your tier list in the comments, or comment QUBE and I'll send you the full breakdown.",
+        "text": "Disagree? Drop your tier list in the comments, or comment QUBE and I'll send you the full breakdown."
+      }
+    ]
+  },
+  "status": "Approved",
+  "title": "I ranked 6 AI chatbots for trading from S to F, so you don't have to.",
+  "updatedAt": 1793120465.926,
+  "updatedBy": "Mark"
+}

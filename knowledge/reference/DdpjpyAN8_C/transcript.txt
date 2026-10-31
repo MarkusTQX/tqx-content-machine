@@ -1,0 +1,11 @@
+bro this is so easy even a five-year-old can understand start on the 15 minute chart then mark
+the high and low of the range of the first two candles if price closes above this range we're
+going to buy if price closes below this range we're going to sell in this case we just broke
+above the range so we're going to buy the stop loss will go at the opposite end of the range and
+this is where it gets interesting for take profit i've backed this at a bunch of different variations
+but i found that aiming for a fixed take profit of 10 to 20 points seems to be best you can aim
+for a fixed one-to-one risk-award ratio if you want or you can simply use discretion but that's just
+hard to teach in this case i'm aiming for 10 points and they just sit back and let the trade play out
+this is a variation of a strategy i learned from tom hugard which he's seen really good results with
+i also cut the strategy into a bot and it's profitable so i honestly think this is a really
+good starting point for beginners try it out for yourself and see peace out

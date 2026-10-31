@@ -1,0 +1,9 @@
+source: https://www.instagram.com/reel/DepOlxEzEv8/
+duration_s: 77.500000
+uploader: Markus.ai.quant
+channel: markus_ai_quant
+upload_date: 20261018
+like_count: 3
+comment_count: 0
+title: Video by markus_ai_quant
+description: only 1 in 100 day broskis make it in the long run… #quant #trading #algotrading #aitrading #tqx

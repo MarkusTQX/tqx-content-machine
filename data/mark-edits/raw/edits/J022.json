@@ -1,0 +1,33 @@
+{
+  "code": "J022",
+  "log": [
+    {
+      "after": "First, connect Qube, which allows you to build a trading strategy from natural langauge.",
+      "at": 1792748096029,
+      "before": "First, connect Qube, which turns what you tell Claude into exact rules.",
+      "part": "line",
+      "ref": "1"
+    },
+    {
+      "after": "When to buy, when to sell, how much, and even when to get out if it all goes wrong.",
+      "at": 1792748103632,
+      "before": "When to buy, when to sell, how much, and even when to get out if it goes wrong.",
+      "part": "line",
+      "ref": "2"
+    },
+    {
+      "after": "Then Qube tests those rules on years of prices and shows you every trade.",
+      "at": 1792748110949,
+      "before": "Then Qube tests those rules on ten years of prices and shows you every trade.",
+      "part": "line",
+      "ref": "3"
+    },
+    {
+      "after": "Once it looks good, try it on a simulation account first.",
+      "at": 1792748143850,
+      "before": "Once it looks good, try it on fake money first.",
+      "part": "line",
+      "ref": "6"
+    }
+  ]
+}

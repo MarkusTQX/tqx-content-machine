@@ -1,0 +1,7 @@
+If you're trying to use AI to trade, don't think of it as building one trading bot.
+Think of it as three layers that need to integrate and work together.
+Layer 1 is the analysts. It's going to be this repo.
+Layer 2 is going to be the agentic framework. That's this repo.
+And the third layer is going to be the data layer. And that's this repo.
+I would start with these three tools in paper trading, test out a few different strategies, and see how they perform.
+comment AI and I'll send you over the repo links plus a setup guide.

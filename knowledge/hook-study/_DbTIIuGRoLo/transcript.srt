@@ -1,0 +1,44 @@
+1
+00:00:00,000 --> 00:00:01,600
+ 10 hooks that actually work.
+
+2
+00:00:01,800 --> 00:00:02,940
+ No one told you about this.
+
+3
+00:00:03,040 --> 00:00:04,200
+ You are doing this wrong.
+
+4
+00:00:04,460 --> 00:00:06,000
+ This changed everything for me.
+
+5
+00:00:06,160 --> 00:00:07,460
+ X won't fix your Y.
+
+6
+00:00:07,580 --> 00:00:08,660
+ Here's what no one told you.
+
+7
+00:00:08,800 --> 00:00:09,960
+ I almost didn't post this.
+
+8
+00:00:10,100 --> 00:00:11,540
+ Watch this before you X.
+
+9
+00:00:11,620 --> 00:00:13,240
+ This is your sign to X.
+
+10
+00:00:13,320 --> 00:00:14,600
+ I wish someone told me this sooner.
+
+11
+00:00:14,760 --> 00:00:15,760
+ You need to hear this.
+

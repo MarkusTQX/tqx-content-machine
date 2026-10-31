@@ -1,0 +1,28 @@
+1
+00:00:00,000 --> 00:00:07,920
+ I shouldn't be giving this away for free, but this is how to steal any cinematic color grade and apply it to your own video in under 60 seconds using AR.
+
+2
+00:00:08,040 --> 00:00:10,900
+ Pick a movie with a color grade you love. In my case, it's Batman.
+
+3
+00:00:11,060 --> 00:00:16,000
+ Step two is to Google Batman color palette and download a clean image of that palette.
+
+4
+00:00:16,000 --> 00:00:23,420
+ Next, upload the palette image to ChatGPT and say, generate a LUT based on this color palette in a .cube extension.
+
+5
+00:00:23,940 --> 00:00:28,600
+ Assume you're the best colorist in the world. The LUT must work in a pro environment.
+
+6
+00:00:28,780 --> 00:00:34,020
+ Drop the file on an adjustment layout in Premiere and boom, you've got instantly cinematic vibes.
+
+7
+00:00:34,160 --> 00:00:38,100
+ If this saved you hours of trial and error, send this to a friend who needs better color grades.
+

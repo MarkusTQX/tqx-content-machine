@@ -1,0 +1,94 @@
+---
+name: cta-and-offer
+description: The exact calls to action TQX uses (comment QUBE, comment GATC, follow, comment your take), where they go in a script, and the ManyChat DM flow that answers a comment keyword. Use when ending any TQX script, writing a caption, or setting up or replying to Instagram DMs.
+---
+
+# CTAs and offers
+
+Pick the CTA from what the video is for. One main ask per video.
+
+**The standard CTA (Mark, Oct 23):** "Comment QUBE and I'll send you the link for the free sign-up." Use it unless Mark gives another. Never promise full videos, setup guides or anything else; never add "follow TQX". J021's "And if you want to run this exact test yourself for completely free, comment QUBE and I'll send it over to you." is also approved.
+
+**Mark's newer CTA, J026 (Oct 25):** he closed J026 with "Comment qube and ill send you the full breakdown." It's his line for that video, so leave it as written, even though it clashes with the "full breakdown" row below and the caps keyword rule. For new scripts the standard CTA above still holds until Mark answers P6 (`data/mark-edits/proposals.md`). He's used the same wording before, in M03 and M04 (`fix-log`, Mark's own edits).
+
+**Name exactly what they'll get (Mark, Oct 22).** In the batch of 19 viral Reels, 11 of the 12 keyword CTAs named the exact thing ("the repo links plus a setup guide", "my full video showing exactly how to build it"). "The full breakdown" is too vague. What the CTA names must be exactly what the DM flow sends; if the flow doesn't send it, don't promise it.
+
+| Bad | Fixed |
+|---|---|
+| "Comment QUBE and I'll send you the full breakdown." | "Comment QUBE and I'll send you the free link and a step-by-step on building your first strategy." |
+| "Comment QUBE and I'll send you my exact prompt." (the QUBE flow doesn't send prompts) | Only promise a prompt once a flow that sends it exists. |
+
+## The CTAs
+
+| Goal | Exact wording | Notes |
+|---|---|---|
+| Try Qube | "Comment QUBE and I'll send you the free link and a step-by-step on building your first strategy." | Name what they get (Mark, Oct 22). Mark's qualifier still works in front: "If you're interested in algo trading, comment QUBE and I'll send you..." |
+| GATC | "Comment GATC and I'll send you how to enter and the setup prompt." | Only once the GATC DM flow exists and sends exactly that (see GATC flow below) |
+| No product (share) | "Send this to a friend who [specific habit, e.g. trades the second the market opens]." | For videos with no product (Mark, Oct 22). Name one kind of friend, never "everyone". Can be followed by "Follow for more." |
+| Series / follow | "Follow so you don't miss Day 2." / "Follow to see what it does tomorrow." | Name what's coming next |
+| Debate / comments | "Disagree? Drop your tier list in the comments." | Can come before the keyword CTA: "Disagree? Drop your tier list in the comments. Or comment QUBE and I'll send you the free link and a step-by-step on building your first strategy." |
+
+The CTA keyword is written in caps (QUBE, GATC) so ManyChat matches it. In speech and captions everywhere else, the product is "Qube".
+
+## Where it goes
+
+- The keyword CTA is the last spoken line.
+- When a product appears, it appears in the last two lines: the line that shows what the product does, then the CTA.
+- **Exception: when the product is the answer.** In demo and build videos, and "new power" videos ("Claude can now…"), **bring Qube in **where the original shows its own tool or makes its claim** ("…and we tested this on Qube", step "#1, connect Qube"). Then keep it on screen. The last line is always the keyword CTA (Mark, Oct 23). The keyword CTA is still the last spoken line.
+- An honest line after the CTA is fine, for example: "It won't put you in the 1%. Nothing can promise that."
+- A video can end with no product at all. If there's no reason to mention Qube or GATC, don't.
+
+| Bad | Fixed |
+|---|---|
+| "Qube is the best tool for traders. Comment QUBE." (claim with no proof, CTA with no reason) | "S tier: Qube. You describe the idea in plain English. It turns it into exact rules, tests them on past prices, and runs them. No code." ... "Comment QUBE and I'll send you the full breakdown." |
+| "Click the link in bio to sign up today!" | "Comment QUBE and I'll send you the free link and a step-by-step on building your first strategy." |
+
+## On screen
+
+End screen for the last 2 seconds: the keyword on a dark screen, for example "Comment QUBE". Same style as titles (see `on-screen-text`).
+
+## ManyChat flow for QUBE (live, Oct 2026)
+
+Trigger: a comment containing QUBE.
+
+**Opening DM**
+> Hey, thanks for commenting QUBE!
+>
+> Qube lets you type a trading idea in plain English. It writes the code, tests it on years of past prices, and shows you every trade it would've made. It's free to start, no card needed.
+>
+> Tap below and I'll send you the link.
+
+Button: "Send me the link"
+
+**Follow DM (on)**
+> Quick thing before I send it: hit follow so you don't miss the next one. Then tap below and the link's yours.
+
+Button: "I followed"
+
+**Breakdown DM (new, Oct 22; not live in ManyChat yet, Mark to add it)**
+Sent right after "I followed", before the link. This is the "step-by-step" the CTA promises.
+> Here's how to build your first strategy in Qube, step by step:
+>
+> 1. Build. Pick a ready-made strategy, or type your own idea in plain English. Something like, "Buy when the S&P 500 drops 2% in a day. Sell once it's up 2% from where I bought, or if it falls another 3%." Qube writes the code.
+> 2. Test. It runs your rules on years of past prices and shows you every trade it would've made, the wins and the losses.
+> 3. Improve. The AI suggests changes and tests them, round after round, until you're happy with the result.
+>
+> You can also hook Qube up to Claude or Codex, type your idea there, and it sends it straight over.
+>
+> One thing to know: a backtest shows what your rules would have done in the past. It's not a promise of what they'll do next.
+
+**Email DM:** off for now. It adds a step before people get anything.
+
+**Link DM**
+> Here you go: https://www.tqx.ai/igqube2
+>
+> Hit "Start free" and try one of the ready-made strategies first. It takes about 2 minutes. If you get stuck, just reply here.
+
+**One-liner for people who commented before ManyChat was set up**
+> Hey, thanks for commenting QUBE! Here's the link to try it free: https://www.tqx.ai/igqube2
+
+Rules for DMs: the CTA promises a step-by-step, so the Breakdown DM must be in the flow. Until Mark adds it in ManyChat, the CTA promises more than the DM gives. Match what the landing page actually offers. Don't promise a "pack", a guide or anything else the link doesn't deliver. When a resource pack exists, update the copy and the link together.
+
+## GATC flow
+
+Not built yet. The destination link for GATC hasn't been chosen. Ask Mark before writing GATC DMs.

@@ -1,0 +1,346 @@
+{
+  "assets": {
+    "notes": [
+      "**Presenter:** Joshua. One person, one list, in video order. Joshua never speaks in this video, so there's no script to learn and no hooks to record.",
+      "**Before recording anything:** the Qube team connects Claude to Qube on Joshua's laptop and gives him a Qube login (same setup as J022). Don't show install commands, API keys, emails, file paths, account numbers or balances in any recording.",
+      "**All screen recordings (A2–A10):** 1920×1080, browser or terminal full screen, dark theme, zoom 125% (terminal font 22), no tabs, bookmarks or notifications showing. Record 3–4s more than the editor needs on each one, so they can pick the moving part. Each one ends up as a 960×520 insert, so keep the important part in the centre."
+    ],
+    "open": [
+      {
+        "done": false,
+        "id": "o1",
+        "text": "**Item 6 (A6):** which Qube screen shows the simulation account running a strategy? It isn't in `broll-sourcing` yet."
+      },
+      {
+        "done": false,
+        "id": "o2",
+        "text": "**Item 8 (A8):** which screen and account show Claude starting a live run through Qube, with no P&L or account numbers showing? Is a live broker connection set up that Joshua can record from?"
+      },
+      {
+        "done": false,
+        "id": "o3",
+        "text": "**Item 1 (A1):** first choice is M23's real six-agent run (M23_A2_claude.mp4). If M23 isn't recorded yet, the editor uses the org chart fallback in the A1 steps (no M23 shoot needed). Tell the editor which one it is."
+      },
+      {
+        "done": false,
+        "id": "o4",
+        "text": "**Item 10 label:** reads \"Backtest, not live results · today's biggest stocks\", because the 10 stocks are picked from today's list, so the 2021–2025 test has some hindsight in it. If it can't be read at 1.1s, the editor holds A10's last frame a little longer. If you'd rather keep the short label, it's your call."
+      },
+      {
+        "done": false,
+        "id": "o5",
+        "text": "**P1:** item 6 says \"simulation account\" (your J022 word), and its badge reads \"Paper trading · simulated results\". Both stay as written until you answer P1."
+      },
+      {
+        "done": false,
+        "id": "o6",
+        "text": "**Hook:** \"make money\" → \"trade\" for compliance, \"GPT-6 Astra\" → \"Claude\". If you want the money word back, it's your call."
+      },
+      {
+        "done": false,
+        "id": "o7",
+        "text": "**CTA:** promises only the link for the free sign-up, because that's all the DM sends (the original promised templates and guides). If the DM ever sends more, the CTA can say so. Your call (brief \"Needs Mark\" #5)."
+      }
+    ],
+    "rows": [
+      {
+        "file": "J026_A0_desk_1/2/3.mp4 · 1080×1920 · 25s each",
+        "how": "1. At his own office desk, sitting at the monitor. 2. Phone vertical (9:16) on a tripod, set high in a back corner, about 2m up, looking down at Joshua and the desk (like the original's first frame). Joshua's face shows in profile, and his monitor is angled so the screen can't be read. 3. Office lights on, lock focus and exposure on Joshua. 4. Clear the desk: keyboard, mouse, one plant or mug at most, no papers with writing. 5. Press record, then type steadily for 25s without looking up, stopping or leaning back. 6. Do 3 takes. The editor uses one unbroken 14s stretch, so the end matches the start.",
+        "id": "A0",
+        "ready": false,
+        "what": "Desk shot, Joshua typing (the whole background)",
+        "who": "Joshua"
+      },
+      {
+        "file": "J026_A1_agents.mp4 · 960×520 · 1s (first choice) · or J026_A1_chart_1…7.png · 960×520 (fallback)",
+        "how": "**First choice: M23's real run.** 1. Take M23's screen recording of the firm running in Claude (M23_A2_claude.mp4, the one run that covers M23's A3–A9). 2. Cut 6 short moments, about 0.17s each, in this order: the research agent answering, the data agent pulling prices, the strategy agent building the strategy, the backtest agent starting the test (before any result shows), the trader agent placing the order on the simulation account (no balance, P&L or result showing), the risk manager's \"yes\". 3. Crop each to the part where the agent's name and its work show, 960×520. No backtest result, balance or P&L may show in any of the 6 moments. A label can't be read at 0.17s, so if a moment shows a number, pick another frame. 4. Label top-left: \"Claude · Codex → Qube\". 5. Nothing with an email, key, file path or account number may show; blur it if it does. **Fallback, only if M23's run isn't recorded yet:** the org chart. Reuse M23's A1 PNGs if they exist (M23_A1_chart_2, _3, _4, _5, _6, _7, _10). If not, make them: 1. Canva, 960×520, background #0B0F14. 2. 6 rounded boxes, 3 on top, 3 below, each 280×130, 24px apart, centred. 3. Labels, Inter Bold 32px: top row \"RESEARCH\" \"DATA\" \"STRATEGY\", bottom row \"BACKTEST\" \"TRADER\" \"RISK MANAGER\". 4. A box that's off is grey #2A2F37 with light grey #9AA3AE text. A box that's on is gold #E8B04B with dark #0B0F14 text. 5. Export 7 PNGs: (1) all grey; (2) RESEARCH gold; (3) + DATA gold; (4) + STRATEGY gold; (5) + BACKTEST gold; (6) + TRADER gold; (7) all five gold, RISK MANAGER green #22C55E with white text. 6. In the edit, play them in order, about 0.14s each. No label on the fallback.",
+        "id": "A1",
+        "ready": false,
+        "what": "The six agents really working (item 1)",
+        "who": "Editor"
+      },
+      {
+        "file": "J026_A2_build.mp4 · 1920×1080 · up to 30s (sped up in edit)",
+        "how": "1. Open Claude (with Qube connected). 2. Type exactly, don't paste: `Build me a strategy that buys the S&P 500 at the close when it drops 2% in a day, and sells once it's up 2% or down 3% from where I bought.` 3. Press Enter. 4. Keep recording until Qube shows the finished strategy with its sections (when to buy, when to sell, how much, when to get out). Hold 2s. Keep this strategy and this Claude session open, because A3, A5, A6, A8 and A9 use them.",
+        "id": "A2",
+        "ready": false,
+        "what": "Plain English typed into Claude, Qube builds the strategy (item 2)",
+        "who": "Joshua"
+      },
+      {
+        "file": "J026_A3_fixit.mp4 · 1920×1080 · up to 30s",
+        "how": "1. In the same Claude session, type exactly: `Find what's broken in this strategy and fix it.` 2. Press Enter. 3. Keep recording until Qube shows the new version and starts testing it again. Hold 2s.",
+        "id": "A3",
+        "ready": false,
+        "what": "\"Fix it\" in Claude, Qube re-runs it (item 3)",
+        "who": "Joshua"
+      },
+      {
+        "file": "J026_A4_templates.mp4 · 1920×1080 · 6s",
+        "how": "1. In Qube, open the ready-made strategies (templates). 2. Make sure the market (US and Hong Kong stocks) shows on screen, on the list or its filter, before you start scrolling. If Qube shows the market on each template instead, keep those tags in frame. 3. Start at the top of the list and scroll slowly down, past the moving-average crossover and the breakout with ATR stops, then stop on the multi-moving-average trend filter. 4. Hold 2s. Don't open any of them. **CHECK: \"US\" and \"Hong Kong\" (or \"HK\") must both be readable somewhere in the recording. If Qube doesn't show the market on this screen, send Mark a screenshot before the edit. If any template card shows a return, Sharpe or trade number, tell the editor.**",
+        "id": "A4",
+        "ready": false,
+        "what": "Qube ready-made strategies for US and HK stocks (item 4)",
+        "who": "Joshua"
+      },
+      {
+        "file": "J026_A5_backtest.mp4 · 1920×1080 · 8s",
+        "how": "If J022's A4 is already recorded and passed its CHECK, reuse it. If not: 1. In Qube, open the A2 strategy (the first version, before A3's fix). 2. Set $10,000, Jan 2015 to Dec 2024. 3. Run the backtest. 4. Hold 2s on the result, then scroll the whole trade list top to bottom in 3s. **CHECK: it must say 62 trades and +$4,428 (ending at $14,428). If it doesn't, stop and send Mark a screenshot. Don't change any number.**",
+        "id": "A5",
+        "ready": false,
+        "what": "Backtest result + every trade (item 5)",
+        "who": "Joshua"
+      },
+      {
+        "file": "J026_A6_simulation.mp4 · 1920×1080 · 10s",
+        "how": "1. In Qube, open the A2 strategy (A3's fixed version, the one A9 uses). 2. Start it on the simulation account. 3. Record the simulation account screen for 10s while something moves (orders or positions appearing, the chart updating). 4. Blur or crop anything showing an account number or email. **Which screen to record is still open (see below). Don't record until Mark answers.**",
+        "id": "A6",
+        "ready": false,
+        "what": "Strategy running on a simulation account (item 6)",
+        "who": "Joshua"
+      },
+      {
+        "file": "J026_A7_factor.mp4 · 1920×1080 · up to 15s",
+        "how": "1. In Qube, open factor research. 2. Pick the 20-day momentum factor. 3. Run the IC analysis. 4. Record from pressing run until the IC chart has fully drawn. Hold 2s. If the screen shows any return number, keep it exactly as Qube shows it.",
+        "id": "A7",
+        "ready": false,
+        "what": "Factor research, 20-day momentum (item 7)",
+        "who": "Joshua"
+      },
+      {
+        "file": "J026_A8_live.mp4 · 1920×1080 · up to 20s",
+        "how": "1. The Qube team sets up the live broker connection on the account Joshua records from. 2. In the same Claude session as A2 and A3, after A6 is recorded, type exactly: `Run this strategy live through my broker.` 3. Press Enter. 4. Record until Qube shows the strategy's status as live. Hold 2s. 5. No P&L, balance or account number may show. Blur them if they appear. **Which screen and account to use is still open (see below). Don't record until Mark answers.**",
+        "id": "A8",
+        "ready": false,
+        "what": "Claude starting the live run (item 8)",
+        "who": "Joshua (account set up by the Qube team)"
+      },
+      {
+        "file": "J026_A9_optimize.mp4 · 1920×1080 · up to 30s (sped up in edit)",
+        "how": "1. In Qube, open the A2 strategy (A3's fixed version). 2. Open AI optimization. 3. Start it, and record from pressing start while the AI suggests a change and tests it, round after round, for at least 3 rounds. 4. Hold 2s on the last round. Don't stop or change anything mid-run. 5. If any result number shows, keep it exactly as Qube shows it; the editor puts \"Backtest, not live results\" top-left on it. **CHECK: the recording must show more than one round, each with a change and its test. If Qube runs only one round, send Mark a screenshot before the edit.**",
+        "id": "A9",
+        "ready": false,
+        "what": "AI optimization rounds on the A2 strategy (item 9)",
+        "who": "Joshua"
+      },
+      {
+        "file": "J026_A10_oneprompt.mp4 · 1920×1080 · up to 60s (sped up hard in edit)",
+        "how": "1. Open a new Claude session (with Qube connected). 2. Type exactly, don't paste: `Build me a strategy that buys any of the 10 biggest US stocks at the close the day it drops by 3% or more, with $2,000 each, and sells once it's up 3% or down 5% from where I bought. Use Apple, Microsoft, Nvidia, Amazon, Google, Meta, Tesla, Broadcom, JPMorgan and Berkshire Hathaway. Then test it from Jan 2021 to Dec 2025.` 3. Press Enter. 4. Keep recording, without touching anything, until Qube shows the backtest result. Hold 2s. **CHECK: it must say 607 trades and +$8,147 (ending at $18,147). If it doesn't, stop and send Mark a screenshot. Don't change any number.**",
+        "id": "A10",
+        "ready": false,
+        "what": "One prompt → 10-stock strategy built and tested (item 10)",
+        "who": "Joshua"
+      },
+      {
+        "file": "J026_A11_text.zip (PNGs or CapCut text presets)",
+        "how": "CapCut or Canva, Instrument Serif, transparent background, 1080×1920, using the exact words from the SCRIPT doc. 1. Hook: 3 lines, 104px, left-aligned at x = 60, y = 520: \"10 ways\" / \"to trade\" / \"with Claude\", with \"10\", \"trade\" and \"Claude\" in gold #E8B04B and the rest white. 2. Ten item layers, centred at y = 560: title \"N. Title\" at 76px gold, one line, 960px wide at most. If item 7's title doesn't fit, drop that title alone to 68px. Subtitle under it at 46px white, 900px wide, 2 lines at most. 3. CTA: centred at y = 600, 64px white, 3 lines: \"Comment \"QUBE\" to get\" / \"the link for the\" / \"free sign-up.\", with \"QUBE\" in gold. 4. Every layer gets a black drop shadow, 45%, 6px blur. 5. Labels: Inter Bold 26px white on a #0B0F14 box at 85%, text exactly \"Claude · Codex → Qube\", \"Backtest, not live results\", \"Backtest, not live results · today's biggest stocks\" (item 10 only), \"Paper trading · simulated results\".",
+        "id": "A11",
+        "ready": false,
+        "what": "On-screen text pack",
+        "who": "Editor"
+      },
+      {
+        "file": "Chosen in-app at upload",
+        "how": "Instagram audio library: a calm, upbeat instrumental track at about 110 BPM, so 2 beats land every 1.1s (one item per 2 beats). No vocals. Start mid-track, already playing at frame 1, and run it to the last frame with no fade.",
+        "id": "A12",
+        "ready": false,
+        "what": "Music bed",
+        "who": "Editor"
+      }
+    ]
+  },
+  "code": "J026",
+  "edit": {
+    "notes": [
+      "**Recreating:** @raycfu · https://www.instagram.com/p/Dd2dbtOPpv-/ · copy its rhythm exactly: one locked desk shot that never cuts, a title card for 1.7s, then a new item every 1.1s (11 changes in 14s), and the CTA over the same desk shot so the end loops into frame 1. It's too fast to read both lines in one watch. That's on purpose, because it makes people rewatch or save.",
+      "**Nothing is spoken.** No voiceover, no captions. Music bed only.",
+      "**Layout (1080×1920, 30 fps):** the desk shot (A0) fills the frame the whole time. On-screen text sits in the upper area, at y = 520–820, centred. The screen insert floats across the middle at 960×520, centred, top edge at y = 860, with 28px rounded corners and a soft shadow (black, 35%, 24px blur). Joshua and the desk stay visible below the insert.",
+      "**Text style (A11):** Instrument Serif. Hook: 3 lines, 104px, white, with the key words in gold #E8B04B. Item title: \"N. Title\" at 76px, gold #E8B04B. Subtitle: 46px, white, 2 lines at most, 900px wide. Titles stay on one line, 960px wide at most. If item 7's title doesn't fit at 76px, drop that title alone to 68px. Every text layer gets a black drop shadow at 45%, 6px blur, so it reads over the bright office.",
+      "**Timing:** each insert cuts in hard with its text, on the beat. No transitions or slides, just a straight cut, as in the original. Each item holds until the next one cuts in. No gaps: 1.7–2.7, 2.7–4.0, 4.0–5.0, 5.0–6.2, 6.2–7.2, 7.2–8.4, 8.4–9.4, 9.4–10.5, 10.5–11.5, 11.5–12.7, CTA 12.7–14.0."
+    ],
+    "rows": [
+      {
+        "id": "e1",
+        "onscreen": "Hook, 3 lines, left-aligned in the upper left like the original: \"**10** ways\" / \"to **trade**\" / \"with **Claude**\". \"10\", \"trade\" and \"Claude\" in gold, the rest white",
+        "sound": "Music in at 0, already mid-groove (no intro)",
+        "spoken": "none",
+        "time": "0.0–1.7",
+        "visual": "None. Just Joshua typing (A0)"
+      },
+      {
+        "id": "e2",
+        "onscreen": "\"1. Multi-Agent Trading\" / \"Trade with 6 specialized agents on Claude and Qube\"",
+        "sound": "Hard cut on the beat",
+        "spoken": "none",
+        "time": "1.7–2.7",
+        "visual": "The six agents really working: M23's real run of the firm in Claude, cut to the moments each agent hands off (A1, first choice). Only if M23's run isn't recorded yet: the org chart lighting up box by box, RESEARCH → DATA → STRATEGY → BACKTEST → TRADER → RISK MANAGER green (A1 fallback, 7 frames, about 0.14s each). On the real run, the backtest moment is the agent starting the test (before any result shows) and the trader moment is the agent placing the order (no balance, P&L or result showing). No backtest result, balance or P&L may show in any of the 6 moments. Label top-left on the real run: \"Claude · Codex → Qube\""
+      },
+      {
+        "id": "e3",
+        "onscreen": "\"2. No-Code Trader\" / \"Build a strategy from natural language. Qube writes the code\"",
+        "sound": "Cut on the beat",
+        "spoken": "none",
+        "time": "2.7–4.0",
+        "visual": "Claude: the plain-English strategy being typed, then Qube's strategy appearing (A2, sped up to fit). Label top-left: \"Claude · Codex → Qube\""
+      },
+      {
+        "id": "e4",
+        "onscreen": "\"3. Auto Bug Fixer\" / \"Finds what's broken in your strategy and fixes it\"",
+        "sound": "Cut on the beat",
+        "spoken": "none",
+        "time": "4.0–5.0",
+        "visual": "\"Find what's broken in this strategy and fix it.\" typed into Claude, then Qube re-running the new version (A3). Label top-left: \"Claude · Codex → Qube\""
+      },
+      {
+        "id": "e5",
+        "onscreen": "\"4. Ready-Made Strategies\" / \"Moving-average crossovers and breakouts for US and HK stocks\"",
+        "sound": "Cut on the beat",
+        "spoken": "none",
+        "time": "5.0–6.2",
+        "visual": "Qube's ready-made strategy list scrolling past the moving-average crossover and breakout templates, with the US / Hong Kong market showing on screen (A4). No label, unless a template card shows a result number. Then \"Backtest, not live results\" top-left"
+      },
+      {
+        "id": "e6",
+        "onscreen": "\"5. AI Backtest Engine\" / \"Replays any strategy over years of prices, every trade shown\"",
+        "sound": "Cut on the beat",
+        "spoken": "none",
+        "time": "6.2–7.2",
+        "visual": "Qube backtest result, then the trade list scrolling fast (A5). Label top-left: \"Backtest, not live results\""
+      },
+      {
+        "id": "e7",
+        "onscreen": "\"6. Test-Drive Trading\" / \"Tries your strategy on a simulation account first\"",
+        "sound": "Cut on the beat. Insert scales from 100% to 104% across its 1.2s",
+        "spoken": "none",
+        "time": "7.2–8.4",
+        "visual": "**Big middle visual 1.** Qube's simulation account running the strategy, with something moving on screen (A6). Label top-right: \"Paper trading · simulated results\""
+      },
+      {
+        "id": "e8",
+        "onscreen": "\"7. Quant-Desk Factor Research\" / \"Checks clues a stock might go up, like 20-day momentum\"",
+        "sound": "Cut on the beat",
+        "spoken": "none",
+        "time": "8.4–9.4",
+        "visual": "Qube factor research: 20-day momentum, the IC chart drawing in (A7). Label top-left: \"Backtest, not live results\""
+      },
+      {
+        "id": "e9",
+        "onscreen": "\"8. Hands-Free Live Trading\" / \"Claude runs your tested strategy live through a real broker\"",
+        "sound": "Cut on the beat. Insert scales from 100% to 104%",
+        "spoken": "none",
+        "time": "9.4–10.5",
+        "visual": "**Big middle visual 2, the re-hook at 67%.** Claude starting the live run through Qube, ending on the live status (A8). No P&L, no account numbers. Label top-left: \"Claude · Codex → Qube\""
+      },
+      {
+        "id": "e10",
+        "onscreen": "\"9. AI Strategy Optimizer\" / \"Suggests changes and tests each one, round after round\"",
+        "sound": "Cut on the beat",
+        "spoken": "none",
+        "time": "10.5–11.5",
+        "visual": "Qube's AI optimization running on the A2 strategy, round after round, each change tested (A9). Label top-left: \"Backtest, not live results\""
+      },
+      {
+        "id": "e11",
+        "onscreen": "\"10. One-Prompt Strategies\" / \"Builds and tests a 10-stock strategy from a single text brief\"",
+        "sound": "Cut on the beat",
+        "spoken": "none",
+        "time": "11.5–12.7",
+        "visual": "One prompt in Claude → 10-stock strategy built in Qube → backtest result (A10, sped up hard, ending on the result). Label top-left: \"Backtest, not live results · today's biggest stocks\""
+      },
+      {
+        "id": "e12",
+        "onscreen": "Centred, 3 lines, 64px white: \"Comment \"**QUBE**\" to get\" / \"the link for the\" / \"free sign-up.\" with \"QUBE\" in gold",
+        "sound": "Music keeps going to the last frame (no fade), so the loop back to 0.0 is seamless",
+        "spoken": "none",
+        "time": "12.7–14.0",
+        "visual": "None. Just Joshua typing (A0), the same shot as frame 1"
+      }
+    ]
+  },
+  "length": "14s (the original is 13.95s) · Presenter: Joshua, on camera at his desk, typing, **never speaks.** Music only. Joshua records no hooks and no lines. Every word below appears as on-screen text.",
+  "original": {
+    "account": "@raycfu",
+    "lines": [
+      {
+        "t": "0:00",
+        "text": "I'll see you next time."
+      }
+    ],
+    "seconds": 14,
+    "url": "https://www.instagram.com/p/Dd2dbtOPpv-/",
+    "words": 5
+  },
+  "originalTitle": "10 ways to make money with GPT-6 Astra",
+  "presenter": "Joshua",
+  "recreating": {
+    "account": "@raycfu",
+    "summary": "@raycfu · \"10 ways to make money with GPT-6 Astra\" · https://www.instagram.com/p/Dd2dbtOPpv-/ · 3,450 likes and 2,746 comments on a 268K-follower account",
+    "url": "https://www.instagram.com/p/Dd2dbtOPpv-/"
+  },
+  "script": {
+    "hooks": [
+      {
+        "id": "hHook",
+        "label": "Hook",
+        "orig": "10 ways to trade with Claude",
+        "text": "10 ways to trade with Claude"
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "orig": "**Multi-Agent Trading:** Trade with 6 specialized agents on Claude and Qube",
+        "text": "**Multi-Agent Trading:** Trade with 6 specialized agents on Claude and Qube"
+      },
+      {
+        "id": "l2",
+        "orig": "**No-Code Trader:** Build a strategy from natural language. Qube writes the code",
+        "text": "**No-Code Trader:** Build a strategy from natural language. Qube writes the code"
+      },
+      {
+        "id": "l3",
+        "orig": "**Auto Bug Fixer:** Finds what's broken in your strategy and fixes it",
+        "text": "**Auto Bug Fixer:** Finds what's broken in your strategy and fixes it"
+      },
+      {
+        "id": "l4",
+        "orig": "**Ready-Made Strategies:** Moving-average crossovers and breakouts for US and HK stocks",
+        "text": "**Ready-Made Strategies:** Moving-average crossovers and breakouts for US and HK stocks"
+      },
+      {
+        "id": "l5",
+        "orig": "**AI Backtest Engine:** Replays any strategy over years of prices, every trade shown",
+        "text": "**AI Backtest Engine:** Replays any strategy over years of prices, every trade shown"
+      },
+      {
+        "id": "l6",
+        "orig": "**Test-Drive Trading:** Tries your strategy on a simulation account first",
+        "text": "**Test-Drive Trading:** Tries your strategy on a simulation account first"
+      },
+      {
+        "id": "l7",
+        "orig": "**Quant-Desk Factor Research:** Checks clues a stock might go up, like 20-day momentum",
+        "text": "**Quant-Desk Factor Research:** Checks clues a stock might go up, like 20-day momentum"
+      },
+      {
+        "id": "l8",
+        "orig": "**Hands-Free Live Trading:** Claude runs your tested strategy live through a real broker",
+        "text": "**Hands-Free Live Trading:** Claude runs your tested strategy live through a real broker"
+      },
+      {
+        "id": "l9",
+        "orig": "**AI Strategy Optimizer:** Suggests changes and tests each one, round after round",
+        "text": "**AI Strategy Optimizer:** Suggests changes and tests each one, round after round"
+      },
+      {
+        "id": "l10",
+        "orig": "**One-Prompt Strategies:** Builds and tests a 10-stock strategy from a single text brief",
+        "text": "**One-Prompt Strategies:** Builds and tests a 10-stock strategy from a single text brie\n\n11. Comment qube and ill send you the full breakdown."
+      }
+    ]
+  },
+  "status": "Approved",
+  "title": "10 ways to trade with Claude",
+  "updatedAt": 1792945516.79,
+  "updatedBy": "Mark"
+}

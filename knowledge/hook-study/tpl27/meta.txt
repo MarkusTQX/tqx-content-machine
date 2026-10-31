@@ -1,0 +1,17 @@
+source: https://www.instagram.com/reel/DI1QS0fTKl6/
+duration_s: 55.600000
+uploader: Zachary Brachmanis
+channel: zacbrac
+upload_date: 20250424
+like_count: 23353
+comment_count: 222
+title: Video by zacbrac
+description: Wouldn’t it be great if your ads made more money the longer they were running?
+
+Well if you don’t have your meta pixel set up, then that’s not gonna happen. 
+
+See without the proper conversion tracking, meta can’t help you. 
+
+Because without letting them know who bought and who didn’t, how are they supposed to know what customer to send you next?
+
+Get it done, set up your ads properly, and they will be a MONEY PRINTING MACHINE.

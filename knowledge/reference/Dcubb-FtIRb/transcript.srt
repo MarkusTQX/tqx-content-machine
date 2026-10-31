@@ -1,0 +1,116 @@
+1
+00:00:00,000 --> 00:00:04,960
+ If you invested $1,000 into SanDisk one year ago, you would have $34,000 today.
+
+2
+00:00:05,300 --> 00:00:07,920
+ But you missed it, and you can't afford to miss what's coming next.
+
+3
+00:00:08,260 --> 00:00:12,200
+ The CEO of NVIDIA says robots are the next stage of the AI trade.
+
+4
+00:00:12,560 --> 00:00:16,620
+ But the money isn't in the AI, it's in the muscles and the parts that move the robot.
+
+5
+00:00:17,100 --> 00:00:18,500
+ Those are called the actuators.
+
+6
+00:00:18,900 --> 00:00:23,440
+ A humanoid needs over 40 actuators, and together, they cost more than half the entire robot.
+
+7
+00:00:23,860 --> 00:00:26,440
+ More than the chips, the camera, and the battery put together.
+
+8
+00:00:26,800 --> 00:00:28,220
+ So here's how I'm going to own it.
+
+9
+00:00:28,220 --> 00:00:29,180
+ First is Moog.
+
+10
+00:00:29,360 --> 00:00:33,680
+ They've made the parts that move machines for 75 years, from fighter jets to factory arms.
+
+11
+00:00:34,000 --> 00:00:37,000
+ So while everybody else is racing to figure out actuators from scratch,
+
+12
+00:00:37,080 --> 00:00:40,120
+ Moog has been building them since before most of these companies even existed.
+
+13
+00:00:40,500 --> 00:00:41,700
+ Their sales just hit a record.
+
+14
+00:00:42,000 --> 00:00:43,060
+ Second is Symbiotic.
+
+15
+00:00:43,160 --> 00:00:44,760
+ They're not promising new humanoids.
+
+16
+00:00:44,940 --> 00:00:48,700
+ They build the robots that are already existing inside of the Walmart warehouses of today.
+
+17
+00:00:49,120 --> 00:00:52,740
+ That matters because almost everything in the space is a demo video or a promise.
+
+18
+00:00:53,220 --> 00:00:55,440
+ And this is a company that's already getting paid for it.
+
+19
+00:00:55,440 --> 00:00:58,480
+ They've got $22 billion of orders signed and waiting.
+
+20
+00:00:58,980 --> 00:00:59,880
+ Third is COID.
+
+21
+00:01:00,220 --> 00:01:03,440
+ It's a basket that holds the whole robot's supply chain in one ticker.
+
+22
+00:01:03,800 --> 00:01:06,000
+ Nobody actually knows which of these companies wins.
+
+23
+00:01:06,500 --> 00:01:08,940
+ So this is a version where you don't have to guess.
+
+24
+00:01:09,360 --> 00:01:12,360
+ And fourth is the layer underneath everything, MP materials.
+
+25
+00:01:12,840 --> 00:01:15,500
+ Every single one of those actuators needs a magnet to work.
+
+26
+00:01:15,660 --> 00:01:18,900
+ And a robot uses two to three more times magnets than an electric car.
+
+27
+00:01:18,900 --> 00:01:23,120
+ So no matter which robot company ends up winning, they all have to buy from somebody like this.
+
+28
+00:01:23,320 --> 00:01:26,120
+ The Pentagon even took a 15% stake in MP materials.
+
+29
+00:01:26,580 --> 00:01:32,080
+ And if you want to see what me and my team are buying, comment the word stock and I'll send you an invite to a free investing community.
+

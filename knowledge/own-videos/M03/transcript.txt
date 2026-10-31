@@ -1,0 +1,18 @@
+Over 93% of Indian traders lose money, and I'm going to tell you exactly why.
+India's market regulators studied over 10 million people, trading futures and options.
+Futures and options are contracts that allow you to bet big on where the price is going.
+Over three years, more than 9 out of 10 of them lost money.
+Together, they lost over $20 billion.
+So who was making the money?
+Big foreign investors and professional trading firms.
+And almost all of their profits came from algorithmic trading.
+Algorithmic trading means that a computer follows a set of fixed rules and places all of the trades by itself.
+No emotions and no guessing.
+Imagine playing chess against a computer while you're tired, angry and in a hurry.
+You're the tired player and the computer is the trading algorithm.
+It never gets tired and it never gets mad.
+That's what regular traders in India were up against.
+And more than 9 out of 10 of them lost their money.
+You can never beat a machine just by guessing harder.
+You need rules too, and you need to test them on past prices.
+If you're interested in algo trading, comment cube and I'll send you the full breakdown on exactly how to start.

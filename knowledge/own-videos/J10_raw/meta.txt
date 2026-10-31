@@ -1,0 +1,2 @@
+source: /Users/mark/Downloads/J10.mp4
+duration_s: 94.133696

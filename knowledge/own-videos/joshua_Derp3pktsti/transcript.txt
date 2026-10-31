@@ -1,0 +1,15 @@
+here's how to build your first trading system with ai buy the dip sounds like a strategy but it isn't
+when do you buy it which dip how much do you buy when you get out it's like walking to a coffee
+shop and asking for a good cup of coffee the barista needs a bit more information before
+they can tend to a coffee addiction what size what type of milk hot or cold a strategy needs
+exact answers too four of them when to buy when to sell how much to put in and when you should cut
+your losses the last one is called a stop loss it's a price where you sell automatically so one
+bad trade can't wipe out your account let me show you this is cube and i'm gonna type in a sentence
+and here's the rules it gives me when to buy when to sell how much and when to cut losses undefining
+what a good cup of coffee means to my ai for me that's a large flat white with two extra shots these
+rules do the same thing for my strategy i'm not asking for a good trade anymore i'm saying exactly
+when to buy when to sell how much to put in and when to cut my losses and because the rules are exact
+cube can test them on past prices that's called a back test here's how it did the biggest gromp along
+the way is called a drawdown it tells you if you could have held on during the bad months now i know
+if this strategy actually works i tested on past prices not my real money and it didn't even cost me
+a thing comment cube i'll send you how you can use cube too

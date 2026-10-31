@@ -1,0 +1,11 @@
+source: https://www.instagram.com/reel/Dd1oLD7TR8A/
+duration_s: 44.100000
+uploader: Joshua
+channel: joshua.quant
+upload_date: 20260928
+like_count: 5
+comment_count: 0
+title: Video by joshua.quant
+description: quants pay attention! GATC is here it’s live and it blows every other comp out of the water. comment GATC and i’ll send your the full details. 
+
+#aitrading #worldquant #quant #algotrading #gatc

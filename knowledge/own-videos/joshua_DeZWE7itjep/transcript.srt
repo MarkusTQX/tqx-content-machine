@@ -1,0 +1,144 @@
+1
+00:00:00,000 --> 00:00:03,080
+ No quant team, no code, just the new Jeff model.
+
+2
+00:00:04,620 --> 00:00:08,520
+ Here's what happened, how I built it, and how you can copy it.
+
+3
+00:00:08,560 --> 00:00:12,340
+ I started with $50,000, and in five days, I was up 20%.
+
+4
+00:00:12,340 --> 00:00:13,700
+ Now, let me show you how it's done.
+
+5
+00:00:13,920 --> 00:00:15,080
+ First, what is Jeff?
+
+6
+00:00:15,260 --> 00:00:16,640
+ ChatGPT is built to talk.
+
+7
+00:00:16,820 --> 00:00:19,360
+ You ask it a question, and it gives you back a paragraph.
+
+8
+00:00:19,660 --> 00:00:21,500
+ Jeff is built to decide.
+
+9
+00:00:21,660 --> 00:00:23,480
+ Think of it like a multiple choice question.
+
+10
+00:00:23,720 --> 00:00:26,340
+ You give it a clear set of questions and answers
+
+11
+00:00:26,340 --> 00:00:29,100
+ and can choose from buy, sell, or hold.
+
+12
+00:00:29,100 --> 00:00:32,080
+ It will make a decision and give you a confident score.
+
+13
+00:00:32,280 --> 00:00:34,460
+ Something like buy 82% sure.
+
+14
+00:00:34,640 --> 00:00:37,700
+ It can only choose from your list, so it can't make something up.
+
+15
+00:00:37,800 --> 00:00:40,240
+ And it answers in just half a second.
+
+16
+00:00:41,560 --> 00:00:46,000
+ It was built by Diogo Almeida when the researchers behind ChatGPT
+
+17
+00:00:46,000 --> 00:00:49,700
+ just launched, and the developers are going crazy over it.
+
+18
+00:00:49,840 --> 00:00:50,940
+ Why does this matter for trading?
+
+19
+00:00:51,140 --> 00:00:54,100
+ Think of a stock going up 8% in just one minute.
+
+20
+00:00:54,180 --> 00:00:57,300
+ By the time you ask ChatGPT, that stock has already moved.
+
+21
+00:00:57,300 --> 00:01:00,240
+ But Jeff can make a decision in milliseconds.
+
+22
+00:01:00,680 --> 00:01:02,800
+ So, I plug it into my own trading account.
+
+23
+00:01:02,940 --> 00:01:03,580
+ Three pieces.
+
+24
+00:01:03,860 --> 00:01:05,540
+ One, TKO exposed the strategy.
+
+25
+00:01:05,840 --> 00:01:10,360
+ I describe my strategy in plain English, and it creates a set of clear rules.
+
+26
+00:01:10,560 --> 00:01:14,140
+ Then, it back-tests them on years of market data
+
+27
+00:01:14,140 --> 00:01:20,580
+ and stress-test them on trading fees, slippage, and market conditions where the strategy no longer works.
+
+28
+00:01:20,700 --> 00:01:22,120
+ Two, Jeff makes the call.
+
+29
+00:01:22,240 --> 00:01:26,840
+ Every time new market data comes in, Jeff checks against my clear set of rules
+
+30
+00:01:26,840 --> 00:01:30,160
+ and decides buy, sell, or hold with a confidence score.
+
+31
+00:01:30,280 --> 00:01:35,520
+ Three, TKOX trades through my broker inside the risk limits I set,
+
+32
+00:01:35,580 --> 00:01:38,820
+ like how much I'm willing to lose in one day, then I stay out of the way.
+
+33
+00:01:38,940 --> 00:01:40,360
+ That's where the number comes from.
+
+34
+00:01:40,540 --> 00:01:41,820
+ Rules and discipline.
+
+35
+00:01:42,000 --> 00:01:43,080
+ Not a gut feeling.
+
+36
+00:01:43,280 --> 00:01:45,420
+ Comment, Jeff, and I'll send you the full setup.
+

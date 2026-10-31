@@ -1,0 +1,48 @@
+1
+00:00:00,000 --> 00:00:04,400
+ A Hong Kong university just open sourced an entire AI hedge fund and it runs on your laptop
+
+2
+00:00:04,400 --> 00:00:05,400
+ for free.
+
+3
+00:00:05,400 --> 00:00:07,540
+ It's called Vibe Trading and this is insane.
+
+4
+00:00:07,540 --> 00:00:11,700
+ You type what you want in plain English and a whole team of AI agents goes to work.
+
+5
+00:00:11,700 --> 00:00:15,680
+ One researches, one builds the strategy, one runs the backtest, another reviews the risk.
+
+6
+00:00:15,680 --> 00:00:17,360
+ A real trading desk in your terminal.
+
+7
+00:00:17,360 --> 00:00:22,340
+ It pulls live data from 18 sources across stocks, crypto and forex, and stress tests
+
+8
+00:00:22,340 --> 00:00:25,940
+ every strategy with Monte Carlo before you risk a single dollar.
+
+9
+00:00:25,940 --> 00:00:29,600
+ And the part nobody's talking about, upload your real broker history and it tells you
+
+10
+00:00:29,600 --> 00:00:32,100
+ exactly which of your own habits are bleeding you money.
+
+11
+00:00:32,100 --> 00:00:36,740
+ More than 400 pre-built quant strategies, 15,000 developers already on it.
+
+12
+00:00:36,740 --> 00:00:37,760
+ Open source and free.
+

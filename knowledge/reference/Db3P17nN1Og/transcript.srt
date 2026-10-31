@@ -1,0 +1,60 @@
+1
+00:00:00,000 --> 00:00:07,480
+ A $30,000 software that Wall Street has depended on for decades just got replaced by a free GitHub repo.
+
+2
+00:00:07,800 --> 00:00:12,480
+ Researchers from Tsinghua University just open-sourced an AI called Kronos,
+
+3
+00:00:12,900 --> 00:00:18,140
+ and it's the first foundation model ever built specifically to read the stock market like a language.
+
+4
+00:00:18,520 --> 00:00:21,240
+ Here's what makes this different from every trading bot you've seen.
+
+5
+00:00:21,500 --> 00:00:23,560
+ Kronos doesn't look at charts the way you do.
+
+6
+00:00:23,560 --> 00:00:31,020
+ It takes raw candlestick data, opens, closes, highs, lows, volume, and converts it into tokens.
+
+7
+00:00:31,500 --> 00:00:36,140
+ The same way ChatGPT turns words into tokens, except this isn't reading English.
+
+8
+00:00:36,500 --> 00:00:38,740
+ It's reading the language of financial markets.
+
+9
+00:00:39,020 --> 00:00:42,960
+ Kronos trained on data from over 45 stock exchanges around the world.
+
+10
+00:00:43,240 --> 00:00:45,580
+ Crypto, Forex, equities, and more.
+
+11
+00:00:45,800 --> 00:00:47,460
+ And the model? Completely free.
+
+12
+00:00:48,180 --> 00:00:51,720
+ Wall Street firms have spent billions building proprietary models like this,
+
+13
+00:00:51,720 --> 00:00:54,360
+ and a group of researchers just gave it away.
+
+14
+00:00:55,020 --> 00:00:58,000
+ This is the kind of thing that used to be locked behind hedge fund doors.
+
+15
+00:00:58,720 --> 00:01:00,840
+ Comment Kronos and I'll DM you the link.
+

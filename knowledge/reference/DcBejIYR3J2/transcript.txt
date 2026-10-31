@@ -1,0 +1,14 @@
+Starting a hedge fund used to mean 50 grand in legal fees and $1,300 a month just to keep it
+running. So let's fix that with Hedgia. Hedgia is a startup backed by a former CEO of BMO Private
+Wealth Management, and it's letting quants, portfolio managers, and traders launch their own
+hedge fund without the six-figure price tag. And if you're based in one of the supported states,
+you can do this today. One, set the fees that you want to charge. Management fee, performance fee,
+whatever structure you want. Two, Hedgia auto-generates your entity formation, your fund
+documents, and your regulatory notice filings, ready for your authorization. Three, it walks you
+through every single step, regardless of whether you're a first-time manager or a 15-year industry
+vet. And four, your fund goes live for $0 in platform setup costs and state fees, and just for $89 a
+month. And once you're set up, you get a fully branded investor portal, your logo, your colors,
+and your clients logging into your platform. And when you're ready to trade, it plugs straight into
+interactive brokers, making placing your first trade a breeze. And just like that, you have a fully
+formed fund, a branded investor portal, and a live trading account, all for a fraction of what it used
+to cost. Just comment Hedgia and I'll send you the link to get started.

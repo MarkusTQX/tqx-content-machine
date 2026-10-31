@@ -1,0 +1,9 @@
+source: https://www.instagram.com/p/Dao8zl4Of3I/
+duration_s: 37.777415
+uploader: AI Honeycove
+channel: ai.honeycove
+upload_date: 20260711
+like_count: 14910
+comment_count: 196
+title: Video by ai.honeycove
+description: A Hong Kong university released Vibe Trading, an open-source AI hedge fund that runs on your laptop for free. It uses multiple AI agents to research, build, test, and review trading strategies across stocks, crypto, and forex with live data and stress testing before investing. The platform also analyzes your actual broker history to identify costly trading habits, offering more than 400 pre-built quant strategies and a community of 15,000 developers. #VibeTrading #AIhedgefund #QuantTrading #OpenSourceFinance #HongKongUniversity

@@ -1,0 +1,92 @@
+1
+00:00:00,000 --> 00:00:04,020
+ Almost half of American men under 50 have a sports betting addiction.
+
+2
+00:00:04,260 --> 00:00:06,240
+ Here's what the research says it's costing them.
+
+3
+00:00:06,360 --> 00:00:10,980
+ Almost half of American men aged 18 to 49 have a sports betting account.
+
+4
+00:00:11,340 --> 00:00:15,380
+ Last year, Americans handed sports books almost $17 billion.
+
+5
+00:00:16,060 --> 00:00:18,700
+ That's what the books kept after paying out the winners.
+
+6
+00:00:19,020 --> 00:00:20,800
+ That money doesn't come out of nowhere.
+
+7
+00:00:21,140 --> 00:00:24,220
+ Research has tracked 230,000 households.
+
+8
+00:00:24,620 --> 00:00:29,740
+ For every dollar they bet, they put about $2 less into their investment accounts.
+
+9
+00:00:29,740 --> 00:00:37,200
+ In states that allowed betting on your phone, people became 25 to 30% more likely to go bankrupt.
+
+10
+00:00:37,560 --> 00:00:38,680
+ That's why it hooks you.
+
+11
+00:00:38,780 --> 00:00:39,820
+ It feels like skill.
+
+12
+00:00:40,120 --> 00:00:41,180
+ You watch the games.
+
+13
+00:00:41,560 --> 00:00:42,600
+ You know the players.
+
+14
+00:00:42,840 --> 00:00:44,420
+ You think you know what you're doing.
+
+15
+00:00:44,640 --> 00:00:46,780
+ That's exactly how day traders feel.
+
+16
+00:00:46,900 --> 00:00:51,500
+ Those people who buy and sell all day long trying to catch small price moves.
+
+17
+00:00:51,800 --> 00:00:58,760
+ And in Brazil, 97 out of 100 people who day traded for more than 300 days ended up losing money.
+
+18
+00:00:58,760 --> 00:01:00,840
+ Same feeling, different application.
+
+19
+00:01:01,140 --> 00:01:02,880
+ Everyone wants the win fast.
+
+20
+00:01:03,140 --> 00:01:04,740
+ Nobody wants to test anything.
+
+21
+00:01:04,920 --> 00:01:09,820
+ If you're gonna put money on something, put it on rules you've tested on years of past prices.
+
+22
+00:01:10,120 --> 00:01:11,700
+ Not a Tuesday night game.
+
+23
+00:01:11,840 --> 00:01:16,480
+ Comment cube and I'll send you the full breakdown on how to backtest any trading strategy.
+

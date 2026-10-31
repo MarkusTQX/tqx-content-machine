@@ -1,0 +1,12 @@
+A Hong Kong university just open sourced an entire AI hedge fund and it runs on your laptop
+for free.
+It's called Vibe Trading and this is insane.
+You type what you want in plain English and a whole team of AI agents goes to work.
+One researches, one builds the strategy, one runs the backtest, another reviews the risk.
+A real trading desk in your terminal.
+It pulls live data from 18 sources across stocks, crypto and forex, and stress tests
+every strategy with Monte Carlo before you risk a single dollar.
+And the part nobody's talking about, upload your real broker history and it tells you
+exactly which of your own habits are bleeding you money.
+More than 400 pre-built quant strategies, 15,000 developers already on it.
+Open source and free.

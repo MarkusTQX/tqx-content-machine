@@ -1,0 +1,11 @@
+source: https://www.instagram.com/reel/DGyq81bSq0U/
+duration_s: 19.769770
+uploader: Alex Hormozi
+channel: hormozi
+upload_date: 20250304
+like_count: 80108
+comment_count: 506
+title: Video by hormozi
+description: The biggest misconception I had when starting a business was that I would somehow “know enough” to be ready.
+
+You never will. You have to learn how to operate off incomplete information - with conviction. Start. Then adjust as you learn more. That’s it.

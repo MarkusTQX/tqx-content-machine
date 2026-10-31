@@ -1,0 +1,76 @@
+1
+00:00:00,000 --> 00:00:05,340
+ Only 1 out of 100 day traders actually make money and I'm going to tell you exactly why.
+
+2
+00:00:05,520 --> 00:00:07,880
+ Quit your job and start day trading for a living.
+
+3
+00:00:08,120 --> 00:00:09,980
+ I'm sure you've seen one of these videos.
+
+4
+00:00:10,240 --> 00:00:15,160
+ Day trading means buying and selling on the same day trying to catch small price moves.
+
+5
+00:00:15,460 --> 00:00:21,240
+ Researchers looked and studied at every single trade placed on the Taiwan stock market for 15 years.
+
+6
+00:00:21,240 --> 00:00:29,980
+ From 1992 to 2006, they wanted to know how many day traders were making money year after year after paying fees.
+
+7
+00:00:30,220 --> 00:00:32,540
+ And the results shocked everybody.
+
+8
+00:00:32,820 --> 00:00:34,820
+ Fewer than 1 in 100.
+
+9
+00:00:35,220 --> 00:00:38,680
+ Fees are what you pay every time you buy or sell.
+
+10
+00:00:38,860 --> 00:00:41,880
+ Day traders trade all day, so they pay all day.
+
+11
+00:00:42,120 --> 00:00:43,340
+ Think of a toll road.
+
+12
+00:00:43,480 --> 00:00:47,480
+ Every trade is one small trip and every trip costs you a fee.
+
+13
+00:00:47,480 --> 00:00:52,140
+ Make 50 trades a day and the tolls can eat up everything you've made.
+
+14
+00:00:52,320 --> 00:00:57,680
+ And that's why one good trading day doesn't mean much when you pay the fees on the bad days too.
+
+15
+00:00:57,860 --> 00:01:01,240
+ And the few who did make a profit didn't make a profit once.
+
+16
+00:01:01,440 --> 00:01:03,560
+ They make money year after year.
+
+17
+00:01:03,720 --> 00:01:09,080
+ So before you decide to quit, test your strategy on years of market data with fees included.
+
+18
+00:01:09,380 --> 00:01:12,680
+ If it can't survive that, then it won't survive real life.
+
+19
+00:01:12,680 --> 00:01:17,260
+ If you are interested in algo trading, comment cube and I'll send you the full breakdown.
+

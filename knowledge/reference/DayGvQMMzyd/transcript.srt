@@ -1,0 +1,68 @@
+1
+00:00:00,000 --> 00:00:02,720
+ So how long does it take to crack every quant trading industry role?
+
+2
+00:00:03,020 --> 00:00:07,040
+ For research, we have around 12,000 hours, 9,000 of those being hardcore math.
+
+3
+00:00:07,380 --> 00:00:09,360
+ Hardware engineer, think FPGA, low latency.
+
+4
+00:00:09,860 --> 00:00:11,560
+ Not a lot of people go for this.
+
+5
+00:00:11,620 --> 00:00:14,160
+ It's not on anybody's radar, and that's why it pays so much,
+
+6
+00:00:14,200 --> 00:00:16,160
+ and it's probably not as competitive as you think.
+
+7
+00:00:16,560 --> 00:00:18,020
+ Dev, around 1,200 hours.
+
+8
+00:00:18,140 --> 00:00:21,280
+ We can cut this down by 300 to 400 hours with getcracked.io.
+
+9
+00:00:21,700 --> 00:00:23,220
+ More with our upcoming placement accelerator.
+
+10
+00:00:23,600 --> 00:00:24,400
+ Then we have DevOps.
+
+11
+00:00:24,400 --> 00:00:28,640
+ Think infrastructure as code, chef, deployments, CICD, etc.
+
+12
+00:00:29,320 --> 00:00:33,840
+ 800 hours, trade-offs, the easiest one, trade reconciliation, slippage, settlements,
+
+13
+00:00:33,980 --> 00:00:37,500
+ really things nobody wants to do, 500 hours, lowest bar to entry.
+
+14
+00:00:37,800 --> 00:00:41,300
+ And lastly, we have something that you'll compete against other people fiercely in.
+
+15
+00:00:41,400 --> 00:00:44,700
+ This is statistics, probability, EV, trading games,
+
+16
+00:00:45,100 --> 00:00:48,860
+ almost everything that you can think of that you need to execute and trade well.
+
+17
+00:00:48,940 --> 00:00:50,840
+ This is going to take 1,500 hours.
+

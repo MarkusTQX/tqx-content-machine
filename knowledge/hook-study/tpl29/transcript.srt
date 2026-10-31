@@ -1,0 +1,132 @@
+1
+00:00:00,000 --> 00:00:04,220
+ Here's how you turn 1,000 followers into 10,000 followers.
+
+2
+00:00:05,400 --> 00:00:08,360
+ You're going to want to be on the Meta Ads Manager to do this.
+
+3
+00:00:08,460 --> 00:00:13,060
+ Once you're on Meta Ads Manager, go over here to Audiences and then go to Create Audience.
+
+4
+00:00:13,400 --> 00:00:15,540
+ And first thing you want to do is create Custom Audience.
+
+5
+00:00:16,300 --> 00:00:20,220
+ Once you go to this page, click on Instagram Account and hit Next.
+
+6
+00:00:21,320 --> 00:00:24,180
+ Once you're on this page, select your Instagram.
+
+7
+00:00:26,800 --> 00:00:30,380
+ So as you can see, mine is right about here.
+
+8
+00:00:31,060 --> 00:00:36,600
+ And then go over here to everyone who's engaged with this professional account and click that.
+
+9
+00:00:37,240 --> 00:00:41,240
+ And you can do everyone that's engaged in the last 365 days.
+
+10
+00:00:42,180 --> 00:00:45,640
+ Name your audience and hit Create Audience.
+
+11
+00:00:46,780 --> 00:00:51,560
+ And then create a lookalike audience from that custom audience that you just created.
+
+12
+00:00:51,700 --> 00:00:53,440
+ As you can see, this is a custom audience.
+
+13
+00:00:54,060 --> 00:01:03,320
+ And right now, I'm going to create a lookalike audience based off that specific audience that is already engaging with my videos.
+
+14
+00:01:03,500 --> 00:01:14,040
+ As you can see, 1% of the people similar to who's already engaged in my account equates to 2,780,000 people.
+
+15
+00:01:14,420 --> 00:01:19,740
+ So what this is doing is essentially taking the followers you already have and finding similar followers.
+
+16
+00:01:20,140 --> 00:01:21,920
+ So you can create this audience.
+
+17
+00:01:23,020 --> 00:01:26,260
+ And then you can go into your campaigns.
+
+18
+00:01:27,600 --> 00:01:29,620
+ And then you can click on campaigns.
+
+19
+00:01:29,820 --> 00:01:32,040
+ And then you can go over here to create a new campaign.
+
+20
+00:01:32,560 --> 00:01:35,480
+ And you can run traffic campaigns with your Instagram.
+
+21
+00:01:36,020 --> 00:01:39,100
+ And you can target that lookalike audience with your ads.
+
+22
+00:01:39,420 --> 00:01:42,380
+ So let's just say you create a campaign right now.
+
+23
+00:01:43,620 --> 00:01:45,220
+ I'm going to show you how to do it.
+
+24
+00:01:45,360 --> 00:01:47,200
+ Go to Manual Traffic Campaign.
+
+25
+00:01:49,080 --> 00:01:51,160
+ And go over here to Campaign Budget.
+
+26
+00:01:51,340 --> 00:01:53,240
+ Make sure that's turned on.
+
+27
+00:01:53,240 --> 00:02:01,540
+ And then once you go to the audiences right here, you're going to want to do Instagram, account, and Facebook.
+
+28
+00:02:01,860 --> 00:02:04,020
+ And then go over here to switch to original.
+
+29
+00:02:05,720 --> 00:02:08,700
+ And then go over here to where it says Custom Audiences.
+
+30
+00:02:09,340 --> 00:02:13,460
+ And that's where you put your lookalike and custom audience in there.
+
+31
+00:02:13,860 --> 00:02:17,720
+ So once you have that in there, you can just add the reels you want to show them.
+
+32
+00:02:17,820 --> 00:02:19,260
+ And then you can publish the ad.
+
+33
+00:02:19,660 --> 00:02:22,880
+ And you can turn 1,000 followers into 10,000 followers.
+

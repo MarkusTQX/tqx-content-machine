@@ -1,0 +1,68 @@
+1
+00:00:00,000 --> 00:00:02,660
+ Quant students, this is your next murder.
+
+2
+00:00:02,660 --> 00:00:07,140
+ 156,000 people entered the World Quant Factor Championship this year,
+
+3
+00:00:07,140 --> 00:00:08,700
+ but only 13 teams made the finals.
+
+4
+00:00:08,700 --> 00:00:13,400
+ The whole price pool is $100,000, but first place only takes 20 grand.
+
+5
+00:00:13,400 --> 00:00:16,060
+ And everything you built is tested on historical data.
+
+6
+00:00:16,060 --> 00:00:17,220
+ So it's all a backtest.
+
+7
+00:00:17,220 --> 00:00:19,060
+ None of it touches the real market.
+
+8
+00:00:19,060 --> 00:00:23,520
+ Now there's another option, GATC, 1.8 million US dollars.
+
+9
+00:00:23,520 --> 00:00:26,780
+ Roughly 18 times the price pool with monthly payouts.
+
+10
+00:00:26,780 --> 00:00:27,800
+ And it trades live.
+
+11
+00:00:27,800 --> 00:00:29,680
+ So it's not just a backtest.
+
+12
+00:00:29,680 --> 00:00:31,760
+ Your AI agent trades real capital.
+
+13
+00:00:31,760 --> 00:00:35,260
+ Scoring is 55% return and 45% risk.
+
+14
+00:00:35,260 --> 00:00:37,420
+ So skill kills any luck.
+
+15
+00:00:37,420 --> 00:00:39,400
+ If you build something for World Quant this year,
+
+16
+00:00:39,400 --> 00:00:41,320
+ don't let it die in a backtest.
+
+17
+00:00:41,320 --> 00:00:44,160
+ Comment GATC and I'll send you the full breakdown.
+

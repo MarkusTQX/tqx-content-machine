@@ -1,0 +1,328 @@
+{
+  "assets": {
+    "notes": [
+      "**Original video:** none, original concept (Director, Oct 28)",
+      "**Presenter:** Mark. One person, one list, in video order.",
+      "**Before recording anything:** the Qube team connects Qube to Claude and to Codex on Mark's laptop and gives him a Qube login. Don't show any install commands, API keys, emails or file paths.",
+      "**Order of the day:** do the two runs (A1–A5) first, then the A-roll (A0), so Mark knows which versions of lines 5, 7 and 8 match what he saw.",
+      "**The one sentence** (exactly this on both sides, typed, not pasted): `Buy Apple when it's oversold, sell when it recovers.`",
+      "**Fair-test rule:** same sentence, same answer to any question back, same backtest dates and same starting cash on both sides. Mark never tells either AI a number. Use each tool's default model and don't switch mid-run. Write down the model name each one shows at launch and send it with A5."
+    ],
+    "open": [
+      {
+        "done": false,
+        "id": "o1",
+        "text": "After your runs, pick lines 5, 7 and 8 using the A5 CHECKs (SCRIPT doc, \"Pick after your run\")."
+      }
+    ],
+    "rows": [
+      {
+        "file": "M16_A0_aroll.mp4 · 1080×1920",
+        "how": "1. Phone vertical (9:16), eye level, laptop on the desk in front of him, office lights on, focus and exposure locked. 2. Leave room: the editor crops him to the bottom third (1080×640) for most of the video and uses him full frame at the end. 3. Record the hook twice, clean. 4. Then the whole script, lines 1–11, in one take, fast, with no pauses between lines, using the line 5, 7 and 8 versions that match the A5 CHECK. 5. Then record the line 5 and line 7 versions he didn't use, plus the line 8 reason that matches his run, said both ways (his first pick, then the other AI as the pick), so the edit has a backup. 6. Then lines 10 and 11 again, tight, for the full-frame shot.",
+        "id": "A0",
+        "ready": false,
+        "what": "Mark talking (A-roll)",
+        "who": "Mark"
+      },
+      {
+        "file": "M16_A1_claude.mp4 · 1920×1080 · up to 2 min (sped up to fit 2s in the edit)",
+        "how": "1. Terminal app, dark theme, font 22, full screen, nothing else open. 2. Start a screen recording (QuickTime → File → New Screen Recording, whole screen). 3. Type `claude` and press Enter. Hold 2s on the screen that shows Qube is connected and the model name. Write the model name down. 4. Type exactly, letter by letter, without pasting: `Buy Apple when it's oversold, sell when it recovers.` Press Enter. 5. If Claude asks anything back, type exactly: `Your call. Build it in Qube and run the backtest.` Nothing else, and no numbers. 6. Keep recording until Claude shows the strategy it built: when it buys, when it sells, how much, and when it gets out. Hold 3s on it. 7. Stop. **CHECK: no email, key or file path anywhere on screen. If one shows, re-record.**",
+        "id": "A1",
+        "ready": false,
+        "what": "Claude: type the sentence, build it in Qube",
+        "who": "Mark (setup by the Qube team)"
+      },
+      {
+        "file": "M16_A2_codex.mp4 · 1920×1080 · up to 2 min (sped up to fit 2s in the edit)",
+        "how": "The same as A1, step for step, except in step 3 type `codex` and press Enter. Same sentence in step 4, and the same answer in step 5 if it asks. Use the default model; don't switch. **CHECK: the sentence on screen matches A1's letter for letter.** **CHECK: no email, key or file path on screen.**",
+        "id": "A2",
+        "ready": false,
+        "what": "Codex: the exact same sentence, same steps",
+        "who": "Mark (setup by the Qube team)"
+      },
+      {
+        "file": "M16_A3_claude_backtest.mp4 · 1920×1080 · about 15s",
+        "how": "1. In Qube, open the strategy Claude built in A1. 2. Set the dates to the longest period Qube allows (up to five years) and the starting cash to $10,000. Write both down. 3. Start a screen recording. Run the backtest. 4. Hold 3s on the result card (it shows the period, the number of trades and the result). 5. Open the trade list and scroll it top to bottom in about 3s, with the losses in red visible. 6. Stop. **CHECK: the card shows the period and the trade count. If it doesn't, scroll so they're in view and hold 3s.**",
+        "id": "A3",
+        "ready": false,
+        "what": "Qube backtest of Claude's strategy + every trade",
+        "who": "Mark"
+      },
+      {
+        "file": "M16_A4_codex_backtest.mp4 · 1920×1080 · about 15s",
+        "how": "The same as A3, but open the strategy Codex built in A2. **CHECK: the dates and the starting cash are exactly the ones written down in A3, step 2. If Codex set different ones, change them to match before you run it.**",
+        "id": "A4",
+        "ready": false,
+        "what": "Qube backtest of Codex's strategy + every trade",
+        "who": "Mark"
+      },
+      {
+        "file": "4 PNGs, full resolution",
+        "how": "1. Cmd+Shift+4, drag over Claude's strategy (the A1 end screen): `M16_A5_claude_strategy.png`. 2. The same for Codex's (A2): `M16_A5_codex_strategy.png`. 3. The same for each Qube result card (A3, A4): `M16_A5_claude_result.png`, `M16_A5_codex_result.png`. 4. Send all four, plus the two model names, to the Director and the editor. The editor crops each strategy to its four sections (buy · sell · how much · get out) and puts yellow boxes only on the numbers and settings each AI chose (for example the drop size, the share of cash, the stop-loss). The same rule applies on both sides. **CHECK, line 5: compare the two strategy screenshots side by side. Different anywhere → \"two different strategies\". Word for word the same → \"same strategy, down to the numbers\".** **CHECK, line 7: compare the two result cards. Different → \"two different results\". The same → \"came back the same, trade for trade\".** **CHECK, line 8: lay the two strategies side by side, section by section (buy · sell · how much · get out). The section where they differ most is your line 8 reason (SCRIPT doc, \"Pick after your run\"); pick the AI whose version you'd follow. Then read that row's \"Say it only if\" column: both halves of the line must be true on the two screenshots. \"Just holds on\" only if the other side has no get-out at all; \"goes all in\" only if the other side uses 100% of the cash. If no row is true, use the fallback: send the screenshots, and the reason gets written in the same shape before you record A0.**",
+        "id": "A5",
+        "ready": false,
+        "what": "Screenshots: both strategies, both result cards",
+        "who": "Mark"
+      },
+      {
+        "file": "M16_A6_frame.png, M16_A6_title.png, M16_A6_chip.png, M16_A6_claudeline.png, M16_A6_codexline.png",
+        "how": "Canva, 1080×1920. 1. Split the top two thirds (1080×1280) down the middle into two 540×1280 boxes, background #0B0F14, with a 4px gold #E8B04B divider. 2. Top of the left box: `CLAUDE`, Inter Bold 48px white, with the Claude name as it appears at the top of A1 (screenshot, crop). Top of the right box: `CODEX`, same style, with the name as it appears at the top of A2. 3. Hook title layer: `CLAUDE vs CODEX`, Instrument Serif 88px white, \"vs\" in gold. 4. Chip layer: `same idea`, Inter Bold 36px, #0B0F14 text on a gold pill, centred on the divider. 5. Maker lines, both in the same style, Inter Bold 28px light grey #9AA3AE: under the Claude label `Made by Anthropic`, under the Codex label `Made by OpenAI`. Export each layer as a transparent PNG.",
+        "id": "A6",
+        "ready": false,
+        "what": "Split-screen frame, labels and title",
+        "who": "Editor"
+      },
+      {
+        "file": "M16_A7_score_0/1/2.png",
+        "how": "Canva, 420×64, two pills side by side: `ROUND 1` and `ROUND 2`, Inter Bold 28px. Grey #2A2F37 pills with white text. Export 3 PNGs: both grey, Round 1 gold #E8B04B, both gold.",
+        "id": "A7",
+        "ready": false,
+        "what": "Scoreboard chip",
+        "who": "Editor"
+      },
+      {
+        "file": "M16_A8_buy/sell/howmuch/getout.png + _gold versions",
+        "how": "Canva, transparent, Inter Bold 32px white on #0B0F14 at 85%, 12px rounded corners, one PNG each: `BUY` · `SELL` · `HOW MUCH` · `GET OUT`. Same size for every label. Export a second set with gold #E8B04B text for the line 8 section.",
+        "id": "A8",
+        "ready": false,
+        "what": "The four row labels",
+        "who": "Editor"
+      },
+      {
+        "file": "M16_A9_end.png · 1080×1920",
+        "how": "Canva, 1080×1920, full screen #0B0F14, `Comment QUBE` centred, Instrument Serif 88px white, \"QUBE\" in gold #E8B04B. 2s.",
+        "id": "A9",
+        "ready": false,
+        "what": "End screen",
+        "who": "Editor"
+      }
+    ]
+  },
+  "code": "M16",
+  "edit": {
+    "notes": [
+      "**Original video:** none, original concept (Director, Oct 28). The rhythm comes from the outside gold: @copyandrea (the attempt on screen, a time skip, then the honest reaction) and @samin_yasar12 (the prompt typed live, names people know in frame 1). Something changes every 1–3s: a cut, a pop-in or a punch-in.",
+      "**Layout:** a hard split screen for the whole middle. **Top two thirds (1080×1280):** the screens. Claude is on the left (540×1280) and Codex on the right (540×1280), with a thin gold #E8B04B divider between them. Each side is labelled at the top (\"CLAUDE\" left, \"CODEX\" right, with its name, A6). **Bottom third (1080×640):** Mark (A0). Captions are 1–3 words, house preset \"TQX Captions\", key words in gold. Claude is always left and Codex always right in every round, and both sides get the same treatment at the same moment.",
+      "**Scoreboard chip:** small, top centre, over the divider (A7): \"ROUND 1 · ROUND 2\". The active round turns gold when it starts (line 4, line 6) and stays filled in.",
+      "**Yellow rule (same on both sides):** yellow #FACC15 boxes go only on the numbers and settings each AI chose, for example the drop size, the share of cash and the stop-loss. Everything else stays plain.",
+      "**Times** are estimates at Mark's pace (3.0 words a second, 158 words, about 53s; the other line 8 versions run 52–53s). Re-time to the real take.",
+      "**Pick after the run:** lines 5, 7 and 8 have other versions (see \"Pick after your run\" in the SCRIPT doc). Mark records the ones that match his run (A0). The visuals below work for every version; where a version changes the screen, the row says so."
+    ],
+    "rows": [
+      {
+        "id": "e1",
+        "onscreen": "\"CLAUDE vs CODEX\" (A6 title, \"vs\" in gold), then on \"Same idea\" a gold chip between the two sides: \"same idea\"",
+        "sound": "Music in at 0. Punch-in on Mark at \"better\"",
+        "spoken": "Hook: \"Claude or Codex: which one builds the better trading strategy? Same idea, same test.\"",
+        "time": "0.0–4.7",
+        "visual": "Split screen from frame 1: the same sentence half-typed into Claude (left, A1) and Codex (right, A2), with the cursor blinking on both. Mark below (A0)"
+      },
+      {
+        "id": "e2",
+        "onscreen": "On \"Anthropic\": a small grey line under the CLAUDE label, \"Made by Anthropic\". On \"ChatGPT\": the same style under CODEX, \"Made by OpenAI\". On \"Qube\": \"Claude → Qube\" top-left of the left side, \"Codex → Qube\" top-left of the right side",
+        "sound": "A soft click on each label",
+        "spoken": "\"Claude's from Anthropic, Codex is from the ChatGPT people, and I connected Qube to both.\"",
+        "time": "4.7–9.7",
+        "visual": "Both terminals showing Qube connected (the first 2s of A1 and A2). No commands, keys or file paths in view"
+      },
+      {
+        "id": "e3",
+        "onscreen": "None (the typing is the text)",
+        "sound": "Keyboard clicks over the music, in sync on both sides",
+        "spoken": "\"I typed this into each one. \"Buy Apple when it's oversold, sell when it recovers.\"\"",
+        "time": "9.7–14.7",
+        "visual": "The sentence typed live, letter by letter, on both sides at the same speed (A1, A2). On \"Buy\", push in on both prompts"
+      },
+      {
+        "id": "e4",
+        "onscreen": "On \"Oversold\": \"Oversold = dropped hard and fast\". On \"How hard?\": the word \"oversold\" in the typed sentence circled in gold on both sides",
+        "sound": "Whoosh into the fast-forward",
+        "spoken": "\"Oversold means it dropped hard and fast. How hard? I didn't say.\"",
+        "time": "14.7–18.7",
+        "visual": "Hold on both typed sentences. On \"I didn't say\", time skip: both builds play sped up and fit the same 2s, whatever each one really took, with a small \"sped up\" chip on both sides"
+      },
+      {
+        "id": "e5",
+        "onscreen": "\"ROUND 1\" turns gold on the chip (A7). Four row labels pop in down the left edge of each side, one per spoken word: \"BUY\" · \"SELL\" · \"HOW MUCH\" · \"GET OUT\" (A8)",
+        "sound": "Bass hit on \"Round one\". A tick on each label",
+        "spoken": "\"Round one, the strategies. When to buy, when to sell, how much, when to get out.\"",
+        "time": "18.7–24.0",
+        "visual": "Each side: the strategy its AI wrote, cropped to its four sections, in the same order on both (A5 screenshots / the A1 and A2 end frames). Each section lights up on its spoken word"
+      },
+      {
+        "id": "e6",
+        "onscreen": "On \"yellow\": the yellow boxes sweep on (yellow rule above), both sides at once",
+        "sound": "Music dips for \"I never typed\" and comes back after",
+        "spoken": "\"Same sentence, two different strategies. Every word in yellow, I never typed.\"",
+        "time": "24.0–28.0",
+        "visual": "The same four-section crops, held, with the highlights on. Punch-in on the section where the two differ most (the one line 8 names)"
+      },
+      {
+        "id": "e7",
+        "onscreen": "On \"same strategy\": a gold \"=\" between the two sides over the divider. On \"numbers\", the same yellow boxes on both sides, matching",
+        "sound": "The same dip",
+        "spoken": "\"Same sentence, same strategy, down to the numbers.\"",
+        "time": "(same-strategy version)",
+        "visual": "The same crops, held"
+      },
+      {
+        "id": "e8",
+        "onscreen": "\"ROUND 2\" turns gold on the chip. On \"backtests\": \"Backtest, not live results\" top-left of each side, which stays on to the end of line 8",
+        "sound": "Whoosh on \"Round two\". Ticking as the backtests run",
+        "spoken": "\"Round two, the backtests. Qube tests both on up to five years of real Apple prices.\"",
+        "time": "28.0–33.3",
+        "visual": "Each side: its own Qube backtest running, then the result card (A3 left, A4 right). Same dates and starting cash on both"
+      },
+      {
+        "id": "e9",
+        "onscreen": "Nothing typed over the cards: the period, trade count and result are read off each Qube card itself. Wins in green #22C55E and losses in red #EF4444, as Qube shows them",
+        "sound": "Fast scroll tick",
+        "spoken": "\"Those yellow words gave me two different results.\"",
+        "time": "33.3–36.0",
+        "visual": "Punch-in on each result card, then each side scrolls its full every-trade list top to bottom in 2s, with the losses in red as openly as the wins (A3, A4)"
+      },
+      {
+        "id": "e10",
+        "onscreen": "The same, plus the gold \"=\" over the divider again",
+        "sound": "The same tick",
+        "spoken": "\"The test came back the same, trade for trade.\"",
+        "time": "(same-strategy version)",
+        "visual": "The same punch-in and scroll, both lists side by side, line for line"
+      },
+      {
+        "id": "e11",
+        "onscreen": "On the pick's name: a gold \"MARK'S PICK\" chip over that side, with \"My opinion\" in small grey under it. On \"It\": that section's row label (here \"GET OUT\"; for the others \"HOW MUCH\", \"BUY\" or \"SELL\") turns gold on both sides",
+        "sound": "Hit on the pick. A tick on each punch-in",
+        "spoken": "\"Which one would I use? Claude. It gets out sooner if Apple keeps falling. Codex waits longer.\" (or another get out, how much, buy or sell version, or a Codex version: whichever is true on the A5 screenshots)",
+        "time": "36.0–41.7",
+        "visual": "Back to both four-section crops (A5). On \"It\", punch-in on the named section of the picked side. On the other AI's name, punch-in on the same section of the other side. The punch-ins must show the numbers that make both halves of the line true (for example both stop-loss levels, or both shares of cash). Then the other side dims to 60%"
+      },
+      {
+        "id": "e12",
+        "onscreen": "A gold chip over the divider, across both sides: \"EITHER ONE\"",
+        "sound": "Hit on \"Honestly\"",
+        "spoken": "\"Which one should you use? Honestly, whichever one you already use.\"",
+        "time": "(same-strategy version)",
+        "visual": "Both result cards, nothing dimmed"
+      },
+      {
+        "id": "e13",
+        "onscreen": "\"READ IT BEFORE YOU TRUST THE TEST\"",
+        "sound": "A tick on each label",
+        "spoken": "\"Either way, read the strategy your AI wrote before you trust the test.\"",
+        "time": "41.7–46.0",
+        "visual": "Both four-section crops at full brightness (A5), with the four labels (A8) lighting once more, from buy to get out"
+      },
+      {
+        "id": "e14",
+        "onscreen": "The yellow boxes flash on both sides once",
+        "sound": "Music drops on \"didn't say\"",
+        "spoken": "\"The AI fills in everything you didn't say.\"",
+        "time": "46.0–48.7",
+        "visual": "Hold the crops with the yellow on. Then cut to Mark full frame for the last word (the only full-frame shot of him)"
+      },
+      {
+        "id": "e15",
+        "onscreen": "\"COMMENT 'QUBE'\" (gold), centred",
+        "sound": "Music back in, low",
+        "spoken": "\"Comment QUBE and I'll send you the link for the free sign-up.\"",
+        "time": "48.7–50.7",
+        "visual": "Mark full frame (A0)"
+      },
+      {
+        "id": "e16",
+        "onscreen": "\"Comment QUBE\"",
+        "sound": "Cut to the end screen. Music out",
+        "spoken": "(end of the CTA)",
+        "time": "50.7–52.7",
+        "visual": "End screen, full screen (A9), the last 2s"
+      }
+    ]
+  },
+  "length": "about 52–53s at Mark's pace, 3.0 words a second (35–60s hard limit) · Presenter: Mark",
+  "original": {
+    "account": "",
+    "lines": [],
+    "seconds": null,
+    "url": "",
+    "words": 0
+  },
+  "originalTitle": "",
+  "presenter": "Mark",
+  "recreating": {
+    "account": "",
+    "summary": "Original concept (no source Reel)",
+    "url": ""
+  },
+  "script": {
+    "hooks": [
+      {
+        "id": "hHook",
+        "label": "Hook",
+        "orig": "Claude or Codex: which one builds the better trading strategy? Same idea, same test.",
+        "text": "Claude or Codex: which one builds the better trading strategy? Same idea, same test."
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "orig": "Claude's from Anthropic, Codex is from the ChatGPT people, and I connected Qube to both.",
+        "text": "Claude's from Anthropic, Codex is from the ChatGPT people, and I connected Qube to both."
+      },
+      {
+        "id": "l2",
+        "orig": "I typed this into each one. \"Buy Apple when it's oversold, sell when it recovers.\"",
+        "text": "I typed this into each one. \"Buy Apple when it's oversold, sell when it recovers.\""
+      },
+      {
+        "id": "l3",
+        "orig": "Oversold means it dropped hard and fast. How hard? I didn't say.",
+        "text": "Oversold means it dropped hard and fast. How hard? I didn't say."
+      },
+      {
+        "id": "l4",
+        "orig": "Round one, the strategies. When to buy, when to sell, how much, when to get out.",
+        "text": "Round one, the strategies. When to buy, when to sell, how much, when to get out."
+      },
+      {
+        "id": "l5",
+        "orig": "Same sentence, two different strategies. Every word in yellow, I never typed.",
+        "text": "Same sentence, two different strategies. Every word in yellow, I never typed."
+      },
+      {
+        "id": "l6",
+        "orig": "Round two, the backtests. Qube tests both on up to five years of real Apple prices.",
+        "text": "Round two, the backtests. Qube tests both on up to five years of real Apple prices."
+      },
+      {
+        "id": "l7",
+        "orig": "Those yellow words gave me two different results.",
+        "text": "Those yellow words gave me two different results."
+      },
+      {
+        "id": "l8",
+        "orig": "Which one would I use? Claude. It gets out sooner if Apple keeps falling. Codex waits longer.",
+        "text": "Which one would I use? Claude. It gets out sooner if Apple keeps falling. Codex waits longer."
+      },
+      {
+        "id": "l9",
+        "orig": "Either way, read the strategy your AI wrote before you trust the test.",
+        "text": "Either way, read the strategy your AI wrote before you trust the test."
+      },
+      {
+        "id": "l10",
+        "orig": "The AI fills in everything you didn't say.",
+        "text": "The AI fills in everything you didn't say."
+      },
+      {
+        "id": "l11",
+        "orig": "Comment QUBE and I'll send you the link for the free sign-up.",
+        "text": "Comment QUBE and I'll send you the link for the free sign-up."
+      }
+    ]
+  },
+  "status": "Approved",
+  "title": "Claude or Codex: which one builds the better trading strategy? Same idea, same test.",
+  "updatedAt": 1793180211.902487,
+  "updatedBy": "Producer"
+}

@@ -1,0 +1,48 @@
+1
+00:00:00,000 --> 00:00:02,880
+ Most people don't realize that someone just built an entire Wall Street trading firm with
+
+2
+00:00:02,880 --> 00:00:06,680
+ AI agents. You give the system a single stock ticket and the entire AI trading floor goes to
+
+3
+00:00:06,680 --> 00:00:10,720
+ work. Here's how you build it out. Four specialized analyst agents dig into the data, analyze company
+
+4
+00:00:10,720 --> 00:00:14,620
+ fundamentals, breaking market news, track social sentiment, and prize action. A bull and bear
+
+5
+00:00:14,620 --> 00:00:17,900
+ agent debate both sides of the trade against each other in order to challenge the hidden risk.
+
+6
+00:00:17,980 --> 00:00:21,700
+ Then a trader agent plans the execution, but a separate risk management agent has the power to
+
+7
+00:00:21,700 --> 00:00:25,680
+ veto the move before the portfolio management agent signs it off. The best part is the system
+
+8
+00:00:25,680 --> 00:00:29,260
+ has persistent memory. Every trader recommendation gets graded and logged against actual market
+
+9
+00:00:29,260 --> 00:00:32,820
+ results so the agents study their own mistakes and improve over time. I put together a complete
+
+10
+00:00:32,820 --> 00:00:36,160
+ setup guide on how to build this out for yourself with the GitHub repo link. If you want it, just
+
+11
+00:00:36,160 --> 00:00:39,260
+ like the video and comment firm and I'll send it to you. Follow for my ways to make money and run
+
+12
+00:00:39,260 --> 00:00:40,200
+ your business with tech and AI.
+

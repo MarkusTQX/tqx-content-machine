@@ -1,0 +1,85 @@
+---
+name: product-truth-qube
+description: What Qube does, step by step, what's on the public page, how it connects to Claude and Codex, and what it is not. Also covers Jev, TQX's decision model. Use whenever a TQX script, caption, DM, storyboard or B-roll list mentions Qube or Jev, so no feature or number is invented.
+---
+
+# Qube: product truth
+
+Only state what is in this file. If a script needs a Qube fact that isn't here, ask Mark. Never guess a feature, a price or a result.
+
+Never mention TQX OS.
+
+## What Qube is, in one line
+
+Qube lets retail traders build, backtest and run AI trading strategies without code. You describe a strategy in plain English; Qube writes the code, tests it on past market data, and shows every trade it would have made.
+
+## How it works (from the public page, tqx.ai/igqube2, Oct 2026)
+
+1. **Build.** Pick a ready-made template or describe your strategy in plain English. Qube writes the code.
+2. **Test.** Run a backtest on historical data. Review the results and every single trade.
+3. **Improve.** Use AI optimization and factor analysis to refine it. The AI suggests changes and tests them over rounds.
+4. **Go live.** Run the strategy live through a real broker (Mark, Oct 22). On camera, always in this order: backtest, then paper trading, then live (`trading-fundamentals`).
+
+Also on the page:
+- Ready-made strategy templates for Hong Kong and US stocks: moving-average crossovers, breakouts with ATR stops, multi-moving-average trend filters.
+- Factor research tools, for example a 20-day momentum factor with IC analysis.
+- Strategy and factor libraries, run history, optimization and version tracking.
+- "Free · no card required." The button says "Start free".
+- Sample result on the page: a 2-year US backtest, +55.43%, 814 trades, Sharpe 1.22, labeled "Backtested results, not live returns. Not financial advice." If you ever show it, keep the label and say it's a sample backtest from the page, not a viewer result.
+
+How we've described the rules step on camera (approved in scripts): "Qube turns it into exact rules. When to buy, when to sell, how much, and when to get out if it goes wrong."
+
+**How to say what Qube does in one line (Mark, Oct 23):** say what it lets you do, in strategy words (`terminology` #6), not what it turns your words into. The older "turns it into exact rules" line above is waiting on Mark (`data/mark-edits/proposals.md` P2).
+
+| Bad | Fixed (Mark's) |
+|---|---|
+| "First, connect Qube, which turns what you tell Claude into exact rules." | "First, connect Qube, which allows you to build a trading strategy from natural language." (J022) |
+| "And it allows you to build a trading strategy from natural language." (one step only, where the line introduces Qube) | "It allows you to build a trading strategy from natural language, optimise until you are happy with the results, simulate on real markets and go live. All in one eco system" (J024: the whole loop, build → improve → simulate → go live, in one line; Mark's words as written) |
+| "Then it ran the backtest, showed every trade, and Claude even flagged weaknesses." (gives the check to Claude, stops before the improve step) | "Then it ran the backtest, showed every trade, flagged its weaknesses and then optimized." (J031: Qube does the check, then the improve step) |
+
+**How much price history Qube tests on (Mark, Oct 23):** don't put a fixed length on it. Say "years of prices", or "up to five years of real price data".
+
+| Bad | Fixed (Mark's) |
+|---|---|
+| "Then Qube tests those rules on ten years of prices and shows you every trade." | "Then Qube tests those rules on years of prices and shows you every trade." (J022) |
+| "Qube takes your rules and runs them through five years of real prices." | "Qube takes your strategy and tests it on up to five years of real price data." (J020) |
+
+## The Claude / Codex connection
+
+**How to say the connection on camera (Mark, Oct 23):** say it as an action the presenter does: "I start by connecting Qube to Claude." Never "Claude's hooked up to Qube" or "plugged into": a first-time viewer doesn't know what that means.
+
+Qube connects to Claude and Codex through the command line (Mark, Oct 2026). Someone types their idea into Claude or Codex, and it builds and tests the strategy in Qube. Claude can also start live trading through the Qube connection (Mark, Oct 23), so "Claude can build it, test it and trade it for you" is true.
+
+How to say it on camera: plain, specific, no jargon.
+
+| Bad | Fixed |
+|---|---|
+| "Claude's plugged into Qube, so it does the building. Codex works too." | "So I open Claude, and I just type that out, like I'm texting a friend. I connected Qube to Claude, so it sends my idea straight over. You can do the exact same thing with Codex." |
+| "Now you hand it to Claude or Codex and they run it version after version." | "Now you can type your idea into Claude or Codex, and it'll build it, test it, find what's broken, fix it, and test it again. Over and over until you're happy with the result." |
+
+The exact setup steps (commands, login, keys) are not documented here yet. Don't show install commands on screen until Mark or the Qube team provides them.
+
+## Where to send people
+
+- Signup link for Instagram traffic: https://www.tqx.ai/igqube2
+- CTA keyword: QUBE (see `cta-and-offer`)
+- Main site: tqx.ai (nav: Qube, Competition, Docs, Pricing). Homepage line: "AI that creates, tests & trades for you all in one platform."
+
+## What Qube is NOT
+
+- Not a signal service and not a promise of returns.
+- A backtest is not a live result. Every backtest shown on screen carries "Backtest, not live results".
+- Not "AI that picks stocks for you". The person brings the idea; Qube turns it into rules and tests it.
+
+## Not yet known (do not invent)
+
+- Pricing tiers and trial length beyond "free, no card required".
+- Which features are live vs on the roadmap (live trading through a broker is live, Mark, Oct 22). Which brokers are supported.
+- Real user results.
+
+## Jev (separate TQX product)
+
+- Jev is a decision model from TypeSafe AI, built by Diogo Almeida, one of the researchers behind ChatGPT. Launched Sep 18 2026.
+- You give it a list of options; it picks one, with a calibrated confidence score. It can't answer outside the list. It responds in 70 to 500 milliseconds.
+- Jev only decides. TQX places the trades through the broker.
+- A picture that has worked: a multiple-choice test, where Jev picks one answer from the options you give it.

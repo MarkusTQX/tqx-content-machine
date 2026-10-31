@@ -1,0 +1,9 @@
+source: https://www.instagram.com/reel/DepPRYCtcCR/
+duration_s: 72.375147
+uploader: Joshua
+channel: joshua.quant
+upload_date: 20261018
+like_count: 3
+comment_count: 0
+title: Video by joshua.quant
+description: don’t use a chatbot to help you make decisions #aitrading #quant #algotrading #claude #trading

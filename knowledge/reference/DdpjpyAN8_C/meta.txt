@@ -1,0 +1,11 @@
+source: https://www.instagram.com/p/DdpjpyAN8_C/
+duration_s: 45.533333
+uploader: Erick Jablonski
+channel: erickjablonski
+upload_date: 20260924
+like_count: 8522
+comment_count: 182
+title: Video by erickjablonski
+description: Day trading strategy for five year olds
+
+#daytrader #tradezella #daytrading

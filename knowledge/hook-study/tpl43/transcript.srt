@@ -1,0 +1,40 @@
+1
+00:00:00,000 --> 00:00:02,840
+ Here's a dirty little secret, prompt engineers don't want you to know.
+
+2
+00:00:03,120 --> 00:00:07,660
+ I've finally figured out how they're printing out lots of prompts and selling it, but this
+
+3
+00:00:07,660 --> 00:00:12,460
+ tool is actually free and it is 10 times, if not 100 times better than those prompt packs.
+
+4
+00:00:12,800 --> 00:00:15,500
+ I bet people would pay for this, but I'm going to show you for free.
+
+5
+00:00:15,820 --> 00:00:20,860
+ If you go to console.anthropic.com, hit generate prompt and write out what you're trying to
+
+6
+00:00:20,860 --> 00:00:21,900
+ achieve with the prompt.
+
+7
+00:00:21,980 --> 00:00:23,820
+ This was just a mishmash of all my thoughts.
+
+8
+00:00:24,040 --> 00:00:28,340
+ And once you hit generate prompt, it'll actually create a very detailed prompt with lots of
+
+9
+00:00:28,340 --> 00:00:31,980
+ structure that you can literally paste into Claude or ChaiGBT.
+
+10
+00:00:32,340 --> 00:00:33,360
+ Follow for more AI tips.
+

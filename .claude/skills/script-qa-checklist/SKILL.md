@@ -1,0 +1,91 @@
+---
+name: script-qa-checklist
+description: The review the Script critic runs on every TQX script before Mark sees it - the automatic checks first, then logic, facts, product truth, compliance, spoken lines, on-screen layer and the fix log, with a fixed report format (line, problem, rule, fix). Use whenever reviewing a TQX script draft, or as the final self-check before handing a script over.
+---
+
+# Script QA checklist
+
+Run every pass, in this order. Don't skip a pass because the script "looks fine". Report every problem in the format at the bottom, with a fix, not just a complaint. Never change a line Mark wrote himself; flag it instead.
+
+## Pass 0: automatic checks (code)
+Run the script checker. It flags: em dashes, banned AI patterns and buzzwords (`anti-ai-patterns`), banned finance phrases (`finance-compliance`), "never say" terms (`terminology`), sentences over 20 words, and placeholders like `[`, `TBD`, `XX`, `FILL`. Every flag gets a human decision.
+
+## Pass 1: worth making (`audience-profile`, `slop`)
+- [ ] One persona is named at the top of the script notes.
+- [ ] The viewer gets something they can use, try or compare: a tool, a ranking, a result, a test they can run. Not just a fact. (Mark's #1 lesson: the only two videos over 500 views both did this.)
+- [ ] It isn't a repeat of any past TQX video, unless Mark asked for one: the brief's "Past videos checked" line is there, and the idea and payoff don't overlap `data/video-map.csv`, `knowledge/own-videos/*/transcript.txt`, `videos/` scripts and briefs, or `slop` (Mark, Oct 27, J032: "If you went through our data, you would know that.").
+- [ ] It doesn't lean on a metaphor where a real screen, result or number would work.
+
+## Pass 2: whole-script logic (`script-logic`)
+- [ ] I can say the promise, the one idea and the payoff in three sentences.
+- [ ] The hook's promise is paid off, and I can name the line.
+- [ ] One main idea. No second idea sneaking in.
+- [ ] Every script: 35–60 seconds spoken, a hard limit, aiming for about 40–50 (Joshua about 110–190 words, Mark about 105–180: `script-logic` #10, Mark Oct 27). Recreations: within ±10% of the original's word count only inside 35–60s; an original past 60s is cut to its strongest beats. Under 35s only for a short text-only format (J026).
+- [ ] Recreations: the hook is the original's, word for word; no body line copies or lightly rewords the original's sentence (`remix-for-product`, Mark, Oct 27).
+- [ ] A second hook at 60–75%.
+- [ ] No skipped steps: every term, number and name is set up before it's used.
+- [ ] Cause and effect are right; step orders match reality (rules → backtest → paper → live).
+- [ ] Any picture or analogy holds all the way through and doesn't contradict the point.
+- [ ] If it's part of a series: numbers add up across episodes and references to other episodes are correct.
+
+## Pass 3: facts (`claims-and-proof`, `trading-fundamentals`)
+- [ ] Every number is in `claims-and-proof`, or has a primary source attached.
+- [ ] Each claim says exactly what the source measured: who, where, which years.
+- [ ] Every trading concept is explained correctly, including edge cases.
+- [ ] Nothing from the "never use" list.
+
+## Pass 4: product truth (`product-truth-qube`, `product-truth-gatc`)
+- [ ] Every Qube, GATC or Jev statement is in a product-truth skill.
+- [ ] No invented feature, price, date or result.
+- [ ] No TQX OS.
+
+## Pass 5: compliance (`finance-compliance`)
+- [ ] No promised returns, no ticker calls, no banned phrases.
+- [ ] Every backtest labeled "Backtest, not live results".
+- [ ] Any paper or simulated result is said out loud and badged on screen.
+- [ ] Hypothetical numbers are introduced with "say", "picture" or "for example".
+
+## Pass 6: every spoken line (`spoken-sentence-rules`, `terminology`)
+Read every line out loud.
+- [ ] Every sentence ends.
+- [ ] No vague "rules", "it", "they", "that": each points to something clear.
+- [ ] It sounds like a guy from LA talking to a friend.
+- [ ] One breath per numbered line; contractions; American spelling.
+- [ ] One term per thing, used the same way all the way through.
+- [ ] Terms explained at the right depth for the persona (`audience-profile`).
+
+## Pass 7: hooks
+- [ ] Each hook makes sense cold, to someone who's never seen us.
+- [ ] Each has a specific number, name or stake early.
+- [ ] No hook is repeated word for word by the first line.
+
+## Pass 8: on-screen layer (`on-screen-text`)
+- [ ] Every spoken line has a visual cue.
+- [ ] On-screen text adds proof (exact number, source, label), not a copy of the voice.
+- [ ] Exact words in quotes; sources on screen for every number.
+
+## Pass 9: CTA (`cta-and-offer`)
+- [ ] One main ask, worded exactly, in the right place.
+- [ ] The CTA names exactly what they'll get, and the DM flow really sends it.
+- [ ] Qube goes in where the original shows its tool or makes its claim, and the last line is "Comment QUBE…".
+- [ ] No product? Consider the share CTA ("Send this to a friend who…").
+- [ ] Product only in the last two lines, and only if it earns it. Exception: demo and build videos, where the product is the video.
+
+## Pass 10: fix log (`fix-log`)
+- [ ] None of Mark's past corrections has come back. Check every row.
+
+## Report format
+
+```
+SCRIPT: [code · title]
+VERDICT: Ready for Mark / Send back
+
+| Line | Problem | Rule (skill) | Fix |
+| 4 | "find the rules for you": which rules? | Vague nouns (spoken-sentence-rules #2) | "...and it'll come back with something like, 'Buy when it drops 2% in a day.'" |
+...
+
+Facts checked: [list each number → source]
+Mark's own lines flagged, not changed: [list or "none"]
+```
+
+A script goes to Mark only when every pass is clean, or every remaining flag is something only Mark can decide.

@@ -1,0 +1,513 @@
+{
+  "assets": {
+    "notes": [
+      "**Format source:** our own M05 · https://www.instagram.com/reel/DerwxsIzyeX/",
+      "**Presenter:** Mark. One person, one list, in video order.",
+      "**Before recording:** every homepage is recorded logged out, Chrome full screen, zoom 125%, no tabs or bookmarks showing, cookie banners closed with \"Reject\" or \"Necessary only\". Qube on Mark's own login, notifications off. No emails, keys or account names on screen.",
+      "**Reuse from M05:** the tier board, the big-text style and the caption style. Duplicate them from the M05 CapCut project and swap only the logos and names. If it isn't available, build from the specs below."
+    ],
+    "open": [
+      {
+        "done": false,
+        "id": "o1",
+        "text": "**Tier order** is the Director's pick (brief); move any app and only the board states change."
+      },
+      {
+        "done": false,
+        "id": "o2",
+        "text": "**Third S-to-F board** after M05 and J028 (brief flag); new category and new split (line 7: \"Here's the line. Below it, you're running their strategy. Above it, you're testing your own.\")."
+      },
+      {
+        "done": false,
+        "id": "o3",
+        "text": "**Live outside the US?** If Qube can go live through a broker outside the US, line 9 can end \"...losers too, and it's not US only.\" Until you say so, the script doesn't claim it."
+      }
+    ],
+    "rows": [
+      {
+        "file": "M13_A0_aroll.mp4 · 1080×1920 · plus M13_A0_closeup.mp4",
+        "how": "1. Laptop camera or phone vertical (9:16), eye level, lock focus and exposure, M05 framing. 2. Head and chest in the lower two thirds; top third (640px) clear for the board. 3. Record the hook twice, clean. 4. Record lines 1–10 in one take, fast, no pauses. Say each tier word on its own with a short beat after it: \"F tier.\" \"D tier.\" 5. Move in close and record three times: \"Here's the line. Below it, you're running their strategy. Above it, you're testing your own.\"",
+        "id": "A0",
+        "ready": false,
+        "what": "Mark talking (A-roll)",
+        "who": "Mark"
+      },
+      {
+        "file": "M13_A1_logos.png · 1080×640",
+        "how": "1. Get each logo from the company's own press or brand page: Cryptohopper, 3Commas, Trade Ideas, TrendSpider, Composer. 2. Canva, 1080×640 transparent: six tiles in a column at the right edge, each 80×80, 16px apart, order top to bottom: Cryptohopper, 3Commas, Trade Ideas, TrendSpider, Composer, then a grey #4B5563 rounded tile with a white \"?\" (Inter Bold 48px). 3. **CHECK: Qube's logo is not in this frame;** it shows for the first time on the S hit (A2 state 6, logo from the TQX team). 4. Export PNG.",
+        "id": "A1",
+        "ready": false,
+        "what": "Five logos + a \"?\" tile stacked (frame 1)",
+        "who": "Editor"
+      },
+      {
+        "file": "M13_A2_board_0.png … _6.png, M13_A2_chip_*.png, M13_A2_split_*.png · 1080×640",
+        "how": "1. Duplicate M05's board. Spec if rebuilding: 1080×640, background #0B0F14, rows top to bottom S, A, B, C, D, F, each 96px high, 8px gaps; 64×64 letter tile left (S #F472B6, A #FB923C, B #FACC15, C #4ADE80, D #60A5FA, F #A78BFA, white Inter Bold 40px); row body #1A1F27; logo 56×56; name right-aligned Inter Bold 36px white. 2. Export 7 PNGs: (0) empty · (1) F: Cryptohopper · (2) + D: 3Commas · (3) + C: Trade Ideas · (4) + B: TrendSpider · (5) + A: Composer · (6) + S: Qube. 3. Chips, Inter Bold 28px #0B0F14 on gold #E8B04B, 16px rounded, right end of the row, text exactly: \"THEIR STRATEGY\", \"PRESET\", \"AI'S CALLS\". One PNG each. 4. Split overlay: a white 4px line between the C and B rows; grey tint #6B7280 at 60% over F, D, C with the label exactly \"their strategy\" (Inter Bold 32px white); gold #E8B04B glow over B, A, S with the label exactly \"your strategy, tested\". The white line lands on \"Here's the line.\" Export 2 PNGs (line, tint + labels).",
+        "id": "A2",
+        "ready": false,
+        "what": "Tier board, 7 states + chips + split overlay",
+        "who": "Editor"
+      },
+      {
+        "file": "M13_A3_ours.png, M13_A3_mytake.png",
+        "how": "1. M05's big-text style, text exactly: \"One of these is ours\". 2. Small tag, Inter Bold 28px #0B0F14 on gold #E8B04B, 16px rounded, text exactly: \"my take\". Export separately.",
+        "id": "A3",
+        "ready": false,
+        "what": "\"One of these is ours\" big text + \"my take\" tag",
+        "who": "Editor"
+      },
+      {
+        "file": "M13_A4a_cryptohopper.mp4 · 1920×1080 · up to 10s",
+        "how": "1. Open https://www.cryptohopper.com. 2. Start a screen recording. Hold 2s on the hero. 3. Scroll slowly to the section that says \"marketplace\". Hold 2s. Stop. **CHECK: no profit figure, % return or price readable; if one is, crop or blur it in the edit.**",
+        "id": "A4a",
+        "ready": false,
+        "what": "cryptohopper.com",
+        "who": "Mark"
+      },
+      {
+        "file": "M13_A4b_3commas.mp4 · 1920×1080 · up to 10s",
+        "how": "1. Open https://3commas.io. 2. Record: hold 2s on the hero (\"Crypto Trading Bots & Automation Platform\"). 3. Scroll to the bot list (DCA Bot, Grid Bot, Signal Bot). Hold 2s. Stop. **CHECK: no profit figure or price readable.**",
+        "id": "A4b",
+        "ready": false,
+        "what": "3commas.io",
+        "who": "Mark"
+      },
+      {
+        "file": "M13_A4c_tradeideas.mp4 · 1920×1080 · up to 10s",
+        "how": "1. Open https://www.trade-ideas.com. 2. Record: hold 2s on the hero. 3. Scroll to the Holly AI signals section. Hold 2s. Stop. **CHECK: no win rate, profit figure or price readable; blur any in the edit.**",
+        "id": "A4c",
+        "ready": false,
+        "what": "trade-ideas.com",
+        "who": "Mark"
+      },
+      {
+        "file": "M13_A4d_trendspider.mp4 · 1920×1080 · up to 12s",
+        "how": "1. Open https://trendspider.com. 2. Record: hold 2s on the hero. 3. Scroll to the Strategy Tester section. Hold 2s. 4. Open the top menu's product list and hold 2s so the number of tools shows. Stop. **CHECK: no price readable.**",
+        "id": "A4d",
+        "ready": false,
+        "what": "trendspider.com",
+        "who": "Mark"
+      },
+      {
+        "file": "M13_A4e_composer.mp4 · 1920×1080 · up to 10s",
+        "how": "1. Open https://www.composer.trade. 2. Record: hold 2s on the hero, then scroll to the part that says \"Build trading algorithms with AI, backtest them, then execute\". Hold 2s. Stop. **CHECK: no return figure or price readable.**",
+        "id": "A4e",
+        "ready": false,
+        "what": "composer.trade",
+        "who": "Mark"
+      },
+      {
+        "file": "M13_A4f_composer_us.png · 1920×1080",
+        "how": "1. Open https://help.composer.trade/article/62-international-users. 2. Screenshot the line that says live trading isn't available to users outside the US. **CHECK: if the page no longer says this, tell Mark before the edit; line 6 depends on it.**",
+        "id": "A4f",
+        "ready": false,
+        "what": "Composer's US-only help page",
+        "who": "Mark"
+      },
+      {
+        "file": "M13_A5_qube.mp4 · 1920×1080 · about 30s raw · plus M13_A5_result.png, _trades.png",
+        "how": "1. Chrome, full screen, zoom 125%, https://www.tqx.ai logged in, open Qube, new strategy. 2. Start a screen recording. 3. Type exactly, by hand, don't paste: `Buy the S&P 500 when it drops 2% in a day. Sell once it's up 2% from where I bought, or if it falls another 3%.` 4. Build, then press Backtest. 5. Hold 3s on the result. 6. Open the list of every trade and scroll top to bottom in about 4s, so losing trades (red) are visible. Hold 2s. Stop. 7. Screenshot the result and the trade list. 8. Go back, open one of the ready-made Hong Kong stock strategies, press Backtest, and record 3s of its result (for \"US and Hong Kong prices\"). **CHECK: if no Hong Kong strategy is in the list, tell Mark before the edit; line 9 depends on it.** **CHECK: the trade list shows at least one losing trade; if it shows none, tell Mark before the edit (line 9 says \"losers too\").** **CHECK: test period is five years or less. Don't change any number Qube shows; none is spoken.**",
+        "id": "A5",
+        "ready": false,
+        "what": "Qube: strategy typed → backtest → every trade",
+        "who": "Mark"
+      },
+      {
+        "file": "M13_A6_claude.png",
+        "how": "From Anthropic's own brand page, white on transparent, 160×160.",
+        "id": "A6",
+        "ready": false,
+        "what": "Claude logo",
+        "who": "Editor"
+      },
+      {
+        "file": "M13_A7_end.png · 1080×1920",
+        "how": "Full screen 1080×1920, #0B0F14, \"Comment QUBE\" centred, Instrument Serif 88px white, \"QUBE\" in gold #E8B04B. 2s.",
+        "id": "A7",
+        "ready": false,
+        "what": "End screen",
+        "who": "Editor"
+      }
+    ]
+  },
+  "code": "M13",
+  "edit": {
+    "notes": [
+      "**Format source:** our own M05 · https://www.instagram.com/reel/DerwxsIzyeX/ · copy its rhythm: one app every 4–5s here (fewer words than M05), each app = name → tier word on its own (\"F tier.\") → one line with \"but\"; the board fills one row on the tier word; one 2–3s homepage insert per app; the board drops in on \"so you don't have to\".",
+      "**Layout:** M05's. Mark full frame, the tier board (A2) fixed in the top third (1080×640) and filling F → S. Homepage inserts replace the board in the top third for 2–3s, then the board comes back. Captions 2–4 words, M05's style (\"TQX Captions\" preset, key word on the navy highlight box), chest height (y = 1380).",
+      "**Times** are estimates at Mark's pace (3.0 words a second, about 52s, 155 words). Re-time to the real take."
+    ],
+    "rows": [
+      {
+        "id": "e1",
+        "onscreen": "\"6 AI trading apps · S → F\"",
+        "sound": "Music in at 0. Thud on \"don't\"",
+        "spoken": "Hook: \"I ranked 6 AI trading apps from S to F, so you don't have to.\"",
+        "time": "0.0–5.0",
+        "visual": "0–3.5s: five logos plus a grey \"?\" tile stacked small at the right edge (A1); Qube's logo is not shown yet. 3.5s, on \"so you don't have to\": empty board drops in (A2 state 0)"
+      },
+      {
+        "id": "e2",
+        "onscreen": "Small tag top-left: \"my take\" on \"Just my take\" · big text top-right: \"One of these is ours\" (A3) on \"ours\"",
+        "sound": "Punch-in 100→108% on \"ours\"",
+        "spoken": "\"Just my take, and one of these is ours.\"",
+        "time": "5.0–8.0",
+        "visual": "Board hidden, Mark full frame"
+      },
+      {
+        "id": "e3",
+        "onscreen": "none",
+        "sound": "Hit on \"F\"",
+        "spoken": "\"Cryptohopper. F tier.\"",
+        "time": "8.0–9.0",
+        "visual": "Board back; Cryptohopper lands in F (A2 state 1)"
+      },
+      {
+        "id": "e4",
+        "onscreen": "Under the clip: \"cryptohopper.com\" · on \"someone else's strategy\": chip \"THEIR STRATEGY\" on the F row",
+        "sound": "Cut on \"marketplace\"",
+        "spoken": "\"Crypto bots, but its marketplace sells you someone else's strategy.\"",
+        "time": "9.0–12.3",
+        "visual": "Insert: cryptohopper.com hero, then the marketplace section (A4a), 2.5s"
+      },
+      {
+        "id": "e5",
+        "onscreen": "none",
+        "sound": "Hit on \"D\"",
+        "spoken": "\"3Commas. D tier.\"",
+        "time": "12.3–13.3",
+        "visual": "3Commas lands in D (A2 state 2)"
+      },
+      {
+        "id": "e6",
+        "onscreen": "Under the clip: \"3commas.io\" · chip \"PRESET\" on the D row on \"preset\"",
+        "sound": "Cut on \"preset\"",
+        "spoken": "\"Crypto bots, but you pick a preset and tweak it.\"",
+        "time": "13.3–16.7",
+        "visual": "Insert: 3commas.io hero, then the bot list (DCA, Grid) (A4b), 2.5s"
+      },
+      {
+        "id": "e7",
+        "onscreen": "none",
+        "sound": "Hit on \"C\"",
+        "spoken": "\"Trade Ideas. C tier.\"",
+        "time": "16.7–18.0",
+        "visual": "Trade Ideas lands in C (A2 state 3)"
+      },
+      {
+        "id": "e8",
+        "onscreen": "Under the clip: \"trade-ideas.com\" · chip \"AI'S CALLS\" on the C row on \"not yours\"",
+        "sound": "Cut on \"signals\"",
+        "spoken": "\"AI stock signals, but they're the AI's calls, not yours.\"",
+        "time": "18.0–21.3",
+        "visual": "Insert: trade-ideas.com hero, then the Holly AI section (A4c), 2.5s"
+      },
+      {
+        "id": "e9",
+        "onscreen": "none",
+        "sound": "Hit on \"B\"",
+        "spoken": "\"TrendSpider. B tier.\"",
+        "time": "21.3–22.3",
+        "visual": "TrendSpider lands in B (A2 state 4)"
+      },
+      {
+        "id": "e10",
+        "onscreen": "Under the clip: \"trendspider.com\"",
+        "sound": "Scroll 2x on \"ton\"",
+        "spoken": "\"Great charts and testing, but there's a ton to learn.\"",
+        "time": "22.3–25.7",
+        "visual": "Insert: trendspider.com hero, then the Strategy Tester section (A4d), 2s, then fast scroll down the product menu on \"a ton to learn\""
+      },
+      {
+        "id": "e11",
+        "onscreen": "none",
+        "sound": "Hit on \"A\"",
+        "spoken": "\"Composer. A tier.\"",
+        "time": "25.7–26.7",
+        "visual": "Composer lands in A (A2 state 5)"
+      },
+      {
+        "id": "e12",
+        "onscreen": "Under the clip: \"composer.trade\" · on \"US only\": \"Live trading: US only · source: help.composer.trade\"",
+        "sound": "Cut on \"US only\"",
+        "spoken": "\"AI builds and tests your strategy, but live trading is US only.\"",
+        "time": "26.7–30.7",
+        "visual": "Insert: composer.trade hero (A4e), 2s, then the help page line (A4f), 1.5s"
+      },
+      {
+        "id": "e13",
+        "onscreen": "none",
+        "sound": "Music drops out. Tight push-in on Mark (biggest change in the video)",
+        "spoken": "\"Here's the line.\"",
+        "time": "30.7–31.7",
+        "visual": "Board (state 5): white line draws between the C and B rows, landing on \"line\""
+      },
+      {
+        "id": "e14",
+        "onscreen": "F, D, C rows tint grey, label \"their strategy\"",
+        "sound": "Tint wipes down on \"Below it\"",
+        "spoken": "\"Below it, you're running their strategy.\"",
+        "time": "31.7–33.7",
+        "visual": "Board + grey tint (A2 overlay)"
+      },
+      {
+        "id": "e15",
+        "onscreen": "B, A rows and the empty S row glow gold, label \"your strategy, tested\"",
+        "sound": "Music back on \"your own\"",
+        "spoken": "\"Above it, you're testing your own.\"",
+        "time": "33.7–35.7",
+        "visual": "Board + gold glow (A2 overlay)"
+      },
+      {
+        "id": "e16",
+        "onscreen": "none",
+        "sound": "Biggest hit of the video on \"S\", short riser before it",
+        "spoken": "\"Qube. S tier.\"",
+        "time": "35.7–36.7",
+        "visual": "Qube's logo shows for the first time, landing in S (A2 state 6). Board stays to the end"
+      },
+      {
+        "id": "e17",
+        "onscreen": "The typed text on screen carries it",
+        "sound": "Keyboard clicks",
+        "spoken": "\"You type your strategy in plain English, or into Claude.\"",
+        "time": "36.7–40.0",
+        "visual": "Insert: Qube, the strategy typed in plain English (A5, first part); on \"Claude\": Claude logo pops beside Mark's head (A6), 1s"
+      },
+      {
+        "id": "e18",
+        "onscreen": "\"Backtest, not live results\" top-left from the first result frame to the end of the line · \"US + HK stocks\" next to it, same box style, 12px gap, for the whole line · on \"losers too\": a red loss row highlighted in the trade list",
+        "sound": "Whoosh into the result; ticking as trades scroll",
+        "spoken": "\"Qube tests it on years of US and Hong Kong prices and shows every trade, losers too.\"",
+        "time": "40.0–45.7",
+        "visual": "Insert: Backtest pressed → result → Hong Kong result (A5 step 8) → trade list scrolling with losses visible"
+      },
+      {
+        "id": "e19",
+        "onscreen": "Captions; \"QUBE\" in gold #E8B04B",
+        "sound": "Pop on \"Disagree?\"",
+        "spoken": "\"Disagree? Drop your tier list, or comment QUBE and I'll send you the link for the free sign-up.\"",
+        "time": "45.7–49.7",
+        "visual": "Full board (state 6) on \"Drop your tier list\""
+      },
+      {
+        "id": "e20",
+        "onscreen": "\"Comment QUBE\"",
+        "sound": "Music out",
+        "spoken": "(end of the CTA)",
+        "time": "49.7–51.7",
+        "visual": "End screen (A7), last 2s"
+      }
+    ]
+  },
+  "length": "about 52s at Mark's pace, 3.0 words a second (35–60s hard limit) · Presenter: Mark",
+  "original": {
+    "account": "@markus_ai_quant",
+    "lines": [
+      {
+        "t": "0:00",
+        "text": "I ranked 6 tools for building a trading strategy from S to F, so you don't have to."
+      },
+      {
+        "t": "0:05",
+        "text": "Quant trading just means trading with rules and data instead of your gut."
+      },
+      {
+        "t": "0:10",
+        "text": "And yes, I am biased because we built one."
+      },
+      {
+        "t": "0:12",
+        "text": "Asking chat GPT what to buy."
+      },
+      {
+        "t": "0:15",
+        "text": "F tier."
+      },
+      {
+        "t": "0:15",
+        "text": "You're just getting an opinion that nobody has actually tested."
+      },
+      {
+        "t": "0:19",
+        "text": "Excel."
+      },
+      {
+        "t": "0:20",
+        "text": "D tier."
+      },
+      {
+        "t": "0:20",
+        "text": "You can test a strategy on past prices in a spreadsheet, but one wrong sell and your test is secretly using tomorrow's price to make today's trade."
+      },
+      {
+        "t": "0:30",
+        "text": "Your results look amazing, but they're fake."
+      },
+      {
+        "t": "0:33",
+        "text": "Meta trader."
+      },
+      {
+        "t": "0:34",
+        "text": "C tier."
+      },
+      {
+        "t": "0:34",
+        "text": "It's popular for Forex, which is trading currencies like the dollar and the euro."
+      },
+      {
+        "t": "0:39",
+        "text": "But to build a bot that trades for you, it needs to learn its own coding language."
+      },
+      {
+        "t": "0:44",
+        "text": "Trading view."
+      },
+      {
+        "t": "0:45",
+        "text": "B tier."
+      },
+      {
+        "t": "0:45",
+        "text": "Really good charts and it can test strategies on past prices."
+      },
+      {
+        "t": "0:49",
+        "text": "But to do that, you need to learn its coding language."
+      },
+      {
+        "t": "0:52",
+        "text": "Pinescript."
+      },
+      {
+        "t": "0:53",
+        "text": "Quant connect."
+      },
+      {
+        "t": "0:54",
+        "text": "A tier."
+      },
+      {
+        "t": "0:54",
+        "text": "Very powerful for testing strategies, but you have to write real code in Python or C-sharp."
+      },
+      {
+        "t": "1:00",
+        "text": "Notice the pattern?"
+      },
+      {
+        "t": "1:01",
+        "text": "Everything from C to A wants you to be a programmer."
+      },
+      {
+        "t": "1:04",
+        "text": "Cube."
+      },
+      {
+        "t": "1:05",
+        "text": "S tier."
+      },
+      {
+        "t": "1:05",
+        "text": "You describe the idea in plain English."
+      },
+      {
+        "t": "1:08",
+        "text": "It turns it into exact rules, tests them on past prices and runs it."
+      },
+      {
+        "t": "1:12",
+        "text": "No code required."
+      },
+      {
+        "t": "1:13",
+        "text": "The hard part of trading should be the idea, not learning how to code."
+      },
+      {
+        "t": "1:18",
+        "text": "Disagree?"
+      },
+      {
+        "t": "1:19",
+        "text": "Drop your tier list in the comments or comment cube and I'll send you the full breakdown."
+      }
+    ],
+    "seconds": 84,
+    "url": "https://www.instagram.com/reel/DerwxsIzyeX/",
+    "words": 250
+  },
+  "originalTitle": "Quant trading tools ranked S to F",
+  "presenter": "Mark",
+  "recreating": {
+    "account": "@markus_ai_quant",
+    "summary": "none, original concept (Mark, Oct 28) · format from our own M05 \"Quant trading tools ranked S to F\" (@markus_ai_quant) · 54 likes, 41 comments, 2,610 views",
+    "url": "https://www.instagram.com/reel/DerwxsIzyeX/"
+  },
+  "script": {
+    "hooks": [
+      {
+        "id": "hHook",
+        "label": "Hook",
+        "orig": "I ranked 6 AI trading apps from S to F, so you don't have to.",
+        "text": "I ranked 6 AI trading apps from S to F, so you don't have to."
+      }
+    ],
+    "lines": [
+      {
+        "id": "l1",
+        "orig": "Just my take, and one of these is ours.",
+        "text": "Just my take, and one of these is ours."
+      },
+      {
+        "id": "l2",
+        "orig": "Cryptohopper. F tier. Crypto bots, but its marketplace sells you someone else's strategy.",
+        "text": "Cryptohopper. F tier. Crypto bots, but its marketplace sells you someone else's strategy."
+      },
+      {
+        "id": "l3",
+        "orig": "3Commas. D tier. Crypto bots, but you pick a preset and tweak it.",
+        "text": "3Commas. D tier. Crypto bots, but you pick a preset and tweak it."
+      },
+      {
+        "id": "l4",
+        "orig": "Trade Ideas. C tier. AI stock signals, but they're the AI's calls, not yours.",
+        "text": "Trade Ideas. C tier. AI stock signals, but they're the AI's calls, not yours."
+      },
+      {
+        "id": "l5",
+        "orig": "TrendSpider. B tier. Great charts and testing, but there's a ton to learn.",
+        "text": "TrendSpider. B tier. Great charts and testing, but there's a ton to learn."
+      },
+      {
+        "id": "l6",
+        "orig": "Composer. A tier. AI builds and tests your strategy, but live trading is US only.",
+        "text": "Composer. A tier. AI builds and tests your strategy, but live trading is US only."
+      },
+      {
+        "id": "l7",
+        "orig": "Here's the line. Below it, you're running their strategy. Above it, you're testing your own.",
+        "text": "Here's the line. Below it, you're running their strategy. Above it, you're testing your own."
+      },
+      {
+        "id": "l8",
+        "orig": "Qube. S tier. You type your strategy in plain English, or into Claude.",
+        "text": "Qube. S tier. You type your strategy in plain English, or into Claude."
+      },
+      {
+        "id": "l9",
+        "orig": "Qube tests it on years of US and Hong Kong prices and shows every trade, losers too.",
+        "text": "Qube tests it on years of US and Hong Kong prices and shows every trade, losers too."
+      },
+      {
+        "id": "l10",
+        "orig": "Disagree? Drop your tier list, or comment QUBE and I'll send you the link for the free sign-up.",
+        "text": "Disagree? Drop your tier list, or comment QUBE and I'll send you the link for the free sign-up."
+      }
+    ]
+  },
+  "status": "Approved",
+  "title": "I ranked 6 AI trading apps from S to F, so you don't have to.",
+  "updatedAt": 1793180054.0482671,
+  "updatedBy": "Producer"
+}

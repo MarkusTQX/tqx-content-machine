@@ -1,0 +1,44 @@
+1
+00:00:00,000 --> 00:00:04,820
+ I'm going to take you from chat GPT beginner to expert using a four-step prompting process that
+
+2
+00:00:04,820 --> 00:00:10,000
+ I created. Number one is the role. When you're chatting with AI, you got to tell it how to think.
+
+3
+00:00:10,080 --> 00:00:14,780
+ If it's a marketing tweet, you got to say as a marketer because then it uses that information
+
+4
+00:00:14,780 --> 00:00:18,980
+ to go look around its neural network for information that matches to that. Number two
+
+5
+00:00:18,980 --> 00:00:23,280
+ is the context. You have to tell it what you're trying to do. If you're writing a better blog,
+
+6
+00:00:23,420 --> 00:00:28,280
+ tell it, I'm trying to write a better blog or I'm trying to create 10 awesome novel tweets for my
+
+7
+00:00:28,280 --> 00:00:33,520
+ client. Number three, give it the command for what you want. So if you want 10 tweets, tell it,
+
+8
+00:00:33,560 --> 00:00:39,060
+ I need you to write me 10 tweets. And then the fourth is the format. The format is how you want
+
+9
+00:00:39,060 --> 00:00:44,320
+ to consume it. So you might want it in a spreadsheet. You might want it in a bulleted list. That'll give
+
+10
+00:00:44,320 --> 00:00:50,160
+ you the output. Once you get that output dialed in and it's awesome, ask it to write the command
+
+11
+00:00:50,160 --> 00:00:52,860
+ or the prompt that would have got you to that place faster.
+

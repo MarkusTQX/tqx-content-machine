@@ -1,0 +1,15 @@
+source: https://www.instagram.com/p/DZsAke9RXxu/
+duration_s: 34.600000
+uploader: Max Kelley
+channel: max_kelleyy
+upload_date: 20260617
+like_count: 8561
+comment_count: 5021
+title: Video by max_kelleyy
+description: Don't build an AI trading bot. 
+
+Build a research desk connected to a data layer first, then build the execution layer. 
+
+Comment AI and I'll send you over the links 
+
+#ai #finance #trading

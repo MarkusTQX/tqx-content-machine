@@ -1,0 +1,16 @@
+Everyone is wrong about AI trading. Your spam filter is a quant. AI trading in 50 seconds,
+starting now. Every quant strategy goes through the same six steps before it touches real money.
+And if you trade on your phone, you're probably skipping straight to the last one. Everyone's
+talking about AI trading. So what is it actually? Let's break it down. AI trading is really two
+things struck together, quant trading plus AI. Quant trading means you don't trade on a gut
+feeling. You trade on rules. And those rules come from data. Think about the spam filter in your email.
+It asks one question about every new email. Is this spam? Yes or no. Back in the day, people ruled those
+rules by hand, like free money in a subject line. Spam. That's quant trading. The emails are prices.
+The question is, is this stock about to go up? And the rules are your strategy. Now here's the AI part.
+Your spam filter doesn't need people writing rules anymore. It learns from them on its own from tons of
+old emails. Trading works the same way now. You can open clart or codex and type, look at the last 10
+years of S&P 500 prices. When should I have bought? And it'll come back with something like buy when it
+drops 2% in a day. But here's a catch. Your spam filter still lets junk through sometimes and a trading
+strategy is wrong a lot. That's why quants never trust a rule until they've tested it on the past
+prices first. That's called a backtest. Tomorrow I'll show you the six steps every quant strategy
+goes through, from data all the way to real money. Follow so you don't miss day two.

@@ -1,0 +1,31 @@
+If you're asking ChatGPT what stock to buy, you're cooked.
+A survey found 26% of Americans have used an AI chatbot to ask for financial advice.
+About a quarter of them actually did what it told them.
+And of the people who acted on it, 29% says it hurt their finances.
+Why? Because most people ask the wrong question.
+What should I buy?
+That's like asking a builder which house you should live in.
+They don't know anything about your life.
+But a builder is great as something else.
+You bring them a plan, they check it, they fix it, and then they build it.
+So use AI like a builder.
+You bring in your idea, not your wallet.
+Here are three prompts.
+Prompt 1: Turn my ideas into exact rules.
+When do I buy?
+When do I sell?
+How much do I put in?
+And how much do I cut losses?
+That's your plan on paper.
+No more it looks cheap, just numbers.
+Prompt 2: Find holes in my ideas.
+Make it argue against you.
+Ask it what market conditions will break my idea.
+That's the builder telling you the wall won't hold before you move it.
+Prompt 3: Ask it to turn it into code.
+Now your rules can be tested against past prices.
+That's called a backtest.
+You own the idea, AI builds it.
+Now, you more than likely won't have access to historical data.
+And that's okay, because I can give you free access.
+Just comment Q and I'll send it over.

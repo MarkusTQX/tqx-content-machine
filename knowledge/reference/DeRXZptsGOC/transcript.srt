@@ -1,0 +1,44 @@
+1
+00:00:00,000 --> 00:00:04,460
+ Grok might have just killed day trading forever. See, people are putting six Grok bots into one
+
+2
+00:00:04,460 --> 00:00:09,740
+ group chat, letting them trade, and they say it's making them thousands. One guy said he turned $87
+
+3
+00:00:09,740 --> 00:00:16,100
+ into $8,000, and another one claims he turned $90 into $14,000. And no single bot does it alone,
+
+4
+00:00:16,240 --> 00:00:21,060
+ so let me break down exactly how it works. Grok lets you set up six bots in one group chat. The
+
+5
+00:00:21,060 --> 00:00:26,100
+ first one is the scout, which watches the markets for any big moves. The second one is the news bot,
+
+6
+00:00:26,100 --> 00:00:30,500
+ it finds exactly why it's moving according to the news. And then we have the chart bot,
+
+7
+00:00:30,600 --> 00:00:35,020
+ which picks the entry, the exit, and the stop. But this is the one that matters the most. It's
+
+8
+00:00:35,020 --> 00:00:39,760
+ called the skeptic. Its whole job is to argue against every single trade. It tells the desk to buy,
+
+9
+00:00:40,120 --> 00:00:45,320
+ wait, or skip. So no bad idea gets past it before any money moves. And the best part of this is that
+
+10
+00:00:45,320 --> 00:00:50,380
+ it runs on its own cloud computer 24-7, so you can run this exact setup without lifting a finger.
+
+11
+00:00:50,740 --> 00:00:54,660
+ If you want to learn how to set this up, comment the word Grok and I'll send it right over to you.
+

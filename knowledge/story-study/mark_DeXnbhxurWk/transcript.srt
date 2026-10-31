@@ -1,0 +1,36 @@
+1
+00:00:00,000 --> 00:00:03,460
+ If your graph looks like this, here's the easiest way to get it looking like this.
+
+2
+00:00:03,520 --> 00:00:05,700
+ And 90% of you get this completely wrong.
+
+3
+00:00:05,760 --> 00:00:08,260
+ Your hook was fine and you teased something that people wanted to know,
+
+4
+00:00:08,400 --> 00:00:09,780
+ but then you immediately answered it.
+
+5
+00:00:09,820 --> 00:00:10,980
+ They had no reason to stay.
+
+6
+00:00:11,120 --> 00:00:14,480
+ If you're gonna answer your hook, first ask another question or delay the solution.
+
+7
+00:00:14,660 --> 00:00:16,860
+ Throw in a rehook to remind them what they're watching for
+
+8
+00:00:16,860 --> 00:00:18,620
+ or even give them a second reason to stay.
+
+9
+00:00:18,740 --> 00:00:21,420
+ And when you finally reveal the payoff, immediately end the video.
+

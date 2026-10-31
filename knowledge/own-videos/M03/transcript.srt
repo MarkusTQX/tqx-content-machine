@@ -1,0 +1,72 @@
+1
+00:00:00,000 --> 00:00:05,460
+ Over 93% of Indian traders lose money, and I'm going to tell you exactly why.
+
+2
+00:00:05,620 --> 00:00:11,240
+ India's market regulators studied over 10 million people, trading futures and options.
+
+3
+00:00:11,580 --> 00:00:16,440
+ Futures and options are contracts that allow you to bet big on where the price is going.
+
+4
+00:00:16,660 --> 00:00:20,160
+ Over three years, more than 9 out of 10 of them lost money.
+
+5
+00:00:20,380 --> 00:00:22,480
+ Together, they lost over $20 billion.
+
+6
+00:00:23,120 --> 00:00:24,620
+ So who was making the money?
+
+7
+00:00:24,800 --> 00:00:28,000
+ Big foreign investors and professional trading firms.
+
+8
+00:00:28,000 --> 00:00:31,940
+ And almost all of their profits came from algorithmic trading.
+
+9
+00:00:32,200 --> 00:00:38,860
+ Algorithmic trading means that a computer follows a set of fixed rules and places all of the trades by itself.
+
+10
+00:00:39,220 --> 00:00:41,180
+ No emotions and no guessing.
+
+11
+00:00:41,580 --> 00:00:46,880
+ Imagine playing chess against a computer while you're tired, angry and in a hurry.
+
+12
+00:00:47,140 --> 00:00:50,700
+ You're the tired player and the computer is the trading algorithm.
+
+13
+00:00:51,040 --> 00:00:53,840
+ It never gets tired and it never gets mad.
+
+14
+00:00:54,000 --> 00:00:57,100
+ That's what regular traders in India were up against.
+
+15
+00:00:57,100 --> 00:01:00,420
+ And more than 9 out of 10 of them lost their money.
+
+16
+00:01:00,660 --> 00:01:03,680
+ You can never beat a machine just by guessing harder.
+
+17
+00:01:03,940 --> 00:01:07,220
+ You need rules too, and you need to test them on past prices.
+
+18
+00:01:07,500 --> 00:01:13,600
+ If you're interested in algo trading, comment cube and I'll send you the full breakdown on exactly how to start.
+
